@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NX3225SA-24M
+D 24MHz Crystal
+K XTAL 24MHz
+F https://www.ndk.com/images/products/catalog/c_NX3225SA-STD-CRS-2_e.pdf
+$ENDCMP
+#
+$CMP SST25VF512A
+D NOR Flash Serial-SPI 3.3V 512Kbit 64K x 8bit 12ns 8-Pin SOIC
+K NOR FLASH SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25090A.pdf
+$ENDCMP
+#
+$CMP UPD720202
+D PCIe 2 Port USB 3.0 Controller
+K PCIe, USB, USB3.0
+F https://www.renesas.com/in/en/doc/products/usb/r19ds0047ej0600_usb.pdf
+$ENDCMP
+#
+#End Doc Library
