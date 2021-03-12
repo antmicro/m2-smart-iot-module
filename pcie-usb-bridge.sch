@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L pcie-radio-module:UPD720202 U?
+L pcie-radio-module:UPD720202 U1
 U 1 1 604DD1C0
 P 5075 2275
-F 0 "U?" H 5325 2425 50  0000 C CNN
+F 0 "U1" H 5325 2425 50  0000 C CNN
 F 1 "UPD720202" H 5500 -1075 50  0000 C CNN
 F 2 "pcie-radio-module:QFN48-Renesas-UPD720202" H 5425 2575 50  0001 L CNN
 F 3 "https://www.renesas.com/in/en/doc/products/usb/r19ds0047ej0600_usb.pdf" H 5075 2775 50  0001 L CNN
@@ -27,12 +27,12 @@ F 5 "UPD720202K8-701-BAA-A" H 5925 2675 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:SST25VF512A U?
+L pcie-radio-module:SST25VF512A U2
 U 1 1 604DE031
 P 9375 3775
-F 0 "U?" H 9625 3925 50  0000 C CNN
+F 0 "U2" H 9625 3925 50  0000 C CNN
 F 1 "SST25VF512A" H 9825 3325 50  0000 C CNN
-F 2 "pcie-radio-module:Microchip-SST25VF512A-33-4I-SAE-Level_B" H 9375 4175 50  0001 L CNN
+F 2 "pcie-radio-module:SOIC8-SST25VF512A-33-4I-SAE-Level_B" H 9375 4175 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/25090A.pdf" H 9375 4275 50  0001 L CNN
 F 4 "SST25VF512A-33-4I-SAE" H 9875 4275 50  0001 C CNN "MPN"
 F 5 "Microchip" H 9375 4375 50  0001 L CNN "Manufacturer"
@@ -46,10 +46,10 @@ Wire Wire Line
 Wire Wire Line
 	9475 4075 9125 4075
 $Comp
-L pcie-radio-module:C_10n_0402 C?
+L pcie-radio-module:C_10n_0402 C15
 U 1 1 604E4192
 P 3625 1950
-F 0 "C?" H 3650 2050 60  0000 L CNN
+F 0 "C15" H 3650 2050 60  0000 L CNN
 F 1 "C_10n_0402" H 3625 1800 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 3825 2150 60  0001 L CNN
 F 3 "" H 3625 1950 50  0001 C CNN
@@ -60,10 +60,10 @@ F 6 "10n" H 3650 1850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:C_100n_0402 C?
+L pcie-radio-module:C_100n_0402 C13
 U 1 1 604E4585
 P 3375 1950
-F 0 "C?" H 3400 2050 60  0000 L CNN
+F 0 "C13" H 3400 2050 60  0000 L CNN
 F 1 "C_100n_0402" H 3375 1800 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 3575 2150 60  0001 L CNN
 F 3 "" H 3375 1950 50  0001 C CNN
@@ -82,10 +82,10 @@ Wire Wire Line
 Wire Wire Line
 	3375 2150 3375 2100
 $Comp
-L pcie-radio-module:C_10n_0402 C?
+L pcie-radio-module:C_10n_0402 C21
 U 1 1 604EC6AE
 P 4125 1950
-F 0 "C?" H 4150 2050 60  0000 L CNN
+F 0 "C21" H 4150 2050 60  0000 L CNN
 F 1 "C_10n_0402" H 4125 1800 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 4325 2150 60  0001 L CNN
 F 3 "" H 4125 1950 50  0001 C CNN
@@ -96,10 +96,10 @@ F 6 "10n" H 4150 1850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:C_100n_0402 C?
+L pcie-radio-module:C_100n_0402 C18
 U 1 1 604EC719
 P 3875 1950
-F 0 "C?" H 3900 2050 60  0000 L CNN
+F 0 "C18" H 3900 2050 60  0000 L CNN
 F 1 "C_100n_0402" H 3875 1800 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 4075 2150 60  0001 L CNN
 F 3 "" H 3875 1950 50  0001 C CNN
@@ -118,10 +118,10 @@ Wire Wire Line
 Wire Wire Line
 	3875 2150 3875 2100
 $Comp
-L pcie-radio-module:C_10n_0402 C?
+L pcie-radio-module:C_10n_0402 C4
 U 1 1 604ED954
 P 2275 2750
-F 0 "C?" H 2300 2850 60  0000 L CNN
+F 0 "C4" H 2300 2850 60  0000 L CNN
 F 1 "C_10n_0402" H 2275 2600 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 2475 2950 60  0001 L CNN
 F 3 "" H 2275 2750 50  0001 C CNN
@@ -132,10 +132,10 @@ F 6 "10n" H 2300 2650 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:C_10n_0402 C?
+L pcie-radio-module:C_10n_0402 C5
 U 1 1 604EDD4D
 P 2500 2750
-F 0 "C?" H 2525 2850 60  0000 L CNN
+F 0 "C5" H 2525 2850 60  0000 L CNN
 F 1 "C_10n_0402" H 2500 2600 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 2700 2950 60  0001 L CNN
 F 3 "" H 2500 2750 50  0001 C CNN
@@ -146,10 +146,10 @@ F 6 "10n" H 2525 2650 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:C_100n_0402 C?
+L pcie-radio-module:C_100n_0402 C3
 U 1 1 604EDFC6
 P 2025 2750
-F 0 "C?" H 2050 2850 60  0000 L CNN
+F 0 "C3" H 2050 2850 60  0000 L CNN
 F 1 "C_100n_0402" H 2025 2600 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 2225 2950 60  0001 L CNN
 F 3 "" H 2025 2750 50  0001 C CNN
@@ -160,10 +160,10 @@ F 6 "100n" H 2050 2650 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:C_10n_0402 C?
+L pcie-radio-module:C_10n_0402 C9
 U 1 1 604F0230
 P 3100 2750
-F 0 "C?" H 3125 2850 60  0000 L CNN
+F 0 "C9" H 3125 2850 60  0000 L CNN
 F 1 "C_10n_0402" H 3100 2600 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 3300 2950 60  0001 L CNN
 F 3 "" H 3100 2750 50  0001 C CNN
@@ -174,10 +174,10 @@ F 6 "10n" H 3125 2650 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:C_10n_0402 C?
+L pcie-radio-module:C_10n_0402 C11
 U 1 1 604F02D1
 P 3325 2750
-F 0 "C?" H 3350 2850 60  0000 L CNN
+F 0 "C11" H 3350 2850 60  0000 L CNN
 F 1 "C_10n_0402" H 3325 2600 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 3525 2950 60  0001 L CNN
 F 3 "" H 3325 2750 50  0001 C CNN
@@ -188,10 +188,10 @@ F 6 "10n" H 3350 2650 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:C_100n_0402 C?
+L pcie-radio-module:C_100n_0402 C7
 U 1 1 604F02DE
 P 2850 2750
-F 0 "C?" H 2875 2850 60  0000 L CNN
+F 0 "C7" H 2875 2850 60  0000 L CNN
 F 1 "C_100n_0402" H 2850 2600 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 3050 2950 60  0001 L CNN
 F 3 "" H 2850 2750 50  0001 C CNN
@@ -202,10 +202,10 @@ F 6 "100n" H 2875 2650 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:C_100n_0402 C?
+L pcie-radio-module:C_100n_0402 C1
 U 1 1 604F1F2F
 P 1425 2750
-F 0 "C?" H 1450 2850 60  0000 L CNN
+F 0 "C1" H 1450 2850 60  0000 L CNN
 F 1 "C_100n_0402" H 1425 2600 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 1625 2950 60  0001 L CNN
 F 3 "" H 1425 2750 50  0001 C CNN
@@ -216,10 +216,10 @@ F 6 "100n" H 1450 2650 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:C_10n_0402 C?
+L pcie-radio-module:C_10n_0402 C2
 U 1 1 604F1E7B
 P 1675 2750
-F 0 "C?" H 1700 2850 60  0000 L CNN
+F 0 "C2" H 1700 2850 60  0000 L CNN
 F 1 "C_10n_0402" H 1675 2600 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 1875 2950 60  0001 L CNN
 F 3 "" H 1675 2750 50  0001 C CNN
@@ -230,10 +230,10 @@ F 6 "10n" H 1700 2650 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:C_10n_0402 C?
+L pcie-radio-module:C_10n_0402 C20
 U 1 1 60503A5A
 P 3900 2750
-F 0 "C?" H 3925 2850 60  0000 L CNN
+F 0 "C20" H 3925 2850 60  0000 L CNN
 F 1 "C_10n_0402" H 3900 2600 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 4100 2950 60  0001 L CNN
 F 3 "" H 3900 2750 50  0001 C CNN
@@ -244,10 +244,10 @@ F 6 "10n" H 3925 2650 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:C_10n_0402 C?
+L pcie-radio-module:C_10n_0402 C22
 U 1 1 60503B2B
 P 4125 2750
-F 0 "C?" H 4150 2850 60  0000 L CNN
+F 0 "C22" H 4150 2850 60  0000 L CNN
 F 1 "C_10n_0402" H 4125 2600 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 4325 2950 60  0001 L CNN
 F 3 "" H 4125 2750 50  0001 C CNN
@@ -258,10 +258,10 @@ F 6 "10n" H 4150 2650 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:C_100n_0402 C?
+L pcie-radio-module:C_100n_0402 C17
 U 1 1 60503B38
 P 3650 2750
-F 0 "C?" H 3675 2850 60  0000 L CNN
+F 0 "C17" H 3675 2850 60  0000 L CNN
 F 1 "C_100n_0402" H 3650 2600 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 3850 2950 60  0001 L CNN
 F 3 "" H 3650 2750 50  0001 C CNN
@@ -272,10 +272,10 @@ F 6 "100n" H 3675 2650 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:C_10n_0402 C?
+L pcie-radio-module:C_10n_0402 C19
 U 1 1 6050E7C0
 P 3875 3525
-F 0 "C?" H 3900 3625 60  0000 L CNN
+F 0 "C19" H 3900 3625 60  0000 L CNN
 F 1 "C_10n_0402" H 3875 3375 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 4075 3725 60  0001 L CNN
 F 3 "" H 3875 3525 50  0001 C CNN
@@ -286,10 +286,10 @@ F 6 "10n" H 3900 3425 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:C_10n_0402 C?
+L pcie-radio-module:C_10n_0402 C23
 U 1 1 6050E95B
 P 4125 3525
-F 0 "C?" H 4150 3625 60  0000 L CNN
+F 0 "C23" H 4150 3625 60  0000 L CNN
 F 1 "C_10n_0402" H 4125 3375 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 4325 3725 60  0001 L CNN
 F 3 "" H 4125 3525 50  0001 C CNN
@@ -300,10 +300,10 @@ F 6 "10n" H 4150 3425 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:C_100n_0402 C?
+L pcie-radio-module:C_100n_0402 C10
 U 1 1 6050E968
 P 3100 3525
-F 0 "C?" H 3125 3625 60  0000 L CNN
+F 0 "C10" H 3125 3625 60  0000 L CNN
 F 1 "C_100n_0402" H 3100 3375 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 3300 3725 60  0001 L CNN
 F 3 "" H 3100 3525 50  0001 C CNN
@@ -314,10 +314,10 @@ F 6 "100n" H 3125 3425 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:C_10n_0402 C?
+L pcie-radio-module:C_10n_0402 C14
 U 1 1 60520BB5
 P 3375 3525
-F 0 "C?" H 3400 3625 60  0000 L CNN
+F 0 "C14" H 3400 3625 60  0000 L CNN
 F 1 "C_10n_0402" H 3375 3375 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 3575 3725 60  0001 L CNN
 F 3 "" H 3375 3525 50  0001 C CNN
@@ -328,10 +328,10 @@ F 6 "10n" H 3400 3425 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:C_10n_0402 C?
+L pcie-radio-module:C_10n_0402 C16
 U 1 1 60520D86
 P 3625 3525
-F 0 "C?" H 3650 3625 60  0000 L CNN
+F 0 "C16" H 3650 3625 60  0000 L CNN
 F 1 "C_10n_0402" H 3625 3375 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 3825 3725 60  0001 L CNN
 F 3 "" H 3625 3525 50  0001 C CNN
@@ -342,10 +342,10 @@ F 6 "10n" H 3650 3425 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:C_100n_0402 C?
+L pcie-radio-module:C_100n_0402 C6
 U 1 1 6052532F
 P 2825 3525
-F 0 "C?" H 2850 3625 60  0000 L CNN
+F 0 "C6" H 2850 3625 60  0000 L CNN
 F 1 "C_100n_0402" H 2825 3375 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 3025 3725 60  0001 L CNN
 F 3 "" H 2825 3525 50  0001 C CNN
@@ -591,10 +591,10 @@ Connection ~ 4925 2275
 Wire Wire Line
 	4925 2275 4925 2375
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 605B2901
 P 2825 3825
-F 0 "#PWR?" H 2825 3575 50  0001 C CNN
+F 0 "#PWR0101" H 2825 3575 50  0001 C CNN
 F 1 "GND" H 2830 3652 50  0000 C CNN
 F 2 "" H 2825 3825 50  0001 C CNN
 F 3 "" H 2825 3825 50  0001 C CNN
@@ -602,10 +602,10 @@ F 3 "" H 2825 3825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 605B354A
 P 1425 3050
-F 0 "#PWR?" H 1425 2800 50  0001 C CNN
+F 0 "#PWR0102" H 1425 2800 50  0001 C CNN
 F 1 "GND" H 1430 2877 50  0000 C CNN
 F 2 "" H 1425 3050 50  0001 C CNN
 F 3 "" H 1425 3050 50  0001 C CNN
@@ -613,10 +613,10 @@ F 3 "" H 1425 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 605CEEB3
 P 3375 2225
-F 0 "#PWR?" H 3375 1975 50  0001 C CNN
+F 0 "#PWR0103" H 3375 1975 50  0001 C CNN
 F 1 "GND" H 3380 2052 50  0000 C CNN
 F 2 "" H 3375 2225 50  0001 C CNN
 F 3 "" H 3375 2225 50  0001 C CNN
@@ -633,10 +633,10 @@ Wire Wire Line
 	2825 3825 2825 3750
 Connection ~ 2825 3750
 $Comp
-L pcie-radio-module:C_100n_0402 C?
+L pcie-radio-module:C_100n_0402 C25
 U 1 1 605DCE75
 P 6850 3125
-F 0 "C?" V 7025 2975 60  0000 L CNN
+F 0 "C25" V 7025 2975 60  0000 L CNN
 F 1 "C_100n_0402" H 6850 2975 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 7050 3325 60  0001 L CNN
 F 3 "" H 6850 3125 50  0001 C CNN
@@ -647,10 +647,10 @@ F 6 "100n" V 7025 3125 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L pcie-radio-module:C_100n_0402 C?
+L pcie-radio-module:C_100n_0402 C28
 U 1 1 605DFADC
 P 7275 3225
-F 0 "C?" V 7425 3050 60  0000 L CNN
+F 0 "C28" V 7425 3050 60  0000 L CNN
 F 1 "C_100n_0402" H 7275 3075 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 7475 3425 60  0001 L CNN
 F 3 "" H 7275 3225 50  0001 C CNN
@@ -681,10 +681,10 @@ Wire Wire Line
 Wire Wire Line
 	6575 2275 7525 2275
 $Comp
-L pcie-radio-module:NX3225SA-24M Y?
+L pcie-radio-module:NX3225SA-24M Y1
 U 1 1 6060E650
 P 3450 4425
-F 0 "Y?" H 3750 4690 50  0000 C CNN
+F 0 "Y1" H 3750 4690 50  0000 C CNN
 F 1 "NX3225SA-24M" H 3750 4599 50  0000 C CNN
 F 2 "pcie-radio-module:NDK-NX3225SA-0-0-MFG" H 3450 4975 50  0001 L CNN
 F 3 "https://www.ndk.com/images/products/catalog/c_NX3225SA-STD-CRS-2_e.pdf" H 3450 4925 50  0001 L CNN
@@ -705,10 +705,10 @@ Connection ~ 3750 4825
 Wire Wire Line
 	3750 4825 3850 4825
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 6061A8B2
 P 3750 4950
-F 0 "#PWR?" H 3750 4700 50  0001 C CNN
+F 0 "#PWR0104" H 3750 4700 50  0001 C CNN
 F 1 "GND" H 3755 4777 50  0000 C CNN
 F 2 "" H 3750 4950 50  0001 C CNN
 F 3 "" H 3750 4950 50  0001 C CNN
@@ -716,10 +716,10 @@ F 3 "" H 3750 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 606238DC
 P 10400 4575
-F 0 "#PWR?" H 10400 4325 50  0001 C CNN
+F 0 "#PWR0105" H 10400 4325 50  0001 C CNN
 F 1 "GND" H 10405 4402 50  0000 C CNN
 F 2 "" H 10400 4575 50  0001 C CNN
 F 3 "" H 10400 4575 50  0001 C CNN
@@ -743,10 +743,10 @@ Wire Wire Line
 	3850 4825 4125 4825
 Connection ~ 3850 4825
 $Comp
-L pcie-radio-module:R_680R_0402 R?
+L pcie-radio-module:R_680R_0402 R1
 U 1 1 60675367
 P 3750 4025
-F 0 "R?" H 3650 4125 60  0000 C CNN
+F 0 "R1" H 3650 4125 60  0000 C CNN
 F 1 "R_680R_0402" H 3750 3875 60  0001 C CNN
 F 2 "pcie-radio-module:0402-res" H 3950 4225 60  0001 L CNN
 F 3 "" H 3750 4025 50  0001 C CNN
@@ -759,10 +759,10 @@ $EndComp
 Wire Wire Line
 	3600 4025 3350 4025
 $Comp
-L pcie-radio-module:C_8p_0402 C?
+L pcie-radio-module:C_8p_0402 C24
 U 1 1 606828E7
 P 4125 4625
-F 0 "C?" H 4200 4725 60  0000 L CNN
+F 0 "C24" H 4200 4725 60  0000 L CNN
 F 1 "C_8p_0402" H 4125 4475 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 4325 4825 60  0001 L CNN
 F 3 "" H 4125 4625 50  0001 C CNN
@@ -773,10 +773,10 @@ F 6 "8p" H 4200 4525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcie-radio-module:C_8p_0402 C?
+L pcie-radio-module:C_8p_0402 C12
 U 1 1 60682CE8
 P 3350 4625
-F 0 "C?" H 3150 4725 60  0000 L CNN
+F 0 "C12" H 3150 4725 60  0000 L CNN
 F 1 "C_8p_0402" H 3350 4475 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 3550 4825 60  0001 L CNN
 F 3 "" H 3350 4625 50  0001 C CNN
@@ -809,10 +809,10 @@ Connection ~ 2825 3275
 Text GLabel 2275 1750 0    50   Input ~ 0
 3V3
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0106
 U 1 1 606D9228
 P 6775 5675
-F 0 "#PWR?" H 6775 5425 50  0001 C CNN
+F 0 "#PWR0106" H 6775 5425 50  0001 C CNN
 F 1 "GND" H 6780 5502 50  0000 C CNN
 F 2 "" H 6775 5675 50  0001 C CNN
 F 3 "" H 6775 5675 50  0001 C CNN
@@ -829,10 +829,10 @@ Wire Wire Line
 	6775 5375 6775 5475
 Connection ~ 6775 5475
 $Comp
-L pcie-radio-module:C_100n_0402 C?
+L pcie-radio-module:C_100n_0402 C29
 U 1 1 606E69A3
 P 10750 3925
-F 0 "C?" H 10775 4025 60  0000 L CNN
+F 0 "C29" H 10775 4025 60  0000 L CNN
 F 1 "C_100n_0402" H 10750 3775 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 10950 4125 60  0001 L CNN
 F 3 "" H 10750 3925 50  0001 C CNN
@@ -871,10 +871,10 @@ PETX_N
 Text GLabel 7525 3225 2    50   Input ~ 0
 PETX_P
 $Comp
-L pcie-radio-module:R_10k_0402 R?
+L pcie-radio-module:R_10k_0402 R4
 U 1 1 60722513
 P 8275 4325
-F 0 "R?" V 8230 4395 60  0000 L CNN
+F 0 "R4" V 8230 4395 60  0000 L CNN
 F 1 "R_10k_0402" H 8275 4175 60  0001 C CNN
 F 2 "pcie-radio-module:0402-res" H 8475 4525 60  0001 L CNN
 F 3 "" H 8275 4325 50  0001 C CNN
@@ -885,10 +885,10 @@ F 6 "10k" V 8328 4395 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L pcie-radio-module:R_10k_0402 R?
+L pcie-radio-module:R_10k_0402 R5
 U 1 1 6073125E
 P 8575 3500
-F 0 "R?" V 8530 3570 60  0000 L CNN
+F 0 "R5" V 8530 3570 60  0000 L CNN
 F 1 "R_10k_0402" H 8575 3350 60  0001 C CNN
 F 2 "pcie-radio-module:0402-res" H 8775 3700 60  0001 L CNN
 F 3 "" H 8575 3500 50  0001 C CNN
@@ -899,10 +899,10 @@ F 6 "10k" V 8628 3570 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L pcie-radio-module:R_10k_0402 R?
+L pcie-radio-module:R_10k_0402 R11
 U 1 1 60738464
 P 10525 3500
-F 0 "R?" V 10480 3570 60  0000 L CNN
+F 0 "R11" V 10480 3570 60  0000 L CNN
 F 1 "R_10k_0402" H 10525 3350 60  0001 C CNN
 F 2 "pcie-radio-module:0402-res" H 10725 3700 60  0001 L CNN
 F 3 "" H 10525 3500 50  0001 C CNN
@@ -931,10 +931,10 @@ Connection ~ 8275 3775
 Wire Wire Line
 	8275 3775 9475 3775
 $Comp
-L pcie-radio-module:R_10k_0402 R?
+L pcie-radio-module:R_10k_0402 R7
 U 1 1 60777ABB
 P 8850 3500
-F 0 "R?" V 8805 3570 60  0000 L CNN
+F 0 "R7" V 8805 3570 60  0000 L CNN
 F 1 "R_10k_0402" H 8850 3350 60  0001 C CNN
 F 2 "pcie-radio-module:0402-res" H 9050 3700 60  0001 L CNN
 F 3 "" H 8850 3500 50  0001 C CNN
@@ -945,10 +945,10 @@ F 6 "10k" V 8903 3570 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L pcie-radio-module:R_10k_0402 R?
+L pcie-radio-module:R_10k_0402 R8
 U 1 1 60777E24
 P 9125 3500
-F 0 "R?" V 9080 3570 60  0000 L CNN
+F 0 "R8" V 9080 3570 60  0000 L CNN
 F 1 "R_10k_0402" H 9125 3350 60  0001 C CNN
 F 2 "pcie-radio-module:0402-res" H 9325 3700 60  0001 L CNN
 F 3 "" H 9125 3500 50  0001 C CNN
@@ -1000,10 +1000,10 @@ Wire Wire Line
 Wire Wire Line
 	10275 3775 10750 3775
 $Comp
-L pcie-radio-module:R_10k_0402 R?
+L pcie-radio-module:R_10k_0402 R10
 U 1 1 607CCF4A
 P 10375 3500
-F 0 "R?" V 10325 3300 60  0000 L CNN
+F 0 "R10" V 10325 3300 60  0000 L CNN
 F 1 "R_10k_0402" H 10375 3350 60  0001 C CNN
 F 2 "pcie-radio-module:0402-res" H 10575 3700 60  0001 L CNN
 F 3 "" H 10375 3500 50  0001 C CNN
@@ -1021,10 +1021,10 @@ Connection ~ 10375 3275
 Wire Wire Line
 	10375 3275 9125 3275
 $Comp
-L pcie-radio-module:R_10k_0402 R?
+L pcie-radio-module:R_10k_0402 R6
 U 1 1 607F6F80
 P 8575 4325
-F 0 "R?" V 8530 4395 60  0000 L CNN
+F 0 "R6" V 8530 4395 60  0000 L CNN
 F 1 "R_10k_0402" H 8575 4175 60  0001 C CNN
 F 2 "pcie-radio-module:0402-res" H 8775 4525 60  0001 L CNN
 F 3 "" H 8575 4325 50  0001 C CNN
@@ -1036,10 +1036,10 @@ F 7 "DNP" V 8575 4325 50  0001 C CNN "DNP"
 	0    1    1    0   
 $EndComp
 $Comp
-L pcie-radio-module:R_10k_0402 R?
+L pcie-radio-module:R_10k_0402 R9
 U 1 1 607F764D
 P 9125 4325
-F 0 "R?" V 9080 4395 60  0000 L CNN
+F 0 "R9" V 9080 4395 60  0000 L CNN
 F 1 "R_10k_0402" H 9125 4175 60  0001 C CNN
 F 2 "pcie-radio-module:0402-res" H 9325 4525 60  0001 L CNN
 F 3 "" H 9125 4325 50  0001 C CNN
@@ -3301,10 +3301,10 @@ External ROM Fitted
 Text Notes 8975 4800 0    50   ~ 0
 External ROM Not Fitted\n
 $Comp
-L pcie-radio-module:R_1k6_0402 R?
+L pcie-radio-module:R_1k6_0402 R3
 U 1 1 60843F51
 P 6850 3575
-F 0 "R?" H 6850 3675 60  0000 C CNN
+F 0 "R3" H 6850 3675 60  0000 C CNN
 F 1 "R_1k6_0402" H 6850 3425 60  0001 C CNN
 F 2 "pcie-radio-module:0402-res" H 7050 3775 60  0001 L CNN
 F 3 "" H 6850 3575 50  0001 C CNN
@@ -3317,10 +3317,10 @@ $EndComp
 Wire Wire Line
 	6575 3575 6700 3575
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0107
 U 1 1 6084F457
 P 7225 3575
-F 0 "#PWR?" H 7225 3325 50  0001 C CNN
+F 0 "#PWR0107" H 7225 3325 50  0001 C CNN
 F 1 "GND" V 7230 3447 50  0000 R CNN
 F 2 "" H 7225 3575 50  0001 C CNN
 F 3 "" H 7225 3575 50  0001 C CNN
@@ -3358,10 +3358,10 @@ Wire Wire Line
 Wire Wire Line
 	6575 5075 7475 5075
 $Comp
-L pcie-radio-module:C_100n_0402 C?
+L pcie-radio-module:C_100n_0402 C26
 U 1 1 608F374A
 P 6850 4675
-F 0 "C?" V 6800 4475 60  0000 L CNN
+F 0 "C26" V 6800 4475 60  0000 L CNN
 F 1 "C_100n_0402" H 6850 4525 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 7050 4875 60  0001 L CNN
 F 3 "" H 6850 4675 50  0001 C CNN
@@ -3372,10 +3372,10 @@ F 6 "100n" V 6800 4725 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L pcie-radio-module:C_100n_0402 C?
+L pcie-radio-module:C_100n_0402 C27
 U 1 1 608F50EF
 P 7175 4575
-F 0 "C?" V 7125 4400 60  0000 L CNN
+F 0 "C27" V 7125 4400 60  0000 L CNN
 F 1 "C_100n_0402" H 7175 4425 60  0001 C CNN
 F 2 "pcie-radio-module:0402-cap" H 7375 4775 60  0001 L CNN
 F 3 "" H 7175 4575 50  0001 C CNN
@@ -3406,10 +3406,10 @@ Aux_USB3_Tx_P
 Text GLabel 7475 4675 2    50   Input ~ 0
 Aux_USB3_Tx_N
 $Comp
-L pcie-radio-module:BLM21PG600SN FB?
+L pcie-radio-module:BLM21PG600SN FB1
 U 1 1 6096DF37
 P 2575 1750
-F 0 "FB?" H 2575 2037 60  0000 C CNN
+F 0 "FB1" H 2575 2037 60  0000 C CNN
 F 1 "BLM21PG600SN" H 2575 1931 60  0000 C CNN
 F 2 "pcie-radio-module:0805-res" H 2775 1950 60  0001 L CNN
 F 3 "" H 2775 2050 60  0001 L CNN
@@ -3421,10 +3421,10 @@ $EndComp
 Wire Wire Line
 	2275 1750 2375 1750
 $Comp
-L pcie-radio-module:C_10u_0805 C?
+L pcie-radio-module:C_10u_0805 C8
 U 1 1 60997A20
 P 2975 1950
-F 0 "C?" H 3000 2050 60  0000 L CNN
+F 0 "C8" H 3000 2050 60  0000 L CNN
 F 1 "C_10u_0805" H 2975 1800 60  0001 C CNN
 F 2 "pcie-radio-module:0805-cap" H 3175 2150 60  0001 L CNN
 F 3 "" H 2975 1950 50  0001 C CNN
@@ -3435,10 +3435,10 @@ F 6 "10u" H 3025 1850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0108
 U 1 1 609985D2
 P 2975 2225
-F 0 "#PWR?" H 2975 1975 50  0001 C CNN
+F 0 "#PWR0108" H 2975 1975 50  0001 C CNN
 F 1 "GND" H 2980 2052 50  0000 C CNN
 F 2 "" H 2975 2225 50  0001 C CNN
 F 3 "" H 2975 2225 50  0001 C CNN
@@ -3472,10 +3472,10 @@ Wire Wire Line
 	6575 4325 6700 4325
 NoConn ~ 6700 4325
 $Comp
-L pcie-radio-module:R_10k_0402 R?
+L pcie-radio-module:R_10k_0402 R2
 U 1 1 60A380EB
 P 4650 3875
-F 0 "R?" H 4650 3662 60  0000 C CNN
+F 0 "R2" H 4650 3662 60  0000 C CNN
 F 1 "R_10k_0402" H 4650 3725 60  0001 C CNN
 F 2 "pcie-radio-module:0402-res" H 4850 4075 60  0001 L CNN
 F 3 "" H 4650 3875 50  0001 C CNN

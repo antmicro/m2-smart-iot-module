@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ANT-2.45-CHP-T
+D ANT-2.45-CHP-T
+F https://linxtechnologies.com/wp/wp-content/uploads/ant-fff-chp-x.pdf
+$ENDCMP
+#
+$CMP NRF52840
+D NRF52840-QIAA-R
+F https://www.nordicsemi.com/-/media/DocLib/Other/Product_Spec/nRF52840PSv11pdf.pdf
+$ENDCMP
+#
 $CMP NX3225SA-24M
 D 24MHz Crystal
 K XTAL 24MHz
@@ -16,6 +26,10 @@ $CMP UPD720202
 D PCIe 2 Port USB 3.0 Controller
 K PCIe, USB, USB3.0
 F https://www.renesas.com/in/en/doc/products/usb/r19ds0047ej0600_usb.pdf
+$ENDCMP
+#
+$CMP U_FL-R-SMT_10_
+F https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf
 $ENDCMP
 #
 #End Doc Library
