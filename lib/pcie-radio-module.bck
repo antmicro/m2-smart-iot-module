@@ -16,6 +16,10 @@ K XTAL 24MHz
 F https://www.ndk.com/images/products/catalog/c_NX3225SA-STD-CRS-2_e.pdf
 $ENDCMP
 #
+$CMP PE42423MLBA-Z
+F https://www.psemi.com/pdf/datasheets/pe42423ds.pdf
+$ENDCMP
+#
 $CMP SST25VF512A
 D NOR Flash Serial-SPI 3.3V 512Kbit 64K x 8bit 12ns 8-Pin SOIC
 K NOR FLASH SPI

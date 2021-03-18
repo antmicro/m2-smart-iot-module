@@ -20,12 +20,6 @@ F0 "PCIe-USB-Bridge" 50
 F1 "pcie-usb-bridge.sch" 50
 $EndSheet
 $Sheet
-S 6950 3650 1400 900 
-U 6051983C
-F0 "PowerSupply" 50
-F1 "powerSupply.sch" 50
-$EndSheet
-$Sheet
 S 8800 3625 1525 900 
 U 605198AB
 F0 "CoralAccelerator" 50
@@ -42,5 +36,11 @@ S 1150 3550 1275 1125
 U 60515963
 F0 "M2-Pins" 50
 F1 "M2-Pins.sch" 50
+$EndSheet
+$Sheet
+S 6850 3625 1500 975 
+U 605233CC
+F0 "powerSupply" 50
+F1 "powerSupply.sch" 50
 $EndSheet
 $EndSCHEMATC
