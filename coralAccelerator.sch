@@ -14,19 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L pcie-radio-module:CoralAccelerator U3
-U 1 1 60530DD0
-P 6175 4200
-F 0 "U3" H 5525 5150 50  0000 C CNN
-F 1 "CoralAccelerator" H 5775 3150 50  0000 C CNN
-F 2 "pcie-radio-module:MODULE_G313-06329-00" H 6175 5400 50  0001 L BNN
-F 3 "" H 6175 4200 50  0001 L BNN
-F 4 "G313-06329-00" H 6475 5300 50  0001 C CNN "MPN"
-F 5 "Coral" H 6175 5200 50  0001 L BNN "Manufacturer"
-	1    6175 4200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0109
 U 1 1 6053510D
 P 7200 5225
@@ -38,7 +25,208 @@ F 3 "" H 7200 5225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7075 5100 7200 5100
-Wire Wire Line
 	7200 5100 7200 5225
+Wire Wire Line
+	5125 3700 5125 3800
+Connection ~ 5125 3800
+Wire Wire Line
+	5125 4100 5125 4000
+Connection ~ 5125 4000
+Wire Wire Line
+	5125 3800 5125 3900
+Wire Wire Line
+	5125 3900 4950 3900
+Wire Wire Line
+	4950 3900 4950 4000
+Connection ~ 5125 3900
+Wire Wire Line
+	5125 3900 5125 4000
+$Comp
+L power:GND #PWR?
+U 1 1 6078C8A0
+P 4950 4000
+F 0 "#PWR?" H 4950 3750 50  0001 C CNN
+F 1 "GND" H 4955 3827 50  0000 C CNN
+F 2 "" H 4950 4000 50  0001 C CNN
+F 3 "" H 4950 4000 50  0001 C CNN
+	1    4950 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5125 3700 5300 3700
+Wire Wire Line
+	5125 3800 5300 3800
+Wire Wire Line
+	5125 4000 5300 4000
+Wire Wire Line
+	5125 4100 5300 4100
+Wire Wire Line
+	5300 4600 4500 4600
+Wire Wire Line
+	7100 5100 7200 5100
+NoConn ~ 7100 4700
+$Comp
+L pcie-radio-module:C_10u_0805 C?
+U 1 1 60798FE5
+P 9750 3350
+F 0 "C?" H 9865 3395 60  0000 L CNN
+F 1 "C_10u_0805" H 9750 3200 60  0001 C CNN
+F 2 "pcie-radio-module:0805-cap" H 9950 3550 60  0001 L CNN
+F 3 "" H 9750 3350 50  0001 C CNN
+F 4 "JOHANSON_DIELECTRICS" H 9950 3750 60  0001 L CNN "Manufacturer"
+F 5 "160R15X106KV4E" H 9950 3650 60  0001 L CNN "MPN"
+F 6 "10u" H 9865 3297 50  0000 L CNN "Val"
+	1    9750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pcie-radio-module:C_100n_0402 C?
+U 1 1 60799F74
+P 9250 3350
+F 0 "C?" H 9365 3395 60  0000 L CNN
+F 1 "C_100n_0402" H 9250 3200 60  0001 C CNN
+F 2 "pcie-radio-module:0402-cap" H 9450 3550 60  0001 L CNN
+F 3 "" H 9250 3350 50  0001 C CNN
+F 4 "Walsin" H 9450 3750 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 9450 3650 60  0001 L CNN "MPN"
+F 6 "100n" H 9365 3297 50  0000 L CNN "Val"
+	1    9250 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pcie-radio-module:C_100n_0402 C?
+U 1 1 6079AB3E
+P 8750 3350
+F 0 "C?" H 8865 3395 60  0000 L CNN
+F 1 "C_100n_0402" H 8750 3200 60  0001 C CNN
+F 2 "pcie-radio-module:0402-cap" H 8950 3550 60  0001 L CNN
+F 3 "" H 8750 3350 50  0001 C CNN
+F 4 "Walsin" H 8950 3750 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 8950 3650 60  0001 L CNN "MPN"
+F 6 "100n" H 8865 3297 50  0000 L CNN "Val"
+	1    8750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6079C599
+P 8750 3600
+F 0 "#PWR?" H 8750 3350 50  0001 C CNN
+F 1 "GND" H 8755 3427 50  0000 C CNN
+F 2 "" H 8750 3600 50  0001 C CNN
+F 3 "" H 8750 3600 50  0001 C CNN
+	1    8750 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6079CB59
+P 9250 3600
+F 0 "#PWR?" H 9250 3350 50  0001 C CNN
+F 1 "GND" H 9255 3427 50  0000 C CNN
+F 2 "" H 9250 3600 50  0001 C CNN
+F 3 "" H 9250 3600 50  0001 C CNN
+	1    9250 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6079D578
+P 9750 3600
+F 0 "#PWR?" H 9750 3350 50  0001 C CNN
+F 1 "GND" H 9755 3427 50  0000 C CNN
+F 2 "" H 9750 3600 50  0001 C CNN
+F 3 "" H 9750 3600 50  0001 C CNN
+	1    9750 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 3600 9750 3500
+Wire Wire Line
+	9250 3600 9250 3500
+Wire Wire Line
+	8750 3600 8750 3500
+Wire Wire Line
+	9250 3000 9250 3200
+Wire Wire Line
+	9750 3000 9750 3200
+Connection ~ 9250 3000
+Text GLabel 4200 4400 0    50   Input ~ 0
+PMIC_EN
+Wire Wire Line
+	4200 4400 5300 4400
+Text GLabel 4200 4300 0    50   Input ~ 0
+CORAL_RST
+Wire Wire Line
+	4200 4300 5300 4300
+Text GLabel 7950 4100 2    50   Input ~ 0
+PGOOD
+Wire Wire Line
+	7950 4100 7100 4100
+$Comp
+L pcie-radio-module:CoralAccelerator U3
+U 1 1 60530DD0
+P 6200 4200
+F 0 "U3" H 5550 5150 50  0000 C CNN
+F 1 "CoralAccelerator" H 5800 3150 50  0000 C CNN
+F 2 "pcie-radio-module:MODULE_G313-06329-00" H 6200 5400 50  0001 L BNN
+F 3 "" H 6200 4200 50  0001 L BNN
+F 4 "G313-06329-00" H 6500 5300 50  0001 C CNN "MPN"
+F 5 "Coral" H 6200 5200 50  0001 L BNN "Manufacturer"
+	1    6200 4200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7100 4300
+NoConn ~ 7100 4500
+Text GLabel 4200 4700 0    50   Input ~ 0
+CORAL_USB_P
+Text GLabel 4200 4800 0    50   Input ~ 0
+CORAL_USB_N
+Wire Wire Line
+	4200 4800 5300 4800
+Wire Wire Line
+	5300 4700 4200 4700
+NoConn ~ 7100 3700
+NoConn ~ 7100 3800
+Text GLabel 9250 2800 1    50   Input ~ 0
+3V3
+Text GLabel 4500 3700 1    50   Input ~ 0
+1V8
+$Comp
+L pcie-radio-module:R_0R_0402 R?
+U 1 1 607EB3D5
+P 4500 3950
+F 0 "R?" V 4455 4020 60  0000 L CNN
+F 1 "R_0R_0402" H 4500 3800 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4700 4150 60  0001 L CNN
+F 3 "" H 4500 3950 50  0001 C CNN
+F 4 "PANASONIC" H 4700 4350 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 4700 4250 60  0001 L CNN "MPN"
+F 6 "0R" V 4553 4020 50  0000 L CNN "Val"
+	1    4500 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 3800 4500 3700
+Wire Wire Line
+	4500 4100 4500 4600
+Wire Wire Line
+	8750 3000 8750 3200
+Wire Wire Line
+	8750 3000 9250 3000
+Wire Wire Line
+	9250 3000 9750 3000
+Wire Wire Line
+	9250 2800 9250 3000
+Text GLabel 7350 3200 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	7100 3400 7350 3400
+Wire Wire Line
+	7100 3500 7350 3500
+Wire Wire Line
+	7350 3200 7350 3400
+Connection ~ 7350 3400
+Wire Wire Line
+	7350 3400 7350 3500
 $EndSCHEMATC

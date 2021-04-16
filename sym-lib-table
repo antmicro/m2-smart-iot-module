@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name pcie-radio-module)(type Legacy)(uri ${KIPRJMOD}/lib/pcie-radio-module.lib)(options "")(descr ""))
+)
