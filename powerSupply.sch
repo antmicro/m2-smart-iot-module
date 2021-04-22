@@ -41,15 +41,8 @@ F 5 "TPS61232DRCR" H 5400 5225 50  0001 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	5325 3125 5050 3125
-Wire Wire Line
-	5050 3125 5050 2525
-Wire Wire Line
-	5050 2525 5325 2525
 Text GLabel 4450 2525 0    50   Input ~ 0
 3V3
-Wire Wire Line
-	5050 2525 4675 2525
-Connection ~ 5050 2525
 Wire Wire Line
 	6650 2525 6425 2525
 $Comp
@@ -269,7 +262,7 @@ $Comp
 L pcie-radio-module:IHLP2020BZER1R0M01 L?
 U 1 1 607F8C1E
 P 5775 4275
-F 0 "L?" H 5775 4489 60  0000 C CNN
+F 0 "L?" H 5775 4375 60  0000 C CNN
 F 1 "IHLP2020BZER1R0M01" H 5775 4200 60  0000 C CNN
 F 2 "pcie-radio-module:IHLP2020BZER4R7M01" H 5775 4275 60  0001 C CNN
 F 3 "" H 5775 4275 60  0001 C CNN
@@ -293,12 +286,6 @@ Wire Wire Line
 Connection ~ 6500 4775
 Wire Wire Line
 	6500 4775 6500 4725
-Wire Wire Line
-	5200 4725 4925 4725
-Wire Wire Line
-	4925 4725 4925 4275
-Wire Wire Line
-	4925 4275 5575 4275
 $Comp
 L pcie-radio-module:C_10u_0402 C?
 U 1 1 60801821
@@ -424,12 +411,9 @@ Text GLabel 3025 4725 0    50   Input ~ 0
 3V3
 Wire Wire Line
 	3025 4725 3350 4725
-Connection ~ 4925 4725
 Wire Wire Line
 	4125 4825 4125 4725
 Connection ~ 4125 4725
-Wire Wire Line
-	4125 4725 4925 4725
 Wire Wire Line
 	3750 4825 3750 4725
 Connection ~ 3750 4725
@@ -440,10 +424,6 @@ Wire Wire Line
 Connection ~ 3350 4725
 Wire Wire Line
 	3350 4725 3750 4725
-Wire Wire Line
-	5200 5025 4925 5025
-Wire Wire Line
-	4925 4725 4925 5025
 $Comp
 L pcie-radio-module:C_10n_0402 C?
 U 1 1 6081FD5E
@@ -571,12 +551,151 @@ Wire Wire Line
 Connection ~ 7400 5075
 Wire Wire Line
 	7400 5075 7800 5075
-Text Notes 4200 2425 0    50   ~ 0
-TODO: Add filter
-Text Notes 5450 3475 0    50   ~ 0
-TODO: Add PG LEDs
-Text Notes 6475 5525 0    50   ~ 0
-TODO: Add PG LEDs
-Text Notes 5150 6100 0    50   ~ 0
-TODO: Check HYS pin and its use
+Text Notes 2800 2425 0    50   ~ 0
+TODO: Add filter (EDIT: If there will be enough room on PCB)
+Text Notes 3375 6550 0    50   ~ 0
+TODO: Check HYS pin and its use\nEDIT: It sets hysteresis for undervoltage lockout, I don't think it will be useful here
+Text Label 6800 2925 2    50   ~ 0
+1V05_PG
+Wire Wire Line
+	6800 2925 6425 2925
+Text Label 6825 5525 2    50   ~ 0
+3V3_PG
+Wire Wire Line
+	6825 5525 6400 5525
+Wire Wire Line
+	4675 2525 5050 2525
+$Comp
+L pcie-radio-module:R_0R_0402 R?
+U 1 1 60BD8C36
+P 5050 2850
+F 0 "R?" V 5005 2920 60  0000 L CNN
+F 1 "R_0R_0402" H 5050 2700 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5250 3050 60  0001 L CNN
+F 3 "" H 5050 2850 50  0001 C CNN
+F 4 "PANASONIC" H 5250 3250 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5250 3150 60  0001 L CNN "MPN"
+F 6 "0R" V 5103 2920 50  0000 L CNN "Val"
+	1    5050 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L pcie-radio-module:R_0R_0402 R?
+U 1 1 60BD984E
+P 4975 5025
+F 0 "R?" H 4975 4950 60  0000 C CNN
+F 1 "R_0R_0402" H 4975 4875 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5175 5225 60  0001 L CNN
+F 3 "" H 4975 5025 50  0001 C CNN
+F 4 "PANASONIC" H 5175 5425 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 5175 5325 60  0001 L CNN "MPN"
+F 6 "0R" H 4975 5125 50  0000 C CNN "Val"
+	1    4975 5025
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4125 4725 4700 4725
+Wire Wire Line
+	5200 5025 5125 5025
+Wire Wire Line
+	4825 5025 4700 5025
+Wire Wire Line
+	4700 5025 4700 4725
+Connection ~ 4700 4725
+Wire Wire Line
+	4925 4275 5575 4275
+Wire Wire Line
+	4700 4725 4925 4725
+Connection ~ 4925 4725
+Wire Wire Line
+	5200 4725 4925 4725
+Wire Wire Line
+	4925 4725 4925 4275
+Wire Wire Line
+	5050 2700 5050 2525
+Connection ~ 5050 2525
+Wire Wire Line
+	5050 2525 5325 2525
+Wire Wire Line
+	5050 3125 5050 3000
+NoConn ~ 5200 5225
+$Comp
+L pcie-radio-module:KP-1608CGCK D?
+U 1 1 60BFCE95
+P 4300 7375
+F 0 "D?" H 4250 7128 60  0000 C CNN
+F 1 "KP-1608CGCK" H 4250 7234 60  0000 C CNN
+F 2 "pcie-radio-module:LED0603" H 4500 7575 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 4500 7675 60  0001 L CNN
+F 4 "KP-1608CGCK" H 4500 7875 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 4510 7995 60  0001 L CNN "Manufacturer"
+	1    4300 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L pcie-radio-module:KP-1608CGCK D?
+U 1 1 60BFEE35
+P 4300 6925
+F 0 "D?" H 4250 6678 60  0000 C CNN
+F 1 "KP-1608CGCK" H 4250 6784 60  0000 C CNN
+F 2 "pcie-radio-module:LED0603" H 4500 7125 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 4500 7225 60  0001 L CNN
+F 4 "KP-1608CGCK" H 4500 7425 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 4510 7545 60  0001 L CNN "Manufacturer"
+	1    4300 6925
+	1    0    0    -1  
+$EndComp
+Text Label 4850 6925 2    50   ~ 0
+1V05_PG
+Wire Wire Line
+	4850 6925 4400 6925
+Text Label 4850 7375 2    50   ~ 0
+3V3_PG
+Wire Wire Line
+	4850 7375 4400 7375
+Text GLabel 3200 7150 0    50   Input ~ 0
+3V3
+$Comp
+L pcie-radio-module:R_330R_0402 R?
+U 1 1 60C5AD54
+P 3625 6925
+F 0 "R?" H 3625 7138 60  0000 C CNN
+F 1 "R_330R_0402" H 3625 6775 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 3825 7125 60  0001 L CNN
+F 3 "" H 3625 6925 50  0001 C CNN
+F 4 "PANASONIC" H 3825 7325 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2RKF3300X " H 3825 7225 60  0001 L CNN "MPN"
+F 6 "330R" H 3625 7040 50  0000 C CNN "Val"
+	1    3625 6925
+	1    0    0    -1  
+$EndComp
+$Comp
+L pcie-radio-module:R_330R_0402 R?
+U 1 1 60C5B183
+P 3625 7375
+F 0 "R?" H 3625 7588 60  0000 C CNN
+F 1 "R_330R_0402" H 3625 7225 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 3825 7575 60  0001 L CNN
+F 3 "" H 3625 7375 50  0001 C CNN
+F 4 "PANASONIC" H 3825 7775 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2RKF3300X " H 3825 7675 60  0001 L CNN "MPN"
+F 6 "330R" H 3625 7490 50  0000 C CNN "Val"
+	1    3625 7375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 7375 3375 7375
+Wire Wire Line
+	3375 6925 3475 6925
+Wire Wire Line
+	3200 7150 3375 7150
+Wire Wire Line
+	3375 6925 3375 7150
+Connection ~ 3375 7150
+Wire Wire Line
+	3375 7150 3375 7375
+Wire Wire Line
+	3775 7375 4100 7375
+Wire Wire Line
+	3775 6925 4100 6925
 $EndSCHEMATC

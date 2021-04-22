@@ -797,7 +797,7 @@ Wire Wire Line
 	3050 4350 3050 4300
 Connection ~ 3050 4300
 Text GLabel 950  2400 0    50   Input ~ 0
-1V0
+1V05
 Wire Wire Line
 	950  2400 1125 2400
 Connection ~ 1125 2400

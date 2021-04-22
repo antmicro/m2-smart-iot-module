@@ -1,8 +1,26 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2X05
+F https://eu.mouser.com/datasheet/2/527/shf-1370134.pdf
+$ENDCMP
+#
+$CMP ABM11W-101-32.0000MHZ-T3
+D 24MHz Crystal
+K XTAL 24MHz
+F https://abracon.com/datasheets/ABM11W-101-32.0000MHz-T3.pdf
+$ENDCMP
+#
+$CMP ABS06-32.768KHZ-9-1-T
+F https://abracon.com/Resonators/ABS06.pdf
+$ENDCMP
+#
 $CMP ANT-2.45-CHP-T
 D ANT-2.45-CHP-T
 F https://linxtechnologies.com/wp/wp-content/uploads/ant-fff-chp-x.pdf
+$ENDCMP
+#
+$CMP KP-1608CGCK
+F http://www.farnell.com/datasheets/2045956.pdf
 $ENDCMP
 #
 $CMP NRF52840
@@ -16,14 +34,13 @@ K XTAL 24MHz
 F https://www.ndk.com/images/products/catalog/c_NX3225SA-STD-CRS-2_e.pdf
 $ENDCMP
 #
-$CMP NX3225SA-32M
-D 24MHz Crystal
-K XTAL 24MHz
-F https://www.ndk.com/images/products/catalog/c_NX3225SA-STD-CRS-2_e.pdf
-$ENDCMP
-#
 $CMP PE42423MLBA-Z
 F https://www.psemi.com/pdf/datasheets/pe42423ds.pdf
+$ENDCMP
+#
+$CMP PTS840_GK_SMTR_LFS
+D PTS840 GK SMTR LFS
+F http://www.ckswitches.com/media/1477/pts840.pdf
 $ENDCMP
 #
 $CMP SST25VF512A
