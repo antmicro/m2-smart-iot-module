@@ -146,4 +146,138 @@ Wire Wire Line
 Wire Wire Line
 	6750 5425 6750 5325
 Connection ~ 6750 5325
+Text Label 4250 1725 0    50   ~ 0
+CFG3
+Wire Wire Line
+	4250 1725 4900 1725
+Text Label 4250 2675 0    50   ~ 0
+CFG0
+Wire Wire Line
+	4250 2675 4900 2675
+Text Label 4250 5125 0    50   ~ 0
+CFG1
+Wire Wire Line
+	4250 5125 4900 5125
+Text Label 4250 5425 0    50   ~ 0
+CFG2
+Wire Wire Line
+	4250 5425 4900 5425
+Text Label 1725 1550 0    50   ~ 0
+CFG3
+$Comp
+L pcie-radio-module:R_0R_0402 R?
+U 1 1 60943FB5
+P 2200 1550
+F 0 "R?" H 2200 1650 60  0000 C CNN
+F 1 "R_0R_0402" H 2200 1400 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2400 1750 60  0001 L CNN
+F 3 "" H 2200 1550 50  0001 C CNN
+F 4 "PANASONIC" H 2400 1950 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2400 1850 60  0001 L CNN "MPN"
+F 6 "0R" H 2200 1450 50  0000 C CNN "Val"
+	1    2200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60944DB5
+P 2525 2625
+F 0 "#PWR?" H 2525 2375 50  0001 C CNN
+F 1 "GND" H 2530 2452 50  0000 C CNN
+F 2 "" H 2525 2625 50  0001 C CNN
+F 3 "" H 2525 2625 50  0001 C CNN
+	1    2525 2625
+	1    0    0    -1  
+$EndComp
+Text Label 1725 1850 0    50   ~ 0
+CFG2
+$Comp
+L pcie-radio-module:R_0R_0402 R?
+U 1 1 60948DC0
+P 2200 1850
+F 0 "R?" H 2200 1950 60  0000 C CNN
+F 1 "R_0R_0402" H 2200 1700 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2400 2050 60  0001 L CNN
+F 3 "" H 2200 1850 50  0001 C CNN
+F 4 "PANASONIC" H 2400 2250 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2400 2150 60  0001 L CNN "MPN"
+F 6 "0R" H 2200 1750 50  0000 C CNN "Val"
+	1    2200 1850
+	1    0    0    -1  
+$EndComp
+Text Label 1725 2150 0    50   ~ 0
+CFG1
+$Comp
+L pcie-radio-module:R_0R_0402 R?
+U 1 1 60949F76
+P 2200 2150
+F 0 "R?" H 2200 2250 60  0000 C CNN
+F 1 "R_0R_0402" H 2200 2000 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2400 2350 60  0001 L CNN
+F 3 "" H 2200 2150 50  0001 C CNN
+F 4 "PANASONIC" H 2400 2550 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2400 2450 60  0001 L CNN "MPN"
+F 6 "0R" H 2200 2050 50  0000 C CNN "Val"
+	1    2200 2150
+	1    0    0    -1  
+$EndComp
+Text Label 1725 2450 0    50   ~ 0
+CFG0
+$Comp
+L pcie-radio-module:R_0R_0402 R?
+U 1 1 6094B237
+P 2200 2450
+F 0 "R?" H 2200 2550 60  0000 C CNN
+F 1 "R_0R_0402" H 2200 2300 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2400 2650 60  0001 L CNN
+F 3 "" H 2200 2450 50  0001 C CNN
+F 4 "PANASONIC" H 2400 2850 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2400 2750 60  0001 L CNN "MPN"
+F 6 "0R" H 2200 2350 50  0000 C CNN "Val"
+	1    2200 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1725 1850 2050 1850
+Wire Wire Line
+	2350 1850 2525 1850
+Wire Wire Line
+	2525 1850 2525 2150
+Wire Wire Line
+	2350 2450 2525 2450
+Connection ~ 2525 2450
+Wire Wire Line
+	2525 2450 2525 2625
+Wire Wire Line
+	2050 2450 1725 2450
+Wire Wire Line
+	1725 2150 2050 2150
+Wire Wire Line
+	1725 1550 2050 1550
+Wire Wire Line
+	2350 1550 2525 1550
+Wire Wire Line
+	2525 1550 2525 1850
+Connection ~ 2525 1850
+Wire Wire Line
+	2350 2150 2525 2150
+Connection ~ 2525 2150
+Wire Wire Line
+	2525 2150 2525 2450
+Text Notes 675  1300 0    50   ~ 0
+This board is not standard compliant, all CFGx pins should propably be left floating
+NoConn ~ 6600 5125
+NoConn ~ 6600 4425
+NoConn ~ 6600 4525
+NoConn ~ 6600 3525
+NoConn ~ 6600 2125
+NoConn ~ 4900 2775
+NoConn ~ 4900 2875
+NoConn ~ 4900 3075
+NoConn ~ 4900 3175
+NoConn ~ 4900 3375
+NoConn ~ 4900 3475
+NoConn ~ 4900 1925
+NoConn ~ 4900 2025
+NoConn ~ 4900 2225
 $EndSCHEMATC

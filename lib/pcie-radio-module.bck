@@ -23,6 +23,11 @@ $CMP KP-1608CGCK
 F http://www.farnell.com/datasheets/2045956.pdf
 $ENDCMP
 #
+$CMP MM8130-2600RA2
+D RF Connectors / Coaxial Connectors with Switch
+F https://media.digikey.com/pdf/Data%20Sheets/Murata%20PDFs/Microwave_Coaxial_Conn_Cat030E.pdf
+$ENDCMP
+#
 $CMP NRF52840
 D NRF52840-QIAA-R
 F https://www.nordicsemi.com/-/media/DocLib/Other/Product_Spec/nRF52840PSv11pdf.pdf

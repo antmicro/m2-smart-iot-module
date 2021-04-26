@@ -155,11 +155,9 @@ Text GLabel 4200 4400 0    50   Input ~ 0
 PMIC_EN
 Wire Wire Line
 	4200 4400 5300 4400
-Text GLabel 4200 4300 0    50   Input ~ 0
+Text GLabel 2825 4300 0    50   Input ~ 0
 CORAL_RST
-Wire Wire Line
-	4200 4300 5300 4300
-Text GLabel 7950 4100 2    50   Input ~ 0
+Text GLabel 7950 4100 2    50   Output ~ 0
 PGOOD
 Wire Wire Line
 	7950 4100 7100 4100
@@ -178,9 +176,9 @@ F 5 "Coral" H 6200 5200 50  0001 L BNN "Manufacturer"
 $EndComp
 NoConn ~ 7100 4300
 NoConn ~ 7100 4500
-Text GLabel 4200 4700 0    50   Input ~ 0
+Text GLabel 4200 4700 0    50   BiDi ~ 0
 CORAL_USB_P
-Text GLabel 4200 4800 0    50   Input ~ 0
+Text GLabel 4200 4800 0    50   BiDi ~ 0
 CORAL_USB_N
 Wire Wire Line
 	4200 4800 5300 4800
@@ -190,22 +188,6 @@ NoConn ~ 7100 3700
 NoConn ~ 7100 3800
 Text GLabel 9250 2800 1    50   Input ~ 0
 3V3
-Text GLabel 4500 3700 1    50   Input ~ 0
-1V8
-$Comp
-L pcie-radio-module:R_0R_0402 R?
-U 1 1 607EB3D5
-P 4500 3950
-F 0 "R?" V 4455 4020 60  0000 L CNN
-F 1 "R_0R_0402" H 4500 3800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4700 4150 60  0001 L CNN
-F 3 "" H 4500 3950 50  0001 C CNN
-F 4 "PANASONIC" H 4700 4350 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 4700 4250 60  0001 L CNN "MPN"
-F 6 "0R" V 4553 4020 50  0000 L CNN "Val"
-	1    4500 3950
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4500 3800 4500 3700
 Wire Wire Line
@@ -229,4 +211,74 @@ Wire Wire Line
 Connection ~ 7350 3400
 Wire Wire Line
 	7350 3400 7350 3500
+Text GLabel 4500 3700 1    50   Input ~ 0
+3V3
+$Comp
+L pcie-radio-module:R_4k3_0402 R?
+U 1 1 608E7FEB
+P 4500 3950
+F 0 "R?" V 4455 4020 60  0000 L CNN
+F 1 "R_4k3_0402" H 4500 3800 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4700 4150 60  0001 L CNN
+F 3 "" H 4500 3950 50  0001 C CNN
+F 4 "PANASONIC" H 4700 4350 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2RKF4301X " H 4700 4250 60  0001 L CNN "MPN"
+F 6 "4k3" V 4553 4020 50  0000 L CNN "Val"
+	1    4500 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L pcie-radio-module:R_4k3_0402 R?
+U 1 1 608EF23B
+P 3100 4300
+F 0 "R?" H 3100 4087 60  0000 C CNN
+F 1 "R_4k3_0402" H 3100 4150 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 3300 4500 60  0001 L CNN
+F 3 "" H 3100 4300 50  0001 C CNN
+F 4 "PANASONIC" H 3300 4700 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2RKF4301X " H 3300 4600 60  0001 L CNN "MPN"
+F 6 "4k3" H 3100 4185 50  0000 C CNN "Val"
+	1    3100 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3250 4300 3375 4300
+Wire Wire Line
+	2950 4300 2825 4300
+$Comp
+L pcie-radio-module:R_4k7_0402 R?
+U 1 1 608F1EF3
+P 3375 4525
+F 0 "R?" V 3330 4595 60  0000 L CNN
+F 1 "R_4k7_0402" H 3375 4375 60  0001 C CNN
+F 2 "pcie-radio-module:0402-res" H 3575 4725 60  0001 L CNN
+F 3 "" H 3375 4525 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 3575 4925 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ472X" H 3575 4825 60  0001 L CNN "MPN"
+F 6 "4k7" V 3428 4595 50  0000 L CNN "Val"
+	1    3375 4525
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608F2488
+P 3375 4725
+F 0 "#PWR?" H 3375 4475 50  0001 C CNN
+F 1 "GND" H 3380 4552 50  0000 C CNN
+F 2 "" H 3375 4725 50  0001 C CNN
+F 3 "" H 3375 4725 50  0001 C CNN
+	1    3375 4725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 4725 3375 4675
+Wire Wire Line
+	3375 4375 3375 4300
+Connection ~ 3375 4300
+Wire Wire Line
+	3375 4300 5300 4300
+Text Notes 3175 3150 0    50   ~ 0
+RST_L and USB_SEL have 1V8 levels\nPMIC_EN and PGOOD4 have AON levels
+Text Notes 5300 2850 0    50   ~ 0
+TODO: Consult  power supply for Coral Module
 $EndSCHEMATC

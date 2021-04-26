@@ -67,162 +67,14 @@ Connection ~ 4650 3275
 $Comp
 L pcie-radio-module:ANT-2.45-CHP-T ANT1
 U 1 1 6053CAE5
-P 10125 2625
-F 0 "ANT1" H 10525 3190 50  0000 C CNN
-F 1 "ANT-2.45-CHP-T" H 10525 3099 50  0000 C CNN
-F 2 "pcie-radio-module:Linx-ANT-2.45-CHP-T-MFG" H 10125 3325 50  0001 L CNN
-F 3 "https://linxtechnologies.com/wp/wp-content/uploads/ant-fff-chp-x.pdf" H 10125 3425 50  0001 L CNN
-F 4 "ANT-2.45-CHP-T" H 10125 2625 50  0001 C CNN "MPN"
-F 5 "Linx" H 10125 4825 50  0001 L CNN "Manufacturer"
-	1    10125 2625
-	1    0    0    -1  
-$EndComp
-$Comp
-L pcie-radio-module:U_FL-R-SMT_10_ J1
-U 1 1 6053D444
-P 10425 1200
-F 0 "J1" H 10337 1168 50  0000 R CNN
-F 1 "U_FL-R-SMT_10_" H 10337 1077 50  0000 R CNN
-F 2 "pcie-radio-module:Coax_Conn_U.FL" H 10625 1400 60  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf" H 10625 1500 60  0001 L CNN
-F 4 "U.FL-R-SMT(10)" H 10625 1700 60  0001 L CNN "MPN"
-F 5 "Hirose Electric Co Ltd" H 10625 2300 60  0001 L CNN "Manufacturer"
-	1    10425 1200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L pcie-radio-module:PE42423MLBA-Z U5
-U 1 1 605539AF
-P 8600 1875
-F 0 "U5" H 8800 2578 60  0000 C CNN
-F 1 "PE42423MLBA-Z" H 8800 2472 60  0000 C CNN
-F 2 "pcie-radio-module:VFQFN-16-1EP_3x3mm" H 8800 2075 60  0001 L CNN
-F 3 "https://www.psemi.com/pdf/datasheets/pe42423ds.pdf" H 8800 2175 60  0001 L CNN
-F 4 "pSemi" H 8800 2975 60  0001 L CNN "Manufacturer"
-F 5 "PE42423MLBA-Z" H 8800 2375 60  0001 L CNN "MPN"
-	1    8600 1875
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9500 1675 9825 1675
-Wire Wire Line
-	9500 1775 9825 1775
-Wire Wire Line
-	9825 1775 9825 2625
-$Comp
-L power:GND #PWR0111
-U 1 1 6055D206
-P 10425 1525
-F 0 "#PWR0111" H 10425 1275 50  0001 C CNN
-F 1 "GND" H 10430 1352 50  0000 C CNN
-F 2 "" H 10425 1525 50  0001 C CNN
-F 3 "" H 10425 1525 50  0001 C CNN
-	1    10425 1525
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10425 1525 10425 1400
-$Comp
-L power:GND #PWR0112
-U 1 1 6055DFC6
-P 8800 2675
-F 0 "#PWR0112" H 8800 2425 50  0001 C CNN
-F 1 "GND" H 8805 2502 50  0000 C CNN
-F 2 "" H 8800 2675 50  0001 C CNN
-F 3 "" H 8800 2675 50  0001 C CNN
-	1    8800 2675
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8300 2375 8300 2525
-Wire Wire Line
-	8300 2525 8400 2525
-Wire Wire Line
-	8800 2525 8800 2675
-Wire Wire Line
-	9300 2375 9300 2525
-Wire Wire Line
-	9300 2525 9200 2525
-Connection ~ 8800 2525
-Wire Wire Line
-	9200 2375 9200 2525
-Connection ~ 9200 2525
-Wire Wire Line
-	9200 2525 9100 2525
-Wire Wire Line
-	9100 2375 9100 2525
-Connection ~ 9100 2525
-Wire Wire Line
-	9100 2525 9000 2525
-Wire Wire Line
-	9000 2375 9000 2525
-Connection ~ 9000 2525
-Wire Wire Line
-	9000 2525 8900 2525
-Wire Wire Line
-	8900 2375 8900 2525
-Connection ~ 8900 2525
-Wire Wire Line
-	8900 2525 8800 2525
-Wire Wire Line
-	8800 2375 8800 2525
-Wire Wire Line
-	8700 2375 8700 2525
-Connection ~ 8700 2525
-Wire Wire Line
-	8700 2525 8800 2525
-Wire Wire Line
-	8600 2375 8600 2525
-Connection ~ 8600 2525
-Wire Wire Line
-	8600 2525 8700 2525
-Wire Wire Line
-	8500 2375 8500 2525
-Connection ~ 8500 2525
-Wire Wire Line
-	8500 2525 8600 2525
-Wire Wire Line
-	8400 2375 8400 2525
-Connection ~ 8400 2525
-Wire Wire Line
-	8400 2525 8500 2525
-$Comp
-L pcie-radio-module:RF_Capacitor C30
-U 1 1 60565BE6
-P 6575 1900
-F 0 "C30" H 6690 1945 60  0000 L CNN
-F 1 "RF_Capacitor" H 6575 1750 60  0001 C CNN
-F 2 "pcie-radio-module:0402-cap" H 6775 2100 60  0001 L CNN
-F 3 "" H 6575 1900 50  0001 C CNN
-F 4 "TDK" H 6775 2300 60  0001 L CNN "Manufacturer"
-F 5 "CGA2B2C0G1H080D050BA" H 6775 2200 60  0001 L CNN "MPN"
-F 6 "8p" H 6690 1847 50  0000 L CNN "Val"
-	1    6575 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L pcie-radio-module:RF_Inductor L1
-U 1 1 6056638D
-P 6775 1575
-F 0 "L1" H 6825 1667 50  0000 C CNN
-F 1 "RF_Inductor" H 6825 1576 50  0000 C CNN
-F 2 "pcie-radio-module:0402-res" H 6775 1575 50  0001 C CNN
-F 3 "" H 6775 1575 50  0001 C CNN
-	1    6775 1575
-	1    0    0    -1  
-$EndComp
-$Comp
-L pcie-radio-module:RF_Capacitor C31
-U 1 1 60567817
-P 7100 1900
-F 0 "C31" H 7215 1945 60  0000 L CNN
-F 1 "RF_Capacitor" H 7100 1750 60  0001 C CNN
-F 2 "pcie-radio-module:0402-cap" H 7300 2100 60  0001 L CNN
-F 3 "" H 7100 1900 50  0001 C CNN
-F 4 "TDK" H 7300 2300 60  0001 L CNN "Manufacturer"
-F 5 "CGA2B2C0G1H080D050BA" H 7300 2200 60  0001 L CNN "MPN"
-F 6 "8p" H 7215 1847 50  0000 L CNN "Val"
-	1    7100 1900
+P 9050 1675
+F 0 "ANT1" H 9450 2240 50  0000 C CNN
+F 1 "ANT-2.45-CHP-T" H 9450 2149 50  0000 C CNN
+F 2 "pcie-radio-module:Linx-ANT-2.45-CHP-T-MFG" H 9050 2375 50  0001 L CNN
+F 3 "https://linxtechnologies.com/wp/wp-content/uploads/ant-fff-chp-x.pdf" H 9050 2475 50  0001 L CNN
+F 4 "ANT-2.45-CHP-T" H 9050 1675 50  0001 C CNN "MPN"
+F 5 "Linx" H 9050 3875 50  0001 L CNN "Manufacturer"
+	1    9050 1675
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -233,7 +85,7 @@ Wire Wire Line
 	7100 1750 7100 1675
 Connection ~ 7100 1675
 Wire Wire Line
-	7100 1675 8100 1675
+	7100 1675 7900 1675
 Wire Wire Line
 	6575 1750 6575 1675
 Connection ~ 6575 1675
@@ -265,12 +117,6 @@ Wire Wire Line
 	6575 2075 6575 2050
 Wire Wire Line
 	7100 2075 7100 2050
-Wire Wire Line
-	10225 2625 9825 2625
-Wire Wire Line
-	10225 1200 9825 1200
-Wire Wire Line
-	9825 1200 9825 1675
 Text GLabel 5275 2375 2    50   Input ~ 0
 Radio_USB_P
 Text GLabel 5275 2475 2    50   Input ~ 0
@@ -1326,8 +1172,6 @@ Wire Wire Line
 	5275 6750 4775 6750
 Wire Wire Line
 	4775 6650 5275 6650
-Text Notes 7075 1375 0    50   ~ 0
-TODO: RF Path
 $Comp
 L pcie-radio-module:2X05 J?
 U 1 1 60B3212E
@@ -1508,4 +1352,144 @@ F 5 "APHF1608LSEEQBDZGKC" H 10275 4725 50  0001 C CNN "MPN"
 	1    9800 4050
 	0    1    1    0   
 $EndComp
+$Comp
+L pcie-radio-module:MM8130-2600RA2 J?
+U 1 1 6087B7E4
+P 8100 1675
+F 0 "J?" H 8325 1943 50  0000 C CNN
+F 1 "MM8130-2600RA2" H 8325 1852 50  0000 C CNN
+F 2 "pcie-radio-module:Murata-MM8130-2600RA2-MFG" H 8100 2075 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Murata%20PDFs/Microwave_Coaxial_Conn_Cat030E.pdf" H 8100 2175 50  0001 L CNN
+F 4 "MM8130-2600RA2 " H 8470 2145 50  0001 C CNN "MPN"
+F 5 "Murata" H 8100 2235 50  0001 L CNN "Manufacturer"
+	1    8100 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6087E301
+P 8325 2075
+F 0 "#PWR?" H 8325 1825 50  0001 C CNN
+F 1 "GND" H 8330 1902 50  0000 C CNN
+F 2 "" H 8325 2075 50  0001 C CNN
+F 3 "" H 8325 2075 50  0001 C CNN
+	1    8325 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8325 2075 8325 1875
+Wire Wire Line
+	9150 1675 8825 1675
+$Comp
+L pcie-radio-module:C_0p8_0402 C?
+U 1 1 6089BB25
+P 6575 1900
+F 0 "C?" H 6690 1945 60  0000 L CNN
+F 1 "C_0p8_0402" H 6575 1750 60  0001 C CNN
+F 2 "pcie-radio-module:0402-cap" H 6775 2100 60  0001 L CNN
+F 3 "" H 6575 1900 50  0001 C CNN
+F 4 "Murata" H 6775 2300 60  0001 L CNN "Manufacturer"
+F 5 "GJM1555C1HR80WB01D " H 6775 2200 60  0001 L CNN "MPN"
+F 6 "0p8" H 6690 1847 50  0000 L CNN "Val"
+	1    6575 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pcie-radio-module:C_0p5_0402 C?
+U 1 1 6089C6F2
+P 7100 1900
+F 0 "C?" H 7215 1945 60  0000 L CNN
+F 1 "C_0p5_0402" H 7100 1750 60  0001 C CNN
+F 2 "pcie-radio-module:0402-cap" H 7300 2100 60  0001 L CNN
+F 3 "" H 7100 1900 50  0001 C CNN
+F 4 "Murata" H 7300 2300 60  0001 L CNN "Manufacturer"
+F 5 "GJM1555C1HR50WB01D" H 7300 2200 60  0001 L CNN "MPN"
+F 6 "0p5" H 7215 1847 50  0000 L CNN "Val"
+	1    7100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pcie-radio-module:C_1p2_0402 C?
+U 1 1 6089E57B
+P 8825 1900
+F 0 "C?" H 8940 1945 60  0000 L CNN
+F 1 "C_1p2_0402" H 8825 1750 60  0001 C CNN
+F 2 "pcie-radio-module:0402-cap" H 9025 2100 60  0001 L CNN
+F 3 "" H 8825 1900 50  0001 C CNN
+F 4 "Murata" H 9025 2300 60  0001 L CNN "Manufacturer"
+F 5 "GJM1555C1H1R2WB01D" H 9025 2200 60  0001 L CNN "MPN"
+F 6 "1p2" H 8940 1847 50  0000 L CNN "Val"
+	1    8825 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6089FCEF
+P 8825 2075
+F 0 "#PWR?" H 8825 1825 50  0001 C CNN
+F 1 "GND" H 8830 1902 50  0000 C CNN
+F 2 "" H 8825 2075 50  0001 C CNN
+F 3 "" H 8825 2075 50  0001 C CNN
+	1    8825 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8825 2075 8825 2050
+Wire Wire Line
+	8825 1675 8825 1750
+Connection ~ 8825 1675
+Wire Wire Line
+	8825 1675 8550 1675
+$Comp
+L pcie-radio-module:L_4n7_0402 L?
+U 1 1 608B5CF6
+P 6775 1575
+F 0 "L?" H 6825 1667 50  0000 C CNN
+F 1 "L_4n7_0402" H 6775 1675 50  0001 C CNN
+F 2 "pcie-radio-module:0402-res" H 6775 1575 50  0001 C CNN
+F 3 "" H 6775 1575 50  0001 C CNN
+F 4 "MULTICOMP PRO" H 6775 1575 50  0001 C CNN "Manufacturer"
+F 5 "MCFT000004 " H 6775 1575 50  0001 C CNN "MPN"
+F 6 "4n7" H 6825 1576 50  0000 C CNN "Val"
+	1    6775 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L pcie-radio-module:RF_Capacitor C?
+U 1 1 608B897D
+P 7900 1900
+F 0 "C?" H 8015 1945 60  0000 L CNN
+F 1 "RF_Capacitor" H 7900 1750 60  0001 C CNN
+F 2 "pcie-radio-module:0402-cap" H 8100 2100 60  0001 L CNN
+F 3 "" H 7900 1900 50  0001 C CNN
+F 4 "-" H 8100 2300 60  0001 L CNN "Manufacturer"
+F 5 "-" H 8100 2200 60  0001 L CNN "MPN"
+F 6 "DNP" H 8015 1847 50  0000 L CNN "Val"
+	1    7900 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608BB81B
+P 7900 2075
+F 0 "#PWR?" H 7900 1825 50  0001 C CNN
+F 1 "GND" H 7905 1902 50  0000 C CNN
+F 2 "" H 7900 2075 50  0001 C CNN
+F 3 "" H 7900 2075 50  0001 C CNN
+	1    7900 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2075 7900 2050
+Wire Wire Line
+	7900 1750 7900 1675
+Connection ~ 7900 1675
+Wire Wire Line
+	7900 1675 8100 1675
+Text GLabel 2650 6750 0    50   Input ~ 0
+PMIC_EN
+Wire Wire Line
+	2650 6750 2825 6750
+Wire Wire Line
+	8600 4300 8600 4250
 $EndSCHEMATC
