@@ -28,6 +28,11 @@ D RF Connectors / Coaxial Connectors with Switch
 F https://media.digikey.com/pdf/Data%20Sheets/Murata%20PDFs/Microwave_Coaxial_Conn_Cat030E.pdf
 $ENDCMP
 #
+$CMP NCP380HMUAJAATBG
+D Current limiting switch
+F https://www.onsemi.com/pub/Collateral/NCP380-D.PDF
+$ENDCMP
+#
 $CMP NRF52840
 D NRF52840-QIAA-R
 F https://www.nordicsemi.com/-/media/DocLib/Other/Product_Spec/nRF52840PSv11pdf.pdf

@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L pcie-radio-module:M.2-M+B-Pins J2
+L pcie-radio-module:M.2-M+B-Pins J3
 U 1 1 60515A11
 P 5100 1625
-F 0 "J2" H 5750 1793 50  0000 C CNN
+F 0 "J3" H 5750 1793 50  0000 C CNN
 F 1 "M.2-M+B-Pins" H 5750 1702 50  0000 C CNN
 F 2 "pcie-radio-module:M.2 M+B Keys" H 5100 1625 50  0001 C CNN
 F 3 "" H 5100 1625 50  0001 C CNN
@@ -72,10 +72,10 @@ Connection ~ 6750 1725
 Wire Wire Line
 	6750 1725 6600 1725
 $Comp
-L power:GND #PWR?
+L power:GND #PWR031
 U 1 1 60DFAED7
 P 4600 5700
-F 0 "#PWR?" H 4600 5450 50  0001 C CNN
+F 0 "#PWR031" H 4600 5450 50  0001 C CNN
 F 1 "GND" H 4605 5527 50  0000 C CNN
 F 2 "" H 4600 5700 50  0001 C CNN
 F 3 "" H 4600 5700 50  0001 C CNN
@@ -165,10 +165,10 @@ Wire Wire Line
 Text Label 1725 1550 0    50   ~ 0
 CFG3
 $Comp
-L pcie-radio-module:R_0R_0402 R?
+L pcie-radio-module:R_0R_0402 R23
 U 1 1 60943FB5
 P 2200 1550
-F 0 "R?" H 2200 1650 60  0000 C CNN
+F 0 "R23" H 2200 1650 60  0000 C CNN
 F 1 "R_0R_0402" H 2200 1400 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 2400 1750 60  0001 L CNN
 F 3 "" H 2200 1550 50  0001 C CNN
@@ -179,10 +179,10 @@ F 6 "0R" H 2200 1450 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR030
 U 1 1 60944DB5
 P 2525 2625
-F 0 "#PWR?" H 2525 2375 50  0001 C CNN
+F 0 "#PWR030" H 2525 2375 50  0001 C CNN
 F 1 "GND" H 2530 2452 50  0000 C CNN
 F 2 "" H 2525 2625 50  0001 C CNN
 F 3 "" H 2525 2625 50  0001 C CNN
@@ -192,10 +192,10 @@ $EndComp
 Text Label 1725 1850 0    50   ~ 0
 CFG2
 $Comp
-L pcie-radio-module:R_0R_0402 R?
+L pcie-radio-module:R_0R_0402 R24
 U 1 1 60948DC0
 P 2200 1850
-F 0 "R?" H 2200 1950 60  0000 C CNN
+F 0 "R24" H 2200 1950 60  0000 C CNN
 F 1 "R_0R_0402" H 2200 1700 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 2400 2050 60  0001 L CNN
 F 3 "" H 2200 1850 50  0001 C CNN
@@ -208,10 +208,10 @@ $EndComp
 Text Label 1725 2150 0    50   ~ 0
 CFG1
 $Comp
-L pcie-radio-module:R_0R_0402 R?
+L pcie-radio-module:R_0R_0402 R25
 U 1 1 60949F76
 P 2200 2150
-F 0 "R?" H 2200 2250 60  0000 C CNN
+F 0 "R25" H 2200 2250 60  0000 C CNN
 F 1 "R_0R_0402" H 2200 2000 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 2400 2350 60  0001 L CNN
 F 3 "" H 2200 2150 50  0001 C CNN
@@ -224,10 +224,10 @@ $EndComp
 Text Label 1725 2450 0    50   ~ 0
 CFG0
 $Comp
-L pcie-radio-module:R_0R_0402 R?
+L pcie-radio-module:R_0R_0402 R26
 U 1 1 6094B237
 P 2200 2450
-F 0 "R?" H 2200 2550 60  0000 C CNN
+F 0 "R26" H 2200 2550 60  0000 C CNN
 F 1 "R_0R_0402" H 2200 2300 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 2400 2650 60  0001 L CNN
 F 3 "" H 2200 2450 50  0001 C CNN

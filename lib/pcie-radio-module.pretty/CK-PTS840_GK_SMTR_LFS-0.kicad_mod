@@ -1,8 +1,8 @@
-(module CK-PTS840_GK_SMTR_LFS-0 (layer F.Cu) (tedit 6081B15D)
+(module CK-PTS840_GK_SMTR_LFS-0 (layer F.Cu) (tedit 608B3399)
   (fp_text reference REF** (at -2.725 -2.775) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (fp_text value "" (at 0 0) (layer F.SilkS)
+  (fp_text value Val** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
   (fp_line (start -1.75 1.775) (end -1.75 -1.775) (layer F.Fab) (width 0.15))
@@ -18,7 +18,6 @@
   (fp_line (start -2.525 -1.8) (end -2.525 1.8) (layer F.CrtYd) (width 0.15))
   (fp_line (start -2.525 1.8) (end 2.525 1.8) (layer F.CrtYd) (width 0.15))
   (fp_line (start 2.525 1.8) (end 2.525 -1.8) (layer F.CrtYd) (width 0.15))
-  (fp_circle (center -3.15 -1.049999) (end -3.025 -1.049999) (layer F.SilkS) (width 0.25))
   (pad 4 smd rect (at 1.8 0.399999) (size 1.4 1.05) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -1.8 0.399999) (size 1.4 1.05) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.8 -1.049999) (size 1.4 1.05) (layers F.Cu F.Paste F.Mask))
