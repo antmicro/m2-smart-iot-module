@@ -926,16 +926,6 @@ F 3 "" H 2425 6650 60  0001 L CNN
 	1    2225 6350
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2325 6150 2825 6150
-Wire Wire Line
-	2825 6250 2325 6250
-Wire Wire Line
-	2825 6350 2325 6350
-Wire Wire Line
-	2325 5950 2825 5950
-Wire Wire Line
-	2325 5250 2825 5250
 $Comp
 L pcie-radio-module:TP_SMD1MM TP9
 U 1 1 609F4474
@@ -947,10 +937,6 @@ F 3 "" H 2425 6850 60  0001 L CNN
 	1    2225 6550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2325 6550 2825 6550
-Wire Wire Line
-	5275 5050 4775 5050
 $Comp
 L pcie-radio-module:TP_SMD1MM TP10
 U 1 1 60A55512
@@ -973,10 +959,6 @@ F 3 "" H 2425 7350 60  0001 L CNN
 	1    2225 7050
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2325 7050 2825 7050
-Wire Wire Line
-	2825 6850 2325 6850
 $Comp
 L pcie-radio-module:TP_SMD1MM TP12
 U 1 1 60A68DA5
@@ -986,32 +968,6 @@ F 1 "TP_SMD1MM" H 5375 4750 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5575 5050 60  0001 L CNN
 F 3 "" H 5575 5150 60  0001 L CNN
 	1    5375 4850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5275 4850 4775 4850
-$Comp
-L pcie-radio-module:TP_SMD1MM TP1
-U 1 1 60A727A1
-P 2225 5050
-F 0 "TP1" V 2225 4900 50  0000 C CNN
-F 1 "TP_SMD1MM" H 2225 4950 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2425 5250 60  0001 L CNN
-F 3 "" H 2425 5350 60  0001 L CNN
-	1    2225 5050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2325 5050 2825 5050
-$Comp
-L pcie-radio-module:TP_SMD1MM TP14
-U 1 1 60A7C3D6
-P 5375 5350
-F 0 "TP14" V 5375 5300 50  0000 R CNN
-F 1 "TP_SMD1MM" H 5375 5250 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5575 5550 60  0001 L CNN
-F 3 "" H 5575 5650 60  0001 L CNN
-	1    5375 5350
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1025,10 +981,6 @@ F 3 "" H 5575 5850 60  0001 L CNN
 	1    5375 5550
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5275 5550 4775 5550
-Wire Wire Line
-	4775 5350 5275 5350
 $Comp
 L pcie-radio-module:TP_SMD1MM TP4
 U 1 1 60A913E0
@@ -1051,10 +1003,6 @@ F 3 "" H 2425 6050 60  0001 L CNN
 	1    2225 5750
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2325 5850 2825 5850
-Wire Wire Line
-	2825 5750 2325 5750
 $Comp
 L pcie-radio-module:TP_SMD1MM TP17
 U 1 1 60AA5CD2
@@ -1088,12 +1036,6 @@ F 3 "" H 5575 6350 60  0001 L CNN
 	1    5375 6050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5275 6050 4775 6050
-Wire Wire Line
-	4775 5850 5275 5850
-Wire Wire Line
-	5275 5750 4775 5750
 $Comp
 L pcie-radio-module:TP_SMD1MM TP20
 U 1 1 60AC5EDB
@@ -1105,8 +1047,6 @@ F 3 "" H 5575 6650 60  0001 L CNN
 	1    5375 6350
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5275 6350 4775 6350
 $Comp
 L pcie-radio-module:TP_SMD1MM TP16
 U 1 1 60AD28DE
@@ -1118,8 +1058,6 @@ F 3 "" H 5575 5950 60  0001 L CNN
 	1    5375 5650
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5275 5650 4775 5650
 $Comp
 L pcie-radio-module:TP_SMD1MM TP21
 U 1 1 60ADDA58
@@ -1153,25 +1091,6 @@ F 3 "" H 5575 7250 60  0001 L CNN
 	1    5375 6950
 	0    -1   -1   0   
 $EndComp
-$Comp
-L pcie-radio-module:TP_SMD1MM TP24
-U 1 1 60ADEDC2
-P 5375 7150
-F 0 "TP24" V 5375 7100 50  0000 R CNN
-F 1 "TP_SMD1MM" H 5375 7050 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5575 7350 60  0001 L CNN
-F 3 "" H 5575 7450 60  0001 L CNN
-	1    5375 7150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5275 7150 4775 7150
-Wire Wire Line
-	4775 6950 5275 6950
-Wire Wire Line
-	5275 6750 4775 6750
-Wire Wire Line
-	4775 6650 5275 6650
 Text Label 8350 5675 0    50   ~ 0
 VDD
 Wire Wire Line
@@ -1322,10 +1241,8 @@ Wire Wire Line
 	9800 5025 9800 4675
 Wire Wire Line
 	9600 5025 9600 4675
-Text GLabel 2225 6450 0    50   Output ~ 0
+Text GLabel 5275 5350 2    50   Output ~ 0
 CORAL_RST
-Wire Wire Line
-	2225 6450 2825 6450
 $Comp
 L pcie-radio-module:APHF1608LSEEQBDZGKC D2
 U 1 1 60DF33FA
@@ -1473,16 +1390,12 @@ Wire Wire Line
 Connection ~ 7900 1675
 Wire Wire Line
 	7900 1675 8100 1675
-Text GLabel 2225 6750 0    50   Output ~ 0
+Text GLabel 2325 5050 0    50   Output ~ 0
 CORAL_PMIC_EN
 Wire Wire Line
-	2225 6750 2825 6750
-Wire Wire Line
 	8600 4300 8600 4250
-Text GLabel 2225 6950 0    50   Input ~ 0
+Text GLabel 5275 7150 2    50   Input ~ 0
 CORAL_PGOOD
-Wire Wire Line
-	2225 6950 2825 6950
 $Comp
 L pcie-radio-module:2X05 J2
 U 1 1 60AB3814
@@ -1496,4 +1409,10 @@ F 5 "Samtec" H 8725 4825 50  0001 C CNN "Manufacturer"
 	1    8925 5675
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5275 7150 4775 7150
+Wire Wire Line
+	2325 5050 2825 5050
+Wire Wire Line
+	5275 5350 4775 5350
 $EndSCHEMATC
