@@ -43,4 +43,37 @@ U 605233CC
 F0 "powerSupply" 50
 F1 "powerSupply.sch" 50
 $EndSheet
+$Comp
+L pcie-radio-module:antmicro_logo N1
+U 1 1 60AD7EB0
+P 1475 6925
+F 0 "N1" H 1689 7018 50  0000 L CNN
+F 1 "antmicro_logo" H 1689 6927 50  0000 L CNN
+F 2 "pcie-radio-module:antmicro-logo_scaled_12mm" H 1375 7175 50  0001 C CNN
+F 3 "" H 1475 7275 50  0001 C CNN
+	1    1475 6925
+	1    0    0    -1  
+$EndComp
+$Comp
+L pcie-radio-module:oshw_logo N2
+U 1 1 60AD80FF
+P 2475 6850
+F 0 "N2" H 2669 6853 50  0000 L CNN
+F 1 "oshw_logo" H 2669 6762 50  0000 L CNN
+F 2 "pcie-radio-module:OSHW-Logo2_7.3x6mm_Copper_Mask" H 2495 6610 50  0001 C CNN
+F 3 "" H 2475 6850 50  0001 C CNN
+	1    2475 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L pcie-radio-module:PCB_Mount_Hole_M2 MP1
+U 1 1 60AD88CE
+P 3575 6875
+F 0 "MP1" H 3783 6921 50  0000 L CNN
+F 1 "PCB_Mount_Hole_M2" H 3783 6830 50  0000 L CNN
+F 2 "pcie-radio-module:M.2-Stud" H 4375 7575 50  0001 C CNN
+F 3 "" H 4525 7675 50  0001 C CNN
+	1    3575 6875
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

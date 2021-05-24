@@ -161,19 +161,6 @@ Text GLabel 7625 4000 2    50   Output ~ 0
 CORAL_PGOOD
 Wire Wire Line
 	7625 4000 6775 4000
-$Comp
-L pcie-radio-module:CoralAccelerator U3
-U 1 1 60530DD0
-P 5875 4100
-F 0 "U3" H 5225 5050 50  0000 C CNN
-F 1 "CoralAccelerator" H 5475 3050 50  0000 C CNN
-F 2 "pcie-radio-module:MODULE_G313-06329-00" H 5875 5300 50  0001 L BNN
-F 3 "" H 5875 4100 50  0001 L BNN
-F 4 "G313-06329-00" H 6175 5200 50  0001 C CNN "MPN"
-F 5 "Coral" H 5875 5100 50  0001 L BNN "Manufacturer"
-	1    5875 4100
-	1    0    0    -1  
-$EndComp
 NoConn ~ 6775 4200
 NoConn ~ 6775 4400
 Text GLabel 3875 4600 0    50   BiDi ~ 0
@@ -279,4 +266,17 @@ Wire Wire Line
 	3000 4200 4975 4200
 Text Notes 2850 3050 0    50   ~ 0
 RST_L and USB_SEL have 1V8 levels\nPMIC_EN and PGOOD4 have AON levels
+$Comp
+L pcie-radio-module:CoralAccelerator U3
+U 1 1 60ADCC7E
+P 5875 4100
+F 0 "U3" H 5875 5167 50  0000 C CNN
+F 1 "CoralAccelerator" H 5875 5076 50  0000 C CNN
+F 2 "pcie-radio-module:MODULE_G313-06329-00" H 5875 5300 50  0001 L BNN
+F 3 "" H 5875 4100 50  0001 L BNN
+F 4 "Coral" H 5875 5100 50  0001 L BNN "Manufacturer"
+F 5 "G313-06329-00" H 6175 5200 50  0001 C CNN "MPN"
+	1    5875 4100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
