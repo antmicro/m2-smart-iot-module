@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name pcie-radio-module)(type KiCad)(uri ${KIPRJMOD}/lib/pcie-radio-module.pretty)(options "")(descr ""))
+  (lib (name antmicro-pcie-radio-module-footprints)(type Kicad)(uri ${KIPRJMOD}/lib/antmicro-pcie-radio-module-footprints)(options "")(descr ""))
 )
