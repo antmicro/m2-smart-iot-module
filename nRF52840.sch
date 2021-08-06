@@ -29,14 +29,14 @@ $EndComp
 $Comp
 L antmicro-pcie-radio-module:NRF52840 U4
 U 2 1 6051FCF4
-P 2725 4850
-F 0 "U4" H 3800 5115 50  0000 C CNN
-F 1 "NRF52840" H 3800 5024 50  0000 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:Nordic_Semiconductor-NRF52840-QIAA-R-0-0-MFG" H 2725 5250 50  0001 L CNN
-F 3 "https://www.nordicsemi.com/-/media/DocLib/Other/Product_Spec/nRF52840PSv11pdf.pdf" H 2725 5350 50  0001 L CNN
-F 4 "NRF52840-QIAA-R" H 3075 5350 50  0001 C CNN "MPN"
-F 5 "Nordic Semiconductor" H 2725 5450 50  0001 L CNN "Manufacturer"
-	2    2725 4850
+P 1675 5150
+F 0 "U4" H 2750 5415 50  0000 C CNN
+F 1 "NRF52840" H 2750 5324 50  0000 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:Nordic_Semiconductor-NRF52840-QIAA-R-0-0-MFG" H 1675 5550 50  0001 L CNN
+F 3 "https://www.nordicsemi.com/-/media/DocLib/Other/Product_Spec/nRF52840PSv11pdf.pdf" H 1675 5650 50  0001 L CNN
+F 4 "NRF52840-QIAA-R" H 2025 5650 50  0001 C CNN "MPN"
+F 5 "Nordic Semiconductor" H 1675 5750 50  0001 L CNN "Manufacturer"
+	2    1675 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -136,33 +136,33 @@ Wire Wire Line
 $Comp
 L antmicro-pcie-radio-module:GND #PWR022
 U 1 1 607D5338
-P 6800 3550
-F 0 "#PWR022" H 6800 3300 50  0001 C CNN
-F 1 "GND" H 6805 3377 50  0000 C CNN
-F 2 "" H 6800 3550 50  0001 C CNN
-F 3 "" H 6800 3550 50  0001 C CNN
-	1    6800 3550
+P 6050 4825
+F 0 "#PWR022" H 6050 4575 50  0001 C CNN
+F 1 "GND" H 6055 4652 50  0000 C CNN
+F 2 "" H 6050 4825 50  0001 C CNN
+F 3 "" H 6050 4825 50  0001 C CNN
+	1    6050 4825
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 3300 6700 3425
+	5950 4575 5950 4700
 Wire Wire Line
-	6700 3425 6800 3425
+	5950 4700 6050 4700
 Wire Wire Line
-	6800 3425 6800 3550
+	6050 4700 6050 4825
 Wire Wire Line
-	6800 3425 6900 3425
+	6050 4700 6150 4700
 Wire Wire Line
-	6900 3425 6900 3300
-Connection ~ 6800 3425
-Text Label 6325 3000 0    50   ~ 0
+	6150 4700 6150 4575
+Connection ~ 6050 4700
+Text Label 5575 4275 0    50   ~ 0
 XC1
-Text Label 7250 3000 2    50   ~ 0
+Text Label 6500 4275 2    50   ~ 0
 XC2
 Wire Wire Line
-	7250 3000 7075 3000
+	6500 4275 6325 4275
 Wire Wire Line
-	6600 3000 6500 3000
+	5850 4275 5750 4275
 Text Label 4725 2675 2    50   ~ 0
 XC1
 Text Label 4725 2775 2    50   ~ 0
@@ -352,25 +352,25 @@ $EndComp
 Wire Wire Line
 	2675 3850 2675 3675
 Wire Wire Line
-	6900 3425 7075 3425
+	6150 4700 6325 4700
 Wire Wire Line
-	7075 3425 7075 3375
-Connection ~ 6900 3425
+	6325 4700 6325 4650
+Connection ~ 6150 4700
 Wire Wire Line
-	7075 3075 7075 3000
-Connection ~ 7075 3000
+	6325 4350 6325 4275
+Connection ~ 6325 4275
 Wire Wire Line
-	7075 3000 7000 3000
+	6325 4275 6250 4275
 Wire Wire Line
-	6700 3425 6500 3425
+	5950 4700 5750 4700
 Wire Wire Line
-	6500 3425 6500 3375
-Connection ~ 6700 3425
+	5750 4700 5750 4650
+Connection ~ 5950 4700
 Wire Wire Line
-	6500 3075 6500 3000
-Connection ~ 6500 3000
+	5750 4350 5750 4275
+Connection ~ 5750 4275
 Wire Wire Line
-	6500 3000 6325 3000
+	5750 4275 5575 4275
 $Comp
 L antmicro-pcie-radio-module:C_47n_0402 C43
 U 1 1 6087B59A
@@ -605,132 +605,132 @@ Wire Wire Line
 $Comp
 L antmicro-pcie-radio-module:ABM11W-101-32.0000MHZ-T3 Y2
 U 1 1 6085B290
-P 6500 3000
-F 0 "Y2" H 6800 3265 50  0000 C CNN
-F 1 "ABM11W-101-32.0000MHZ-T3" H 6800 3174 50  0000 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:Abracon-ABM11W-0-0-0" H 6500 3550 50  0001 L CNN
-F 3 "https://abracon.com/datasheets/ABM11W-101-32.0000MHz-T3.pdf" H 6500 3500 50  0001 L CNN
-F 4 "ABRACON" H 6500 3650 50  0001 L CNN "Manufacturer"
-F 5 "ABM11W-101-32.0000MHZ-T3" H 7150 3400 50  0001 C CNN "MPN"
-F 6 "32MHz / 8pF" H 6500 3000 50  0001 C CNN "Val"
-	1    6500 3000
+P 5750 4275
+F 0 "Y2" H 6050 4540 50  0000 C CNN
+F 1 "ABM11W-101-32.0000MHZ-T3" H 6050 4449 50  0000 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:Abracon-ABM11W-0-0-0" H 5750 4825 50  0001 L CNN
+F 3 "https://abracon.com/datasheets/ABM11W-101-32.0000MHz-T3.pdf" H 5750 4775 50  0001 L CNN
+F 4 "ABRACON" H 5750 4925 50  0001 L CNN "Manufacturer"
+F 5 "ABM11W-101-32.0000MHZ-T3" H 6400 4675 50  0001 C CNN "MPN"
+F 6 "32MHz / 8pF" H 5750 4275 50  0001 C CNN "Val"
+	1    5750 4275
 	1    0    0    -1  
 $EndComp
 $Comp
 L antmicro-pcie-radio-module:C_12p_0402 C48
 U 1 1 60866159
-P 7050 4375
-F 0 "C48" H 7165 4420 60  0000 L CNN
-F 1 "C_12p_0402" H 7050 4225 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 7250 4575 60  0001 L CNN
-F 3 "" H 7050 4375 50  0001 C CNN
-F 4 "TDK" H 7250 4775 60  0001 L CNN "Manufacturer"
-F 5 "CGA2B2C0G1H120J050BA" H 7250 4675 60  0001 L CNN "MPN"
-F 6 "12p" H 7165 4322 50  0000 L CNN "Val"
-	1    7050 4375
+P 6300 5650
+F 0 "C48" H 6415 5695 60  0000 L CNN
+F 1 "C_12p_0402" H 6300 5500 60  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 6500 5850 60  0001 L CNN
+F 3 "" H 6300 5650 50  0001 C CNN
+F 4 "TDK" H 6500 6050 60  0001 L CNN "Manufacturer"
+F 5 "CGA2B2C0G1H120J050BA" H 6500 5950 60  0001 L CNN "MPN"
+F 6 "12p" H 6415 5597 50  0000 L CNN "Val"
+	1    6300 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L antmicro-pcie-radio-module:C_8p_0402 C45
 U 1 1 6085C261
-P 6500 3225
-F 0 "C45" H 6250 3275 60  0000 L CNN
-F 1 "C_8p_0402" H 6500 3075 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 6700 3425 60  0001 L CNN
-F 3 "" H 6500 3225 50  0001 C CNN
-F 4 "TDK" H 6700 3625 60  0001 L CNN "Manufacturer"
-F 5 "CGA2B2C0G1H080D050BA" H 6700 3525 60  0001 L CNN "MPN"
-F 6 "8p" H 6250 3175 50  0000 L CNN "Val"
-	1    6500 3225
+P 5750 4500
+F 0 "C45" H 5500 4550 60  0000 L CNN
+F 1 "C_8p_0402" H 5750 4350 60  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 5950 4700 60  0001 L CNN
+F 3 "" H 5750 4500 50  0001 C CNN
+F 4 "TDK" H 5950 4900 60  0001 L CNN "Manufacturer"
+F 5 "CGA2B2C0G1H080D050BA" H 5950 4800 60  0001 L CNN "MPN"
+F 6 "8p" H 5500 4450 50  0000 L CNN "Val"
+	1    5750 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L antmicro-pcie-radio-module:C_8p_0402 C49
 U 1 1 6085C6EC
-P 7075 3225
-F 0 "C49" H 7190 3270 60  0000 L CNN
-F 1 "C_8p_0402" H 7075 3075 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 7275 3425 60  0001 L CNN
-F 3 "" H 7075 3225 50  0001 C CNN
-F 4 "TDK" H 7275 3625 60  0001 L CNN "Manufacturer"
-F 5 "CGA2B2C0G1H080D050BA" H 7275 3525 60  0001 L CNN "MPN"
-F 6 "8p" H 7190 3172 50  0000 L CNN "Val"
-	1    7075 3225
+P 6325 4500
+F 0 "C49" H 6440 4545 60  0000 L CNN
+F 1 "C_8p_0402" H 6325 4350 60  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 6525 4700 60  0001 L CNN
+F 3 "" H 6325 4500 50  0001 C CNN
+F 4 "TDK" H 6525 4900 60  0001 L CNN "Manufacturer"
+F 5 "CGA2B2C0G1H080D050BA" H 6525 4800 60  0001 L CNN "MPN"
+F 6 "8p" H 6440 4447 50  0000 L CNN "Val"
+	1    6325 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L antmicro-pcie-radio-module:C_12p_0402 C46
 U 1 1 60867E92
-P 6550 4375
-F 0 "C46" H 6300 4425 60  0000 L CNN
-F 1 "C_12p_0402" H 6550 4225 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 6750 4575 60  0001 L CNN
-F 3 "" H 6550 4375 50  0001 C CNN
-F 4 "TDK" H 6750 4775 60  0001 L CNN "Manufacturer"
-F 5 "CGA2B2C0G1H120J050BA" H 6750 4675 60  0001 L CNN "MPN"
-F 6 "12p" H 6300 4325 50  0000 L CNN "Val"
-	1    6550 4375
+P 5800 5650
+F 0 "C46" H 5550 5700 60  0000 L CNN
+F 1 "C_12p_0402" H 5800 5500 60  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 6000 5850 60  0001 L CNN
+F 3 "" H 5800 5650 50  0001 C CNN
+F 4 "TDK" H 6000 6050 60  0001 L CNN "Manufacturer"
+F 5 "CGA2B2C0G1H120J050BA" H 6000 5950 60  0001 L CNN "MPN"
+F 6 "12p" H 5550 5600 50  0000 L CNN "Val"
+	1    5800 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L antmicro-pcie-radio-module:GND #PWR023
 U 1 1 608686BC
-P 6800 4625
-F 0 "#PWR023" H 6800 4375 50  0001 C CNN
-F 1 "GND" H 6805 4452 50  0000 C CNN
-F 2 "" H 6800 4625 50  0001 C CNN
-F 3 "" H 6800 4625 50  0001 C CNN
-	1    6800 4625
+P 6050 5900
+F 0 "#PWR023" H 6050 5650 50  0001 C CNN
+F 1 "GND" H 6055 5727 50  0000 C CNN
+F 2 "" H 6050 5900 50  0001 C CNN
+F 3 "" H 6050 5900 50  0001 C CNN
+	1    6050 5900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 4150 6550 4150
+	5900 5425 5800 5425
 Wire Wire Line
-	6550 4150 6550 4225
+	5800 5425 5800 5500
 Wire Wire Line
-	6950 4150 7050 4150
+	6200 5425 6300 5425
 Wire Wire Line
-	7050 4150 7050 4225
+	6300 5425 6300 5500
 Wire Wire Line
-	7050 4525 7050 4575
+	6300 5800 6300 5850
 Wire Wire Line
-	7050 4575 6800 4575
+	6300 5850 6050 5850
 Wire Wire Line
-	6550 4575 6550 4525
+	5800 5850 5800 5800
 Wire Wire Line
-	6800 4625 6800 4575
-Connection ~ 6800 4575
+	6050 5900 6050 5850
+Connection ~ 6050 5850
 Wire Wire Line
-	6800 4575 6550 4575
+	6050 5850 5800 5850
 Wire Wire Line
-	6550 4150 6375 4150
-Connection ~ 6550 4150
+	5800 5425 5625 5425
+Connection ~ 5800 5425
 Wire Wire Line
-	7050 4150 7225 4150
-Connection ~ 7050 4150
-Text Label 6375 4150 0    50   ~ 0
+	6300 5425 6475 5425
+Connection ~ 6300 5425
+Text Label 5625 5425 0    50   ~ 0
 XL1
-Text Label 7225 4150 2    50   ~ 0
+Text Label 6475 5425 2    50   ~ 0
 XL2
-Text Label 2275 4850 0    50   ~ 0
+Text Label 1225 5150 0    50   ~ 0
 XL1
-Text Label 2275 4950 0    50   ~ 0
+Text Label 1225 5250 0    50   ~ 0
 XL2
 Wire Wire Line
-	2275 4950 2825 4950
+	1225 5250 1775 5250
 Wire Wire Line
-	2275 4850 2825 4850
+	1225 5150 1775 5150
 $Comp
 L antmicro-pcie-radio-module:ABS06-32.768KHZ-9-1-T Y3
 U 1 1 608C8F28
-P 6800 4150
-F 0 "Y3" H 6800 4390 50  0000 C CNN
-F 1 "ABS06-32.768KHZ-9-1-T" H 6800 4299 50  0000 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:Abracon-ABS06-32.768KHZ-T-0" H 7000 4350 60  0001 L CNN
-F 3 "https://abracon.com/Resonators/ABS06.pdf" H 7000 4450 60  0001 L CNN
-F 4 "ABS06-32.768KHZ-9-1-T" H 7000 4650 60  0001 L CNN "MPN"
-F 5 "ABRACON" H 7000 5250 60  0001 L CNN "Manufacturer"
-	1    6800 4150
+P 6050 5425
+F 0 "Y3" H 6050 5665 50  0000 C CNN
+F 1 "ABS06-32.768KHZ-9-1-T" H 6050 5574 50  0000 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:Abracon-ABS06-32.768KHZ-T-0" H 6250 5625 60  0001 L CNN
+F 3 "https://abracon.com/Resonators/ABS06.pdf" H 6250 5725 60  0001 L CNN
+F 4 "ABS06-32.768KHZ-9-1-T" H 6250 5925 60  0001 L CNN "MPN"
+F 5 "ABRACON" H 6250 6525 60  0001 L CNN "Manufacturer"
+	1    6050 5425
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -754,228 +754,228 @@ Wire Wire Line
 Wire Wire Line
 	1375 2250 1375 2175
 Connection ~ 1375 2175
-Text Label 2275 5450 0    50   ~ 0
+Text Label 1225 5750 0    50   ~ 0
 LED1
 Wire Wire Line
-	2275 5450 2825 5450
-Text Label 2275 5650 0    50   ~ 0
+	1225 5750 1775 5750
+Text Label 1225 5950 0    50   ~ 0
 LED2_R
 Wire Wire Line
-	2275 5650 2825 5650
-Text Label 5300 6550 2    50   ~ 0
+	1225 5950 1775 5950
+Text Label 4250 6850 2    50   ~ 0
 LED2_G
 Wire Wire Line
-	5300 6550 4775 6550
-Text Label 2275 6050 0    50   ~ 0
+	4250 6850 3725 6850
+Text Label 1225 6350 0    50   ~ 0
 LED2_B
 Wire Wire Line
-	2275 6050 2825 6050
+	1225 6350 1775 6350
 $Comp
 L antmicro-pcie-radio-module:PTS840_GK_SMTR_LFS SW1
 U 1 1 6094BF1C
-P 6575 5475
-F 0 "SW1" H 6775 5510 50  0000 C CNN
-F 1 "PTS840_GK_SMTR_LFS" H 6775 5419 50  0000 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:CK-PTS840_GK_SMTR_LFS-0" H 6575 5675 50  0001 L CNN
-F 3 "http://www.ckswitches.com/media/1477/pts840.pdf" H 6575 5775 50  0001 L CNN
-F 4 "CK" H 6625 5850 50  0001 C CNN "Manufacturer"
-F 5 "PTS840 GK SMTR LFS" H 7000 5775 50  0001 C CNN "MPN"
-	1    6575 5475
+P 5900 6575
+F 0 "SW1" H 6100 6610 50  0000 C CNN
+F 1 "PTS840_GK_SMTR_LFS" H 6100 6519 50  0000 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:CK-PTS840_GK_SMTR_LFS-0" H 5900 6775 50  0001 L CNN
+F 3 "http://www.ckswitches.com/media/1477/pts840.pdf" H 5900 6875 50  0001 L CNN
+F 4 "CK" H 5950 6950 50  0001 C CNN "Manufacturer"
+F 5 "PTS840 GK SMTR LFS" H 6325 6875 50  0001 C CNN "MPN"
+	1    5900 6575
 	1    0    0    -1  
 $EndComp
 $Comp
 L antmicro-pcie-radio-module:R_10k_0402 R18
 U 1 1 6094ED3A
-P 6325 5300
-F 0 "R18" V 6280 5370 60  0000 L CNN
-F 1 "R_10k_0402" H 6325 5150 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 6525 5500 60  0001 L CNN
-F 3 "" H 6325 5300 50  0001 C CNN
-F 4 "VISHAY" H 6525 5700 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 6525 5600 60  0001 L CNN "MPN"
-F 6 "10k" V 6378 5370 50  0000 L CNN "Val"
-	1    6325 5300
+P 5650 6400
+F 0 "R18" V 5605 6470 60  0000 L CNN
+F 1 "R_10k_0402" H 5650 6250 60  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 5850 6600 60  0001 L CNN
+F 3 "" H 5650 6400 50  0001 C CNN
+F 4 "VISHAY" H 5850 6800 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 5850 6700 60  0001 L CNN "MPN"
+F 6 "10k" V 5703 6470 50  0000 L CNN "Val"
+	1    5650 6400
 	0    1    1    0   
 $EndComp
-Text Label 6500 5050 2    50   ~ 0
+Text Label 5825 6150 2    50   ~ 0
 VDD
 Wire Wire Line
-	6500 5050 6325 5050
+	5825 6150 5650 6150
 Wire Wire Line
-	6325 5050 6325 5150
+	5650 6150 5650 6250
 $Comp
 L antmicro-pcie-radio-module:C_100n_0402 C44
 U 1 1 6096C28A
-P 6325 6000
-F 0 "C44" H 6440 6045 60  0000 L CNN
-F 1 "C_100n_0402" H 6325 5850 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 6525 6200 60  0001 L CNN
-F 3 "" H 6325 6000 50  0001 C CNN
-F 4 "Walsin" H 6525 6400 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 6525 6300 60  0001 L CNN "MPN"
-F 6 "100n" H 6440 5947 50  0000 L CNN "Val"
-	1    6325 6000
+P 5650 7100
+F 0 "C44" H 5765 7145 60  0000 L CNN
+F 1 "C_100n_0402" H 5650 6950 60  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 5850 7300 60  0001 L CNN
+F 3 "" H 5650 7100 50  0001 C CNN
+F 4 "Walsin" H 5850 7500 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 5850 7400 60  0001 L CNN "MPN"
+F 6 "100n" H 5765 7047 50  0000 L CNN "Val"
+	1    5650 7100
 	1    0    0    -1  
 $EndComp
 $Comp
 L antmicro-pcie-radio-module:GND #PWR020
 U 1 1 6096E87A
-P 6325 6225
-F 0 "#PWR020" H 6325 5975 50  0001 C CNN
-F 1 "GND" H 6330 6052 50  0000 C CNN
-F 2 "" H 6325 6225 50  0001 C CNN
-F 3 "" H 6325 6225 50  0001 C CNN
-	1    6325 6225
+P 5650 7325
+F 0 "#PWR020" H 5650 7075 50  0001 C CNN
+F 1 "GND" H 5655 7152 50  0000 C CNN
+F 2 "" H 5650 7325 50  0001 C CNN
+F 3 "" H 5650 7325 50  0001 C CNN
+	1    5650 7325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6325 6225 6325 6150
+	5650 7325 5650 7250
 Wire Wire Line
-	6325 5850 6325 5675
+	5650 6950 5650 6775
 Wire Wire Line
-	6575 5675 6325 5675
-Connection ~ 6325 5675
+	5900 6775 5650 6775
+Connection ~ 5650 6775
 Wire Wire Line
-	6325 5675 6325 5450
+	5650 6775 5650 6550
 $Comp
 L antmicro-pcie-radio-module:GND #PWR025
 U 1 1 6098699A
-P 7125 6225
-F 0 "#PWR025" H 7125 5975 50  0001 C CNN
-F 1 "GND" H 7130 6052 50  0000 C CNN
-F 2 "" H 7125 6225 50  0001 C CNN
-F 3 "" H 7125 6225 50  0001 C CNN
-	1    7125 6225
+P 6450 7325
+F 0 "#PWR025" H 6450 7075 50  0001 C CNN
+F 1 "GND" H 6455 7152 50  0000 C CNN
+F 2 "" H 6450 7325 50  0001 C CNN
+F 3 "" H 6450 7325 50  0001 C CNN
+	1    6450 7325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7125 6225 7125 5675
+	6450 7325 6450 6775
 Wire Wire Line
-	7125 5675 6975 5675
+	6450 6775 6300 6775
 Wire Wire Line
-	6325 5675 6025 5675
-Text Label 6025 5675 0    50   ~ 0
+	5650 6775 5350 6775
+Text Label 5350 6775 0    50   ~ 0
 ~RESET
 Wire Wire Line
-	2825 6650 2300 6650
+	1775 6950 1250 6950
 $Comp
 L antmicro-pcie-radio-module:TP_SMD1MM TP11
 U 1 1 60A55842
-P 2225 7050
-F 0 "TP11" V 2225 6900 50  0000 C CNN
-F 1 "TP_SMD1MM" H 2225 6950 50  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:Testpoint_smd_1mm" H 2425 7250 60  0001 L CNN
-F 3 "" H 2425 7350 60  0001 L CNN
-	1    2225 7050
+P 1175 7350
+F 0 "TP11" V 1175 7200 50  0000 C CNN
+F 1 "TP_SMD1MM" H 1175 7250 50  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:Testpoint_smd_1mm" H 1375 7550 60  0001 L CNN
+F 3 "" H 1375 7650 60  0001 L CNN
+	1    1175 7350
 	0    1    1    0   
 $EndComp
 $Comp
 L antmicro-pcie-radio-module:TP_SMD1MM TP12
 U 1 1 60A68DA5
-P 5375 4850
-F 0 "TP12" V 5375 4800 50  0000 R CNN
-F 1 "TP_SMD1MM" H 5375 4750 50  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:Testpoint_smd_1mm" H 5575 5050 60  0001 L CNN
-F 3 "" H 5575 5150 60  0001 L CNN
-	1    5375 4850
+P 4325 5150
+F 0 "TP12" V 4325 5100 50  0000 R CNN
+F 1 "TP_SMD1MM" H 4325 5050 50  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:Testpoint_smd_1mm" H 4525 5350 60  0001 L CNN
+F 3 "" H 4525 5450 60  0001 L CNN
+	1    4325 5150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L antmicro-pcie-radio-module:TP_SMD1MM TP17
 U 1 1 60AA5CD2
-P 5375 5750
-F 0 "TP17" V 5375 5700 50  0000 R CNN
-F 1 "TP_SMD1MM" H 5375 5650 50  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:Testpoint_smd_1mm" H 5575 5950 60  0001 L CNN
-F 3 "" H 5575 6050 60  0001 L CNN
-	1    5375 5750
+P 4325 6050
+F 0 "TP17" V 4325 6000 50  0000 R CNN
+F 1 "TP_SMD1MM" H 4325 5950 50  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:Testpoint_smd_1mm" H 4525 6250 60  0001 L CNN
+F 3 "" H 4525 6350 60  0001 L CNN
+	1    4325 6050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L antmicro-pcie-radio-module:TP_SMD1MM TP18
 U 1 1 60AA6087
-P 5375 5850
-F 0 "TP18" V 5375 5800 50  0000 R CNN
-F 1 "TP_SMD1MM" H 5375 5750 50  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:Testpoint_smd_1mm" H 5575 6050 60  0001 L CNN
-F 3 "" H 5575 6150 60  0001 L CNN
-	1    5375 5850
+P 4325 6150
+F 0 "TP18" V 4325 6100 50  0000 R CNN
+F 1 "TP_SMD1MM" H 4325 6050 50  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:Testpoint_smd_1mm" H 4525 6350 60  0001 L CNN
+F 3 "" H 4525 6450 60  0001 L CNN
+	1    4325 6150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L antmicro-pcie-radio-module:TP_SMD1MM TP19
 U 1 1 60AA64FE
-P 5375 6050
-F 0 "TP19" V 5375 6000 50  0000 R CNN
-F 1 "TP_SMD1MM" H 5375 5950 50  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:Testpoint_smd_1mm" H 5575 6250 60  0001 L CNN
-F 3 "" H 5575 6350 60  0001 L CNN
-	1    5375 6050
+P 4325 6350
+F 0 "TP19" V 4325 6300 50  0000 R CNN
+F 1 "TP_SMD1MM" H 4325 6250 50  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:Testpoint_smd_1mm" H 4525 6550 60  0001 L CNN
+F 3 "" H 4525 6650 60  0001 L CNN
+	1    4325 6350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L antmicro-pcie-radio-module:TP_SMD1MM TP16
 U 1 1 60AD28DE
-P 5375 5650
-F 0 "TP16" V 5375 5600 50  0000 R CNN
-F 1 "TP_SMD1MM" H 5375 5550 50  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:Testpoint_smd_1mm" H 5575 5850 60  0001 L CNN
-F 3 "" H 5575 5950 60  0001 L CNN
-	1    5375 5650
+P 4325 5950
+F 0 "TP16" V 4325 5900 50  0000 R CNN
+F 1 "TP_SMD1MM" H 4325 5850 50  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:Testpoint_smd_1mm" H 4525 6150 60  0001 L CNN
+F 3 "" H 4525 6250 60  0001 L CNN
+	1    4325 5950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L antmicro-pcie-radio-module:TP_SMD1MM TP23
 U 1 1 60ADE789
-P 5375 6950
-F 0 "TP23" V 5375 6900 50  0000 R CNN
-F 1 "TP_SMD1MM" H 5375 6850 50  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:Testpoint_smd_1mm" H 5575 7150 60  0001 L CNN
-F 3 "" H 5575 7250 60  0001 L CNN
-	1    5375 6950
+P 4325 7250
+F 0 "TP23" V 4325 7200 50  0000 R CNN
+F 1 "TP_SMD1MM" H 4325 7150 50  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:Testpoint_smd_1mm" H 4525 7450 60  0001 L CNN
+F 3 "" H 4525 7550 60  0001 L CNN
+	1    4325 7250
 	0    -1   -1   0   
 $EndComp
-Text Label 8350 5675 0    50   ~ 0
+Text Label 6800 5725 0    50   ~ 0
 VDD
 Wire Wire Line
-	8350 5675 8625 5675
+	6800 5725 7075 5725
 Wire Wire Line
-	8625 5775 8475 5775
+	7075 5825 6925 5825
 Wire Wire Line
-	8475 5775 8475 5875
+	6925 5825 6925 5925
 Wire Wire Line
-	8475 5875 8625 5875
+	6925 5925 7075 5925
 Wire Wire Line
-	8625 6075 8475 6075
+	7075 6125 6925 6125
 Wire Wire Line
-	8475 6075 8475 5875
-Connection ~ 8475 5875
+	6925 6125 6925 5925
+Connection ~ 6925 5925
 Wire Wire Line
-	8475 6075 8475 6200
-Connection ~ 8475 6075
+	6925 6125 6925 6250
+Connection ~ 6925 6125
 $Comp
 L antmicro-pcie-radio-module:GND #PWR028
 U 1 1 60B66710
-P 8475 6200
-F 0 "#PWR028" H 8475 5950 50  0001 C CNN
-F 1 "GND" H 8480 6027 50  0000 C CNN
-F 2 "" H 8475 6200 50  0001 C CNN
-F 3 "" H 8475 6200 50  0001 C CNN
-	1    8475 6200
+P 6925 6250
+F 0 "#PWR028" H 6925 6000 50  0001 C CNN
+F 1 "GND" H 6930 6077 50  0000 C CNN
+F 2 "" H 6925 6250 50  0001 C CNN
+F 3 "" H 6925 6250 50  0001 C CNN
+	1    6925 6250
 	1    0    0    -1  
 $EndComp
-Text Label 9625 6075 2    50   ~ 0
+Text Label 8075 6125 2    50   ~ 0
 ~RESET
 Wire Wire Line
-	9625 6075 9225 6075
-Text Label 9625 5775 2    50   ~ 0
+	8075 6125 7675 6125
+Text Label 8075 5825 2    50   ~ 0
 SWCLK
-Text Label 9625 5675 2    50   ~ 0
+Text Label 8075 5725 2    50   ~ 0
 SWDIO
 Wire Wire Line
-	9625 5675 9225 5675
+	8075 5725 7675 5725
 Wire Wire Line
-	9625 5775 9225 5775
+	8075 5825 7675 5825
 Wire Wire Line
 	1375 2175 3000 2175
 Wire Wire Line
@@ -985,119 +985,119 @@ Wire Wire Line
 $Comp
 L antmicro-pcie-radio-module:R_330R_0402 R19
 U 1 1 60C83FB8
-P 8600 4450
-F 0 "R19" V 8555 4520 60  0000 L CNN
-F 1 "R_330R_0402" H 8600 4300 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 8800 4650 60  0001 L CNN
-F 3 "" H 8600 4450 50  0001 C CNN
-F 4 "PANASONIC" H 8800 4850 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2RKF3300X " H 8800 4750 60  0001 L CNN "MPN"
-F 6 "330R" V 8653 4520 50  0000 L CNN "Val"
-	1    8600 4450
+P 8675 5800
+F 0 "R19" V 8630 5870 60  0000 L CNN
+F 1 "R_330R_0402" H 8675 5650 60  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 8875 6000 60  0001 L CNN
+F 3 "" H 8675 5800 50  0001 C CNN
+F 4 "PANASONIC" H 8875 6200 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2RKF3300X " H 8875 6100 60  0001 L CNN "MPN"
+F 6 "330R" V 8728 5870 50  0000 L CNN "Val"
+	1    8675 5800
 	0    1    1    0   
 $EndComp
 $Comp
 L antmicro-pcie-radio-module:KP-1608CGCK D1
 U 1 1 60C84DFC
-P 8600 4150
-F 0 "D1" V 8497 4328 60  0000 L CNN
-F 1 "KP-1608CGCK" V 8603 4328 60  0000 L CNN
-F 2 "antmicro-pcie-radio-module-footprints:LED0603" H 8800 4350 60  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 8800 4450 60  0001 L CNN
-F 4 "KP-1608CGCK" H 8800 4650 60  0001 L CNN "MPN"
-F 5 "KINGBRIGHT" H 8810 4770 60  0001 L CNN "Manufacturer"
-	1    8600 4150
+P 8675 5500
+F 0 "D1" V 8572 5678 60  0000 L CNN
+F 1 "KP-1608CGCK" V 8678 5678 60  0000 L CNN
+F 2 "antmicro-pcie-radio-module-footprints:LED0603" H 8875 5700 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 8875 5800 60  0001 L CNN
+F 4 "KP-1608CGCK" H 8875 6000 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 8885 6120 60  0001 L CNN "Manufacturer"
+	1    8675 5500
 	0    1    1    0   
 $EndComp
-Text Label 9950 3725 2    50   ~ 0
+Text Label 10025 5075 2    50   ~ 0
 VDD
-Text Label 8750 3725 2    50   ~ 0
+Text Label 8825 5075 2    50   ~ 0
 VDD
 Wire Wire Line
-	8750 3725 8600 3725
+	8825 5075 8675 5075
 Wire Wire Line
-	8600 3725 8600 3950
+	8675 5075 8675 5300
 Wire Wire Line
-	9800 3725 9800 3850
+	9875 5075 9875 5200
 Wire Wire Line
-	9800 3725 9950 3725
-Text Label 8600 5025 1    50   ~ 0
+	9875 5075 10025 5075
+Text Label 8675 6375 1    50   ~ 0
 LED1
 Wire Wire Line
-	8600 5025 8600 4600
-Text Label 10000 5025 1    50   ~ 0
+	8675 6375 8675 5950
+Text Label 10075 6375 1    50   ~ 0
 LED2_R
-Text Label 9600 5025 1    50   ~ 0
+Text Label 9675 6375 1    50   ~ 0
 LED2_G
-Text Label 9800 5025 1    50   ~ 0
+Text Label 9875 6375 1    50   ~ 0
 LED2_B
 $Comp
 L antmicro-pcie-radio-module:R_390R_0402 R21
 U 1 1 60D5A88C
-P 9800 4525
-F 0 "R21" H 9875 4425 60  0000 L CNN
-F 1 "R_390R_0402" H 9800 4375 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 10000 4725 60  0001 L CNN
-F 3 "" H 9800 4525 50  0001 C CNN
-F 4 "PANASONIC" H 10000 4925 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2RKF3900X " H 10000 4825 60  0001 L CNN "MPN"
-F 6 "390R" H 9625 4425 50  0000 L CNN "Val"
-	1    9800 4525
+P 9875 5875
+F 0 "R21" H 9950 5775 60  0000 L CNN
+F 1 "R_390R_0402" H 9875 5725 60  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 10075 6075 60  0001 L CNN
+F 3 "" H 9875 5875 50  0001 C CNN
+F 4 "PANASONIC" H 10075 6275 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2RKF3900X " H 10075 6175 60  0001 L CNN "MPN"
+F 6 "390R" H 9700 5775 50  0000 L CNN "Val"
+	1    9875 5875
 	0    1    1    0   
 $EndComp
 $Comp
 L antmicro-pcie-radio-module:R_1k2_0402 R22
 U 1 1 60D6A872
-P 10000 4525
-F 0 "R22" H 10075 4425 60  0000 L CNN
-F 1 "R_1k2_0402" H 10000 4375 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 10200 4725 60  0001 L CNN
-F 3 "" H 10000 4525 50  0001 C CNN
-F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 10200 4925 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2RKF1201X" H 10200 4825 60  0001 L CNN "MPN"
-F 6 "1k2" H 9850 4425 50  0000 L CNN "Val"
-	1    10000 4525
+P 10075 5875
+F 0 "R22" H 10150 5775 60  0000 L CNN
+F 1 "R_1k2_0402" H 10075 5725 60  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 10275 6075 60  0001 L CNN
+F 3 "" H 10075 5875 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 10275 6275 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2RKF1201X" H 10275 6175 60  0001 L CNN "MPN"
+F 6 "1k2" H 9925 5775 50  0000 L CNN "Val"
+	1    10075 5875
 	0    1    1    0   
 $EndComp
 $Comp
 L antmicro-pcie-radio-module:R_2k2_0402 R20
 U 1 1 60D6BC78
-P 9600 4525
-F 0 "R20" H 9675 4425 60  0000 L CNN
-F 1 "R_2k2_0402" H 9600 4375 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 9800 4725 60  0001 L CNN
-F 3 "" H 9600 4525 50  0001 C CNN
-F 4 "YAGEO" H 9800 4925 60  0001 L CNN "Manufacturer"
-F 5 "RC0402FR-072K2L" H 9800 4825 60  0001 L CNN "MPN"
-F 6 "2k2" H 9450 4425 50  0000 L CNN "Val"
-	1    9600 4525
+P 9675 5875
+F 0 "R20" H 9750 5775 60  0000 L CNN
+F 1 "R_2k2_0402" H 9675 5725 60  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 9875 6075 60  0001 L CNN
+F 3 "" H 9675 5875 50  0001 C CNN
+F 4 "YAGEO" H 9875 6275 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-072K2L" H 9875 6175 60  0001 L CNN "MPN"
+F 6 "2k2" H 9525 5775 50  0000 L CNN "Val"
+	1    9675 5875
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9600 4375 9600 4250
+	9675 5725 9675 5600
 Wire Wire Line
-	9800 4375 9800 4250
+	9875 5725 9875 5600
 Wire Wire Line
-	10000 4375 10000 4250
+	10075 5725 10075 5600
 Wire Wire Line
-	10000 4675 10000 5025
+	10075 6025 10075 6375
 Wire Wire Line
-	9800 5025 9800 4675
+	9875 6375 9875 6025
 Wire Wire Line
-	9600 5025 9600 4675
-Text GLabel 5275 5350 2    50   Output ~ 0
+	9675 6375 9675 6025
+Text GLabel 4225 5650 2    50   Output ~ 0
 CORAL_RST
 $Comp
 L antmicro-pcie-radio-module:APHF1608LSEEQBDZGKC D2
 U 1 1 60DF33FA
-P 9800 4050
-F 0 "D2" V 9754 4402 50  0000 L CNN
-F 1 "APHF1608LSEEQBDZGKC" V 9845 4402 50  0000 L CNN
-F 2 "antmicro-pcie-radio-module-footprints:LED_APHF1608LSEEQBDZGKC" H 9825 4625 50  0001 L BNN
-F 3 "" H 9800 4050 50  0001 L BNN
-F 4 "Kingbright" H 9825 4775 50  0001 L BNN "Manufacturer"
-F 5 "APHF1608LSEEQBDZGKC" H 10275 4725 50  0001 C CNN "MPN"
-	1    9800 4050
+P 9875 5400
+F 0 "D2" V 9829 5752 50  0000 L CNN
+F 1 "APHF1608LSEEQBDZGKC" V 9920 5752 50  0000 L CNN
+F 2 "antmicro-pcie-radio-module-footprints:LED_APHF1608LSEEQBDZGKC" H 9900 5975 50  0001 L BNN
+F 3 "" H 9875 5400 50  0001 L BNN
+F 4 "Kingbright" H 9900 6125 50  0001 L BNN "Manufacturer"
+F 5 "APHF1608LSEEQBDZGKC" H 10350 6075 50  0001 C CNN "MPN"
+	1    9875 5400
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1234,45 +1234,234 @@ Wire Wire Line
 Connection ~ 7900 1675
 Wire Wire Line
 	7900 1675 8100 1675
-Text GLabel 2325 5050 0    50   Output ~ 0
+Text GLabel 1275 5350 0    50   Output ~ 0
 CORAL_PMIC_EN
 Wire Wire Line
-	8600 4300 8600 4250
-Text GLabel 5275 7150 2    50   Input ~ 0
+	8675 5650 8675 5600
+Text GLabel 4225 7450 2    50   Input ~ 0
 CORAL_PGOOD
 $Comp
 L antmicro-pcie-radio-module:2X05 J2
 U 1 1 60AB3814
-P 8925 5675
-F 0 "J2" H 8925 5964 60  0000 C CNN
-F 1 "2X05" H 8925 5858 60  0000 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:ARM_SWD" H 9425 5025 60  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/527/shf-1370134.pdf" H 8925 5675 60  0001 C CNN
-F 4 "SHF-105-01-L-D-SM" H 8725 4925 50  0001 C CNN "MPN"
-F 5 "Samtec" H 8725 4825 50  0001 C CNN "Manufacturer"
-	1    8925 5675
+P 7375 5725
+F 0 "J2" H 7375 6014 60  0000 C CNN
+F 1 "2X05" H 7375 5908 60  0000 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:ARM_SWD" H 7875 5075 60  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/527/shf-1370134.pdf" H 7375 5725 60  0001 C CNN
+F 4 "SHF-105-01-L-D-SM" H 7175 4975 50  0001 C CNN "MPN"
+F 5 "Samtec" H 7175 4875 50  0001 C CNN "Manufacturer"
+	1    7375 5725
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5275 7150 4775 7150
+	4225 7450 3725 7450
 Wire Wire Line
-	2325 5050 2825 5050
+	1275 5350 1775 5350
 Wire Wire Line
-	5275 5350 4775 5350
+	4225 5650 3725 5650
 Wire Wire Line
-	2325 7050 2825 7050
+	1275 7350 1775 7350
 Wire Wire Line
-	5275 6950 4775 6950
+	4225 7250 3725 7250
 Wire Wire Line
-	4775 6050 5275 6050
+	3725 6350 4225 6350
 Wire Wire Line
-	4775 5850 5275 5850
+	3725 6150 4225 6150
 Wire Wire Line
-	4775 5750 5275 5750
+	3725 6050 4225 6050
 Wire Wire Line
-	4775 5650 5275 5650
+	3725 5950 4225 5950
 Wire Wire Line
-	4775 4850 5275 4850
-Text Label 2300 6650 0    50   ~ 0
+	3725 5150 4225 5150
+Text Label 1250 6950 0    50   ~ 0
 ~RESET
+$Comp
+L antmicroHumidityMoistureSensors:BME280 U8
+U 1 1 61155EB6
+P 8475 3900
+F 0 "U8" H 8803 4003 60  0000 L CNN
+F 1 "BME280" H 8803 3897 60  0000 L CNN
+F 2 "antmicro-footprints:Pressure_Sensor_LGA-8_2.5x2.5mm_BME280" H 8675 4100 60  0001 L CNN
+F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf" H 8675 4200 60  0001 L CNN
+F 4 "BME280" H 8675 4400 60  0001 L CNN "MPN"
+F 5 "Bosch Sensortec" H 8675 5000 60  0001 L CNN "Manufacturer"
+	1    8475 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicro-pcie-radio-module:C_100n_0402 C71
+U 1 1 6115B70F
+P 8825 3225
+F 0 "C71" V 8975 3225 60  0000 C CNN
+F 1 "C_100n_0402" H 8825 3075 60  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 9025 3425 60  0001 L CNN
+F 3 "" H 8825 3225 50  0001 C CNN
+F 4 "Walsin" H 9025 3625 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 9025 3525 60  0001 L CNN "MPN"
+F 6 "100n" V 8675 3225 50  0000 C CNN "Val"
+	1    8825 3225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicro-pcie-radio-module:C_100n_0402 C70
+U 1 1 6115F938
+P 8225 3225
+F 0 "C70" V 8375 3225 60  0000 C CNN
+F 1 "C_100n_0402" H 8225 3075 60  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 8425 3425 60  0001 L CNN
+F 3 "" H 8225 3225 50  0001 C CNN
+F 4 "Walsin" H 8425 3625 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 8425 3525 60  0001 L CNN "MPN"
+F 6 "100n" V 8075 3225 50  0000 C CNN "Val"
+	1    8225 3225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8475 3500 8475 3225
+Wire Wire Line
+	8475 3225 8375 3225
+Wire Wire Line
+	8575 3500 8575 3225
+Wire Wire Line
+	8575 3225 8675 3225
+$Comp
+L antmicro-pcie-radio-module:GND #PWR0107
+U 1 1 61170F4F
+P 8475 4325
+F 0 "#PWR0107" H 8475 4075 50  0001 C CNN
+F 1 "GND" H 8480 4152 50  0000 C CNN
+F 2 "" H 8475 4325 50  0001 C CNN
+F 3 "" H 8475 4325 50  0001 C CNN
+	1    8475 4325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8475 4325 8475 4275
+Wire Wire Line
+	8575 4200 8575 4275
+Wire Wire Line
+	8575 4275 8475 4275
+Connection ~ 8475 4275
+Wire Wire Line
+	8475 4275 8475 4200
+$Comp
+L antmicro-pcie-radio-module:GND #PWR0108
+U 1 1 611842FA
+P 8000 3300
+F 0 "#PWR0108" H 8000 3050 50  0001 C CNN
+F 1 "GND" H 8005 3127 50  0000 C CNN
+F 2 "" H 8000 3300 50  0001 C CNN
+F 3 "" H 8000 3300 50  0001 C CNN
+	1    8000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicro-pcie-radio-module:GND #PWR0109
+U 1 1 611849C0
+P 9075 3300
+F 0 "#PWR0109" H 9075 3050 50  0001 C CNN
+F 1 "GND" H 9080 3127 50  0000 C CNN
+F 2 "" H 9075 3300 50  0001 C CNN
+F 3 "" H 9075 3300 50  0001 C CNN
+	1    9075 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8975 3225 9075 3225
+Wire Wire Line
+	9075 3225 9075 3300
+Wire Wire Line
+	8075 3225 8000 3225
+Wire Wire Line
+	8000 3225 8000 3300
+Connection ~ 8475 3225
+Connection ~ 8575 3225
+Wire Wire Line
+	3725 6950 4250 6950
+Wire Wire Line
+	3725 5850 4250 5850
+Wire Wire Line
+	8075 4000 7925 4000
+Wire Wire Line
+	7925 4000 7925 4275
+Wire Wire Line
+	7925 4275 8475 4275
+Wire Wire Line
+	8075 3900 7925 3900
+Wire Wire Line
+	7925 3900 7925 4000
+Connection ~ 7925 4000
+Wire Wire Line
+	8075 3800 7675 3800
+Wire Wire Line
+	8075 3700 7375 3700
+Text Label 7075 3700 0    50   ~ 0
+SCL
+Text Label 7075 3800 0    50   ~ 0
+SDA
+Text Label 4250 6950 2    50   ~ 0
+SCL
+Text Label 4250 5850 2    50   ~ 0
+SDA
+Text Notes 8650 4225 0    50   ~ 0
+I2C addr: 0x76
+$Comp
+L antmicro-pcie-radio-module:R_2k2_0402 R40
+U 1 1 61240320
+P 7375 3450
+F 0 "R40" V 7420 3380 60  0000 R CNN
+F 1 "R_2k2_0402" H 7375 3300 60  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 7575 3650 60  0001 L CNN
+F 3 "" H 7375 3450 50  0001 C CNN
+F 4 "YAGEO" H 7575 3850 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-072K2L" H 7575 3750 60  0001 L CNN "MPN"
+F 6 "2k2" V 7322 3380 50  0000 R CNN "Val"
+	1    7375 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicro-pcie-radio-module:R_2k2_0402 R41
+U 1 1 61240DCE
+P 7675 3450
+F 0 "R41" V 7720 3380 60  0000 R CNN
+F 1 "R_2k2_0402" H 7675 3300 60  0001 C CNN
+F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 7875 3650 60  0001 L CNN
+F 3 "" H 7675 3450 50  0001 C CNN
+F 4 "YAGEO" H 7875 3850 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-072K2L" H 7875 3750 60  0001 L CNN "MPN"
+F 6 "2k2" V 7622 3380 50  0000 R CNN "Val"
+	1    7675 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7675 3600 7675 3800
+Connection ~ 7675 3800
+Wire Wire Line
+	7675 3800 7075 3800
+Wire Wire Line
+	7375 3600 7375 3700
+Connection ~ 7375 3700
+Wire Wire Line
+	7375 3700 7075 3700
+Wire Wire Line
+	8475 2925 7675 2925
+Wire Wire Line
+	7675 2925 7675 3300
+Wire Wire Line
+	8475 2925 8475 3225
+Wire Wire Line
+	7675 2925 7375 2925
+Wire Wire Line
+	7375 2925 7375 3300
+Connection ~ 7675 2925
+Wire Wire Line
+	8575 2925 8575 3225
+Text GLabel 8575 2725 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	8575 2725 8575 2925
+Wire Wire Line
+	8575 2925 8475 2925
+Connection ~ 8575 2925
+Connection ~ 8475 2925
 $EndSCHEMATC
