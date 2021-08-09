@@ -4,22 +4,22 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
-Title ""
+Title "Radio Module"
 Date ""
 Rev ""
 Comp ""
-Comment1 ""
+Comment1 "Radio Module"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L antmicro-pcie-radio-module:UPD720202 U1
+L radio-module:UPD720202 U1
 U 1 1 604DD1C0
 P 4775 2150
 F 0 "U1" H 5025 2300 50  0000 C CNN
 F 1 "UPD720202" H 5200 -1200 50  0000 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:QFN48-Renesas-UPD720202" H 5125 2450 50  0001 L CNN
+F 2 "radio-module-footprints:QFN48-Renesas-UPD720202" H 5125 2450 50  0001 L CNN
 F 3 "https://www.renesas.com/in/en/doc/products/usb/r19ds0047ej0600_usb.pdf" H 4775 2650 50  0001 L CNN
 F 4 "Renesas" H 5125 2650 50  0001 L CNN "Manufacturer"
 F 5 "UPD720202K8-701-BAA-A" H 5625 2550 50  0001 C CNN "MPN"
@@ -27,12 +27,12 @@ F 5 "UPD720202K8-701-BAA-A" H 5625 2550 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:SST25VF512A U2
+L radio-module:SST25VF512A U2
 U 1 1 604DE031
 P 9075 3650
 F 0 "U2" H 9325 3800 50  0000 C CNN
 F 1 "SST25VF512A" H 9525 3200 50  0000 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:SOIC8-SST25VF512A-33-4I-SAE-Level_B" H 9075 4050 50  0001 L CNN
+F 2 "radio-module-footprints:SOIC8-SST25VF512A-33-4I-SAE-Level_B" H 9075 4050 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/25090A.pdf" H 9075 4150 50  0001 L CNN
 F 4 "SST25VF512A-33-4I-SAE" H 9575 4150 50  0001 C CNN "MPN"
 F 5 "Microchip" H 9075 4250 50  0001 L CNN "Manufacturer"
@@ -46,12 +46,12 @@ Wire Wire Line
 Wire Wire Line
 	9175 3950 8825 3950
 $Comp
-L antmicro-pcie-radio-module:C_10n_0402 C15
+L radio-module:C_10n_0402 C15
 U 1 1 604E4192
 P 3325 1825
 F 0 "C15" H 3350 1925 60  0000 L CNN
 F 1 "C_10n_0402" H 3325 1675 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 3525 2025 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 3525 2025 60  0001 L CNN
 F 3 "" H 3325 1825 50  0001 C CNN
 F 4 "AVX" H 3525 2225 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3525 2125 60  0001 L CNN "MPN"
@@ -60,12 +60,12 @@ F 6 "10n" H 3350 1725 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_100n_0402 C13
+L radio-module:C_100n_0402 C13
 U 1 1 604E4585
 P 3075 1825
 F 0 "C13" H 3100 1925 60  0000 L CNN
 F 1 "C_100n_0402" H 3075 1675 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 3275 2025 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 3275 2025 60  0001 L CNN
 F 3 "" H 3075 1825 50  0001 C CNN
 F 4 "Walsin" H 3275 2225 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 3275 2125 60  0001 L CNN "MPN"
@@ -82,12 +82,12 @@ Wire Wire Line
 Wire Wire Line
 	3075 2025 3075 1975
 $Comp
-L antmicro-pcie-radio-module:C_10n_0402 C21
+L radio-module:C_10n_0402 C21
 U 1 1 604EC6AE
 P 3825 1825
 F 0 "C21" H 3850 1925 60  0000 L CNN
 F 1 "C_10n_0402" H 3825 1675 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 4025 2025 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 4025 2025 60  0001 L CNN
 F 3 "" H 3825 1825 50  0001 C CNN
 F 4 "AVX" H 4025 2225 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 4025 2125 60  0001 L CNN "MPN"
@@ -96,12 +96,12 @@ F 6 "10n" H 3850 1725 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_100n_0402 C18
+L radio-module:C_100n_0402 C18
 U 1 1 604EC719
 P 3575 1825
 F 0 "C18" H 3600 1925 60  0000 L CNN
 F 1 "C_100n_0402" H 3575 1675 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 3775 2025 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 3775 2025 60  0001 L CNN
 F 3 "" H 3575 1825 50  0001 C CNN
 F 4 "Walsin" H 3775 2225 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 3775 2125 60  0001 L CNN "MPN"
@@ -118,12 +118,12 @@ Wire Wire Line
 Wire Wire Line
 	3575 2025 3575 1975
 $Comp
-L antmicro-pcie-radio-module:C_10n_0402 C4
+L radio-module:C_10n_0402 C4
 U 1 1 604ED954
 P 1975 2625
 F 0 "C4" H 2000 2725 60  0000 L CNN
 F 1 "C_10n_0402" H 1975 2475 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 2175 2825 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 2175 2825 60  0001 L CNN
 F 3 "" H 1975 2625 50  0001 C CNN
 F 4 "AVX" H 2175 3025 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 2175 2925 60  0001 L CNN "MPN"
@@ -132,12 +132,12 @@ F 6 "10n" H 2000 2525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_10n_0402 C5
+L radio-module:C_10n_0402 C5
 U 1 1 604EDD4D
 P 2200 2625
 F 0 "C5" H 2225 2725 60  0000 L CNN
 F 1 "C_10n_0402" H 2200 2475 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 2400 2825 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 2400 2825 60  0001 L CNN
 F 3 "" H 2200 2625 50  0001 C CNN
 F 4 "AVX" H 2400 3025 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 2400 2925 60  0001 L CNN "MPN"
@@ -146,12 +146,12 @@ F 6 "10n" H 2225 2525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_100n_0402 C3
+L radio-module:C_100n_0402 C3
 U 1 1 604EDFC6
 P 1725 2625
 F 0 "C3" H 1750 2725 60  0000 L CNN
 F 1 "C_100n_0402" H 1725 2475 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 1925 2825 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 1925 2825 60  0001 L CNN
 F 3 "" H 1725 2625 50  0001 C CNN
 F 4 "Walsin" H 1925 3025 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 1925 2925 60  0001 L CNN "MPN"
@@ -160,12 +160,12 @@ F 6 "100n" H 1750 2525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_10n_0402 C9
+L radio-module:C_10n_0402 C9
 U 1 1 604F0230
 P 2800 2625
 F 0 "C9" H 2825 2725 60  0000 L CNN
 F 1 "C_10n_0402" H 2800 2475 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 3000 2825 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 3000 2825 60  0001 L CNN
 F 3 "" H 2800 2625 50  0001 C CNN
 F 4 "AVX" H 3000 3025 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3000 2925 60  0001 L CNN "MPN"
@@ -174,12 +174,12 @@ F 6 "10n" H 2825 2525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_10n_0402 C11
+L radio-module:C_10n_0402 C11
 U 1 1 604F02D1
 P 3025 2625
 F 0 "C11" H 3050 2725 60  0000 L CNN
 F 1 "C_10n_0402" H 3025 2475 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 3225 2825 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 3225 2825 60  0001 L CNN
 F 3 "" H 3025 2625 50  0001 C CNN
 F 4 "AVX" H 3225 3025 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3225 2925 60  0001 L CNN "MPN"
@@ -188,12 +188,12 @@ F 6 "10n" H 3050 2525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_100n_0402 C7
+L radio-module:C_100n_0402 C7
 U 1 1 604F02DE
 P 2550 2625
 F 0 "C7" H 2575 2725 60  0000 L CNN
 F 1 "C_100n_0402" H 2550 2475 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 2750 2825 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 2750 2825 60  0001 L CNN
 F 3 "" H 2550 2625 50  0001 C CNN
 F 4 "Walsin" H 2750 3025 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2750 2925 60  0001 L CNN "MPN"
@@ -202,12 +202,12 @@ F 6 "100n" H 2575 2525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_100n_0402 C1
+L radio-module:C_100n_0402 C1
 U 1 1 604F1F2F
 P 1125 2625
 F 0 "C1" H 1150 2725 60  0000 L CNN
 F 1 "C_100n_0402" H 1125 2475 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 1325 2825 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 1325 2825 60  0001 L CNN
 F 3 "" H 1125 2625 50  0001 C CNN
 F 4 "Walsin" H 1325 3025 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 1325 2925 60  0001 L CNN "MPN"
@@ -216,12 +216,12 @@ F 6 "100n" H 1150 2525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_10n_0402 C2
+L radio-module:C_10n_0402 C2
 U 1 1 604F1E7B
 P 1375 2625
 F 0 "C2" H 1400 2725 60  0000 L CNN
 F 1 "C_10n_0402" H 1375 2475 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 1575 2825 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 1575 2825 60  0001 L CNN
 F 3 "" H 1375 2625 50  0001 C CNN
 F 4 "AVX" H 1575 3025 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 1575 2925 60  0001 L CNN "MPN"
@@ -230,12 +230,12 @@ F 6 "10n" H 1400 2525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_10n_0402 C20
+L radio-module:C_10n_0402 C20
 U 1 1 60503A5A
 P 3600 2625
 F 0 "C20" H 3625 2725 60  0000 L CNN
 F 1 "C_10n_0402" H 3600 2475 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 3800 2825 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 3800 2825 60  0001 L CNN
 F 3 "" H 3600 2625 50  0001 C CNN
 F 4 "AVX" H 3800 3025 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3800 2925 60  0001 L CNN "MPN"
@@ -244,12 +244,12 @@ F 6 "10n" H 3625 2525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_10n_0402 C22
+L radio-module:C_10n_0402 C22
 U 1 1 60503B2B
 P 3825 2625
 F 0 "C22" H 3850 2725 60  0000 L CNN
 F 1 "C_10n_0402" H 3825 2475 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 4025 2825 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 4025 2825 60  0001 L CNN
 F 3 "" H 3825 2625 50  0001 C CNN
 F 4 "AVX" H 4025 3025 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 4025 2925 60  0001 L CNN "MPN"
@@ -258,12 +258,12 @@ F 6 "10n" H 3850 2525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_100n_0402 C17
+L radio-module:C_100n_0402 C17
 U 1 1 60503B38
 P 3350 2625
 F 0 "C17" H 3375 2725 60  0000 L CNN
 F 1 "C_100n_0402" H 3350 2475 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 3550 2825 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 3550 2825 60  0001 L CNN
 F 3 "" H 3350 2625 50  0001 C CNN
 F 4 "Walsin" H 3550 3025 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 3550 2925 60  0001 L CNN "MPN"
@@ -272,12 +272,12 @@ F 6 "100n" H 3375 2525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_10n_0402 C19
+L radio-module:C_10n_0402 C19
 U 1 1 6050E7C0
 P 3575 3400
 F 0 "C19" H 3600 3500 60  0000 L CNN
 F 1 "C_10n_0402" H 3575 3250 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 3775 3600 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 3775 3600 60  0001 L CNN
 F 3 "" H 3575 3400 50  0001 C CNN
 F 4 "AVX" H 3775 3800 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3775 3700 60  0001 L CNN "MPN"
@@ -286,12 +286,12 @@ F 6 "10n" H 3600 3300 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_10n_0402 C23
+L radio-module:C_10n_0402 C23
 U 1 1 6050E95B
 P 3825 3400
 F 0 "C23" H 3850 3500 60  0000 L CNN
 F 1 "C_10n_0402" H 3825 3250 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 4025 3600 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 4025 3600 60  0001 L CNN
 F 3 "" H 3825 3400 50  0001 C CNN
 F 4 "AVX" H 4025 3800 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 4025 3700 60  0001 L CNN "MPN"
@@ -300,12 +300,12 @@ F 6 "10n" H 3850 3300 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_100n_0402 C10
+L radio-module:C_100n_0402 C10
 U 1 1 6050E968
 P 2800 3400
 F 0 "C10" H 2825 3500 60  0000 L CNN
 F 1 "C_100n_0402" H 2800 3250 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 3000 3600 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 3000 3600 60  0001 L CNN
 F 3 "" H 2800 3400 50  0001 C CNN
 F 4 "Walsin" H 3000 3800 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 3000 3700 60  0001 L CNN "MPN"
@@ -314,12 +314,12 @@ F 6 "100n" H 2825 3300 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_10n_0402 C14
+L radio-module:C_10n_0402 C14
 U 1 1 60520BB5
 P 3075 3400
 F 0 "C14" H 3100 3500 60  0000 L CNN
 F 1 "C_10n_0402" H 3075 3250 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 3275 3600 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 3275 3600 60  0001 L CNN
 F 3 "" H 3075 3400 50  0001 C CNN
 F 4 "AVX" H 3275 3800 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3275 3700 60  0001 L CNN "MPN"
@@ -328,12 +328,12 @@ F 6 "10n" H 3100 3300 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_10n_0402 C16
+L radio-module:C_10n_0402 C16
 U 1 1 60520D86
 P 3325 3400
 F 0 "C16" H 3350 3500 60  0000 L CNN
 F 1 "C_10n_0402" H 3325 3250 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 3525 3600 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 3525 3600 60  0001 L CNN
 F 3 "" H 3325 3400 50  0001 C CNN
 F 4 "AVX" H 3525 3800 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3525 3700 60  0001 L CNN "MPN"
@@ -342,12 +342,12 @@ F 6 "10n" H 3350 3300 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_100n_0402 C6
+L radio-module:C_100n_0402 C6
 U 1 1 6052532F
 P 2525 3400
 F 0 "C6" H 2550 3500 60  0000 L CNN
 F 1 "C_100n_0402" H 2525 3250 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 2725 3600 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 2725 3600 60  0001 L CNN
 F 3 "" H 2525 3400 50  0001 C CNN
 F 4 "Walsin" H 2725 3800 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2725 3700 60  0001 L CNN "MPN"
@@ -591,7 +591,7 @@ Connection ~ 4625 2150
 Wire Wire Line
 	4625 2150 4625 2250
 $Comp
-L antmicro-pcie-radio-module:GND #PWR02
+L radio-module:GND #PWR02
 U 1 1 605B2901
 P 2525 3700
 F 0 "#PWR02" H 2525 3450 50  0001 C CNN
@@ -602,7 +602,7 @@ F 3 "" H 2525 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:GND #PWR01
+L radio-module:GND #PWR01
 U 1 1 605B354A
 P 1125 2925
 F 0 "#PWR01" H 1125 2675 50  0001 C CNN
@@ -613,7 +613,7 @@ F 3 "" H 1125 2925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:GND #PWR04
+L radio-module:GND #PWR04
 U 1 1 605CEEB3
 P 3075 2100
 F 0 "#PWR04" H 3075 1850 50  0001 C CNN
@@ -633,12 +633,12 @@ Wire Wire Line
 	2525 3700 2525 3625
 Connection ~ 2525 3625
 $Comp
-L antmicro-pcie-radio-module:C_100n_0402 C25
+L radio-module:C_100n_0402 C25
 U 1 1 605DCE75
 P 6550 3000
 F 0 "C25" V 6725 2825 60  0000 L CNN
 F 1 "C_100n_0402" H 6550 2850 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 6750 3200 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 6750 3200 60  0001 L CNN
 F 3 "" H 6550 3000 50  0001 C CNN
 F 4 "Walsin" H 6750 3400 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6750 3300 60  0001 L CNN "MPN"
@@ -647,12 +647,12 @@ F 6 "100n" V 6725 3025 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_100n_0402 C26
+L radio-module:C_100n_0402 C26
 U 1 1 605DFADC
 P 6975 3100
 F 0 "C26" V 7125 2925 60  0000 L CNN
 F 1 "C_100n_0402" H 6975 2950 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 7175 3300 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 7175 3300 60  0001 L CNN
 F 3 "" H 6975 3100 50  0001 C CNN
 F 4 "Walsin" H 7175 3500 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 7175 3400 60  0001 L CNN "MPN"
@@ -681,12 +681,12 @@ Wire Wire Line
 Wire Wire Line
 	6275 2150 7225 2150
 $Comp
-L antmicro-pcie-radio-module:NX3225SA-24M Y1
+L radio-module:NX3225SA-24M Y1
 U 1 1 6060E650
 P 3150 4300
 F 0 "Y1" H 3450 4565 50  0000 C CNN
 F 1 "NX3225SA-24M" H 3450 4474 50  0000 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:NDK-NX3225SA-0-0-MFG" H 3150 4850 50  0001 L CNN
+F 2 "radio-module-footprints:NDK-NX3225SA-0-0-MFG" H 3150 4850 50  0001 L CNN
 F 3 "https://www.ndk.com/images/products/catalog/c_NX3225SA-STD-CRS-2_e.pdf" H 3150 4800 50  0001 L CNN
 F 4 "NDK" H 3150 4950 50  0001 L CNN "Manufacturer"
 F 5 "NX3225SA-24.000M-STD-CSR-3 " H 3800 4700 50  0001 C CNN "MPN"
@@ -705,7 +705,7 @@ Connection ~ 3450 4700
 Wire Wire Line
 	3450 4700 3550 4700
 $Comp
-L antmicro-pcie-radio-module:GND #PWR05
+L radio-module:GND #PWR05
 U 1 1 6061A8B2
 P 3450 4825
 F 0 "#PWR05" H 3450 4575 50  0001 C CNN
@@ -716,7 +716,7 @@ F 3 "" H 3450 4825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:GND #PWR09
+L radio-module:GND #PWR09
 U 1 1 606238DC
 P 10100 4450
 F 0 "#PWR09" H 10100 4200 50  0001 C CNN
@@ -743,12 +743,12 @@ Wire Wire Line
 	3550 4700 3825 4700
 Connection ~ 3550 4700
 $Comp
-L antmicro-pcie-radio-module:R_680R_0402 R1
+L radio-module:R_680R_0402 R1
 U 1 1 60675367
 P 3450 3900
 F 0 "R1" H 3350 4000 60  0000 C CNN
 F 1 "R_680R_0402" H 3450 3750 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 3650 4100 60  0001 L CNN
+F 2 "radio-module-footprints:0402-res" H 3650 4100 60  0001 L CNN
 F 3 "" H 3450 3900 50  0001 C CNN
 F 4 "MULTICOMP PRO" H 3650 4300 60  0001 L CNN "Manufacturer"
 F 5 "MCWR04X6800FTL" H 3650 4200 60  0001 L CNN "MPN"
@@ -759,12 +759,12 @@ $EndComp
 Wire Wire Line
 	3300 3900 3050 3900
 $Comp
-L antmicro-pcie-radio-module:C_8p_0402 C24
+L radio-module:C_8p_0402 C24
 U 1 1 606828E7
 P 3825 4500
 F 0 "C24" H 3900 4600 60  0000 L CNN
 F 1 "C_8p_0402" H 3825 4350 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 4025 4700 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 4025 4700 60  0001 L CNN
 F 3 "" H 3825 4500 50  0001 C CNN
 F 4 "TDK" H 4025 4900 60  0001 L CNN "Manufacturer"
 F 5 "CGA2B2C0G1H080D050BA" H 4025 4800 60  0001 L CNN "MPN"
@@ -773,12 +773,12 @@ F 6 "8p" H 3900 4400 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:C_8p_0402 C12
+L radio-module:C_8p_0402 C12
 U 1 1 60682CE8
 P 3050 4500
 F 0 "C12" H 2850 4600 60  0000 L CNN
 F 1 "C_8p_0402" H 3050 4350 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 3250 4700 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 3250 4700 60  0001 L CNN
 F 3 "" H 3050 4500 50  0001 C CNN
 F 4 "TDK" H 3250 4900 60  0001 L CNN "Manufacturer"
 F 5 "CGA2B2C0G1H080D050BA" H 3250 4800 60  0001 L CNN "MPN"
@@ -809,7 +809,7 @@ Connection ~ 2525 3150
 Text GLabel 1975 1625 0    50   Input ~ 0
 3V3
 $Comp
-L antmicro-pcie-radio-module:GND #PWR07
+L radio-module:GND #PWR07
 U 1 1 606D9228
 P 6475 5550
 F 0 "#PWR07" H 6475 5300 50  0001 C CNN
@@ -829,12 +829,12 @@ Wire Wire Line
 	6475 5250 6475 5350
 Connection ~ 6475 5350
 $Comp
-L antmicro-pcie-radio-module:C_100n_0402 C27
+L radio-module:C_100n_0402 C27
 U 1 1 606E69A3
 P 10450 3800
 F 0 "C27" H 10475 3900 60  0000 L CNN
 F 1 "C_100n_0402" H 10450 3650 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-cap" H 10650 4000 60  0001 L CNN
+F 2 "radio-module-footprints:0402-cap" H 10650 4000 60  0001 L CNN
 F 3 "" H 10450 3800 50  0001 C CNN
 F 4 "Walsin" H 10650 4200 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10650 4100 60  0001 L CNN "MPN"
@@ -871,12 +871,12 @@ PETX_N
 Text GLabel 7225 3100 2    50   Input ~ 0
 PETX_P
 $Comp
-L antmicro-pcie-radio-module:R_10k_0402 R6
+L radio-module:R_10k_0402 R6
 U 1 1 60722513
 P 7975 4200
 F 0 "R6" V 7930 4270 60  0000 L CNN
 F 1 "R_10k_0402" H 7975 4050 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 8175 4400 60  0001 L CNN
+F 2 "radio-module-footprints:0402-res" H 8175 4400 60  0001 L CNN
 F 3 "" H 7975 4200 50  0001 C CNN
 F 4 "VISHAY" H 8175 4600 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 8175 4500 60  0001 L CNN "MPN"
@@ -885,12 +885,12 @@ F 6 "10k" V 8028 4270 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:R_10k_0402 R7
+L radio-module:R_10k_0402 R7
 U 1 1 6073125E
 P 8275 3375
 F 0 "R7" V 8230 3445 60  0000 L CNN
 F 1 "R_10k_0402" H 8275 3225 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 8475 3575 60  0001 L CNN
+F 2 "radio-module-footprints:0402-res" H 8475 3575 60  0001 L CNN
 F 3 "" H 8275 3375 50  0001 C CNN
 F 4 "VISHAY" H 8475 3775 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 8475 3675 60  0001 L CNN "MPN"
@@ -899,12 +899,12 @@ F 6 "10k" V 8328 3445 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:R_10k_0402 R13
+L radio-module:R_10k_0402 R13
 U 1 1 60738464
 P 10225 3375
 F 0 "R13" V 10180 3445 60  0000 L CNN
 F 1 "R_10k_0402" H 10225 3225 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 10425 3575 60  0001 L CNN
+F 2 "radio-module-footprints:0402-res" H 10425 3575 60  0001 L CNN
 F 3 "" H 10225 3375 50  0001 C CNN
 F 4 "VISHAY" H 10425 3775 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 10425 3675 60  0001 L CNN "MPN"
@@ -931,12 +931,12 @@ Connection ~ 7975 3650
 Wire Wire Line
 	7975 3650 9175 3650
 $Comp
-L antmicro-pcie-radio-module:R_10k_0402 R9
+L radio-module:R_10k_0402 R9
 U 1 1 60777ABB
 P 8550 3375
 F 0 "R9" V 8505 3445 60  0000 L CNN
 F 1 "R_10k_0402" H 8550 3225 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 8750 3575 60  0001 L CNN
+F 2 "radio-module-footprints:0402-res" H 8750 3575 60  0001 L CNN
 F 3 "" H 8550 3375 50  0001 C CNN
 F 4 "VISHAY" H 8750 3775 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 8750 3675 60  0001 L CNN "MPN"
@@ -945,12 +945,12 @@ F 6 "10k" V 8603 3445 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:R_10k_0402 R10
+L radio-module:R_10k_0402 R10
 U 1 1 60777E24
 P 8825 3375
 F 0 "R10" V 8780 3445 60  0000 L CNN
 F 1 "R_10k_0402" H 8825 3225 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 9025 3575 60  0001 L CNN
+F 2 "radio-module-footprints:0402-res" H 9025 3575 60  0001 L CNN
 F 3 "" H 8825 3375 50  0001 C CNN
 F 4 "VISHAY" H 9025 3775 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 9025 3675 60  0001 L CNN "MPN"
@@ -1000,12 +1000,12 @@ Wire Wire Line
 Wire Wire Line
 	9975 3650 10450 3650
 $Comp
-L antmicro-pcie-radio-module:R_10k_0402 R12
+L radio-module:R_10k_0402 R12
 U 1 1 607CCF4A
 P 10075 3375
 F 0 "R12" V 10025 3175 60  0000 L CNN
 F 1 "R_10k_0402" H 10075 3225 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 10275 3575 60  0001 L CNN
+F 2 "radio-module-footprints:0402-res" H 10275 3575 60  0001 L CNN
 F 3 "" H 10075 3375 50  0001 C CNN
 F 4 "VISHAY" H 10275 3775 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 10275 3675 60  0001 L CNN "MPN"
@@ -1021,32 +1021,32 @@ Connection ~ 10075 3150
 Wire Wire Line
 	10075 3150 8825 3150
 $Comp
-L antmicro-pcie-radio-module:R_10k_0402 R8
+L radio-module:R_10k_0402 R8
 U 1 1 607F6F80
 P 8275 4200
 F 0 "R8" V 8230 4270 60  0000 L CNN
 F 1 "R_10k_0402" H 8275 4050 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 8475 4400 60  0001 L CNN
+F 2 "radio-module-footprints:0402-res" H 8475 4400 60  0001 L CNN
 F 3 "" H 8275 4200 50  0001 C CNN
 F 4 "VISHAY" H 8475 4600 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 8475 4500 60  0001 L CNN "MPN"
 F 6 "10k" V 8328 4270 50  0000 L CNN "Val"
-F 7 "DNP" V 8275 4200 50  0001 C CNN "DNP"
+F 7 "DNP" V 8125 4350 50  0000 C CNN "DNP"
 	1    8275 4200
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:R_10k_0402 R11
+L radio-module:R_10k_0402 R11
 U 1 1 607F764D
 P 8825 4200
 F 0 "R11" V 8780 4270 60  0000 L CNN
 F 1 "R_10k_0402" H 8825 4050 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 9025 4400 60  0001 L CNN
+F 2 "radio-module-footprints:0402-res" H 9025 4400 60  0001 L CNN
 F 3 "" H 8825 4200 50  0001 C CNN
 F 4 "VISHAY" H 9025 4600 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 9025 4500 60  0001 L CNN "MPN"
 F 6 "10k" V 8878 4270 50  0000 L CNN "Val"
-F 7 "DNP" V 8825 4200 50  0001 C CNN "DNP"
+F 7 "DNP" V 8675 4350 50  0000 C CNN "DNP"
 	1    8825 4200
 	0    1    1    0   
 $EndComp
@@ -1064,10 +1064,6 @@ Wire Wire Line
 	8275 4050 8275 3750
 Wire Wire Line
 	8825 4050 8825 3950
-Text Notes 8325 4075 0    50   ~ 0
-DNP
-Text Notes 8875 4075 0    50   ~ 0
-DNP
 $Bitmap
 Pos 9425 2075
 Scale 1.000000
@@ -3301,12 +3297,12 @@ External ROM Fitted
 Text Notes 8675 4675 0    50   ~ 0
 External ROM Not Fitted\n
 $Comp
-L antmicro-pcie-radio-module:R_1k6_0402 R4
+L radio-module:R_1k6_0402 R4
 U 1 1 60843F51
 P 6550 3450
 F 0 "R4" H 6550 3550 60  0000 C CNN
 F 1 "R_1k6_0402" H 6550 3300 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 6750 3650 60  0001 L CNN
+F 2 "radio-module-footprints:0402-res" H 6750 3650 60  0001 L CNN
 F 3 "" H 6550 3450 50  0001 C CNN
 F 4 "MULTICOMP PRO" H 6750 3850 60  0001 L CNN "Manufacturer"
 F 5 "MCWR04X1601FTL " H 6750 3750 60  0001 L CNN "MPN"
@@ -3317,7 +3313,7 @@ $EndComp
 Wire Wire Line
 	6275 3450 6400 3450
 $Comp
-L antmicro-pcie-radio-module:GND #PWR08
+L radio-module:GND #PWR08
 U 1 1 6084F457
 P 6925 3450
 F 0 "#PWR08" H 6925 3200 50  0001 C CNN
@@ -3350,12 +3346,12 @@ Wire Wire Line
 Wire Wire Line
 	6275 4950 7175 4950
 $Comp
-L antmicro-pcie-radio-module:BLM21PG600SN FB1
+L radio-module:BLM21PG600SN FB1
 U 1 1 6096DF37
 P 2275 1625
 F 0 "FB1" H 2275 1912 60  0000 C CNN
 F 1 "BLM21PG600SN" H 2275 1806 60  0000 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0805-res" H 2475 1825 60  0001 L CNN
+F 2 "radio-module-footprints:0805-res" H 2475 1825 60  0001 L CNN
 F 3 "" H 2475 1925 60  0001 L CNN
 F 4 "BLM21PG600SN1" H 2475 1925 60  0001 L CNN "MPN"
 F 5 "Murata Electronics North America" H 2475 2025 60  0001 L CNN "Manufacturer"
@@ -3365,12 +3361,12 @@ $EndComp
 Wire Wire Line
 	1975 1625 2075 1625
 $Comp
-L antmicro-pcie-radio-module:C_10u_0805 C8
+L radio-module:C_10u_0805 C8
 U 1 1 60997A20
 P 2675 1825
 F 0 "C8" H 2700 1925 60  0000 L CNN
 F 1 "C_10u_0805" H 2675 1675 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0805-cap" H 2875 2025 60  0001 L CNN
+F 2 "radio-module-footprints:0805-cap" H 2875 2025 60  0001 L CNN
 F 3 "" H 2675 1825 50  0001 C CNN
 F 4 "JOHANSON_DIELECTRICS" H 2875 2225 60  0001 L CNN "Manufacturer"
 F 5 "160R15X106KV4E" H 2875 2125 60  0001 L CNN "MPN"
@@ -3379,7 +3375,7 @@ F 6 "10u" H 2725 1725 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:GND #PWR03
+L radio-module:GND #PWR03
 U 1 1 609985D2
 P 2675 2100
 F 0 "#PWR03" H 2675 1850 50  0001 C CNN
@@ -3414,12 +3410,12 @@ Wire Wire Line
 	6275 4200 6400 4200
 NoConn ~ 6400 4200
 $Comp
-L antmicro-pcie-radio-module:R_10k_0402 R2
+L radio-module:R_10k_0402 R2
 U 1 1 60A380EB
 P 4350 3750
 F 0 "R2" H 4350 3537 60  0000 C CNN
 F 1 "R_10k_0402" H 4350 3600 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 4550 3950 60  0001 L CNN
+F 2 "radio-module-footprints:0402-res" H 4550 3950 60  0001 L CNN
 F 3 "" H 4350 3750 50  0001 C CNN
 F 4 "VISHAY" H 4550 4150 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 4550 4050 60  0001 L CNN "MPN"
@@ -3437,12 +3433,12 @@ Wire Wire Line
 Wire Wire Line
 	4500 3750 4875 3750
 $Comp
-L antmicro-pcie-radio-module:R_10k_0402 R3
+L radio-module:R_10k_0402 R3
 U 1 1 6085538F
 P 4500 4300
 F 0 "R3" H 4500 4087 60  0000 C CNN
 F 1 "R_10k_0402" H 4500 4150 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 4700 4500 60  0001 L CNN
+F 2 "radio-module-footprints:0402-res" H 4700 4500 60  0001 L CNN
 F 3 "" H 4500 4300 50  0001 C CNN
 F 4 "VISHAY" H 4700 4700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 4700 4600 60  0001 L CNN "MPN"
@@ -3451,12 +3447,12 @@ F 6 "10k" H 4500 4185 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicro-pcie-radio-module:R_10k_0402 R5
+L radio-module:R_10k_0402 R5
 U 1 1 6085596C
 P 6625 4300
 F 0 "R5" H 6625 4087 60  0000 C CNN
 F 1 "R_10k_0402" H 6625 4150 60  0001 C CNN
-F 2 "antmicro-pcie-radio-module-footprints:0402-res" H 6825 4500 60  0001 L CNN
+F 2 "radio-module-footprints:0402-res" H 6825 4500 60  0001 L CNN
 F 3 "" H 6625 4300 50  0001 C CNN
 F 4 "VISHAY" H 6825 4700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 6825 4600 60  0001 L CNN "MPN"
@@ -3469,7 +3465,7 @@ Wire Wire Line
 Wire Wire Line
 	6275 4300 6475 4300
 $Comp
-L antmicro-pcie-radio-module:GND #PWR06
+L radio-module:GND #PWR06
 U 1 1 60870FF8
 P 4525 5150
 F 0 "#PWR06" H 4525 4900 50  0001 C CNN
@@ -3510,4 +3506,8 @@ Wire Wire Line
 	6850 4300 6775 4300
 Wire Wire Line
 	4275 4300 4350 4300
+Text Notes 5275 1775 0    99   ~ 20
+Bridge
+Text Notes 9375 3400 0    99   ~ 20
+ROM
 $EndSCHEMATC
