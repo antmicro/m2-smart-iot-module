@@ -474,7 +474,7 @@
     (uvia_drill 0.1)
   )
 
-  (module radio-module-footprints:Abracon-ABS06-32.768KHZ-T-0 (layer B.Cu) (tedit 608B4CC5) (tstamp 608B9969)
+  (module m2-smart-iot-module-footprints:Abracon-ABS06-32.768KHZ-T-0 (layer B.Cu) (tedit 608B4CC5) (tstamp 608B9969)
     (at 146.621499 98.7044 90)
     (path /60519809/608C8F28)
     (fp_text reference Y3 (at -2.1336 1.816101 90) (layer B.SilkS)
@@ -505,7 +505,7 @@
     )
   )
 
-  (module radio-module-footprints:Abracon-ABM11W-0-0-0 (layer F.Cu) (tedit 608B4CB8) (tstamp 608B9958)
+  (module m2-smart-iot-module-footprints:Abracon-ABM11W-0-0-0 (layer F.Cu) (tedit 608B4CB8) (tstamp 608B9958)
     (at 136.906001 100.838 180)
     (path /60519809/6085B290)
     (fp_text reference Y2 (at 1.574801 -1.524) (layer F.SilkS)
@@ -541,7 +541,7 @@
     )
   )
 
-  (module radio-module-footprints:NDK-NX3225SA-0-0-MFG (layer F.Cu) (tedit 604B9253) (tstamp 604B6C8F)
+  (module m2-smart-iot-module-footprints:NDK-NX3225SA-0-0-MFG (layer F.Cu) (tedit 604B9253) (tstamp 604B6C8F)
     (at 177.673 105.156 45)
     (path /604CFF57/6060E650)
     (fp_text reference Y1 (at -1.9 -2.15 45) (layer F.SilkS)
@@ -577,7 +577,7 @@
     )
   )
 
-  (module radio-module-footprints:Pressure_Sensor_LGA-8_2.5x2.5mm_BME280 (layer F.Cu) (tedit 5D28959C) (tstamp 610D83DF)
+  (module m2-smart-iot-module-footprints:Pressure_Sensor_LGA-8_2.5x2.5mm_BME280 (layer F.Cu) (tedit 5D28959C) (tstamp 610D83DF)
     (at 131.762499 102.5525)
     (path /60519809/61155EB6)
     (attr smd)
@@ -625,7 +625,7 @@
       (net 1 GND))
   )
 
-  (module radio-module-footprints:SOT-563 (layer F.Cu) (tedit 5E32E441) (tstamp 608B991E)
+  (module m2-smart-iot-module-footprints:SOT-563 (layer F.Cu) (tedit 5E32E441) (tstamp 608B991E)
     (at 184.912 96.266 90)
     (path /605233CC/60791878)
     (attr smd)
@@ -674,7 +674,7 @@
     )
   )
 
-  (module radio-module-footprints:ON_Semiconductor-517AB-04_2013-C-IPC_B (layer F.Cu) (tedit 608B3498) (tstamp 608B9902)
+  (module m2-smart-iot-module-footprints:ON_Semiconductor-517AB-04_2013-C-IPC_B (layer F.Cu) (tedit 608B3498) (tstamp 608B9902)
     (at 172.9232 108.966)
     (path /605233CC/608D0972)
     (fp_text reference U6 (at 1.4732 0.0508) (layer F.SilkS)
@@ -719,7 +719,7 @@
     )
   )
 
-  (module radio-module-footprints:VSON-10-1EP_3x3mm (layer F.Cu) (tedit 608B35E8) (tstamp 608B98E8)
+  (module m2-smart-iot-module-footprints:VSON-10-1EP_3x3mm (layer F.Cu) (tedit 608B35E8) (tstamp 608B98E8)
     (at 154.432 96.647 270)
     (path /605233CC/60791CE5)
     (attr smd)
@@ -776,7 +776,7 @@
     )
   )
 
-  (module radio-module-footprints:Nordic_Semiconductor-NRF52840-QIAA-R-0-0-MFG (layer F.Cu) (tedit 60A5211E) (tstamp 609EB1E2)
+  (module m2-smart-iot-module-footprints:Nordic_Semiconductor-NRF52840-QIAA-R-0-0-MFG (layer F.Cu) (tedit 60A5211E) (tstamp 609EB1E2)
     (at 140.3858 95.8215 180)
     (path /60519809/6051EB27)
     (fp_text reference U4 (at -5.1562 -3.5941) (layer F.SilkS)
@@ -958,7 +958,7 @@
     )
   )
 
-  (module radio-module-footprints:MODULE_G313-06329-00 (layer F.Cu) (tedit 608B4E0C) (tstamp 60ABE8E4)
+  (module m2-smart-iot-module-footprints:MODULE_G313-06329-00 (layer F.Cu) (tedit 608B4E0C) (tstamp 60ABE8E4)
     (at 146.05 108.077 270)
     (path /605198AB/60ADCC7E)
     (fp_text reference U3 (at -0.5842 8.3312 90) (layer F.SilkS)
@@ -1231,7 +1231,7 @@
     )
   )
 
-  (module radio-module-footprints:SOIC8-SST25VF512A-33-4I-SAE-Level_B (layer F.Cu) (tedit 604B925E) (tstamp 60959963)
+  (module m2-smart-iot-module-footprints:SOIC8-SST25VF512A-33-4I-SAE-Level_B (layer F.Cu) (tedit 604B925E) (tstamp 60959963)
     (at 169.418 98.0948 180)
     (path /604CFF57/604DE031)
     (fp_text reference U2 (at -4.75 -3.380002) (layer F.SilkS)
@@ -1278,7 +1278,7 @@
     )
   )
 
-  (module radio-module-footprints:QFN48-Renesas-UPD720202 (layer F.Cu) (tedit 604B9248) (tstamp 604B6C60)
+  (module m2-smart-iot-module-footprints:QFN48-Renesas-UPD720202 (layer F.Cu) (tedit 604B9248) (tstamp 604B6C60)
     (at 184.023 107.442 225)
     (path /604CFF57/604DD1C0)
     (fp_text reference U1 (at -2.891642 4.436247 45) (layer F.SilkS)
@@ -1414,7 +1414,7 @@
     )
   )
 
-  (module radio-module-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 608B9611)
+  (module m2-smart-iot-module-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 608B9611)
     (at 149.88 93.24)
     (path /605233CC/6098157D)
     (attr virtual)
@@ -1428,7 +1428,7 @@
       (net 74 5V_RADIO))
   )
 
-  (module radio-module-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 608B960C)
+  (module m2-smart-iot-module-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 608B960C)
     (at 176.33 95.91)
     (path /605233CC/60976FE7)
     (attr virtual)
@@ -1442,7 +1442,7 @@
       (net 57 1V05))
   )
 
-  (module radio-module-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 608B9607)
+  (module m2-smart-iot-module-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 608B9607)
     (at 155.956 104.2416 180)
     (path /605233CC/6096DC31)
     (attr virtual)
@@ -1456,7 +1456,7 @@
       (net 58 3V3_CORAL))
   )
 
-  (module radio-module-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 61112BDD)
+  (module m2-smart-iot-module-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 61112BDD)
     (at 173.736 112.014 180)
     (path /605233CC/608FD990)
     (attr virtual)
@@ -1470,7 +1470,7 @@
       (net 130 "Net-(R29-Pad2)"))
   )
 
-  (module radio-module-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 60B06717)
+  (module m2-smart-iot-module-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 60B06717)
     (at 138.06 102.69)
     (path /60519809/60ADE789)
     (attr virtual)
@@ -1484,7 +1484,7 @@
       (net 175 "Net-(TP23-Pad1)"))
   )
 
-  (module radio-module-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 60B06703)
+  (module m2-smart-iot-module-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 60B06703)
     (at 132.47 92.2508)
     (path /60519809/60AA64FE)
     (attr virtual)
@@ -1498,7 +1498,7 @@
       (net 174 "Net-(TP19-Pad1)"))
   )
 
-  (module radio-module-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 60B066FE)
+  (module m2-smart-iot-module-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 60B066FE)
     (at 133.735 92.2508)
     (path /60519809/60AA6087)
     (attr virtual)
@@ -1512,7 +1512,7 @@
       (net 173 "Net-(TP18-Pad1)"))
   )
 
-  (module radio-module-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 60B066F9)
+  (module m2-smart-iot-module-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 60B066F9)
     (at 134.77 92.1908)
     (path /60519809/60AA5CD2)
     (attr virtual)
@@ -1526,7 +1526,7 @@
       (net 172 "Net-(TP17-Pad1)"))
   )
 
-  (module radio-module-footprints:Testpoint_smd_1mm (layer B.Cu) (tedit 5E4A935B) (tstamp 60B066F4)
+  (module m2-smart-iot-module-footprints:Testpoint_smd_1mm (layer B.Cu) (tedit 5E4A935B) (tstamp 60B066F4)
     (at 135.88 92.1092)
     (path /60519809/60AD28DE)
     (attr virtual)
@@ -1540,7 +1540,7 @@
       (net 171 "Net-(TP16-Pad1)"))
   )
 
-  (module radio-module-footprints:Testpoint_smd_1mm (layer B.Cu) (tedit 5E4A935B) (tstamp 60B066E5)
+  (module m2-smart-iot-module-footprints:Testpoint_smd_1mm (layer B.Cu) (tedit 5E4A935B) (tstamp 60B066E5)
     (at 138.09 92.78)
     (path /60519809/60A68DA5)
     (attr virtual)
@@ -1554,7 +1554,7 @@
       (net 170 "Net-(TP12-Pad1)"))
   )
 
-  (module radio-module-footprints:Testpoint_smd_1mm (layer B.Cu) (tedit 5E4A935B) (tstamp 60B066E0)
+  (module m2-smart-iot-module-footprints:Testpoint_smd_1mm (layer B.Cu) (tedit 5E4A935B) (tstamp 60B066E0)
     (at 139.4 92.74)
     (path /60519809/60A55842)
     (attr virtual)
@@ -1568,7 +1568,7 @@
       (net 169 "Net-(TP11-Pad1)"))
   )
 
-  (module radio-module-footprints:CK-PTS840_GK_SMTR_LFS-0 (layer F.Cu) (tedit 608B3399) (tstamp 60B066AE)
+  (module m2-smart-iot-module-footprints:CK-PTS840_GK_SMTR_LFS-0 (layer F.Cu) (tedit 608B3399) (tstamp 60B066AE)
     (at 172.81 93.23 180)
     (path /605233CC/60C2B4A3)
     (fp_text reference SW2 (at -5.752 -1.3596) (layer F.SilkS)
@@ -1605,7 +1605,7 @@
     )
   )
 
-  (module radio-module-footprints:CK-PTS840_GK_SMTR_LFS-0 (layer F.Cu) (tedit 608B3399) (tstamp 608B9585)
+  (module m2-smart-iot-module-footprints:CK-PTS840_GK_SMTR_LFS-0 (layer F.Cu) (tedit 608B3399) (tstamp 608B9585)
     (at 167.33 93.26 180)
     (path /60519809/6094BF1C)
     (fp_text reference SW1 (at 4.0588 1.1088 90) (layer F.SilkS)
@@ -1642,7 +1642,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 610E6799)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 610E6799)
     (at 132.842 99.568)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1676,7 +1676,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 610E678A)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 610E678A)
     (at 132.842 100.5586)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1710,7 +1710,7 @@
     )
   )
 
-  (module radio-module-footprints:0805-res (layer F.Cu) (tedit 604A6D24) (tstamp 60B06671)
+  (module m2-smart-iot-module-footprints:0805-res (layer F.Cu) (tedit 604A6D24) (tstamp 60B06671)
     (at 173.09 106.05 180)
     (path /605233CC/60BEAADD)
     (attr smd)
@@ -1741,7 +1741,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60B06661)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60B06661)
     (at 149.21 101.23 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1775,7 +1775,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 60B06652)
+  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 60B06652)
     (at 141.16 103.15 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1809,7 +1809,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60B06643)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60B06643)
     (at 153.07 101.25)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1843,7 +1843,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608B956F)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608B956F)
     (at 184.658 98.806 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1877,7 +1877,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608B9560)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608B9560)
     (at 184.658 99.822)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1911,7 +1911,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608B9551)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608B9551)
     (at 172.2628 110.8456)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1945,7 +1945,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608B9542)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608B9542)
     (at 176.1236 110.8456)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1979,7 +1979,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60B065C4)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60B065C4)
     (at 155.275 99.82 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2013,7 +2013,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608B9524)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608B9524)
     (at 186.436 94.234 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2047,7 +2047,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60ACF504)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60ACF504)
     (at 174.1932 110.8456 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2081,7 +2081,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 608B9506)
+  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 608B9506)
     (at 178.162 92.573)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2115,7 +2115,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 608B94F7)
+  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 608B94F7)
     (at 178.162 93.589 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2149,7 +2149,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608B94E8)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608B94E8)
     (at 189.611 98.298 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2183,7 +2183,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608B94D9)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608B94D9)
     (at 189.611 110.744 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2217,7 +2217,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608B94CA)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608B94CA)
     (at 189.611 111.76 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2251,7 +2251,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608CF141)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608CF141)
     (at 189.611 93.218 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2285,7 +2285,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 608B94AC)
+  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 608B94AC)
     (at 149.86 98.2345 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2319,7 +2319,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 608B949D)
+  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 608B949D)
     (at 149.86 97.2185 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2353,7 +2353,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 608B948E)
+  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 608B948E)
     (at 149.86 96.2025 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2387,7 +2387,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 608B947F)
+  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 608B947F)
     (at 149.86 99.2505 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2421,7 +2421,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608B9470)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 608B9470)
     (at 137.16 105.41 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2455,7 +2455,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 609F47FE)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 609F47FE)
     (at 147.98 94.22 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2489,7 +2489,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60B0642D)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60B0642D)
     (at 151.14 101.26 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2523,7 +2523,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60B0641E)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60B0641E)
     (at 147.45 102.23 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2557,7 +2557,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60B0640F)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60B0640F)
     (at 145.56 102.22 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2591,7 +2591,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60959A44)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60959A44)
     (at 174.498 97.4598 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2625,7 +2625,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60959864)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60959864)
     (at 164.084 98.7298)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2659,7 +2659,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 609599A8)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 609599A8)
     (at 164.084 95.6818 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2693,7 +2693,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60959927)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60959927)
     (at 164.084 96.6978)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2727,7 +2727,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 609599D8)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 609599D8)
     (at 174.498 98.4758 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2761,7 +2761,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 6095989D)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 6095989D)
     (at 174.498 99.4918)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2795,7 +2795,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60959A02)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 60959A02)
     (at 174.498 100.5078 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2829,7 +2829,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 609598F7)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 609598F7)
     (at 164.084 97.7138 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2863,7 +2863,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 608B93B5)
+  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 608B93B5)
     (at 181.102 103.378 315)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2897,7 +2897,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 604B6B9D)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 604B6B9D)
     (at 179.578 110.236 225)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2931,7 +2931,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 608B9398)
+  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 608B9398)
     (at 180.34 104.14 135)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2965,7 +2965,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 604B6B8E)
+  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 604B6B8E)
     (at 184.785 103.759 225)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2999,7 +2999,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 604B6B7F)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 604B6B7F)
     (at 178.054 108.712 45)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3033,7 +3033,7 @@
     )
   )
 
-  (module radio-module-footprints:OSHW-Logo2_7.3x6mm_Copper_Mask (layer F.Cu) (tedit 5DDD1663) (tstamp 60ABB36D)
+  (module m2-smart-iot-module-footprints:OSHW-Logo2_7.3x6mm_Copper_Mask (layer F.Cu) (tedit 5DDD1663) (tstamp 60ABB36D)
     (at 120.11 109.67 90)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
@@ -3607,7 +3607,7 @@
       (xy -2.549664 1.91989) (xy -2.469928 1.911165) (xy -2.400256 1.919918)) (layer F.Cu) (width 0.01))
   )
 
-  (module radio-module-footprints:antmicro-logo_scaled_12mm (layer F.Cu) (tedit 5E4A93F3) (tstamp 60ABB34F)
+  (module m2-smart-iot-module-footprints:antmicro-logo_scaled_12mm (layer F.Cu) (tedit 5E4A93F3) (tstamp 60ABB34F)
     (at 126.06 106.55 90)
     (path /60AD7EB0)
     (attr virtual)
@@ -3922,7 +3922,7 @@
     )
   )
 
-  (module radio-module-footprints:M.2-Stud (layer F.Cu) (tedit 60AB0FD7) (tstamp 60ABB312)
+  (module m2-smart-iot-module-footprints:M.2-Stud (layer F.Cu) (tedit 60AB0FD7) (tstamp 60ABB312)
     (at 115.2525 102.4255)
     (path /60AD88CE)
     (fp_text reference MP1 (at 6.25 -4.01) (layer F.SilkS) hide
@@ -3997,7 +3997,7 @@
       (xy -0.476666 -1.784933) (xy -0.476666 -2.702669) (xy -0.302041 -2.695091)) (layer F.Mask) (width 0.01))
   )
 
-  (module radio-module-footprints:Murata-DFE201610C-0-0-IPC_B (layer F.Cu) (tedit 608B362D) (tstamp 608B9351)
+  (module m2-smart-iot-module-footprints:Murata-DFE201610C-0-0-IPC_B (layer F.Cu) (tedit 608B362D) (tstamp 608B9351)
     (at 183.388 93.472 180)
     (path /605233CC/607F6239)
     (fp_text reference L6 (at -2.9972 1.3716) (layer F.SilkS)
@@ -4028,7 +4028,7 @@
     )
   )
 
-  (module radio-module-footprints:Coilcraft-XFL4020-0-0-MFG (layer F.Cu) (tedit 608B4359) (tstamp 608CC0E3)
+  (module m2-smart-iot-module-footprints:Coilcraft-XFL4020-0-0-MFG (layer F.Cu) (tedit 608B4359) (tstamp 608CC0E3)
     (at 158.749999 93.98 180)
     (path /605233CC/60A715EE)
     (fp_text reference L5 (at -3.606801 1.7272) (layer F.SilkS)
@@ -4061,7 +4061,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 609EC386)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 609EC386)
     (at 134.3025 96.139 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4095,7 +4095,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 608B9310)
+  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 604A5761) (tstamp 608B9310)
     (at 141.986 100.4316)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4129,7 +4129,7 @@
     )
   )
 
-  (module radio-module-footprints:0603-res (layer F.Cu) (tedit 604A5715) (tstamp 60AD0966)
+  (module m2-smart-iot-module-footprints:0603-res (layer F.Cu) (tedit 604A5715) (tstamp 60AD0966)
     (at 145.18 92.87 90)
     (path /60519809/60987123)
     (attr smd)
@@ -4164,7 +4164,7 @@
     )
   )
 
-  (module radio-module-footprints:0603-res (layer F.Cu) (tedit 604A5715) (tstamp 609ED008)
+  (module m2-smart-iot-module-footprints:0603-res (layer F.Cu) (tedit 604A5715) (tstamp 609ED008)
     (at 142.3924 100.3808 180)
     (path /60519809/60989159)
     (attr smd)
@@ -4199,7 +4199,7 @@
     )
   )
 
-  (module radio-module-footprints:M.2-M+B-Keys (layer F.Cu) (tedit 60AAF599) (tstamp 6053FFA1)
+  (module m2-smart-iot-module-footprints:M.2-M+B-Keys (layer F.Cu) (tedit 60AAF599) (tstamp 6053FFA1)
     (at 194.9234 96.9576)
     (path /60515963/60515A11)
     (fp_text reference J3 (at -2.2606 -6.485) (layer F.SilkS) hide
@@ -4892,7 +4892,7 @@
       (net 114 /M2-Pins/CFG3) (zone_connect 2))
   )
 
-  (module radio-module-footprints:ARM_SWD (layer F.Cu) (tedit 608B503F) (tstamp 608E065E)
+  (module m2-smart-iot-module-footprints:ARM_SWD (layer F.Cu) (tedit 608B503F) (tstamp 608E065E)
     (at 133.477 109.474)
     (path /60519809/60AB3814)
     (fp_text reference J2 (at -4.699 0.0508) (layer F.SilkS)
@@ -4938,7 +4938,7 @@
     )
   )
 
-  (module radio-module-footprints:Murata-MM8130-2600RA2-MFG (layer F.Cu) (tedit 608B2D5C) (tstamp 608B9043)
+  (module m2-smart-iot-module-footprints:Murata-MM8130-2600RA2-MFG (layer F.Cu) (tedit 608B2D5C) (tstamp 608B9043)
     (at 128.143 96.139 270)
     (path /60519809/6087B7E4)
     (fp_text reference J1 (at -2.1082 -0.635 180) (layer F.SilkS)
@@ -4984,7 +4984,7 @@
     )
   )
 
-  (module radio-module-footprints:0805-res (layer F.Cu) (tedit 604A6D24) (tstamp 608CF115)
+  (module m2-smart-iot-module-footprints:0805-res (layer F.Cu) (tedit 604A6D24) (tstamp 608CF115)
     (at 188.58 100.325 180)
     (path /604CFF57/6096DF37)
     (attr smd)
@@ -5015,7 +5015,7 @@
     )
   )
 
-  (module radio-module-footprints:LED0603 (layer F.Cu) (tedit 608B308F) (tstamp 60959286)
+  (module m2-smart-iot-module-footprints:LED0603 (layer F.Cu) (tedit 608B308F) (tstamp 60959286)
     (at 178.193499 92.479999 180)
     (path /605233CC/60BFCE95)
     (attr smd)
@@ -5036,7 +5036,7 @@
     )
   )
 
-  (module radio-module-footprints:LED0603 (layer F.Cu) (tedit 608B308F) (tstamp 6095926E)
+  (module m2-smart-iot-module-footprints:LED0603 (layer F.Cu) (tedit 608B308F) (tstamp 6095926E)
     (at 178.113499 93.581999)
     (path /605233CC/60BFEE35)
     (attr smd)
@@ -5057,7 +5057,7 @@
     )
   )
 
-  (module radio-module-footprints:LED_APHF1608LSEEQBDZGKC (layer F.Cu) (tedit 608B51CD) (tstamp 608B8FFD)
+  (module m2-smart-iot-module-footprints:LED_APHF1608LSEEQBDZGKC (layer F.Cu) (tedit 608B51CD) (tstamp 608B8FFD)
     (at 147.574 97.282)
     (path /60519809/60DF33FA)
     (fp_text reference D2 (at 0.5588 -1.1684) (layer F.SilkS)
@@ -5093,7 +5093,7 @@
     )
   )
 
-  (module radio-module-footprints:LED0603 (layer F.Cu) (tedit 608B308F) (tstamp 608B8FE9)
+  (module m2-smart-iot-module-footprints:LED0603 (layer F.Cu) (tedit 608B308F) (tstamp 608B8FE9)
     (at 147.574 99.314)
     (path /60519809/60C84DFC)
     (attr smd)
@@ -5114,7 +5114,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 610D745F)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 610D745F)
     (at 131.064 104.521)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5148,7 +5148,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 610D7450)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 610D7450)
     (at 133.009499 104.521 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5182,7 +5182,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 60B0B5F1)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 60B0B5F1)
     (at 146.53 101.23)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5216,7 +5216,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 60B08C56)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 60B08C56)
     (at 150.185 102.23 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5250,7 +5250,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 60B05B43)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 60B05B43)
     (at 153.075 102.26)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5284,7 +5284,7 @@
     )
   )
 
-  (module radio-module-footprints:0805-cap (layer F.Cu) (tedit 604A6E21) (tstamp 608B8FE3)
+  (module m2-smart-iot-module-footprints:0805-cap (layer F.Cu) (tedit 604A6E21) (tstamp 608B8FE3)
     (at 178.562 97.027999 270)
     (path /605233CC/607DF2DE)
     (attr smd)
@@ -5315,7 +5315,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8FD3)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8FD3)
     (at 149.86 94.869 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5349,7 +5349,7 @@
     )
   )
 
-  (module radio-module-footprints:Panasonic_Electronic_Components-CD-0-0-MFG (layer F.Cu) (tedit 608B3442) (tstamp 608B8FC4)
+  (module m2-smart-iot-module-footprints:Panasonic_Electronic_Components-CD-0-0-MFG (layer F.Cu) (tedit 608B3442) (tstamp 608B8FC4)
     (at 159.258001 108.211 90)
     (path /605233CC/6093401B)
     (fp_text reference C64 (at 4.4774 1.981199 90) (layer F.SilkS)
@@ -5386,7 +5386,7 @@
     )
   )
 
-  (module radio-module-footprints:0805-cap (layer F.Cu) (tedit 604A6E21) (tstamp 608B8FAD)
+  (module m2-smart-iot-module-footprints:0805-cap (layer F.Cu) (tedit 604A6E21) (tstamp 608B8FAD)
     (at 180.467 97.028 270)
     (path /605233CC/607DF04B)
     (attr smd)
@@ -5417,7 +5417,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8F9D)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8F9D)
     (at 150.876 94.869 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5451,7 +5451,7 @@
     )
   )
 
-  (module radio-module-footprints:Panasonic_Electronic_Components-CD-0-0-MFG (layer F.Cu) (tedit 608B3442) (tstamp 608B8F8E)
+  (module m2-smart-iot-module-footprints:Panasonic_Electronic_Components-CD-0-0-MFG (layer F.Cu) (tedit 608B3442) (tstamp 608B8F8E)
     (at 164.084 108.211 90)
     (path /605233CC/60933C24)
     (fp_text reference C61 (at 4.4774 1.9304 90) (layer F.SilkS)
@@ -5488,7 +5488,7 @@
     )
   )
 
-  (module radio-module-footprints:0805-cap (layer F.Cu) (tedit 604A6E21) (tstamp 60AD02F7)
+  (module m2-smart-iot-module-footprints:0805-cap (layer F.Cu) (tedit 604A6E21) (tstamp 60AD02F7)
     (at 182.372 97.027999 270)
     (path /605233CC/607DE49C)
     (attr smd)
@@ -5519,7 +5519,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8F67)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8F67)
     (at 151.892 94.869 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5553,7 +5553,7 @@
     )
   )
 
-  (module radio-module-footprints:Panasonic_Electronic_Components-CD-0-0-MFG (layer F.Cu) (tedit 608B3442) (tstamp 608B8F58)
+  (module m2-smart-iot-module-footprints:Panasonic_Electronic_Components-CD-0-0-MFG (layer F.Cu) (tedit 608B3442) (tstamp 608B8F58)
     (at 168.91 108.211 90)
     (path /605233CC/609334A7)
     (fp_text reference C58 (at 4.4774 1.9812 90) (layer F.SilkS)
@@ -5590,7 +5590,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8F41)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8F41)
     (at 152.273 97.79 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5624,7 +5624,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608C7405)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608C7405)
     (at 186.944 96.012 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5658,7 +5658,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8F23)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8F23)
     (at 156.972 97.917001 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5692,7 +5692,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8F14)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8F14)
     (at 157.988 97.917 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5726,7 +5726,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8F05)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8F05)
     (at 159.004 97.917001 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5760,7 +5760,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8EF6)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8EF6)
     (at 125.984 96.6724 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5794,7 +5794,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8EE7)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8EE7)
     (at 130.4036 96.647 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5828,7 +5828,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 609EC35C)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 609EC35C)
     (at 132.842 96.647 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5862,7 +5862,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8EC9)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8EC9)
     (at 138.811 100.838 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5896,7 +5896,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8EBA)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8EBA)
     (at 146.852501 96.7994)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5930,7 +5930,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 609EC332)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 609EC332)
     (at 135.763 96.647 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5964,7 +5964,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8E9C)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8E9C)
     (at 146.8755 100.6094)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5998,7 +5998,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8E8D)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8E8D)
     (at 135.001 100.838 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6032,7 +6032,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8E7E)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8E7E)
     (at 137.16 104.394)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6066,7 +6066,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8E6F)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8E6F)
     (at 141.986 98.4504 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6100,7 +6100,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8E60)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8E60)
     (at 141.986 99.4156 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6134,7 +6134,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8E51)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8E51)
     (at 136.91 93.64 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6168,7 +6168,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8E42)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8E42)
     (at 144.77 93.59)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6202,7 +6202,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8E33)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8E33)
     (at 137.795 99.187 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6236,7 +6236,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8E24)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8E24)
     (at 137.42 95.56 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6270,7 +6270,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8E15)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8E15)
     (at 135.4836 99.1108 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6304,7 +6304,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8E06)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8E06)
     (at 141.62 92.9)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6338,7 +6338,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8DF7)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8DF7)
     (at 143.891 99.06 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6372,7 +6372,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8DE8)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8DE8)
     (at 139.7 99.187)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6406,7 +6406,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8DD9)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608B8DD9)
     (at 143.891 97.132 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6440,7 +6440,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 609F473A)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 609F473A)
     (at 147.03 92.7)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6474,7 +6474,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 609F4828)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 609F4828)
     (at 146.42 94.67 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6508,7 +6508,7 @@
     )
   )
 
-  (module radio-module-footprints:0805-cap (layer F.Cu) (tedit 604A6E21) (tstamp 608B8DAC)
+  (module m2-smart-iot-module-footprints:0805-cap (layer F.Cu) (tedit 604A6E21) (tstamp 608B8DAC)
     (at 155.956 107.188 270)
     (path /605198AB/60798FE5)
     (attr smd)
@@ -6539,7 +6539,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608D45EA)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608D45EA)
     (at 154.432 108.481 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6573,7 +6573,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8D8D)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608B8D8D)
     (at 154.432 105.791 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6607,7 +6607,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 609598C7)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 609598C7)
     (at 167.5384 101.5238)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6641,7 +6641,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 604B6B51)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 604B6B51)
     (at 189.611 105.41 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6675,7 +6675,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 604B6B24)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 604B6B24)
     (at 189.611 104.394 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6709,7 +6709,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 604B6B15)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 604B6B15)
     (at 179.451 103.378 315)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6743,7 +6743,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6B06)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6B06)
     (at 187.3885 108.3945 135)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6777,7 +6777,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6AF7)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6AF7)
     (at 185.166 110.617 135)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6811,7 +6811,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608CD83C)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608CD83C)
     (at 178.816 109.474 225)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6845,7 +6845,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6AD9)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6AD9)
     (at 185.928 109.855 135)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6879,7 +6879,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6ACA)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6ACA)
     (at 183.642 111.252 45)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6913,7 +6913,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6ABB)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6ABB)
     (at 187.833 106.807 225)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6947,7 +6947,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604BA28D)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604BA28D)
     (at 186.69 109.093 135)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6981,7 +6981,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6A9D)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6A9D)
     (at 180.34 106.299 315)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7015,7 +7015,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6A8E)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6A8E)
     (at 188.5315 107.5055 225)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7049,7 +7049,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6A7F)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6A7F)
     (at 184.023 102.997 225)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7083,7 +7083,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6A70)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6A70)
     (at 181.102 107.696 45)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7117,7 +7117,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608E7992)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 608E7992)
     (at 176.147053 107.127053 135)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7151,7 +7151,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6A52)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6A52)
     (at 185.547 104.521 225)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7185,7 +7185,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 604B6A43)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 604B6A43)
     (at 183.3372 101.4476 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7219,7 +7219,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6A34)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6A34)
     (at 186.309 105.283 225)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7253,7 +7253,7 @@
     )
   )
 
-  (module radio-module-footprints:0805-cap (layer F.Cu) (tedit 604A6E21) (tstamp 608CF16C)
+  (module m2-smart-iot-module-footprints:0805-cap (layer F.Cu) (tedit 604A6E21) (tstamp 608CF16C)
     (at 188.595001 102.235001)
     (path /604CFF57/60997A20)
     (attr smd)
@@ -7284,7 +7284,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6A15)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B6A15)
     (at 187.071 106.045 225)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7318,7 +7318,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 604B6A06)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 608B3191) (tstamp 604B6A06)
     (at 186.563 112.4204)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7352,7 +7352,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B69F7)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B69F7)
     (at 183.388 109.982 45)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7386,7 +7386,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B69E8)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B69E8)
     (at 182.626 109.22 45)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7420,7 +7420,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608EBB27)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 608EBB27)
     (at 181.864 108.458 45)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7454,7 +7454,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B69CA)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 604B69CA)
     (at 181.356 105.918 315)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7488,7 +7488,7 @@
     )
   )
 
-  (module radio-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 61114049)
+  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 608B3191) (tstamp 61114049)
     (at 182.118 105.156 315)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7522,7 +7522,7 @@
     )
   )
 
-  (module radio-module-footprints:Linx-ANT-2.45-CHP-T-MFG (layer F.Cu) (tedit 60A684B6) (tstamp 604C3FCB)
+  (module m2-smart-iot-module-footprints:Linx-ANT-2.45-CHP-T-MFG (layer F.Cu) (tedit 60A684B6) (tstamp 604C3FCB)
     (at 121.0564 96.1644 180)
     (path /60519809/6053CAE5)
     (fp_text reference ANT1 (at -4 -2.25) (layer F.SilkS) hide
