@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
-Title "Radio Module"
-Date ""
-Rev ""
+Title "M.2 Smart IoT Module"
+Date "2021-08-11"
+Rev "1.0.0"
 Comp ""
-Comment1 "Radio Module"
-Comment2 ""
+Comment1 "www.antmicro.com"
+Comment2 "Antmicro Ltd."
 Comment3 ""
 Comment4 ""
 $EndDescr
