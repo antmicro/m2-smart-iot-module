@@ -132,15 +132,11 @@ Connection ~ 7525 4800
 Wire Wire Line
 	7525 4800 7525 5100
 Wire Wire Line
-	9675 7050 9675 3650
-Connection ~ 9675 3650
-Wire Wire Line
 	9525 7050 9675 7050
 Wire Wire Line
 	9525 7150 9675 7150
 Wire Wire Line
 	9675 7150 9675 7050
-Connection ~ 9675 7050
 Wire Wire Line
 	9525 7250 9675 7250
 Wire Wire Line
@@ -174,7 +170,8 @@ F 2 "m2-smart-iot-module-footprints:0402-res" H 5325 3575 60  0001 L CNN
 F 3 "" H 5125 3375 50  0001 C CNN
 F 4 "PANASONIC" H 5325 3775 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 5325 3675 60  0001 L CNN "MPN"
-F 6 "0R" H 5125 3275 50  0000 C CNN "Val"
+F 6 "0R" H 5125 3375 50  0000 C CNN "Val"
+F 7 "DNP" H 5125 3300 50  0000 C CNN "DNP"
 	1    5125 3375
 	1    0    0    -1  
 $EndComp
@@ -201,7 +198,8 @@ F 2 "m2-smart-iot-module-footprints:0402-res" H 5325 3875 60  0001 L CNN
 F 3 "" H 5125 3675 50  0001 C CNN
 F 4 "PANASONIC" H 5325 4075 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 5325 3975 60  0001 L CNN "MPN"
-F 6 "0R" H 5125 3575 50  0000 C CNN "Val"
+F 6 "0R" H 5125 3675 50  0000 C CNN "Val"
+F 7 "DNP" H 5125 3600 50  0000 C CNN "DNP"
 	1    5125 3675
 	1    0    0    -1  
 $EndComp
@@ -217,7 +215,8 @@ F 2 "m2-smart-iot-module-footprints:0402-res" H 5325 4175 60  0001 L CNN
 F 3 "" H 5125 3975 50  0001 C CNN
 F 4 "PANASONIC" H 5325 4375 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 5325 4275 60  0001 L CNN "MPN"
-F 6 "0R" H 5125 3875 50  0000 C CNN "Val"
+F 6 "0R" H 5125 3975 50  0000 C CNN "Val"
+F 7 "DNP" H 5125 3900 50  0000 C CNN "DNP"
 	1    5125 3975
 	1    0    0    -1  
 $EndComp
@@ -233,7 +232,8 @@ F 2 "m2-smart-iot-module-footprints:0402-res" H 5325 4475 60  0001 L CNN
 F 3 "" H 5125 4275 50  0001 C CNN
 F 4 "PANASONIC" H 5325 4675 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 5325 4575 60  0001 L CNN "MPN"
-F 6 "0R" H 5125 4175 50  0000 C CNN "Val"
+F 6 "0R" H 5125 4275 50  0000 C CNN "Val"
+F 7 "DNP" H 5125 4200 50  0000 C CNN "DNP"
 	1    5125 4275
 	1    0    0    -1  
 $EndComp
@@ -278,4 +278,10 @@ NoConn ~ 7825 5300
 NoConn ~ 7825 3750
 NoConn ~ 7825 3850
 NoConn ~ 7825 4050
+Text GLabel 9925 7150 2    50   Input ~ 0
+3V3
+Wire Wire Line
+	9925 7150 9675 7150
+Text Notes 7950 2875 0    100  ~ 20
+M.2 M+B Connector
 $EndSCHEMATC
