@@ -29,14 +29,14 @@ $EndComp
 $Comp
 L m2-smart-iot-module:NRF52840 U4
 U 2 1 6051FCF4
-P 3100 7500
-F 0 "U4" H 4175 7765 50  0000 C CNN
-F 1 "NRF52840" H 4175 7674 50  0000 C CNN
-F 2 "m2-smart-iot-module-footprints:Nordic_Semiconductor-NRF52840-QIAA-R-0-0-MFG" H 3100 7900 50  0001 L CNN
-F 3 "https://www.nordicsemi.com/-/media/DocLib/Other/Product_Spec/nRF52840PSv11pdf.pdf" H 3100 8000 50  0001 L CNN
-F 4 "NRF52840-QIAA-R" H 3450 8000 50  0001 C CNN "MPN"
-F 5 "Nordic Semiconductor" H 3100 8100 50  0001 L CNN "Manufacturer"
-	2    3100 7500
+P 2575 7550
+F 0 "U4" H 3650 7815 50  0000 C CNN
+F 1 "NRF52840" H 3650 7724 50  0000 C CNN
+F 2 "m2-smart-iot-module-footprints:Nordic_Semiconductor-NRF52840-QIAA-R-0-0-MFG" H 2575 7950 50  0001 L CNN
+F 3 "https://www.nordicsemi.com/-/media/DocLib/Other/Product_Spec/nRF52840PSv11pdf.pdf" H 2575 8050 50  0001 L CNN
+F 4 "NRF52840-QIAA-R" H 2925 8050 50  0001 C CNN "MPN"
+F 5 "Nordic Semiconductor" H 2575 8150 50  0001 L CNN "Manufacturer"
+	2    2575 7550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -171,7 +171,7 @@ Wire Wire Line
 	6350 3100 5050 3100
 Wire Wire Line
 	5050 3200 6350 3200
-Text GLabel 3875 4725 0    50   Input ~ 0
+Text GLabel 925  1925 0    50   Input ~ 0
 5V_RADIO
 $Comp
 L m2-smart-iot-module:C_100n_0402 C36
@@ -244,30 +244,30 @@ Wire Wire Line
 $Comp
 L m2-smart-iot-module:C_4u7_0402 C31
 U 1 1 607F85FF
-P 4325 4950
-F 0 "C31" H 4440 4995 60  0000 L CNN
-F 1 "C_4u7_0402" H 4325 4800 60  0001 C CNN
-F 2 "m2-smart-iot-module-footprints:0402-cap" H 4525 5150 60  0001 L CNN
-F 3 "" H 4325 4950 50  0001 C CNN
-F 4 "MURATA" H 4525 5350 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R61A475MEAAD" H 4525 5250 60  0001 L CNN "MPN"
-F 6 "4u7" H 4440 4897 50  0000 L CNN "Val"
-	1    4325 4950
+P 1375 2150
+F 0 "C31" H 1490 2195 60  0000 L CNN
+F 1 "C_4u7_0402" H 1375 2000 60  0001 C CNN
+F 2 "m2-smart-iot-module-footprints:0402-cap" H 1575 2350 60  0001 L CNN
+F 3 "" H 1375 2150 50  0001 C CNN
+F 4 "MURATA" H 1575 2550 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61A475MEAAD" H 1575 2450 60  0001 L CNN "MPN"
+F 6 "4u7" H 1490 2097 50  0000 L CNN "Val"
+	1    1375 2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L m2-smart-iot-module:GND #PWR016
 U 1 1 607FD267
-P 4325 5150
-F 0 "#PWR016" H 4325 4900 50  0001 C CNN
-F 1 "GND" H 4330 4977 50  0000 C CNN
-F 2 "" H 4325 5150 50  0001 C CNN
-F 3 "" H 4325 5150 50  0001 C CNN
-	1    4325 5150
+P 1375 2350
+F 0 "#PWR016" H 1375 2100 50  0001 C CNN
+F 1 "GND" H 1380 2177 50  0000 C CNN
+F 2 "" H 1375 2350 50  0001 C CNN
+F 3 "" H 1375 2350 50  0001 C CNN
+	1    1375 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4325 5150 4325 5100
+	1375 2350 1375 2300
 $Comp
 L m2-smart-iot-module:C_4u7_0402 C40
 U 1 1 6080E3CC
@@ -642,14 +642,14 @@ Text Label 6450 5925 0    50   ~ 0
 XL1
 Text Label 7450 5925 2    50   ~ 0
 XL2
-Text Label 2375 7500 0    50   ~ 0
+Text Label 1850 7550 0    50   ~ 0
 XL1
-Text Label 2375 7600 0    50   ~ 0
+Text Label 1850 7650 0    50   ~ 0
 XL2
 Wire Wire Line
-	2375 7600 3200 7600
+	1850 7650 2675 7650
 Wire Wire Line
-	2375 7500 3200 7500
+	1850 7550 2675 7550
 $Comp
 L m2-smart-iot-module:ABS06-32.768KHZ-9-1-T Y3
 U 1 1 608C8F28
@@ -666,40 +666,40 @@ $EndComp
 $Comp
 L m2-smart-iot-module:R_4R7_0402 R17
 U 1 1 608CC5B1
-P 4075 4725
-F 0 "R17" H 4075 4938 60  0000 C CNN
-F 1 "R_4R7_0402" H 4075 4575 60  0001 C CNN
-F 2 "m2-smart-iot-module-footprints:0402-res" H 4275 4925 60  0001 L CNN
-F 3 "" H 4075 4725 50  0001 C CNN
-F 4 "PANASONIC" H 4275 5125 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GEJ4R7X " H 4275 5025 60  0001 L CNN "MPN"
-F 6 "4R7" H 4075 4840 50  0000 C CNN "Val"
-	1    4075 4725
+P 1125 1925
+F 0 "R17" H 1125 2138 60  0000 C CNN
+F 1 "R_4R7_0402" H 1125 1775 60  0001 C CNN
+F 2 "m2-smart-iot-module-footprints:0402-res" H 1325 2125 60  0001 L CNN
+F 3 "" H 1125 1925 50  0001 C CNN
+F 4 "PANASONIC" H 1325 2325 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ4R7X " H 1325 2225 60  0001 L CNN "MPN"
+F 6 "4R7" H 1125 2040 50  0000 C CNN "Val"
+	1    1125 1925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4225 4725 4325 4725
+	1275 1925 1375 1925
 Wire Wire Line
-	3925 4725 3875 4725
+	975  1925 925  1925
 Wire Wire Line
-	4325 4800 4325 4725
-Connection ~ 4325 4725
-Text Label 2350 8100 0    50   ~ 0
+	1375 2000 1375 1925
+Connection ~ 1375 1925
+Text Label 1825 8150 0    50   ~ 0
 LED1
 Wire Wire Line
-	2350 8100 3200 8100
-Text Label 2350 8300 0    50   ~ 0
+	1825 8150 2675 8150
+Text Label 1825 8350 0    50   ~ 0
 LED2_R
 Wire Wire Line
-	2350 8300 3200 8300
-Text Label 6000 9200 2    50   ~ 0
+	1825 8350 2675 8350
+Text Label 5475 9250 2    50   ~ 0
 LED2_G
 Wire Wire Line
-	6000 9200 5150 9200
-Text Label 2350 8700 0    50   ~ 0
+	5475 9250 4625 9250
+Text Label 1825 8750 0    50   ~ 0
 LED2_B
 Wire Wire Line
-	2350 8700 3200 8700
+	1825 8750 2675 8750
 $Comp
 L m2-smart-iot-module:PTS840_GK_SMTR_LFS SW1
 U 1 1 6094BF1C
@@ -787,82 +787,82 @@ Wire Wire Line
 Text Label 8875 5025 0    50   ~ 0
 ~RESET
 Wire Wire Line
-	3200 9300 2375 9300
+	2675 9350 1850 9350
 $Comp
 L m2-smart-iot-module:TP_SMD1MM TP11
 U 1 1 60A55842
-P 2600 9700
-F 0 "TP11" V 2600 9550 50  0000 C CNN
-F 1 "TP_SMD1MM" H 2600 9600 50  0001 C CNN
-F 2 "m2-smart-iot-module-footprints:Testpoint_smd_1mm" H 2800 9900 60  0001 L CNN
-F 3 "" H 2800 10000 60  0001 L CNN
-	1    2600 9700
+P 2075 9750
+F 0 "TP11" V 2075 9600 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2075 9650 50  0001 C CNN
+F 2 "m2-smart-iot-module-footprints:Testpoint_smd_1mm" H 2275 9950 60  0001 L CNN
+F 3 "" H 2275 10050 60  0001 L CNN
+	1    2075 9750
 	0    1    1    0   
 $EndComp
 $Comp
 L m2-smart-iot-module:TP_SMD1MM TP12
 U 1 1 60A68DA5
-P 5750 7500
-F 0 "TP12" V 5750 7450 50  0000 R CNN
-F 1 "TP_SMD1MM" H 5750 7400 50  0001 C CNN
-F 2 "m2-smart-iot-module-footprints:Testpoint_smd_1mm" H 5950 7700 60  0001 L CNN
-F 3 "" H 5950 7800 60  0001 L CNN
-	1    5750 7500
+P 5225 7550
+F 0 "TP12" V 5225 7500 50  0000 R CNN
+F 1 "TP_SMD1MM" H 5225 7450 50  0001 C CNN
+F 2 "m2-smart-iot-module-footprints:Testpoint_smd_1mm" H 5425 7750 60  0001 L CNN
+F 3 "" H 5425 7850 60  0001 L CNN
+	1    5225 7550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L m2-smart-iot-module:TP_SMD1MM TP17
 U 1 1 60AA5CD2
-P 5750 8400
-F 0 "TP17" V 5750 8350 50  0000 R CNN
-F 1 "TP_SMD1MM" H 5750 8300 50  0001 C CNN
-F 2 "m2-smart-iot-module-footprints:Testpoint_smd_1mm" H 5950 8600 60  0001 L CNN
-F 3 "" H 5950 8700 60  0001 L CNN
-	1    5750 8400
+P 5225 8450
+F 0 "TP17" V 5225 8400 50  0000 R CNN
+F 1 "TP_SMD1MM" H 5225 8350 50  0001 C CNN
+F 2 "m2-smart-iot-module-footprints:Testpoint_smd_1mm" H 5425 8650 60  0001 L CNN
+F 3 "" H 5425 8750 60  0001 L CNN
+	1    5225 8450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L m2-smart-iot-module:TP_SMD1MM TP18
 U 1 1 60AA6087
-P 5750 8500
-F 0 "TP18" V 5750 8450 50  0000 R CNN
-F 1 "TP_SMD1MM" H 5750 8400 50  0001 C CNN
-F 2 "m2-smart-iot-module-footprints:Testpoint_smd_1mm" H 5950 8700 60  0001 L CNN
-F 3 "" H 5950 8800 60  0001 L CNN
-	1    5750 8500
+P 5225 8550
+F 0 "TP18" V 5225 8500 50  0000 R CNN
+F 1 "TP_SMD1MM" H 5225 8450 50  0001 C CNN
+F 2 "m2-smart-iot-module-footprints:Testpoint_smd_1mm" H 5425 8750 60  0001 L CNN
+F 3 "" H 5425 8850 60  0001 L CNN
+	1    5225 8550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L m2-smart-iot-module:TP_SMD1MM TP19
 U 1 1 60AA64FE
-P 5750 8700
-F 0 "TP19" V 5750 8650 50  0000 R CNN
-F 1 "TP_SMD1MM" H 5750 8600 50  0001 C CNN
-F 2 "m2-smart-iot-module-footprints:Testpoint_smd_1mm" H 5950 8900 60  0001 L CNN
-F 3 "" H 5950 9000 60  0001 L CNN
-	1    5750 8700
+P 5225 8750
+F 0 "TP19" V 5225 8700 50  0000 R CNN
+F 1 "TP_SMD1MM" H 5225 8650 50  0001 C CNN
+F 2 "m2-smart-iot-module-footprints:Testpoint_smd_1mm" H 5425 8950 60  0001 L CNN
+F 3 "" H 5425 9050 60  0001 L CNN
+	1    5225 8750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L m2-smart-iot-module:TP_SMD1MM TP16
 U 1 1 60AD28DE
-P 5750 8300
-F 0 "TP16" V 5750 8250 50  0000 R CNN
-F 1 "TP_SMD1MM" H 5750 8200 50  0001 C CNN
-F 2 "m2-smart-iot-module-footprints:Testpoint_smd_1mm" H 5950 8500 60  0001 L CNN
-F 3 "" H 5950 8600 60  0001 L CNN
-	1    5750 8300
+P 5225 8350
+F 0 "TP16" V 5225 8300 50  0000 R CNN
+F 1 "TP_SMD1MM" H 5225 8250 50  0001 C CNN
+F 2 "m2-smart-iot-module-footprints:Testpoint_smd_1mm" H 5425 8550 60  0001 L CNN
+F 3 "" H 5425 8650 60  0001 L CNN
+	1    5225 8350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L m2-smart-iot-module:TP_SMD1MM TP23
 U 1 1 60ADE789
-P 5750 9600
-F 0 "TP23" V 5750 9550 50  0000 R CNN
-F 1 "TP_SMD1MM" H 5750 9500 50  0001 C CNN
-F 2 "m2-smart-iot-module-footprints:Testpoint_smd_1mm" H 5950 9800 60  0001 L CNN
-F 3 "" H 5950 9900 60  0001 L CNN
-	1    5750 9600
+P 5225 9650
+F 0 "TP23" V 5225 9600 50  0000 R CNN
+F 1 "TP_SMD1MM" H 5225 9550 50  0001 C CNN
+F 2 "m2-smart-iot-module-footprints:Testpoint_smd_1mm" H 5425 9850 60  0001 L CNN
+F 3 "" H 5425 9950 60  0001 L CNN
+	1    5225 9650
 	0    -1   -1   0   
 $EndComp
 Text Label 11075 4825 0    50   ~ 0
@@ -907,7 +907,7 @@ Wire Wire Line
 Wire Wire Line
 	12350 4925 11950 4925
 Wire Wire Line
-	4325 4725 4750 4725
+	1375 1925 1800 1925
 Wire Wire Line
 	3475 2800 3550 2800
 $Comp
@@ -1005,8 +1005,8 @@ Wire Wire Line
 	13200 5325 13625 5325
 Wire Wire Line
 	13200 5125 13625 5125
-Text GLabel 5525 8000 2    50   Output ~ 0
-CORAL_RST
+Text GLabel 5000 8050 2    50   Output ~ 0
+nRF_CORAL_RST
 $Comp
 L m2-smart-iot-module:APHF1608LSEEQBDZGKC D2
 U 1 1 60DF33FA
@@ -1154,12 +1154,12 @@ Wire Wire Line
 Connection ~ 9150 2375
 Wire Wire Line
 	9150 2375 9350 2375
-Text GLabel 2950 7700 0    50   Output ~ 0
-CORAL_PMIC_EN
+Text GLabel 2425 7750 0    50   Output ~ 0
+nRF_CORAL_PMIC_EN
 Wire Wire Line
 	13925 4925 14050 4925
-Text GLabel 5425 9800 2    50   Input ~ 0
-CORAL_PGOOD
+Text GLabel 4900 9850 2    50   Input ~ 0
+nRF_CORAL_PGOOD
 $Comp
 L m2-smart-iot-module:2X05 J2
 U 1 1 60AB3814
@@ -1174,26 +1174,26 @@ F 5 "Samtec" H 11450 3975 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5425 9800 5150 9800
+	4900 9850 4625 9850
 Wire Wire Line
-	2950 7700 3200 7700
+	2425 7750 2675 7750
 Wire Wire Line
-	5525 8000 5150 8000
+	5000 8050 4625 8050
 Wire Wire Line
-	2700 9700 3200 9700
+	2175 9750 2675 9750
 Wire Wire Line
-	5650 9600 5150 9600
+	5125 9650 4625 9650
 Wire Wire Line
-	5150 8700 5650 8700
+	4625 8750 5125 8750
 Wire Wire Line
-	5150 8500 5650 8500
+	4625 8550 5125 8550
 Wire Wire Line
-	5150 8400 5650 8400
+	4625 8450 5125 8450
 Wire Wire Line
-	5150 8300 5650 8300
+	4625 8350 5125 8350
 Wire Wire Line
-	5150 7500 5650 7500
-Text Label 2375 9300 0    50   ~ 0
+	4625 7550 5125 7550
+Text Label 1850 9350 0    50   ~ 0
 ~RESET
 $Comp
 L m2-smart-iot-module:BME280 U8
@@ -1268,9 +1268,9 @@ F 3 "" H 14450 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 9300 6000 9300
+	4625 9350 5475 9350
 Wire Wire Line
-	5150 8200 5975 8200
+	4625 8250 5450 8250
 Wire Wire Line
 	12825 2925 12675 2925
 Wire Wire Line
@@ -1285,9 +1285,9 @@ Text Label 12100 2625 0    50   ~ 0
 SCL
 Text Label 12100 2725 0    50   ~ 0
 SDA
-Text Label 6000 9300 2    50   ~ 0
+Text Label 5475 9350 2    50   ~ 0
 SCL
-Text Label 5975 8200 2    50   ~ 0
+Text Label 5450 8250 2    50   ~ 0
 SDA
 $Comp
 L m2-smart-iot-module:R_2k2_0402 R40
@@ -1339,42 +1339,42 @@ Text Notes 6550 4400 0    99   ~ 20
 Oscillators
 Text Notes 9100 4400 0    99   ~ 20
 RST Button
-Text Notes 3600 7050 0    99   ~ 20
+Text Notes 3075 7100 0    99   ~ 20
 nRF52 - GPIOs
 Text Notes 3750 1650 0    99   ~ 20
 nRF52 - Radio
 NoConn ~ 11350 5125
 NoConn ~ 11950 5025
 NoConn ~ 11950 5125
-NoConn ~ 3200 7800
-NoConn ~ 3200 7900
-NoConn ~ 3200 8000
-NoConn ~ 3200 8200
-NoConn ~ 3200 8400
-NoConn ~ 3200 8500
-NoConn ~ 3200 8600
-NoConn ~ 3200 8800
-NoConn ~ 3200 8900
-NoConn ~ 3200 9000
-NoConn ~ 3200 9100
-NoConn ~ 3200 9200
-NoConn ~ 3200 9400
-NoConn ~ 3200 9500
-NoConn ~ 3200 9600
-NoConn ~ 3200 9800
-NoConn ~ 5150 9700
-NoConn ~ 5150 9500
-NoConn ~ 5150 9400
-NoConn ~ 5150 9100
-NoConn ~ 5150 9000
-NoConn ~ 5150 8900
-NoConn ~ 5150 8800
-NoConn ~ 5150 8600
-NoConn ~ 5150 8100
-NoConn ~ 5150 7900
-NoConn ~ 5150 7800
-NoConn ~ 5150 7700
-NoConn ~ 5150 7600
+NoConn ~ 2675 7850
+NoConn ~ 2675 7950
+NoConn ~ 2675 8050
+NoConn ~ 2675 8250
+NoConn ~ 2675 8450
+NoConn ~ 2675 8550
+NoConn ~ 2675 8650
+NoConn ~ 2675 8850
+NoConn ~ 2675 8950
+NoConn ~ 2675 9050
+NoConn ~ 2675 9150
+NoConn ~ 2675 9250
+NoConn ~ 2675 9450
+NoConn ~ 2675 9550
+NoConn ~ 2675 9650
+NoConn ~ 2675 9850
+NoConn ~ 4625 9750
+NoConn ~ 4625 9550
+NoConn ~ 4625 9450
+NoConn ~ 4625 9150
+NoConn ~ 4625 9050
+NoConn ~ 4625 8950
+NoConn ~ 4625 8850
+NoConn ~ 4625 8650
+NoConn ~ 4625 8150
+NoConn ~ 4625 7950
+NoConn ~ 4625 7850
+NoConn ~ 4625 7750
+NoConn ~ 4625 7650
 Text GLabel 12250 2175 0    50   Input ~ 0
 3V3
 Text GLabel 12275 2825 0    50   Input ~ 0
@@ -1437,7 +1437,7 @@ Wire Wire Line
 Text Notes 8700 1850 0    99   ~ 20
 Antenna
 NoConn ~ 11000 2575
-Text Label 4750 4725 2    50   ~ 0
+Text Label 1800 1925 2    50   ~ 0
 VBUS
 Text Label 2325 2800 0    50   ~ 0
 VBUS
