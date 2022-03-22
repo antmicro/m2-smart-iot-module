@@ -500,14 +500,14 @@
       (net 179 "Net-(D1-Pad2)"))
     (pad 1 smd rect (at 0.7485 0 180) (size 0.762 0.762) (layers F.Cu F.Paste F.Mask)
       (net 56 /nRF52840/VDD))
-    (model ${KIPRJMOD}/lib/3d-models/LED0603.step
+    (model ${ANT3DMDL}/LED0603.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:SRP2512A-1R0M (layer F.Cu) (tedit 5F99EED3) (tstamp 623AAB6D)
+  (module antmicro-footprints:SRP2512A-1R0M (layer F.Cu) (tedit 5F99EED3) (tstamp 623AAB6D)
     (at 157.4 93.2 180)
     (path /605233CC/6268EF80)
     (attr smd)
@@ -529,14 +529,14 @@
       (net 175 "Net-(L5-Pad2)"))
     (pad 1 smd rect (at -1.25 0 270) (size 2 0.8) (layers F.Cu F.Paste F.Mask)
       (net 2 3V3))
-    (model ${KIPRJMOD}/lib/3d-models/SRP2512A.STEP
+    (model ${ANT3DMDL}/SRP2512A.STEP
       (offset (xyz -0.25 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:FTQFN (layer F.Cu) (tedit 6239C129) (tstamp 623A7FAB)
+  (module antmicro-footprints:FTQFN (layer F.Cu) (tedit 6239C129) (tstamp 623A7FAB)
     (at 157.6 96.2 270)
     (path /605233CC/623F62CA)
     (fp_text reference U10 (at 0.082 -2.0464 90) (layer F.SilkS) hide
@@ -579,14 +579,14 @@
       (net 174 /powerSupply/5V_EN))
     (pad 2 smd rect (at -0.9 -0.07) (size 0.3 0.6) (layers F.Cu F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/lib/3d-models/FTQFN.STEP
+    (model ${ANT3DMDL}/FTQFN.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 623A7B1B)
+  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 623A7B1B)
     (at 160.85 95.85 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -613,14 +613,14 @@
       (net 2 3V3))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 178 "Net-(D3-Pad1)"))
-    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
+    (model ${ANT3DMDL}/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 623A79F2)
+  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 623A79F2)
     (at 160.6 97.2)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -647,14 +647,14 @@
       (net 2 3V3))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 174 /powerSupply/5V_EN))
-    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
+    (model ${ANT3DMDL}/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 623A7957)
+  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 623A7957)
     (at 139.1 108.5 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -681,14 +681,14 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 160 nRF_CORAL_RST))
-    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
+    (model ${ANT3DMDL}/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:LED0603 (layer F.Cu) (tedit 60C2DD1F) (tstamp 623A6F54)
+  (module antmicro-footprints:LED0603 (layer F.Cu) (tedit 60C2DD1F) (tstamp 623A6F54)
     (at 160.85 98.25 90)
     (path /605233CC/624D4348)
     (attr smd)
@@ -710,14 +710,14 @@
       (net 178 "Net-(D3-Pad1)"))
     (pad 2 smd rect (at -0.6485 0 90) (size 0.762 0.762) (layers F.Cu F.Paste F.Mask)
       (net 176 /powerSupply/PG_5V))
-    (model ${KIPRJMOD}/lib/3d-models/LED0603.step
+    (model ${ANT3DMDL}/LED0603.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6239FA37)
+  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6239FA37)
     (at 159.15 98.95)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -744,14 +744,14 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 177 "Net-(R34-Pad2)"))
-    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
+    (model ${ANT3DMDL}/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6239F946)
+  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 6239F946)
     (at 157.15 98.95)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -778,14 +778,14 @@
       (net 177 "Net-(R34-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 66 5V_RADIO))
-    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
+    (model ${ANT3DMDL}/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 6239F8C7)
+  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 6239F8C7)
     (at 160.6 96.2 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -812,7 +812,7 @@
       (net 176 /powerSupply/PG_5V))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 2 3V3))
-    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
+    (model ${ANT3DMDL}/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -912,7 +912,7 @@
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 6239EC7E)
+  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 6239EC7E)
     (at 161.8 94.2)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -939,14 +939,14 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 3V3))
-    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
+    (model ${ANT3DMDL}/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 623C59A5)
+  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 623C59A5)
     (at 151.1 101.25 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -973,7 +973,7 @@
       (net 113 "Net-(R16-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 52 3V3_CORAL))
-    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
+    (model ${ANT3DMDL}/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1017,7 +1017,7 @@
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 616D63CF) (tstamp 623B7C83)
+  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 616D63CF) (tstamp 623B7C83)
     (at 160.6 98.2)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1044,14 +1044,14 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 174 /powerSupply/5V_EN))
-    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
+    (model ${ANT3DMDL}/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:DFN-6_3x3mm_EP1 (layer F.Cu) (tedit 5D288EC7) (tstamp 623B0F3E)
+  (module antmicro-footprints:DFN-6_3x3mm_EP1 (layer F.Cu) (tedit 5D288EC7) (tstamp 623B0F3E)
     (at 186.3 95.5)
     (path /605233CC/62A7E79A)
     (attr smd)
@@ -1095,14 +1095,14 @@
       (net 1 GND))
     (pad 1 smd rect (at -1.35 -1) (size 0.6 0.4) (layers F.Cu F.Paste F.Mask)
       (net 169 "Net-(R35-Pad2)"))
-    (model "${KIPRJMOD}/lib/3d-models/DFN-6 3x3.step"
+    (model "${ANT3DMDL}/DFN-6 3x3.step"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
   )
 
-  (module m2-smart-iot-module-footprints:SOT-23-3 (layer B.Cu) (tedit 5D5D4314) (tstamp 623B0EE7)
+  (module antmicro-footprints:SOT-23-3 (layer B.Cu) (tedit 5D5D4314) (tstamp 623B0EE7)
     (at 145.1 107.8 90)
     (path /605198AB/627FCFAB)
     (attr smd)
@@ -1141,14 +1141,14 @@
       (net 1 GND) (solder_mask_margin 0.07))
     (pad 3 smd rect (at 1.05 0 90) (size 1.3 0.6) (layers B.Cu B.Paste B.Mask)
       (net 157 "Net-(C54-Pad1)") (solder_mask_margin 0.07))
-    (model ${KIPRJMOD}/lib/3d-models/sot23-3.step
+    (model ${ANT3DMDL}/sot23-3.step
       (offset (xyz 0 0 0.35))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 -90))
     )
   )
 
-  (module m2-smart-iot-module-footprints:SOT-23-6 (layer B.Cu) (tedit 5D5D4563) (tstamp 623B0ECB)
+  (module antmicro-footprints:SOT-23-6 (layer B.Cu) (tedit 5D5D4563) (tstamp 623B0ECB)
     (at 175.35 105.45)
     (path /605233CC/625D6BD1)
     (attr smd)
@@ -1190,14 +1190,14 @@
       (net 1 GND))
     (pad 3 smd rect (at 0.95 -1.35) (size 0.55 1) (layers B.Cu B.Paste B.Mask)
       (net 119 "Net-(R32-Pad1)"))
-    (model ${KIPRJMOD}/lib/3d-models/sot23-6.step
+    (model ${ANT3DMDL}/sot23-6.step
       (offset (xyz -0.95 -1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:SOT-23-3 (layer B.Cu) (tedit 5D5D4314) (tstamp 623B0EAF)
+  (module antmicro-footprints:SOT-23-3 (layer B.Cu) (tedit 5D5D4314) (tstamp 623B0EAF)
     (at 150.85 105.55 90)
     (path /605198AB/6279F225)
     (attr smd)
@@ -1236,14 +1236,14 @@
       (net 157 "Net-(C54-Pad1)") (solder_mask_margin 0.07))
     (pad 3 smd rect (at 1.05 0 90) (size 1.3 0.6) (layers B.Cu B.Paste B.Mask)
       (net 52 3V3_CORAL) (solder_mask_margin 0.07))
-    (model ${KIPRJMOD}/lib/3d-models/sot23-3.step
+    (model ${ANT3DMDL}/sot23-3.step
       (offset (xyz 0 0 0.35))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 -90))
     )
   )
 
-  (module m2-smart-iot-module-footprints:TP-R-1.5 (layer F.Cu) (tedit 620A5C12) (tstamp 623B0B9D)
+  (module antmicro-footprints:TP-R-1.5 (layer F.Cu) (tedit 620A5C12) (tstamp 623B0B9D)
     (at 176.8 92.8)
     (path /605233CC/6258E973)
     (attr virtual)
@@ -1271,7 +1271,7 @@
       (net 2 3V3))
   )
 
-  (module m2-smart-iot-module-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 623B0B93)
+  (module antmicro-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 623B0B93)
     (at 155.3 112.5)
     (path /605198AB/6283EFD7)
     (attr virtual)
@@ -1285,7 +1285,7 @@
       (net 159 /CoralAccelerator/RST_EN))
   )
 
-  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 623B0B66)
+  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 623B0B66)
     (at 174.85 108.1 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1312,14 +1312,14 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 171 "Net-(R42-Pad1)"))
-    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
+    (model ${ANT3DMDL}/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 623B0B01)
+  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 623B0B01)
     (at 185.4 92.7)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1346,14 +1346,14 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 169 "Net-(R35-Pad2)"))
-    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
+    (model ${ANT3DMDL}/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 623B0ABA)
+  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 623B0ABA)
     (at 183.4 92.7)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1380,14 +1380,14 @@
       (net 169 "Net-(R35-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 51 1V05))
-    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
+    (model ${ANT3DMDL}/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 623B0A71)
+  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 623B0A71)
     (at 187.7 92.7 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1414,14 +1414,14 @@
       (net 158 "Net-(C63-Pad1)"))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 168 "Net-(R31-Pad1)"))
-    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
+    (model ${ANT3DMDL}/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 623B0A62)
+  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 623B0A62)
     (at 146.1 104.75 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1448,14 +1448,14 @@
       (net 159 /CoralAccelerator/RST_EN))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 161 "Net-(Q1-Pad3)"))
-    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
+    (model ${ANT3DMDL}/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 623B08E7)
+  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 623B08E7)
     (at 147.7 104.75 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1482,14 +1482,14 @@
       (net 159 /CoralAccelerator/RST_EN))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 167 "Net-(R14-Pad2)"))
-    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
+    (model ${ANT3DMDL}/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 623B08D8)
+  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 623B08D8)
     (at 147.7 108 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1516,14 +1516,14 @@
       (net 167 "Net-(R14-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 157 "Net-(C54-Pad1)"))
-    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
+    (model ${ANT3DMDL}/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:SOT-23-3 (layer B.Cu) (tedit 5D5D4314) (tstamp 623B075D)
+  (module antmicro-footprints:SOT-23-3 (layer B.Cu) (tedit 5D5D4314) (tstamp 623B075D)
     (at 140.7 105.65)
     (path /605198AB/6276C2ED)
     (attr smd)
@@ -1562,14 +1562,14 @@
       (net 1 GND) (solder_mask_margin 0.07))
     (pad 3 smd rect (at 1.05 0) (size 1.3 0.6) (layers B.Cu B.Paste B.Mask)
       (net 161 "Net-(Q1-Pad3)") (solder_mask_margin 0.07))
-    (model ${KIPRJMOD}/lib/3d-models/sot23-3.step
+    (model ${ANT3DMDL}/sot23-3.step
       (offset (xyz 0 0 0.35))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 -90))
     )
   )
 
-  (module m2-smart-iot-module-footprints:0805-res (layer F.Cu) (tedit 5D5D3F54) (tstamp 623B0681)
+  (module antmicro-footprints:0805-res (layer F.Cu) (tedit 5D5D3F54) (tstamp 623B0681)
     (at 183.3 95.3 90)
     (path /605233CC/62B1E93B)
     (attr smd)
@@ -1593,7 +1593,7 @@
       (net 110 "Net-(L6-Pad1)"))
     (pad 2 smd rect (at 1.05 0 90) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 51 1V05))
-    (model ${KIPRJMOD}/lib/3d-models/0805-res.step
+    (model ${ANT3DMDL}/0805-res.step
       (offset (xyz 0 0 0.73))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -1693,7 +1693,7 @@
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 623AFEFC)
+  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 623AFEFC)
     (at 188.9 92.715 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1720,14 +1720,14 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 158 "Net-(C63-Pad1)"))
-    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
+    (model ${ANT3DMDL}/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 623AFEA3)
+  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 623AFEA3)
     (at 188.9 95.1 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1754,14 +1754,14 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 3V3))
-    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
+    (model ${ANT3DMDL}/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 623BDC7E)
+  (module antmicro-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 623BDC7E)
     (at 189.6 96.9)
     (path /605233CC/62ABA5D0)
     (attr smd)
@@ -1789,7 +1789,7 @@
       (net 2 3V3))
     (pad 2 smd rect (at 0.7 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/lib/3d-models/0603-cap.step
+    (model ${ANT3DMDL}/0603-cap.step
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -1830,7 +1830,7 @@
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 616D63CF) (tstamp 623AFE36)
+  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 616D63CF) (tstamp 623AFE36)
     (at 149.3 108.4 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1857,14 +1857,14 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.485 0 270) (size 0.59 0.64) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 157 "Net-(C54-Pad1)"))
-    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
+    (model ${ANT3DMDL}/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-cap (layer B.Cu) (tedit 616D63CF) (tstamp 623AFE27)
+  (module antmicro-footprints:0402-cap (layer B.Cu) (tedit 616D63CF) (tstamp 623AFE27)
     (at 150.3 103.1 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1891,7 +1891,7 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 52 3V3_CORAL))
-    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
+    (model ${ANT3DMDL}/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
