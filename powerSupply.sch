@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 6 6
 Title "M.2 Smart IoT Module"
 Date "2021-08-11"
-Rev "1.0.0"
+Rev "1.1.0"
 Comp ""
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd."
@@ -1056,7 +1056,7 @@ Connection ~ 5800 2475
 Wire Wire Line
 	5800 2475 6200 2475
 Wire Wire Line
-	6175 2000 5800 2000
+	6200 2000 5800 2000
 Connection ~ 5400 2000
 Wire Wire Line
 	5400 2000 5250 2000
