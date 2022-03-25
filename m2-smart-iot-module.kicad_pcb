@@ -2,7 +2,7 @@
 
   (general
     (thickness 0.8)
-    (drawings 39)
+    (drawings 51)
     (tracks 1558)
     (zones 0)
     (modules 165)
@@ -20,7 +20,7 @@
     (34 B.Paste user hide)
     (35 F.Paste user hide)
     (36 B.SilkS user)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user hide)
     (40 Dwgs.User user hide)
@@ -29,8 +29,8 @@
     (43 Eco2.User user hide)
     (44 Edge.Cuts user)
     (45 Margin user hide)
-    (46 B.CrtYd user)
-    (47 F.CrtYd user)
+    (46 B.CrtYd user hide)
+    (47 F.CrtYd user hide)
     (48 B.Fab user hide)
     (49 F.Fab user hide)
   )
@@ -482,7 +482,7 @@
     (tags resistor)
     (path /605198AB/62410036)
     (attr smd)
-    (fp_text reference R16 (at 0 -1.17) (layer F.SilkS)
+    (fp_text reference R16 (at 1.86 -0.005) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_0R_0402 (at 0 1.17) (layer F.Fab)
@@ -514,8 +514,8 @@
     (at 147.4 99.3 180)
     (path /60519809/623B8F1E)
     (attr smd)
-    (fp_text reference D1 (at 0.1 -1.95 180) (layer F.SilkS) hide
-      (effects (font (size 0.7 0.7) (thickness 0.1)))
+    (fp_text reference D1 (at -1.98 -0.005 180) (layer F.SilkS)
+      (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value KP-1608CGCK (at 0.4 2.3 180) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.05)))
@@ -543,8 +543,8 @@
     (at 157.4 93.2 180)
     (path /605233CC/6268EF80)
     (attr smd)
-    (fp_text reference L5 (at -2.8194 -4.2418 180) (layer F.SilkS) hide
-      (effects (font (size 1.524 1.524) (thickness 0.05)))
+    (fp_text reference L5 (at 1.95 0.675 270) (layer F.SilkS)
+      (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value SRP2512A-1R0M (at 0.4064 4.0894 180) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.05)))
@@ -571,7 +571,7 @@
   (module m2-smart-iot-module-footprints:FTQFN (layer F.Cu) (tedit 6239C129) (tstamp 623A7FAB)
     (at 157.6 96.2 270)
     (path /605233CC/623F62CA)
-    (fp_text reference U10 (at 0.082 -2.0464 90) (layer F.SilkS) hide
+    (fp_text reference U10 (at 0.01 1.88 90) (layer F.SilkS)
       (effects (font (size 0.64 0.64) (thickness 0.15)))
     )
     (fp_text value MIC2877-5.0YFT-TR (at 6.178 2.0036 90) (layer F.Fab) hide
@@ -624,7 +624,7 @@
     (tags resistor)
     (path /605233CC/624D3487)
     (attr smd)
-    (fp_text reference R44 (at 0 -1.17 90) (layer F.SilkS) hide
+    (fp_text reference R44 (at -0.025 -0.89 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_330R_0402 (at 0 1.17 90) (layer F.Fab) hide
@@ -652,13 +652,13 @@
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 623A79F2)
+  (module m2-smart-iot-module-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 624063A3)
     (at 160.6 97.2)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /605233CC/6244E5E4)
     (attr smd)
-    (fp_text reference R33 (at 0 1.17 180) (layer B.SilkS) hide
+    (fp_text reference R33 (at 1.965 0.035 180) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value R_100k_0402 (at 0 -1.17 180) (layer B.Fab) hide
@@ -692,7 +692,7 @@
     (tags resistor)
     (path /605198AB/623D3EF2)
     (attr smd)
-    (fp_text reference R27 (at 0 1.17) (layer B.SilkS) hide
+    (fp_text reference R27 (at 0.04 -0.905) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value R_10k_0402 (at 0 -1.17) (layer B.Fab) hide
@@ -724,8 +724,8 @@
     (at 160.85 98.25 90)
     (path /605233CC/624D4348)
     (attr smd)
-    (fp_text reference D3 (at 0.1 -1.95 270) (layer F.SilkS) hide
-      (effects (font (size 0.7 0.7) (thickness 0.1)))
+    (fp_text reference D3 (at -2.105 0.085 270) (layer F.SilkS)
+      (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value KP-1608CGCK (at 0.4 2.3 270) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.05)))
@@ -755,7 +755,7 @@
     (tags resistor)
     (path /605233CC/624C7F74)
     (attr smd)
-    (fp_text reference R43 (at 0 -1.17) (layer F.SilkS) hide
+    (fp_text reference R43 (at 0.02 0.96) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_200k_0402 (at 0 1.17) (layer F.Fab) hide
@@ -789,7 +789,7 @@
     (tags resistor)
     (path /605233CC/624C898E)
     (attr smd)
-    (fp_text reference R34 (at 0 -1.17) (layer F.SilkS) hide
+    (fp_text reference R34 (at 0 0.96) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_910k_0402 (at 0 1.17) (layer F.Fab) hide
@@ -823,7 +823,7 @@
     (tags resistor)
     (path /605233CC/62428959)
     (attr smd)
-    (fp_text reference R28 (at 0 1.17 180) (layer B.SilkS) hide
+    (fp_text reference R28 (at -1.965 -0.06 180) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value R_1M0_0402 (at 0 -1.17 180) (layer B.Fab) hide
@@ -855,7 +855,7 @@
     (at 152.3 93.7 90)
     (path /605233CC/6241955D)
     (attr smd)
-    (fp_text reference C65 (at 0 -1.84 90) (layer F.SilkS) hide
+    (fp_text reference C65 (at -1.035 2.475 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_22u_0805_10V (at 0 1.95 90) (layer F.Fab) hide
@@ -886,7 +886,7 @@
     (at 150.4 93.7 90)
     (path /605233CC/62417FA6)
     (attr smd)
-    (fp_text reference C62 (at 0 -1.84 90) (layer F.SilkS) hide
+    (fp_text reference C62 (at -1.035 3.405 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_22u_0805_10V (at 0 1.95 90) (layer F.Fab) hide
@@ -917,7 +917,7 @@
     (at 162 92.7)
     (path /605233CC/6241B21F)
     (attr smd)
-    (fp_text reference C60 (at 0 -1.84) (layer F.SilkS) hide
+    (fp_text reference C60 (at 0.265 2.445) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_22u_0805_10V (at 0 1.95) (layer F.Fab) hide
@@ -950,7 +950,7 @@
     (tags resistor)
     (path /605233CC/623C5E15)
     (attr smd)
-    (fp_text reference C56 (at 0 -1.17) (layer F.SilkS) hide
+    (fp_text reference C56 (at 0.465 1.92004) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_1u_0402 (at 0 1.17) (layer F.Fab) hide
@@ -981,8 +981,8 @@
   (module m2-smart-iot-module-footprints:CK-PTS840_GK_SMTR_LFS-0 (layer F.Cu) (tedit 608B3399) (tstamp 623B88D6)
     (at 172.9 93.25 180)
     (path /605233CC/62D57D07)
-    (fp_text reference SW2 (at -2.725 -2.775) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify right))
+    (fp_text reference SW2 (at -2.725 -2.42) (layer F.SilkS)
+      (effects (font (size 0.7 0.7) (thickness 0.15)) (justify right))
     )
     (fp_text value PTS840_GK_SMTR_LFS (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -1021,7 +1021,7 @@
     (tags resistor)
     (path /605233CC/62D7D4D5)
     (attr smd)
-    (fp_text reference C77 (at 0 1.17 270) (layer B.SilkS) hide
+    (fp_text reference C77 (at 0.065 0.9 270) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_100n_0402 (at 0 -1.17 270) (layer B.Fab) hide
@@ -1053,8 +1053,8 @@
     (at 186.3 95.5)
     (path /605233CC/62A7E79A)
     (attr smd)
-    (fp_text reference U9 (at 0 -2.5) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text reference U9 (at 1.26 2.265) (layer F.SilkS)
+      (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value NCP1599MNTWG (at 0 2.6) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1104,8 +1104,8 @@
     (at 145.1 107.8 90)
     (path /605198AB/627FCFAB)
     (attr smd)
-    (fp_text reference U7 (at 0.025 3.375 90) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    (fp_text reference U7 (at 0.255 -2.13 90) (layer B.SilkS)
+      (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value TLV803EF29DBZR (at 0.025 -3.25 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -1150,8 +1150,8 @@
     (at 175.35 105.45)
     (path /605233CC/625D6BD1)
     (attr smd)
-    (fp_text reference U6 (at 0.025 3.55) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    (fp_text reference U6 (at 2.305 0.08 90) (layer B.SilkS)
+      (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value AP22652W6-7 (at -0.025 -3.575) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -1199,8 +1199,8 @@
     (at 150.85 105.55 90)
     (path /605198AB/6279F225)
     (attr smd)
-    (fp_text reference U5 (at 0.025 3.375 90) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    (fp_text reference U5 (at 0.235 2.295 270) (layer B.SilkS)
+      (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value AP2120N-1.8TRG1 (at 0.025 -3.25 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -1242,11 +1242,11 @@
   )
 
   (module m2-smart-iot-module-footprints:TP-R-1.5 (layer F.Cu) (tedit 620A5C12) (tstamp 623B0B9D)
-    (at 176.8 92.8)
+    (at 177.21 92.795)
     (path /605233CC/6258E973)
     (attr virtual)
-    (fp_text reference TP3 (at 0 0) (layer B.SilkS) hide
-      (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+    (fp_text reference TP3 (at 0.06 1.835 90) (layer F.SilkS)
+      (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value TP (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
@@ -1259,7 +1259,7 @@
     (at 185.6142 99.75 270)
     (path /605233CC/6258E0A2)
     (attr virtual)
-    (fp_text reference TP2 (at -1.91 -0.08 90) (layer F.SilkS) hide
+    (fp_text reference TP2 (at 0.9325 4.477533 180) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value TP_SMD1MM (at 0 -0.5 90) (layer F.Fab) hide
@@ -1273,7 +1273,7 @@
     (at 145.075 102.1358)
     (path /605198AB/6283EFD7)
     (attr virtual)
-    (fp_text reference TP1 (at -1.91 -0.08) (layer F.SilkS) hide
+    (fp_text reference TP1 (at -1.91 -0.08) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value TP_SMD1MM (at 0 -0.5) (layer F.Fab) hide
@@ -1289,7 +1289,7 @@
     (tags resistor)
     (path /605233CC/625DE777)
     (attr smd)
-    (fp_text reference R42 (at 0 1.17) (layer B.SilkS) hide
+    (fp_text reference R42 (at 0.12 -0.975) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value R_17k4_0402 (at 0 -1.17) (layer B.Fab) hide
@@ -1323,7 +1323,7 @@
     (tags resistor)
     (path /605233CC/62B6550D)
     (attr smd)
-    (fp_text reference R38 (at 0 -1.17) (layer F.SilkS) hide
+    (fp_text reference R38 (at 0.005 -0.74) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_12k_0402 (at 0 1.17) (layer F.Fab) hide
@@ -1357,7 +1357,7 @@
     (tags resistor)
     (path /605233CC/62B64921)
     (attr smd)
-    (fp_text reference R35 (at 0 -1.17) (layer F.SilkS) hide
+    (fp_text reference R35 (at -0.005 -0.74) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_3k74_0402 (at 0 1.17) (layer F.Fab) hide
@@ -1391,7 +1391,7 @@
     (tags resistor)
     (path /605233CC/62BAD774)
     (attr smd)
-    (fp_text reference R31 (at 0 -1.17 90) (layer F.SilkS) hide
+    (fp_text reference R31 (at -0.03 -0.845 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_4k7_0402 (at 0 1.17 90) (layer F.Fab) hide
@@ -1425,7 +1425,7 @@
     (tags resistor)
     (path /605198AB/6280E4E2)
     (attr smd)
-    (fp_text reference R30 (at 0 1.17 90) (layer B.SilkS) hide
+    (fp_text reference R30 (at 1.855 0.025 90) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value R_0R_0402 (at 0 -1.17 90) (layer B.Fab) hide
@@ -1459,7 +1459,7 @@
     (tags resistor)
     (path /605198AB/6280E737)
     (attr smd)
-    (fp_text reference R15 (at 0 1.17 90) (layer B.SilkS) hide
+    (fp_text reference R15 (at 1.855 0.03 90) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value R_0R_0402 (at 0 -1.17 90) (layer B.Fab) hide
@@ -1493,7 +1493,7 @@
     (tags resistor)
     (path /605198AB/62802BED)
     (attr smd)
-    (fp_text reference R14 (at 0 1.17 90) (layer B.SilkS) hide
+    (fp_text reference R14 (at 1.865 0.015 90) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value R_100k_0402 (at 0 -1.17 90) (layer B.Fab) hide
@@ -1525,8 +1525,8 @@
     (at 140.7 105.65)
     (path /605198AB/6276C2ED)
     (attr smd)
-    (fp_text reference Q1 (at 0.025 3.375) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    (fp_text reference Q1 (at 0.31 2.255) (layer B.SilkS)
+      (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value BSS123 (at 0.025 -3.25) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -1571,8 +1571,8 @@
     (at 183.3 95.3 90)
     (path /605233CC/62B1E93B)
     (attr smd)
-    (fp_text reference L6 (at 0 -1.84 90) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text reference L6 (at -1.085 -1.11 90) (layer F.SilkS)
+      (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value 1285AS-H-2R2M=P2 (at 0 1.95 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1602,7 +1602,7 @@
     (at 180 94.7 180)
     (path /605233CC/62A968A1)
     (attr smd)
-    (fp_text reference C75 (at 0 -1.84) (layer F.SilkS) hide
+    (fp_text reference C75 (at 1.05 -4.1975) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_22u_0805_10V (at 0 1.95) (layer F.Fab) hide
@@ -1633,7 +1633,7 @@
     (at 180 92.8 180)
     (path /605233CC/62A96898)
     (attr smd)
-    (fp_text reference C73 (at 0 -1.84) (layer F.SilkS) hide
+    (fp_text reference C73 (at 1.05 -5.215) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_22u_0805_10V (at 0 1.95) (layer F.Fab) hide
@@ -1664,7 +1664,7 @@
     (at 180 96.6 180)
     (path /605233CC/62A9688F)
     (attr smd)
-    (fp_text reference C66 (at 0 -1.84) (layer F.SilkS) hide
+    (fp_text reference C66 (at 1.05 -3.18) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_22u_0805_10V (at 0 1.95) (layer F.Fab) hide
@@ -1691,13 +1691,13 @@
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 623AFEFC)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 6240620B)
     (at 188.9 92.7 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /605233CC/62BAE439)
     (attr smd)
-    (fp_text reference C63 (at 0 -1.17 90) (layer F.SilkS) hide
+    (fp_text reference C63 (at 0.055 -0.895 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_2n2_0402 (at 0 1.17 90) (layer F.Fab) hide
@@ -1725,13 +1725,13 @@
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 623AFEA3)
+  (module m2-smart-iot-module-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 624061E1)
     (at 188.9 95.1 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /605233CC/62ADAE6A)
     (attr smd)
-    (fp_text reference C59 (at 0 -1.17 90) (layer F.SilkS) hide
+    (fp_text reference C59 (at 0 0.86 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_100n_0402 (at 0 1.17 90) (layer F.Fab) hide
@@ -1763,8 +1763,8 @@
     (at 185.33 98.135 180)
     (path /605233CC/62ABA5D0)
     (attr smd)
-    (fp_text reference C57 (at 0 -2.2) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text reference C57 (at 2.16 -0.005) (layer F.SilkS)
+      (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_22u_0603 (at 0 1.9) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1800,7 +1800,7 @@
     (tags resistor)
     (path /60519809/635E6DEF)
     (attr smd)
-    (fp_text reference C55 (at 0 -1.17) (layer F.SilkS) hide
+    (fp_text reference C55 (at 1.97 -0.01) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_100n_0402 (at 0 1.17) (layer F.Fab) hide
@@ -1834,7 +1834,7 @@
     (tags resistor)
     (path /605198AB/62790C32)
     (attr smd)
-    (fp_text reference C54 (at 0 1.17 90) (layer B.SilkS) hide
+    (fp_text reference C54 (at 1.895 -0.025 90) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_1u_0402 (at 0 -1.17 90) (layer B.Fab) hide
@@ -1868,7 +1868,7 @@
     (tags resistor)
     (path /605198AB/62790891)
     (attr smd)
-    (fp_text reference C53 (at 0 1.17) (layer B.SilkS) hide
+    (fp_text reference C53 (at -0.07 0.815) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_1u_0402 (at 0 -1.17) (layer B.Fab) hide
@@ -1899,7 +1899,7 @@
   (module m2-smart-iot-module-footprints:Abracon-ABS06-32.768KHZ-T-0 (layer B.Cu) (tedit 608B4CC5) (tstamp 608B9969)
     (at 146.621499 98.7044 90)
     (path /60519809/608C8F28)
-    (fp_text reference Y3 (at -2.1336 1.816101 90) (layer B.SilkS) hide
+    (fp_text reference Y3 (at -1.1956 1.688501 90) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
     )
     (fp_text value ABS06-32.768KHZ-9-1-T (at 0 0 90) (layer B.SilkS) hide
@@ -1930,7 +1930,7 @@
   (module m2-smart-iot-module-footprints:Abracon-ABM11W-0-0-0 (layer F.Cu) (tedit 608B4CB8) (tstamp 608B9958)
     (at 136.906001 100.838 180)
     (path /60519809/6085B290)
-    (fp_text reference Y2 (at 1.574801 -1.524) (layer F.SilkS) hide
+    (fp_text reference Y2 (at 7.256001 3.138 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify right))
     )
     (fp_text value ABM11W-101-32.0000MHZ-T3 (at 0 0) (layer F.SilkS) hide
@@ -1966,7 +1966,7 @@
   (module m2-smart-iot-module-footprints:NDK-NX3225SA-0-0-MFG (layer F.Cu) (tedit 604B9253) (tstamp 604B6C8F)
     (at 177.673 105.156 45)
     (path /604CFF57/6060E650)
-    (fp_text reference Y1 (at -1.9 -2.15 45) (layer F.SilkS) hide
+    (fp_text reference Y1 (at -1.9 -2.15 45) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left))
     )
     (fp_text value NX3225SA-24M (at 0 0 45) (layer F.Fab) hide
@@ -2003,7 +2003,7 @@
     (at 131.762499 102.5525)
     (path /60519809/61155EB6)
     (attr smd)
-    (fp_text reference U8 (at -2.273299 0.0127) (layer F.SilkS) hide
+    (fp_text reference U8 (at -1.957499 0.8775 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value BME280 (at 0 2.47) (layer F.Fab) hide
@@ -2050,7 +2050,7 @@
   (module m2-smart-iot-module-footprints:Nordic_Semiconductor-NRF52840-QIAA-R-0-0-MFG (layer F.Cu) (tedit 60A5211E) (tstamp 609EB1E2)
     (at 140.3858 95.8215 180)
     (path /60519809/6051EB27)
-    (fp_text reference U4 (at -5.1562 -3.5941) (layer F.SilkS) hide
+    (fp_text reference U4 (at -5.1562 -3.5941) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify right))
     )
     (fp_text value NRF52840 (at 0 0) (layer F.Fab) hide
@@ -2232,7 +2232,7 @@
   (module m2-smart-iot-module-footprints:MODULE_G313-06329-00 (layer F.Cu) (tedit 608B4E0C) (tstamp 60ABE8E4)
     (at 146.05 108.077 270)
     (path /605198AB/60ADCC7E)
-    (fp_text reference U3 (at -0.5842 8.3312 90) (layer F.SilkS) hide
+    (fp_text reference U3 (at -0.5842 8.3312 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value CoralAccelerator (at 7.7 9.135 90) (layer F.Fab) hide
@@ -2505,7 +2505,7 @@
   (module m2-smart-iot-module-footprints:SOIC8-SST25VF512A-33-4I-SAE-Level_B (layer F.Cu) (tedit 604B925E) (tstamp 60959963)
     (at 169.418 98.0948 180)
     (path /604CFF57/604DE031)
-    (fp_text reference U2 (at -4.75 -3.380002) (layer F.SilkS) hide
+    (fp_text reference U2 (at -1.157 -3.1952) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify right))
     )
     (fp_text value SST25VF512A (at 0 0) (layer F.Fab) hide
@@ -2552,7 +2552,7 @@
   (module m2-smart-iot-module-footprints:QFN48-Renesas-UPD720202 (layer F.Cu) (tedit 604B9248) (tstamp 604B6C60)
     (at 184.023 107.442 225)
     (path /604CFF57/604DD1C0)
-    (fp_text reference U1 (at -2.891642 4.436247 45) (layer F.SilkS) hide
+    (fp_text reference U1 (at -2.891642 4.436247 45) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify right))
     )
     (fp_text value UPD720202 (at 0 0 45) (layer F.Fab) hide
@@ -2689,7 +2689,7 @@
     (at 152.35 97.3 90)
     (path /605233CC/6098157D)
     (attr virtual)
-    (fp_text reference TP28 (at 1.504 -1.0888 90) (layer F.SilkS) hide
+    (fp_text reference TP28 (at -1.87 0 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value TP_SMD1MM (at 0 -0.5 90) (layer F.Fab) hide
@@ -2703,7 +2703,7 @@
     (at 183.375 99.75 90)
     (path /605233CC/60976FE7)
     (attr virtual)
-    (fp_text reference TP27 (at -1.7304 0.0004 90) (layer F.SilkS) hide
+    (fp_text reference TP27 (at -0.025 -1.905 180) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value TP_SMD1MM (at 0 -0.5 90) (layer F.Fab) hide
@@ -2717,7 +2717,7 @@
     (at 156 104.3 90)
     (path /605233CC/6096DC31)
     (attr virtual)
-    (fp_text reference TP26 (at 0 0.9144 90) (layer F.SilkS) hide
+    (fp_text reference TP26 (at 0 0.9144 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value TP_SMD1MM (at 0 -0.5 90) (layer F.Fab) hide
@@ -2731,7 +2731,7 @@
     (at 175.85 112.5492 180)
     (path /605233CC/608FD990)
     (attr virtual)
-    (fp_text reference TP25 (at 0 -1.016) (layer F.SilkS) hide
+    (fp_text reference TP25 (at 2.265 -0.0658) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value TP_SMD1MM (at 0 -0.5) (layer F.Fab) hide
@@ -2745,7 +2745,7 @@
     (at 138.06 102.69)
     (path /60519809/60ADE789)
     (attr virtual)
-    (fp_text reference TP23 (at -1.662 0.7896) (layer F.SilkS) hide
+    (fp_text reference TP23 (at -1.662 0.7896) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value TP_SMD1MM (at 0 -0.5) (layer F.Fab) hide
@@ -2759,7 +2759,7 @@
     (at 132.47 92.2508)
     (path /60519809/60AA64FE)
     (attr virtual)
-    (fp_text reference TP19 (at -7.502 -0.0996) (layer F.SilkS) hide
+    (fp_text reference TP19 (at -3.2 0.7692 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value TP_SMD1MM (at 0 -0.5) (layer F.Fab) hide
@@ -2773,7 +2773,7 @@
     (at 133.735 92.2508)
     (path /60519809/60AA6087)
     (attr virtual)
-    (fp_text reference TP18 (at -6.0746 -0.0996) (layer F.SilkS) hide
+    (fp_text reference TP18 (at -3.4525 0.7692 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value TP_SMD1MM (at 0 -0.5) (layer F.Fab) hide
@@ -2787,7 +2787,7 @@
     (at 135 92.265)
     (path /60519809/60AA5CD2)
     (attr virtual)
-    (fp_text reference TP17 (at -4.3156 -0.0396) (layer F.SilkS) hide
+    (fp_text reference TP17 (at -3.705 0.755 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value TP_SMD1MM (at 0 -0.5) (layer F.Fab) hide
@@ -2801,7 +2801,7 @@
     (at 135.88 92.1092)
     (path /60519809/60AD28DE)
     (attr virtual)
-    (fp_text reference TP16 (at -1.91 0.08) (layer B.SilkS) hide
+    (fp_text reference TP16 (at -1.91 0.08) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value TP_SMD1MM (at 0 0.5) (layer B.Fab) hide
@@ -2815,7 +2815,7 @@
     (at 138.09 92.78)
     (path /60519809/60A68DA5)
     (attr virtual)
-    (fp_text reference TP12 (at 0.6956 1.2508) (layer B.SilkS) hide
+    (fp_text reference TP12 (at 0.185 1.865 90) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value TP_SMD1MM (at 0 0.5) (layer B.Fab) hide
@@ -2829,7 +2829,7 @@
     (at 139.4 92.74)
     (path /60519809/60A55842)
     (attr virtual)
-    (fp_text reference TP11 (at 2.1288 1.24) (layer B.SilkS) hide
+    (fp_text reference TP11 (at 0 1.905 90) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value TP_SMD1MM (at 0 0.5) (layer B.Fab) hide
@@ -2842,7 +2842,7 @@
   (module m2-smart-iot-module-footprints:CK-PTS840_GK_SMTR_LFS-0 (layer F.Cu) (tedit 608B3399) (tstamp 608B9585)
     (at 167.33 93.26 180)
     (path /60519809/6094BF1C)
-    (fp_text reference SW1 (at 4.0588 1.1088 90) (layer F.SilkS) hide
+    (fp_text reference SW1 (at 1.905 -1.685 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify right))
     )
     (fp_text value PTS840_GK_SMTR_LFS (at 0 0) (layer F.SilkS) hide
@@ -2882,7 +2882,7 @@
     (tags resistor)
     (path /60519809/61240DCE)
     (attr smd)
-    (fp_text reference R41 (at -2.032 0 90) (layer F.SilkS) hide
+    (fp_text reference R41 (at -2.27 5.15 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_2k2_0402 (at 0 1.17 90) (layer F.Fab) hide
@@ -2916,7 +2916,7 @@
     (tags resistor)
     (path /60519809/61240320)
     (attr smd)
-    (fp_text reference R40 (at -2.032 -0.0254 90) (layer F.SilkS) hide
+    (fp_text reference R40 (at -2.27 5.075 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_2k2_0402 (at 0 1.17 90) (layer F.Fab) hide
@@ -2948,7 +2948,7 @@
     (at 172.55 104.45 270)
     (path /605233CC/60BEAADD)
     (attr smd)
-    (fp_text reference R39 (at 0.0144 -1.402 90) (layer B.SilkS) hide
+    (fp_text reference R39 (at -2.83 0.025 90) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value R_0R_0805 (at 0 -1.95 90) (layer B.Fab) hide
@@ -2981,7 +2981,7 @@
     (tags resistor)
     (path /605198AB/60C11D74)
     (attr smd)
-    (fp_text reference R37 (at 1.968 0.026) (layer B.SilkS) hide
+    (fp_text reference R37 (at 1.885 -0.015) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value R_8k2_0402 (at 0 -1.17) (layer B.Fab) hide
@@ -3015,7 +3015,7 @@
     (tags resistor)
     (path /605198AB/60C0AF5F)
     (attr smd)
-    (fp_text reference R36 (at 1.9208 -0.0056) (layer F.SilkS) hide
+    (fp_text reference R36 (at 1.935 0.03) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_100k_0402 (at 0 1.17) (layer F.Fab) hide
@@ -3049,7 +3049,7 @@
     (tags resistor)
     (path /605233CC/608F66B2)
     (attr smd)
-    (fp_text reference R32 (at 0 0.8636) (layer B.SilkS) hide
+    (fp_text reference R32 (at 0 0.8636) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value R_0R_0402 (at 0 -1.17) (layer B.Fab) hide
@@ -3083,7 +3083,7 @@
     (tags resistor)
     (path /605233CC/6090C054)
     (attr smd)
-    (fp_text reference R29 (at -1.0668 0.9144) (layer B.SilkS) hide
+    (fp_text reference R29 (at -0.085 -0.975) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value R_10k_0402 (at 0 -1.17) (layer B.Fab) hide
@@ -3117,7 +3117,7 @@
     (tags resistor)
     (path /60515963/6094B237)
     (attr smd)
-    (fp_text reference R26 (at 0 0.9144 90) (layer F.SilkS) hide
+    (fp_text reference R26 (at -1.925 0.55 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_0R_0402 (at 0 1.17 90) (layer F.Fab) hide
@@ -3151,7 +3151,7 @@
     (tags resistor)
     (path /60515963/60949F76)
     (attr smd)
-    (fp_text reference R25 (at 0.0254 0.9652) (layer F.SilkS) hide
+    (fp_text reference R25 (at 0.0254 0.9652) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_0R_0402 (at 0 1.17) (layer F.Fab) hide
@@ -3185,7 +3185,7 @@
     (tags resistor)
     (path /60515963/60948DC0)
     (attr smd)
-    (fp_text reference R24 (at 0 -1.016) (layer F.SilkS) hide
+    (fp_text reference R24 (at 0 -1.016) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_0R_0402 (at 0 1.17) (layer F.Fab) hide
@@ -3219,7 +3219,7 @@
     (tags resistor)
     (path /60515963/60943FB5)
     (attr smd)
-    (fp_text reference R23 (at 0 -1.17 90) (layer F.SilkS) hide
+    (fp_text reference R23 (at -0.01 -0.965 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_0R_0402 (at 0 1.17 90) (layer F.Fab) hide
@@ -3253,7 +3253,7 @@
     (tags resistor)
     (path /60519809/60D6A872)
     (attr smd)
-    (fp_text reference R22 (at -2.032 -0.0127) (layer B.SilkS) hide
+    (fp_text reference R22 (at -2.032 -0.0127) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value R_1k2_0402 (at 0 -1.17) (layer B.Fab) hide
@@ -3287,7 +3287,7 @@
     (tags resistor)
     (path /60519809/60D5A88C)
     (attr smd)
-    (fp_text reference R21 (at -2.032 -0.0127) (layer B.SilkS) hide
+    (fp_text reference R21 (at -2.032 -0.0127) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value R_390R_0402 (at 0 -1.17) (layer B.Fab) hide
@@ -3321,7 +3321,7 @@
     (tags resistor)
     (path /60519809/60D6BC78)
     (attr smd)
-    (fp_text reference R20 (at -2.032 -0.0127) (layer B.SilkS) hide
+    (fp_text reference R20 (at -2.032 -0.0127) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value R_2k2_0402 (at 0 -1.17) (layer B.Fab) hide
@@ -3355,7 +3355,7 @@
     (tags resistor)
     (path /60519809/60C83FB8)
     (attr smd)
-    (fp_text reference R19 (at -2.032 -0.0127) (layer B.SilkS) hide
+    (fp_text reference R19 (at -2.032 -0.0127) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value R_330R_0402 (at 0 -1.17) (layer B.Fab) hide
@@ -3389,7 +3389,7 @@
     (tags resistor)
     (path /60519809/6094ED3A)
     (attr smd)
-    (fp_text reference R18 (at 1.9304 0) (layer F.SilkS) hide
+    (fp_text reference R18 (at 1.9304 -0.115) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_10k_0402 (at 0 1.17) (layer F.Fab) hide
@@ -3423,7 +3423,7 @@
     (tags resistor)
     (path /60519809/608CC5B1)
     (attr smd)
-    (fp_text reference R17 (at 0.1012 -1.03) (layer F.SilkS) hide
+    (fp_text reference R17 (at 0.045 -1.02) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_4R7_0402 (at 0 1.17) (layer F.Fab) hide
@@ -3457,7 +3457,7 @@
     (tags resistor)
     (path /604CFF57/60738464)
     (attr smd)
-    (fp_text reference R13 (at -1.9304 0.0254) (layer F.SilkS) hide
+    (fp_text reference R13 (at -1.9204 -0.0196) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_10k_0402 (at 0 1.17) (layer F.Fab) hide
@@ -3491,7 +3491,7 @@
     (tags resistor)
     (path /604CFF57/607CCF4A)
     (attr smd)
-    (fp_text reference R12 (at -1.9304 0.0254) (layer F.SilkS) hide
+    (fp_text reference R12 (at -1.157334 1.7502) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_10k_0402 (at 0 1.17) (layer F.Fab) hide
@@ -3525,7 +3525,7 @@
     (tags resistor)
     (path /604CFF57/607F764D)
     (attr smd)
-    (fp_text reference R11 (at 1.9304 -0.0254) (layer F.SilkS) hide
+    (fp_text reference R11 (at 1.824 -1.87828) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_10k_0402 (at 0 1.17) (layer F.Fab) hide
@@ -3559,7 +3559,7 @@
     (tags resistor)
     (path /604CFF57/60777E24)
     (attr smd)
-    (fp_text reference R10 (at -1.9304 -0.0254) (layer F.SilkS) hide
+    (fp_text reference R10 (at -1.824 1.83732) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_10k_0402 (at 0 1.17) (layer F.Fab) hide
@@ -3593,7 +3593,7 @@
     (tags resistor)
     (path /604CFF57/60777ABB)
     (attr smd)
-    (fp_text reference R9 (at -2.1844 -0.0254) (layer F.SilkS) hide
+    (fp_text reference R9 (at -1.587067 -0.0196) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_10k_0402 (at 0 1.17) (layer F.Fab) hide
@@ -3627,7 +3627,7 @@
     (tags resistor)
     (path /604CFF57/607F6F80)
     (attr smd)
-    (fp_text reference R8 (at 2.1844 0.0762) (layer F.SilkS) hide
+    (fp_text reference R8 (at 1.587067 0.0196) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_10k_0402 (at 0 1.17) (layer F.Fab) hide
@@ -3661,7 +3661,7 @@
     (tags resistor)
     (path /604CFF57/6073125E)
     (attr smd)
-    (fp_text reference R7 (at -2.54 0.0254) (layer F.SilkS) hide
+    (fp_text reference R7 (at -1.587067 -0.0196) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_10k_0402 (at 0 1.17) (layer F.Fab) hide
@@ -3695,7 +3695,7 @@
     (tags resistor)
     (path /604CFF57/60722513)
     (attr smd)
-    (fp_text reference R6 (at 2.2352 -0.0254) (layer F.SilkS) hide
+    (fp_text reference R6 (at 1.490667 -1.79636) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_10k_0402 (at 0 1.17) (layer F.Fab) hide
@@ -3729,7 +3729,7 @@
     (tags resistor)
     (path /604CFF57/6085596C)
     (attr smd)
-    (fp_text reference R5 (at -1.76013 -0.035921 135) (layer B.SilkS) hide
+    (fp_text reference R5 (at -1.76013 -0.035921 135) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value R_10k_0402 (at 0 -1.17 135) (layer B.Fab) hide
@@ -3763,7 +3763,7 @@
     (tags resistor)
     (path /604CFF57/60843F51)
     (attr smd)
-    (fp_text reference R4 (at 0.035921 -1.903814 45) (layer F.SilkS) hide
+    (fp_text reference R4 (at 1.758575 0.077075 45) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_1k6_0402 (at 0 1.17 45) (layer F.Fab) hide
@@ -3797,7 +3797,7 @@
     (tags resistor)
     (path /604CFF57/6085538F)
     (attr smd)
-    (fp_text reference R3 (at 1.76013 0.035921 135) (layer B.SilkS) hide
+    (fp_text reference R3 (at 1.76013 0.035921 135) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value R_10k_0402 (at 0 -1.17 135) (layer B.Fab) hide
@@ -3831,7 +3831,7 @@
     (tags resistor)
     (path /604CFF57/60A380EB)
     (attr smd)
-    (fp_text reference R2 (at -2.227104 -0.035921 45) (layer B.SilkS) hide
+    (fp_text reference R2 (at -2.227104 -0.035921 45) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value R_10k_0402 (at 0 -1.17 45) (layer B.Fab) hide
@@ -3859,13 +3859,13 @@
     )
   )
 
-  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 604B6B7F)
+  (module m2-smart-iot-module-footprints:0402-res (layer F.Cu) (tedit 604A5761) (tstamp 62404EA8)
     (at 178.054 108.712 45)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /604CFF57/60675367)
     (attr smd)
-    (fp_text reference R1 (at 0.035921 -0.898026 45) (layer F.SilkS) hide
+    (fp_text reference R1 (at -1.69847 0.016971 45) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value R_680R_0402 (at 0 1.17 45) (layer F.Fab) hide
@@ -4472,7 +4472,7 @@
     (path /60AD7EB0)
     (attr virtual)
     (fp_text reference N1 (at 0.6096 -2.0955 90) (layer F.SilkS) hide
-      (effects (font (size 0.7 0.7) (thickness 0.3)))
+      (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value antmicro_logo (at 0.9525 2.3241 90) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -4785,7 +4785,7 @@
   (module m2-smart-iot-module-footprints:M.2-Stud (layer F.Cu) (tedit 60AB0FD7) (tstamp 60ABB312)
     (at 115.2525 102.4255)
     (path /60AD88CE)
-    (fp_text reference MP1 (at 6.25 -4.01) (layer F.SilkS) hide
+    (fp_text reference MP1 (at -2.5725 -1.2855) (layer F.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value PCB_Mount_Hole_M2 (at 0.04 -3.94) (layer F.Fab) hide
@@ -4863,7 +4863,7 @@
     (tags resistor)
     (path /60519809/608B5CF6)
     (attr smd)
-    (fp_text reference L4 (at 0 0.8382) (layer F.SilkS) hide
+    (fp_text reference L4 (at 0.0825 0.999) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value L_4n7_0402 (at 0 1.17) (layer F.Fab) hide
@@ -4897,7 +4897,7 @@
     (tags resistor)
     (path /60519809/6098A0C6)
     (attr smd)
-    (fp_text reference L3 (at 0 1.17) (layer B.SilkS) hide
+    (fp_text reference L3 (at 0.159 0.9884) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value L_15n_0402 (at 0 -1.17) (layer B.Fab) hide
@@ -4929,7 +4929,7 @@
     (at 145.18 92.87 90)
     (path /60519809/60987123)
     (attr smd)
-    (fp_text reference L2 (at -1.9228 0.0064 90) (layer F.SilkS) hide
+    (fp_text reference L2 (at -1.83 -0.29 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value L_10u_80mA_0603 (at 0 1.9 90) (layer F.Fab) hide
@@ -4964,7 +4964,7 @@
     (at 142.3924 100.3808 180)
     (path /60519809/60989159)
     (attr smd)
-    (fp_text reference L1 (at -1.8288 0.0508) (layer F.SilkS) hide
+    (fp_text reference L1 (at -1.8288 0.0508) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value L_10u_250mA_0603 (at 0 1.9) (layer F.Fab) hide
@@ -5691,7 +5691,7 @@
   (module m2-smart-iot-module-footprints:ARM_SWD (layer F.Cu) (tedit 608B503F) (tstamp 608E065E)
     (at 133.477 109.474)
     (path /60519809/60AB3814)
-    (fp_text reference J2 (at -4.699 0.0508) (layer F.SilkS) hide
+    (fp_text reference J2 (at -3.982 0.946 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left))
     )
     (fp_text value 2X05 (at -2.25 4.5) (layer F.SilkS) hide
@@ -5737,7 +5737,7 @@
   (module m2-smart-iot-module-footprints:Murata-MM8130-2600RA2-MFG (layer F.Cu) (tedit 608B2D5C) (tstamp 608B9043)
     (at 128.143 96.139 270)
     (path /60519809/6087B7E4)
-    (fp_text reference J1 (at -2.1082 -0.635 180) (layer F.SilkS) hide
+    (fp_text reference J1 (at -2.014 0.173 180) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify right))
     )
     (fp_text value MM8130-2600RA2 (at 0 0 90) (layer F.SilkS) hide
@@ -5784,7 +5784,7 @@
     (at 188.63 99.175 180)
     (path /604CFF57/6096DF37)
     (attr smd)
-    (fp_text reference FB1 (at 2.8552 -0.4622) (layer F.SilkS) hide
+    (fp_text reference FB1 (at 2.885 -1.6) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value BLM21PG600SN (at 0 1.95) (layer F.Fab) hide
@@ -5814,7 +5814,7 @@
   (module m2-smart-iot-module-footprints:LED_APHF1608LSEEQBDZGKC (layer F.Cu) (tedit 608B51CD) (tstamp 608B8FFD)
     (at 147.574 97.282)
     (path /60519809/60DF33FA)
-    (fp_text reference D2 (at 0.5588 -1.1684) (layer F.SilkS) hide
+    (fp_text reference D2 (at 1.906 0.043) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value APHF1608LSEEQBDZGKC (at -0.05 1.53) (layer F.Fab) hide
@@ -5853,7 +5853,7 @@
     (tags resistor)
     (path /60519809/6115B70F)
     (attr smd)
-    (fp_text reference C71 (at -1.9304 0.0254) (layer F.SilkS) hide
+    (fp_text reference C71 (at 0.046 0.95) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_100n_0402 (at 0 1.17) (layer F.Fab) hide
@@ -5887,7 +5887,7 @@
     (tags resistor)
     (path /60519809/6115F938)
     (attr smd)
-    (fp_text reference C70 (at 0 -0.9906) (layer F.SilkS) hide
+    (fp_text reference C70 (at -0.045 -0.95) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_100n_0402 (at 0 1.17) (layer F.Fab) hide
@@ -5921,7 +5921,7 @@
     (tags resistor)
     (path /605198AB/60C0D715)
     (attr smd)
-    (fp_text reference C69 (at -1.9532 0.0144) (layer F.SilkS) hide
+    (fp_text reference C69 (at -1.9532 0.0144) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_100n_0402 (at 0 1.17) (layer F.Fab) hide
@@ -5955,7 +5955,7 @@
     (tags resistor)
     (path /605198AB/60C3B1C6)
     (attr smd)
-    (fp_text reference C68 (at -4.8058 0.0204) (layer F.SilkS) hide
+    (fp_text reference C68 (at 1.97 0.015) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_100n_0402 (at 0 1.17) (layer F.Fab) hide
@@ -5989,7 +5989,7 @@
     (tags resistor)
     (path /605198AB/60C1C103)
     (attr smd)
-    (fp_text reference C67 (at 4.2018 0.0004) (layer F.SilkS) hide
+    (fp_text reference C67 (at 1.93 -0.005) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_100n_0402 (at 0 1.17) (layer F.Fab) hide
@@ -6020,7 +6020,7 @@
   (module m2-smart-iot-module-footprints:Panasonic_Electronic_Components-CD-0-0-MFG (layer F.Cu) (tedit 608B3442) (tstamp 608B8FC4)
     (at 159.258001 108.211 90)
     (path /605233CC/6093401B)
-    (fp_text reference C64 (at 4.4774 1.981199 90) (layer F.SilkS) hide
+    (fp_text reference C64 (at 4.0624 2.116199 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left))
     )
     (fp_text value C_330u_EEF-SX (at 0 0 90) (layer F.SilkS) hide
@@ -6057,7 +6057,7 @@
   (module m2-smart-iot-module-footprints:Panasonic_Electronic_Components-CD-0-0-MFG (layer F.Cu) (tedit 608B3442) (tstamp 608B8F8E)
     (at 164.084 108.211 90)
     (path /605233CC/60933C24)
-    (fp_text reference C61 (at 4.4774 1.9304 90) (layer F.SilkS) hide
+    (fp_text reference C61 (at 4.0624 2.0654 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left))
     )
     (fp_text value C_330u_EEF-SX (at 0 0 90) (layer F.SilkS) hide
@@ -6094,7 +6094,7 @@
   (module m2-smart-iot-module-footprints:Panasonic_Electronic_Components-CD-0-0-MFG (layer F.Cu) (tedit 608B3442) (tstamp 608B8F58)
     (at 168.91 108.211 90)
     (path /605233CC/609334A7)
-    (fp_text reference C58 (at 4.4774 1.9812 90) (layer F.SilkS) hide
+    (fp_text reference C58 (at 4.0624 2.1162 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left))
     )
     (fp_text value C_330u_EEF-SX (at 0 0 90) (layer F.SilkS) hide
@@ -6134,7 +6134,7 @@
     (tags resistor)
     (path /60519809/6089E57B)
     (attr smd)
-    (fp_text reference C52 (at -2.032 0 90) (layer F.SilkS) hide
+    (fp_text reference C52 (at 1.9776 -0.006 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_1p2_0402 (at 0 1.17 90) (layer F.Fab) hide
@@ -6168,7 +6168,7 @@
     (tags resistor)
     (path /60519809/608B897D)
     (attr smd)
-    (fp_text reference C51 (at -2.0574 0 90) (layer F.SilkS) hide
+    (fp_text reference C51 (at -0.082 -1.0364 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value RF_Capacitor (at 0 1.17 90) (layer F.Fab) hide
@@ -6202,7 +6202,7 @@
     (tags resistor)
     (path /60519809/6089C6F2)
     (attr smd)
-    (fp_text reference C50 (at -2.0574 0 90) (layer F.SilkS) hide
+    (fp_text reference C50 (at -2.0574 0 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_0p5_0402 (at 0 1.17 90) (layer F.Fab) hide
@@ -6236,7 +6236,7 @@
     (tags resistor)
     (path /60519809/6085C6EC)
     (attr smd)
-    (fp_text reference C49 (at 0 -1.17 90) (layer F.SilkS) hide
+    (fp_text reference C49 (at 0.032 -0.984 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_8p_0402 (at 0 1.17 90) (layer F.Fab) hide
@@ -6270,7 +6270,7 @@
     (tags resistor)
     (path /60519809/60866159)
     (attr smd)
-    (fp_text reference C48 (at 0 -0.9398) (layer B.SilkS) hide
+    (fp_text reference C48 (at -0.017501 -0.8294) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_12p_0402 (at 0 -1.17) (layer B.Fab) hide
@@ -6304,7 +6304,7 @@
     (tags resistor)
     (path /60519809/6089BB25)
     (attr smd)
-    (fp_text reference C47 (at -2.0574 0.0254 90) (layer F.SilkS) hide
+    (fp_text reference C47 (at -2.0574 0.0254 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_0p8_0402 (at 0 1.17 90) (layer F.Fab) hide
@@ -6338,7 +6338,7 @@
     (tags resistor)
     (path /60519809/60867E92)
     (attr smd)
-    (fp_text reference C46 (at -0.0127 0.9906) (layer B.SilkS) hide
+    (fp_text reference C46 (at -1.8455 0.0206) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_12p_0402 (at 0 -1.17) (layer B.Fab) hide
@@ -6372,7 +6372,7 @@
     (tags resistor)
     (path /60519809/6085C261)
     (attr smd)
-    (fp_text reference C45 (at 0 -0.8382 90) (layer F.SilkS) hide
+    (fp_text reference C45 (at 2.046333 -6.276 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_8p_0402 (at 0 1.17 90) (layer F.Fab) hide
@@ -6406,7 +6406,7 @@
     (tags resistor)
     (path /60519809/6096C28A)
     (attr smd)
-    (fp_text reference C44 (at -1.9304 0) (layer F.SilkS) hide
+    (fp_text reference C44 (at -1.935 0.106) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_100n_0402 (at 0 1.17) (layer F.Fab) hide
@@ -6440,7 +6440,7 @@
     (tags resistor)
     (path /60519809/6087B59A)
     (attr smd)
-    (fp_text reference C43 (at 0 1.9828) (layer B.SilkS) hide
+    (fp_text reference C43 (at 0 1.9828) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_47n_0402 (at 0 -1.17) (layer B.Fab) hide
@@ -6474,7 +6474,7 @@
     (tags resistor)
     (path /60519809/6082CD8B)
     (attr smd)
-    (fp_text reference C42 (at 0 1.9828) (layer B.SilkS) hide
+    (fp_text reference C42 (at 0 1.9828) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_1u_0402 (at 0 -1.17) (layer B.Fab) hide
@@ -6508,7 +6508,7 @@
     (tags resistor)
     (path /60519809/607EFAFA)
     (attr smd)
-    (fp_text reference C41 (at 0.086 0.9692 90) (layer B.SilkS) hide
+    (fp_text reference C41 (at 0.086 0.9692 90) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_100n_0402 (at 0 -1.17 90) (layer B.Fab) hide
@@ -6542,7 +6542,7 @@
     (tags resistor)
     (path /60519809/6080E3CC)
     (attr smd)
-    (fp_text reference C40 (at 1.9912 -0.0164) (layer B.SilkS) hide
+    (fp_text reference C40 (at 1.875 0.06) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_4u7_0402 (at 0 -1.17) (layer B.Fab) hide
@@ -6576,7 +6576,7 @@
     (tags resistor)
     (path /60519809/607E7589)
     (attr smd)
-    (fp_text reference C39 (at 0.1778 -1.0414) (layer B.SilkS) hide
+    (fp_text reference C39 (at 0.1778 -1.0414) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_100n_0402 (at 0 -1.17) (layer B.Fab) hide
@@ -6610,7 +6610,7 @@
     (tags resistor)
     (path /60519809/6088727D)
     (attr smd)
-    (fp_text reference C38 (at 0.1472 0.9712 90) (layer B.SilkS) hide
+    (fp_text reference C38 (at 0.1472 0.9712 90) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_820p_0402 (at 0 -1.17 90) (layer B.Fab) hide
@@ -6644,7 +6644,7 @@
     (tags resistor)
     (path /60519809/6089BD4D)
     (attr smd)
-    (fp_text reference C37 (at 1.778 0.5588) (layer F.SilkS) hide
+    (fp_text reference C37 (at 1.97 0.08) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_100p_0402 (at 0 1.17) (layer F.Fab) hide
@@ -6678,7 +6678,7 @@
     (tags resistor)
     (path /60519809/607E1AEE)
     (attr smd)
-    (fp_text reference C36 (at 2.144 -0.5456) (layer B.SilkS) hide
+    (fp_text reference C36 (at 1.875 0.03) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_100n_0402 (at 0 -1.17) (layer B.Fab) hide
@@ -6712,7 +6712,7 @@
     (tags resistor)
     (path /60519809/608223EE)
     (attr smd)
-    (fp_text reference C35 (at 0.0508 -0.9906 90) (layer B.SilkS) hide
+    (fp_text reference C35 (at 0.0508 -0.9906 90) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_1u_0402 (at 0 -1.17 90) (layer B.Fab) hide
@@ -6746,7 +6746,7 @@
     (tags resistor)
     (path /60519809/608FE890)
     (attr smd)
-    (fp_text reference C34 (at 0 1.0414) (layer B.SilkS) hide
+    (fp_text reference C34 (at 0 1.0414) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_100n_0402 (at 0 -1.17) (layer B.Fab) hide
@@ -6780,7 +6780,7 @@
     (tags resistor)
     (path /60519809/608EE7F4)
     (attr smd)
-    (fp_text reference C33 (at 0.0024 0.9906 90) (layer B.SilkS) hide
+    (fp_text reference C33 (at 0.0024 0.9906 90) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_100n_0402 (at 0 -1.17 90) (layer B.Fab) hide
@@ -6814,7 +6814,7 @@
     (tags resistor)
     (path /60519809/6081A2B4)
     (attr smd)
-    (fp_text reference C32 (at 1.9664 -0.5488) (layer F.SilkS) hide
+    (fp_text reference C32 (at 1.76 0.05) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_4u7_0402 (at 0 1.17) (layer F.Fab) hide
@@ -6848,7 +6848,7 @@
     (tags resistor)
     (path /60519809/607F85FF)
     (attr smd)
-    (fp_text reference C31 (at 1.85 1.132 90) (layer F.SilkS) hide
+    (fp_text reference C31 (at 0.68 0.81 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_4u7_0402 (at 0 1.17 90) (layer F.Fab) hide
@@ -6880,7 +6880,7 @@
     (at 155.956 107.188 270)
     (path /605198AB/60798FE5)
     (attr smd)
-    (fp_text reference C30 (at 3.4544 0 90) (layer F.SilkS) hide
+    (fp_text reference C30 (at 3.4544 0 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_10u_0805 (at 0 1.95 90) (layer F.Fab) hide
@@ -6913,7 +6913,7 @@
     (tags resistor)
     (path /605198AB/60799F74)
     (attr smd)
-    (fp_text reference C29 (at 4.041 0 90) (layer F.SilkS) hide
+    (fp_text reference C29 (at 4.041 0 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_100n_0402 (at 0 1.17 90) (layer F.Fab) hide
@@ -6947,7 +6947,7 @@
     (tags resistor)
     (path /605198AB/6079AB3E)
     (attr smd)
-    (fp_text reference C28 (at 4.699 0 90) (layer F.SilkS) hide
+    (fp_text reference C28 (at 4.699 0 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_100n_0402 (at 0 1.17 90) (layer F.Fab) hide
@@ -6981,7 +6981,7 @@
     (tags resistor)
     (path /604CFF57/606E69A3)
     (attr smd)
-    (fp_text reference C27 (at -2.5908 -0.0762) (layer F.SilkS) hide
+    (fp_text reference C27 (at -2.5908 -0.0762) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_100n_0402 (at 0 1.17) (layer F.Fab) hide
@@ -7015,7 +7015,7 @@
     (tags resistor)
     (path /604CFF57/605DFADC)
     (attr smd)
-    (fp_text reference C26 (at -0.6858 -1.1176) (layer F.SilkS) hide
+    (fp_text reference C26 (at 1.906 -0.01) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_100n_0402 (at 0 1.17) (layer F.Fab) hide
@@ -7049,7 +7049,7 @@
     (tags resistor)
     (path /604CFF57/605DCE75)
     (attr smd)
-    (fp_text reference C25 (at 1.905 0.7112) (layer F.SilkS) hide
+    (fp_text reference C25 (at 1.916 -0.041) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_100n_0402 (at 0 1.17) (layer F.Fab) hide
@@ -7083,7 +7083,7 @@
     (tags resistor)
     (path /604CFF57/606828E7)
     (attr smd)
-    (fp_text reference C24 (at 0 -1.17 135) (layer F.SilkS) hide
+    (fp_text reference C24 (at -0.059397 -0.871156 135) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_8p_0402 (at 0 1.17 135) (layer F.Fab) hide
@@ -7117,7 +7117,7 @@
     (tags resistor)
     (path /604CFF57/6050E95B)
     (attr smd)
-    (fp_text reference C23 (at -1.921775 -0.035921 135) (layer B.SilkS) hide
+    (fp_text reference C23 (at -1.921775 -0.035921 135) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_10n_0402 (at 0 -1.17 135) (layer B.Fab) hide
@@ -7151,7 +7151,7 @@
     (tags resistor)
     (path /604CFF57/60503B2B)
     (attr smd)
-    (fp_text reference C22 (at -1.993617 0.017961 135) (layer B.SilkS) hide
+    (fp_text reference C22 (at -1.993617 0.017961 135) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_10n_0402 (at 0 -1.17 135) (layer B.Fab) hide
@@ -7185,7 +7185,7 @@
     (tags resistor)
     (path /604CFF57/604EC6AE)
     (attr smd)
-    (fp_text reference C21 (at 0 -2.083419 45) (layer F.SilkS) hide
+    (fp_text reference C21 (at 2.037882 0.084853 45) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_10n_0402 (at 0 1.17 45) (layer F.Fab) hide
@@ -7219,7 +7219,7 @@
     (tags resistor)
     (path /604CFF57/60503A5A)
     (attr smd)
-    (fp_text reference C20 (at -1.993617 0.017961 135) (layer B.SilkS) hide
+    (fp_text reference C20 (at -1.993617 0.017961 135) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_10n_0402 (at 0 -1.17 135) (layer B.Fab) hide
@@ -7253,7 +7253,7 @@
     (tags resistor)
     (path /604CFF57/6050E7C0)
     (attr smd)
-    (fp_text reference C19 (at -1.939735 0 45) (layer B.SilkS) hide
+    (fp_text reference C19 (at -1.939735 0 45) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_10n_0402 (at 0 -1.17 45) (layer B.Fab) hide
@@ -7287,7 +7287,7 @@
     (tags resistor)
     (path /604CFF57/604EC719)
     (attr smd)
-    (fp_text reference C18 (at -1.939735 0.035921 45) (layer B.SilkS) hide
+    (fp_text reference C18 (at -1.939735 0.035921 45) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_100n_0402 (at 0 -1.17 45) (layer B.Fab) hide
@@ -7321,7 +7321,7 @@
     (tags resistor)
     (path /604CFF57/60503B38)
     (attr smd)
-    (fp_text reference C17 (at -1.921775 -0.053882 135) (layer B.SilkS) hide
+    (fp_text reference C17 (at -1.921775 -0.053882 135) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_100n_0402 (at 0 -1.17 135) (layer B.Fab) hide
@@ -7355,7 +7355,7 @@
     (tags resistor)
     (path /604CFF57/60520D86)
     (attr smd)
-    (fp_text reference C16 (at -0.017961 1.05967 135) (layer B.SilkS) hide
+    (fp_text reference C16 (at -0.017961 1.05967 135) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_10n_0402 (at 0 -1.17 135) (layer B.Fab) hide
@@ -7389,7 +7389,7 @@
     (tags resistor)
     (path /604CFF57/604E4192)
     (attr smd)
-    (fp_text reference C15 (at -1.939735 0.017961 45) (layer B.SilkS) hide
+    (fp_text reference C15 (at -1.939735 0.017961 45) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_10n_0402 (at 0 -1.17 45) (layer B.Fab) hide
@@ -7423,7 +7423,7 @@
     (tags resistor)
     (path /604CFF57/60520BB5)
     (attr smd)
-    (fp_text reference C14 (at -1.975656 0 45) (layer B.SilkS) hide
+    (fp_text reference C14 (at -1.975656 0 45) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_10n_0402 (at 0 -1.17 45) (layer B.Fab) hide
@@ -7457,7 +7457,7 @@
     (tags resistor)
     (path /604CFF57/604E4585)
     (attr smd)
-    (fp_text reference C13 (at -2.083419 0 45) (layer B.SilkS) hide
+    (fp_text reference C13 (at -2.083419 0 45) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_100n_0402 (at 0 -1.17 45) (layer B.Fab) hide
@@ -7491,7 +7491,7 @@
     (tags resistor)
     (path /604CFF57/60682CE8)
     (attr smd)
-    (fp_text reference C12 (at 0.009409 -0.885863 135) (layer F.SilkS) hide
+    (fp_text reference C12 (at 0.009409 -0.885863 135) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_8p_0402 (at 0 1.17 135) (layer F.Fab) hide
@@ -7525,7 +7525,7 @@
     (tags resistor)
     (path /604CFF57/604F02D1)
     (attr smd)
-    (fp_text reference C11 (at -1.939735 -0.035921 45) (layer B.SilkS) hide
+    (fp_text reference C11 (at -1.939735 -0.035921 45) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_10n_0402 (at 0 -1.17 45) (layer B.Fab) hide
@@ -7559,7 +7559,7 @@
     (tags resistor)
     (path /604CFF57/6050E968)
     (attr smd)
-    (fp_text reference C10 (at 1.9812 -0.0508) (layer F.SilkS) hide
+    (fp_text reference C10 (at 2.133867 -0.1424) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_100n_0402 (at 0 1.17) (layer F.Fab) hide
@@ -7593,7 +7593,7 @@
     (tags resistor)
     (path /604CFF57/604F0230)
     (attr smd)
-    (fp_text reference C9 (at -2.191182 -0.071842 45) (layer B.SilkS) hide
+    (fp_text reference C9 (at -2.191182 -0.071842 45) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_10n_0402 (at 0 -1.17 45) (layer B.Fab) hide
@@ -7625,7 +7625,7 @@
     (at 188.645001 101.085001)
     (path /604CFF57/60997A20)
     (attr smd)
-    (fp_text reference C8 (at -2.616201 -0.584201) (layer F.SilkS) hide
+    (fp_text reference C8 (at -2.600001 0.589999) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_10u_0805 (at 0 1.95) (layer F.Fab) hide
@@ -7658,7 +7658,7 @@
     (tags resistor)
     (path /604CFF57/604F02DE)
     (attr smd)
-    (fp_text reference C7 (at -2.227104 -0.035921 45) (layer B.SilkS) hide
+    (fp_text reference C7 (at -2.227104 -0.035921 45) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_100n_0402 (at 0 -1.17 45) (layer B.Fab) hide
@@ -7692,7 +7692,7 @@
     (tags resistor)
     (path /604CFF57/6052532F)
     (attr smd)
-    (fp_text reference C6 (at -1.5494 0.6096) (layer F.SilkS) hide
+    (fp_text reference C6 (at -1.593 0.1046) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value C_100n_0402 (at 0 1.17) (layer F.Fab) hide
@@ -7726,7 +7726,7 @@
     (tags resistor)
     (path /604CFF57/604EDD4D)
     (attr smd)
-    (fp_text reference C5 (at -1.652367 -0.071842 45) (layer B.SilkS) hide
+    (fp_text reference C5 (at -1.652367 -0.071842 45) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_10n_0402 (at 0 -1.17 45) (layer B.Fab) hide
@@ -7760,7 +7760,7 @@
     (tags resistor)
     (path /604CFF57/604ED954)
     (attr smd)
-    (fp_text reference C4 (at -1.688288 -0.035921 45) (layer B.SilkS) hide
+    (fp_text reference C4 (at -1.688288 -0.035921 45) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_10n_0402 (at 0 -1.17 45) (layer B.Fab) hide
@@ -7794,7 +7794,7 @@
     (tags resistor)
     (path /604CFF57/604EDFC6)
     (attr smd)
-    (fp_text reference C3 (at -1.76013 -0.035921 45) (layer B.SilkS) hide
+    (fp_text reference C3 (at -1.76013 -0.035921 45) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_100n_0402 (at 0 -1.17 45) (layer B.Fab) hide
@@ -7828,7 +7828,7 @@
     (tags resistor)
     (path /604CFF57/604F1E7B)
     (attr smd)
-    (fp_text reference C2 (at -2.11934 0.610657 135) (layer B.SilkS) hide
+    (fp_text reference C2 (at -2.11934 0.610657 135) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_10n_0402 (at 0 -1.17 135) (layer B.Fab) hide
@@ -7862,7 +7862,7 @@
     (tags resistor)
     (path /604CFF57/604F1F2F)
     (attr smd)
-    (fp_text reference C1 (at -0.035921 -0.969868 135) (layer B.SilkS) hide
+    (fp_text reference C1 (at -0.035921 -0.969868 135) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value C_100n_0402 (at 0 -1.17 135) (layer B.Fab) hide
@@ -7893,7 +7893,7 @@
   (module m2-smart-iot-module-footprints:Linx-ANT-2.45-CHP-T-MFG (layer F.Cu) (tedit 60A684B6) (tstamp 604C3FCB)
     (at 121.0564 96.1644 180)
     (path /60519809/6053CAE5)
-    (fp_text reference ANT1 (at -4 -2.25) (layer F.SilkS) hide
+    (fp_text reference ANT1 (at -1.2386 -2.2056) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify right))
     )
     (fp_text value ANT-2.45-CHP-T (at 0 0) (layer F.Fab) hide
@@ -7922,7 +7922,19 @@
     )
   )
 
-  (gr_text "ePCI radio module   rev 1.0.0                              05/2021" (at 151.7396 112.1664) (layer B.Mask)
+  (gr_line (start 130.48 99.705) (end 129.845 99.07) (layer F.SilkS) (width 0.12))
+  (gr_line (start 134.295 100.805) (end 134.6 100.805) (layer F.SilkS) (width 0.12))
+  (gr_line (start 133.195 99.705) (end 134.295 100.805) (layer F.SilkS) (width 0.12))
+  (gr_line (start 130.5 99.705) (end 133.19 99.7) (layer F.SilkS) (width 0.12))
+  (gr_line (start 133.835 101.105) (end 133.835 101.88) (layer F.SilkS) (width 0.12))
+  (gr_line (start 132.82 100.09) (end 133.835 101.105) (layer F.SilkS) (width 0.12))
+  (gr_line (start 130.285 100.09) (end 132.82 100.09) (layer F.SilkS) (width 0.12))
+  (gr_line (start 184.745 99.81) (end 185.025 99.81) (layer F.SilkS) (width 0.12))
+  (gr_line (start 183.925 100.63) (end 184.745 99.81) (layer F.SilkS) (width 0.12))
+  (gr_line (start 182.335 100.63) (end 183.925 100.63) (layer F.SilkS) (width 0.12))
+  (gr_line (start 164.4 99.92) (end 164.4 99.36) (layer F.SilkS) (width 0.12))
+  (gr_line (start 164.06 100.26) (end 164.4 99.92) (layer F.SilkS) (width 0.12))
+  (gr_text "ePCI radio module   rev 1.1.0                              03/2022" (at 151.7396 112.1664) (layer B.Mask)
     (effects (font (size 0.7 0.7) (thickness 0.16)) (justify mirror))
   )
   (gr_text nRF.Brk (at 175.92 93.38 90) (layer F.SilkS) (tstamp 60B17DD7)
@@ -8175,7 +8187,7 @@
   (via (at 128.143 95.123) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 127.254 94.234) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 129.159 94.234) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
-  (via (at 130.429 95.25) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 130.429 95.25) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1) (tstamp 62409A6E))
   (via (at 124.333 98.044) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 124.333 94.234) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 125.349 95.25) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
@@ -8665,7 +8677,7 @@
   (segment (start 187.032947 109.435947) (end 186.2836 110.185294) (width 0.254) (layer B.Cu) (net 49) (status 30))
   (segment (start 186.2836 110.185294) (end 186.2836 110.236) (width 0.254) (layer B.Cu) (net 49) (status 30))
   (segment (start 185.174487 111.067772) (end 185.511115 111.4044) (width 0.254) (layer F.Cu) (net 49) (status 10))
-  (via (at 185.986397 111.368664) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 49))
+  (via (at 185.986397 111.368664) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 49) (status 1000000))
   (segment (start 185.950661 111.4044) (end 185.986397 111.368664) (width 0.254) (layer F.Cu) (net 49))
   (segment (start 185.511115 111.4044) (end 185.950661 111.4044) (width 0.254) (layer F.Cu) (net 49))
   (segment (start 185.986397 111.368664) (end 185.615733 110.998) (width 0.254) (layer B.Cu) (net 49) (status 20))
@@ -13901,9 +13913,9 @@
         (xy 178.209375 94.2625) (xy 178.5125 94.2625) (xy 178.5125 93.959375) (xy 178.465625 93.9125) (xy 178.35 93.911593)
         (xy 178.313244 93.915213) (xy 178.2779 93.925935) (xy 178.245327 93.943345) (xy 178.216776 93.966776) (xy 178.193345 93.995327)
         (xy 178.175935 94.0279) (xy 178.165213 94.063244) (xy 178.161593 94.1) (xy 175.590416 94.1) (xy 175.590416 93.774999)
-        (xy 175.586757 93.737851) (xy 175.575921 93.70213) (xy 175.558325 93.66921) (xy 175.552068 93.661585) (xy 176.557134 93.661585)
-        (xy 176.663567 93.732104) (xy 176.848033 93.740811) (xy 176.936433 93.732104) (xy 177.042866 93.661585) (xy 176.8 93.418718)
-        (xy 176.557134 93.661585) (xy 175.552068 93.661585) (xy 175.534644 93.640355) (xy 175.505789 93.616674) (xy 175.472869 93.599078)
+        (xy 175.586757 93.737851) (xy 175.575921 93.70213) (xy 175.558325 93.66921) (xy 175.547964 93.656585) (xy 176.967134 93.656585)
+        (xy 177.073567 93.727104) (xy 177.258033 93.735811) (xy 177.346433 93.727104) (xy 177.452866 93.656585) (xy 177.21 93.413718)
+        (xy 176.967134 93.656585) (xy 175.547964 93.656585) (xy 175.534644 93.640355) (xy 175.505789 93.616674) (xy 175.472869 93.599078)
         (xy 175.437148 93.588242) (xy 175.4 93.584583) (xy 174 93.584583) (xy 173.962852 93.588242) (xy 173.927131 93.599078)
         (xy 173.894211 93.616674) (xy 173.865356 93.640355) (xy 173.841675 93.66921) (xy 173.824079 93.70213) (xy 173.813243 93.737851)
         (xy 173.809584 93.774999) (xy 173.809584 94.010499) (xy 173.355277 94.010499) (xy 173.340218 93.987961) (xy 173.272037 93.91978)
@@ -13998,10 +14010,10 @@
         (xy 175.540625 93.287501) (xy 175.1375 93.287501) (xy 174.2625 93.287501) (xy 173.859375 93.287501) (xy 173.8125 93.334376)
         (xy 173.811593 93.375001) (xy 171.988407 93.375001) (xy 171.9875 93.334376) (xy 171.940625 93.287501) (xy 171.5375 93.287501)
         (xy 170.6625 93.287501) (xy 170.259375 93.287501) (xy 170.2125 93.334376) (xy 170.211593 93.375001) (xy 170.020416 93.375001)
-        (xy 170.020416 92.848033) (xy 175.859189 92.848033) (xy 175.867896 92.936433) (xy 175.938415 93.042866) (xy 176.181282 92.8)
-        (xy 177.418718 92.8) (xy 177.661585 93.042866) (xy 177.732104 92.936433) (xy 177.740811 92.751967) (xy 177.732104 92.663567)
-        (xy 177.661585 92.557134) (xy 177.418718 92.8) (xy 176.181282 92.8) (xy 175.938415 92.557134) (xy 175.867896 92.663567)
-        (xy 175.859189 92.848033) (xy 170.020416 92.848033) (xy 170.020416 92.335001) (xy 170.019432 92.325001) (xy 170.211593 92.325001)
+        (xy 170.020416 92.843033) (xy 176.269189 92.843033) (xy 176.277896 92.931433) (xy 176.348415 93.037866) (xy 176.591282 92.795)
+        (xy 177.828718 92.795) (xy 178.071585 93.037866) (xy 178.142104 92.931433) (xy 178.150811 92.746967) (xy 178.142104 92.658567)
+        (xy 178.071585 92.552134) (xy 177.828718 92.795) (xy 176.591282 92.795) (xy 176.348415 92.552134) (xy 176.277896 92.658567)
+        (xy 176.269189 92.843033) (xy 170.020416 92.843033) (xy 170.020416 92.335001) (xy 170.019432 92.325001) (xy 170.211593 92.325001)
         (xy 170.2125 92.365626) (xy 170.259375 92.412501) (xy 170.6625 92.412501) (xy 170.6625 92.184376) (xy 171.5375 92.184376)
         (xy 171.5375 92.412501) (xy 171.940625 92.412501) (xy 171.9875 92.365626) (xy 171.988407 92.325001) (xy 173.811593 92.325001)
         (xy 173.8125 92.365626) (xy 173.859375 92.412501) (xy 174.2625 92.412501) (xy 174.2625 92.184376) (xy 175.1375 92.184376)
@@ -14030,9 +14042,9 @@
         (xy 164.643243 92.297853) (xy 164.639584 92.335001) (xy 162.2045 92.335001) (xy 162.2045 92.1) (xy 162.261593 92.1)
         (xy 162.2625 92.215625) (xy 162.309375 92.2625) (xy 162.6125 92.2625) (xy 162.6125 91.959375) (xy 163.4875 91.959375)
         (xy 163.4875 92.2625) (xy 163.790625 92.2625) (xy 163.8375 92.215625) (xy 163.838407 92.1) (xy 163.834787 92.063244)
-        (xy 163.824065 92.0279) (xy 163.806655 91.995327) (xy 163.783224 91.966776) (xy 163.754673 91.943345) (xy 163.74545 91.938415)
-        (xy 176.557134 91.938415) (xy 176.8 92.181282) (xy 177.042866 91.938415) (xy 176.936433 91.867896) (xy 176.751967 91.859189)
-        (xy 176.663567 91.867896) (xy 176.557134 91.938415) (xy 163.74545 91.938415) (xy 163.7221 91.925935) (xy 163.686756 91.915213)
+        (xy 163.824065 92.0279) (xy 163.806655 91.995327) (xy 163.783224 91.966776) (xy 163.754673 91.943345) (xy 163.736095 91.933415)
+        (xy 176.967134 91.933415) (xy 177.21 92.176282) (xy 177.452866 91.933415) (xy 177.346433 91.862896) (xy 177.161967 91.854189)
+        (xy 177.073567 91.862896) (xy 176.967134 91.933415) (xy 163.736095 91.933415) (xy 163.7221 91.925935) (xy 163.686756 91.915213)
         (xy 163.65 91.911593) (xy 163.534375 91.9125) (xy 163.4875 91.959375) (xy 162.6125 91.959375) (xy 162.565625 91.9125)
         (xy 162.45 91.911593) (xy 162.413244 91.915213) (xy 162.3779 91.925935) (xy 162.345327 91.943345) (xy 162.316776 91.966776)
         (xy 162.293345 91.995327) (xy 162.275935 92.0279) (xy 162.265213 92.063244) (xy 162.261593 92.1) (xy 162.2045 92.1)
