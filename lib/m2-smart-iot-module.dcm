@@ -24,11 +24,6 @@ F http://www.farnell.com/datasheets/2045956.pdf
 $ENDCMP
 #
 $CMP MM8130-2600RA2
-D RF Connectors / Coaxial Connectors with Switch
-F https://media.digikey.com/pdf/Data%20Sheets/Murata%20PDFs/Microwave_Coaxial_Conn_Cat030E.pdf
-$ENDCMP
-#
-$CMP NCP380HMUAJAATBG
 D Current limiting switch
 F https://www.onsemi.com/pub/Collateral/NCP380-D.PDF
 $ENDCMP
@@ -41,10 +36,6 @@ $ENDCMP
 $CMP NX3225SA-24M
 D 24MHz Crystal
 K XTAL 24MHz
-F https://www.ndk.com/images/products/catalog/c_NX3225SA-STD-CRS-2_e.pdf
-$ENDCMP
-#
-$CMP PE42423MLBA-Z
 F https://www.psemi.com/pdf/datasheets/pe42423ds.pdf
 $ENDCMP
 #
@@ -54,28 +45,14 @@ F http://www.ckswitches.com/media/1477/pts840.pdf
 $ENDCMP
 #
 $CMP SST25VF512A
-D NOR Flash Serial-SPI 3.3V 512Kbit 64K x 8bit 12ns 8-Pin SOIC
-K NOR FLASH SPI
-F http://ww1.microchip.com/downloads/en/DeviceDoc/25090A.pdf
-$ENDCMP
-#
-$CMP TLV62568PDRLT
-D TLV62568PDRLT
-F https://www.ti.com/lit/ds/symlink/tlv62568.pdf?ts=1615727987661
-$ENDCMP
-#
-$CMP TPS61232DRCR
 D TPS61232DRCR
+K NOR FLASH SPI
 F https://www.ti.com/lit/ds/symlink/tps61232.pdf?ts=1604463735694&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS61232%253FkeyMatch%253DTPS61232DRCR%2526tisearch%253DSearch-EN-everything%2526usecase%253DOPN
 $ENDCMP
 #
 $CMP UPD720202
 D PCIe 2 Port USB 3.0 Controller
 K PCIe, USB, USB3.0
-F https://www.renesas.com/in/en/doc/products/usb/r19ds0047ej0600_usb.pdf
-$ENDCMP
-#
-$CMP U_FL-R-SMT_10_
 F https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf
 $ENDCMP
 #
