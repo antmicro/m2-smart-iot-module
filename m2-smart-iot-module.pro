@@ -1,4 +1,4 @@
-update=wto, 29 mar 2022, 13:18:17
+update=śro, 30 mar 2022, 09:25:25
 version=1
 last_client=kicad
 [general]
@@ -263,13 +263,24 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=Diff_90
-Clearance=0.127
-TrackWidth=0.28
-ViaDiameter=0.6
-ViaDrill=0.3
+Name=Diff_100
+Clearance=0.125
+TrackWidth=0.25
+ViaDiameter=0.46
+ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
+dPairWidth=0.15
+dPairGap=0.127
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=Diff_90
+Clearance=0.125
+TrackWidth=0.25
+ViaDiameter=0.46
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.152
+dPairGap=0.127
 dPairViaGap=0.25

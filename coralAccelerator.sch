@@ -181,6 +181,8 @@ $Comp
 L m2-smart-iot-module:CoralAccelerator U3
 U 1 1 60ADCC7E
 P 4875 2825
+AR Path="/60ADCC7E" Ref="U3"  Part="1" 
+AR Path="/605198AB/60ADCC7E" Ref="U3"  Part="1" 
 F 0 "U3" H 4875 3892 50  0000 C CNN
 F 1 "CoralAccelerator" H 4875 3801 50  0000 C CNN
 F 2 "m2-smart-iot-module-footprints:MODULE_G313-06329-00" H 4875 4025 50  0001 L BNN
