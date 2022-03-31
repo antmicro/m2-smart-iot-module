@@ -653,12 +653,12 @@ Text Label 1975 3225 0    50   ~ 0
 Wire Wire Line
 	1975 3225 2750 3225
 $Comp
-L antmicroResistors0402:R_0R_0402 R45
+L m2-smart-iot-module:R_0R_0402 R45
 U 1 1 624D65C9
 P 6025 3325
 F 0 "R45" H 6025 3500 60  0000 C CNN
 F 1 "R_0R_0402" H 6025 3175 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6225 3525 60  0001 L CNN
+F 2 "m2-smart-iot-module-footprints:0402-res" H 6225 3525 60  0001 L CNN
 F 3 "" H 6025 3325 50  0001 C CNN
 F 4 "PANASONIC" H 6225 3725 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6225 3625 60  0001 L CNN "MPN"
@@ -668,12 +668,12 @@ F 7 "DNP" H 6025 3325 50  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R46
+L m2-smart-iot-module:R_0R_0402 R46
 U 1 1 624D6992
 P 6025 3425
 F 0 "R46" H 6025 3325 60  0000 C CNN
 F 1 "R_0R_0402" H 6025 3275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6225 3625 60  0001 L CNN
+F 2 "m2-smart-iot-module-footprints:0402-res" H 6225 3625 60  0001 L CNN
 F 3 "" H 6025 3425 50  0001 C CNN
 F 4 "PANASONIC" H 6225 3825 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6225 3725 60  0001 L CNN "MPN"

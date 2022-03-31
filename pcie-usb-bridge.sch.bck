@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 6
 Title "M.2 Smart IoT Module"
 Date "2021-08-11"
-Rev "1.0.0"
+Rev "1.1.0"
 Comp ""
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd."
@@ -623,15 +623,15 @@ Connection ~ 1250 7300
 $Comp
 L m2-smart-iot-module:C_100n_0402 C25
 U 1 1 605DCE75
-P 4200 2225
-F 0 "C25" V 4375 2050 60  0000 L CNN
-F 1 "C_100n_0402" H 4200 2075 60  0001 C CNN
-F 2 "m2-smart-iot-module-footprints:0402-cap" H 4400 2425 60  0001 L CNN
-F 3 "" H 4200 2225 50  0001 C CNN
-F 4 "Walsin" H 4400 2625 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 4400 2525 60  0001 L CNN "MPN"
-F 6 "100n" V 4375 2250 50  0000 L CNN "Val"
-	1    4200 2225
+P 4350 2225
+F 0 "C25" V 4525 2050 60  0000 L CNN
+F 1 "C_100n_0402" H 4350 2075 60  0001 C CNN
+F 2 "m2-smart-iot-module-footprints:0402-cap" H 4550 2425 60  0001 L CNN
+F 3 "" H 4350 2225 50  0001 C CNN
+F 4 "Walsin" H 4550 2625 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 4550 2525 60  0001 L CNN "MPN"
+F 6 "100n" V 4525 2250 50  0000 L CNN "Val"
+	1    4350 2225
 	0    1    1    0   
 $EndComp
 $Comp
@@ -651,9 +651,9 @@ $EndComp
 Wire Wire Line
 	3925 2325 4475 2325
 Wire Wire Line
-	4050 2225 3925 2225
+	4200 2225 3925 2225
 Wire Wire Line
-	4350 2225 4875 2225
+	4500 2225 4875 2225
 Wire Wire Line
 	4775 2325 4875 2325
 Wire Wire Line
@@ -3569,4 +3569,8 @@ Wire Notes Line
 	6250 500  6250 4750
 Wire Notes Line
 	6250 4750 11200 4750
+Text Label 3925 2225 0    50   ~ 0
+PERXC_N
+Text Label 3925 2325 0    50   ~ 0
+PERXC_P
 $EndSCHEMATC

@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 4 6
 Title "M.2 Smart IoT Module"
 Date "2021-08-11"
-Rev "1.0.0"
+Rev "1.1.0"
 Comp ""
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd."
