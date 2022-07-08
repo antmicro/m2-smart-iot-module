@@ -530,6 +530,10 @@
     [
       "00000000-0000-0000-0000-0000605198ab",
       "CoralAccelerator"
+    ],
+    [
+      "68410b93-aca6-44d3-bd1e-cd427080a29c",
+      "FTDI2232"
     ]
   ],
   "text_variables": {}
