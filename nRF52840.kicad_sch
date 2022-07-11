@@ -3387,6 +3387,10 @@
     (uuid ff941376-c47e-47ed-8480-1f098f11e310)
   )
 
+  (text "Button overrides FTDI" (at 234.95 152.4 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 147f5b4c-99bb-42cf-a07d-a70811e80204)
+  )
   (text "CSB pulled up -> I2C communication (current option)\nCSB pulled down -> SPI communication\n\nSDO pulled down -> I2C addr: 0x76\nSDO pulled up -> I2C addr: 0x77 (current option)"
     (at 347.345 87.63 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -4816,7 +4820,7 @@
     (property "MPN" "0402X104K6R3CT" (id 5) (at 238.76 129.54 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (property "Val" "100n" (id 6) (at 244.856 146.7612 0)
+    (property "Val" "100n" (id 6) (at 234.95 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (pin "1" (uuid 7e1cf217-f745-48c1-a99e-db5e51ec9747))

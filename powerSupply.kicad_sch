@@ -1989,6 +1989,10 @@
     (uuid fcf80446-c813-4ebc-b8eb-9b36828c6ccb)
   )
 
+  (text "Button overrides FTDI" (at 54.61 151.13 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0a2ea097-4e47-4fa7-ab38-53556dfde2c3)
+  )
   (text "Note: ILIM - R17k4 \nlimit current to 1.018A" (at 301.625 64.135 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 414bcac4-832b-4e9f-8d6a-7e6ea16f74c7)
