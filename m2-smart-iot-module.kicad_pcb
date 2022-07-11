@@ -5,6 +5,11 @@
   )
 
   (paper "A4")
+  (title_block
+    (date "2022-07-11")
+    (rev "1.2.0")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (1 "In1.Cu" power)
@@ -13495,7 +13500,10 @@
   (gr_text "Coral\nrst" (at 143.35 101.95) (layer "F.SilkS") (tstamp a3f0c41e-d0a5-4eae-b3ee-b6f10ab48c50)
     (effects (font (size 0.65 0.65) (thickness 0.15)))
   )
-  (gr_text "PCIe radio module   rev 1.1.0                 03/2022" (at 154.35 112.3) (layer "B.Mask") (tstamp b63ca942-6343-45e4-b926-781fa690d4dd)
+  (gr_text "PCIe radio module" (at 183.642 92.77) (layer "B.Mask") (tstamp b63ca942-6343-45e4-b926-781fa690d4dd)
+    (effects (font (size 0.65 0.65) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "rev 1.2.0" (at 185.928 94.05) (layer "B.Mask") (tstamp e0eb7a46-826b-4fff-ad6c-90b087d09461)
     (effects (font (size 0.65 0.65) (thickness 0.15)) (justify mirror))
   )
   (gr_text "Prepreg" (at 224.121847 109.440116) (layer "Dwgs.User") (tstamp 01047235-d8ea-4fcf-a8f6-1fe0b781019a)
