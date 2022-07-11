@@ -443,6 +443,9 @@
     (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/34daddf2-4aa9-45c0-a5dd-1378e6b328a3"
       (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
     )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/67b5efa8-acfa-464a-a779-8cca43e04b2b"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006053cae5"
       (reference "ANT1") (unit 1) (value "ANT-2.45-CHP-T") (footprint "m2-smart-iot-module-footprints:Linx-ANT-2.45-CHP-T-MFG")
     )
@@ -700,6 +703,9 @@
     )
     (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/44d8087c-9aa3-4e27-b3aa-f3752f63a4bd"
       (reference "C85") (unit 1) (value "C_10u_0805") (footprint "m2-smart-iot-module-footprints:0805-cap")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/a85bec4d-2623-433c-85a9-154996ebdace"
+      (reference "C?") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000623b8f1e"
       (reference "D1") (unit 1) (value "KP-1608CGCK") (footprint "m2-smart-iot-module-footprints:LED0603")
