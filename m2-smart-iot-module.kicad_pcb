@@ -7,7 +7,7 @@
   (paper "A4")
   (title_block
     (date "2022-07-11")
-    (rev "1.2.1")
+    (rev "1.2.3")
   )
 
   (layers
@@ -13586,7 +13586,7 @@
   (gr_text "PCIe radio module" (at 183.642 92.77) (layer "B.Mask") (tstamp b63ca942-6343-45e4-b926-781fa690d4dd)
     (effects (font (size 0.65 0.65) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "rev 1.2.1" (at 185.928 94.05) (layer "B.Mask") (tstamp e0eb7a46-826b-4fff-ad6c-90b087d09461)
+  (gr_text "rev 1.2.3" (at 185.928 94.05) (layer "B.Mask") (tstamp e0eb7a46-826b-4fff-ad6c-90b087d09461)
     (effects (font (size 0.65 0.65) (thickness 0.15)) (justify mirror))
   )
   (gr_text "Prepreg" (at 224.121847 109.440116) (layer "Dwgs.User") (tstamp 01047235-d8ea-4fcf-a8f6-1fe0b781019a)
@@ -14585,7 +14585,6 @@
   (segment (start 164.89263 106.4885) (end 167.51763 106.4885) (width 0.15) (layer "B.Cu") (net 39) (tstamp 2ea5d6b2-d480-4bf6-b9ca-fe8ae18d0ca7))
   (segment (start 172.145 108.3785) (end 172.3 108.5335) (width 0.15) (layer "B.Cu") (net 39) (tstamp 7ccac6e2-47eb-4ad0-8e54-e2b4da6fdfc1))
   (segment (start 167.51763 106.4885) (end 169.40763 108.3785) (width 0.15) (layer "B.Cu") (net 39) (tstamp 8df49c6c-cc44-4dab-a530-553b160dfeb8))
-  (segment (start 161.005 102.6135) (end 160.85 102.7685) (width 0.15) (layer "B.Cu") (net 39) (tstamp 9217c0e6-7dd9-48e2-a946-a4b20767920a))
   (segment (start 169.40763 108.3785) (end 172.145 108.3785) (width 0.15) (layer "B.Cu") (net 39) (tstamp b2e5601b-a3e8-412a-a39f-4148f84206cf))
   (segment (start 161.17263 102.7685) (end 164.89263 106.4885) (width 0.15) (layer "B.Cu") (net 39) (tstamp c4eee54c-56eb-410e-942e-c35bfd9e83c5))
   (segment (start 160.85 102.7685) (end 161.17263 102.7685) (width 0.15) (layer "B.Cu") (net 39) (tstamp e56fc266-64e1-43b1-96bc-0e4d24226521))
