@@ -707,6 +707,9 @@
     (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/a85bec4d-2623-433c-85a9-154996ebdace"
       (reference "C86") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:0402-cap")
     )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/7a5987c2-86e3-4f67-99b8-8bbcd51089f1"
+      (reference "C87") (unit 1) (value "C_10u_0603") (footprint "antmicro-footprints:0603-cap")
+    )
     (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000623b8f1e"
       (reference "D1") (unit 1) (value "KP-1608CGCK") (footprint "m2-smart-iot-module-footprints:LED0603")
     )
@@ -860,8 +863,8 @@
     (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000608f66b2"
       (reference "R32") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006244e5e4"
-      (reference "R33") (unit 1) (value "R_100k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-0000605233cc/8004c200-acd5-4612-81e4-6745ddd65f05"
+      (reference "R33") (unit 1) (value "R_200k_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000624c898e"
       (reference "R34") (unit 1) (value "R_910k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
@@ -946,6 +949,9 @@
     )
     (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/b90e8eed-1fde-4959-938f-396fb7dbc5b9"
       (reference "R61") (unit 1) (value "R_470R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/c09e73f3-78a6-4da6-8467-75c2edb8c3ee"
+      (reference "R62") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006094bf1c"
       (reference "SW1") (unit 1) (value "PTS840_GK_SMTR_LFS") (footprint "m2-smart-iot-module-footprints:CK-PTS840_GK_SMTR_LFS-0")
