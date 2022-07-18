@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (date "2022-07-15")
-    (rev "1.2.4")
+    (date "2022-07-18")
+    (rev "1.2.5")
   )
 
   (lib_symbols
