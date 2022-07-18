@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_overlap|165481697|97432447|b329a3c3-c66c-4dc8-a5d0-300ab1c40932|7400500a-ebc3-4e83-9676-442daf7e74e3",
+        "silk_overlap|184263666|99145571|7e55fee8-19aa-4036-8118-8bd8812f6b9d|c3df5f7f-e832-440e-8213-ccf74ebba6fa"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -87,7 +90,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
