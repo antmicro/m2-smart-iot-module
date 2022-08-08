@@ -193,7 +193,7 @@
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 68410b93-aca6-44d3-bd1e-cd427080a29c)
-    (property "Sheet name" "FTDI2232" (id 0) (at 295.275 113.5884 0)
+    (property "Sheet name" "FTDI" (id 0) (at 295.275 113.5884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "ftdi.kicad_sch" (id 1) (at 295.275 140.2846 0)
@@ -1002,7 +1002,7 @@
       (reference "TP28") (unit 1) (value "TP_SMD1MM") (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")
     )
     (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/3f5a84f7-9e18-4808-aab2-0e69509107a0"
-      (reference "U1") (unit 1) (value "FT2232H-56Q") (footprint "antmicro-footprints:QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm")
+      (reference "U1") (unit 1) (value "FT4232H-56Q") (footprint "antmicro-footprints:QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm")
     )
     (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604de031"
       (reference "U2") (unit 1) (value "SST25VF512A") (footprint "m2-smart-iot-module-footprints:SOIC8-SST25VF512A-33-4I-SAE-Level_B")
