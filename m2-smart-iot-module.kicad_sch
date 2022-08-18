@@ -1,1790 +1,1053 @@
-(kicad_sch 
-    (version 20211123) 
-    (generator eeschema) 
-    (uuid 94cf6556-6bdb-468e-b811-0f8a15d0512c) 
-    (paper "A3") 
-    (title_block 
-        (title "M.2 Smart IoT Module") 
-        (date "2022-08-08") 
-        (rev "1.2.7") 
-        (comment 1 "www.antmicro.com") 
-        (comment 2 "Antmicro Ltd.")) 
-    (lib_symbols 
-        (symbol "m2-smart-iot-module:PCB_Mount_Hole_M2" 
-            (pin_names 
-                (offset 1.016)) 
-            (in_bom yes) 
-            (on_board yes) 
-            (property "Reference" "MP" 
-                (id 0) 
-                (at 0 6.35 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)))) 
-            (property "Value" "PCB_Mount_Hole_M2" 
-                (id 1) 
-                (at 0 -6.35 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)))) 
-            (property "Footprint" "m2-smart-iot-module-footprints:M.2-Stud" 
-                (id 2) 
-                (at 20.32 17.78 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "Datasheet" "" 
-                (id 3) 
-                (at 24.13 20.32 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "PCB_Mount_Hole_M2_0_1" 
-                (circle 
-                    (center 0 0) 
-                    (radius 1.8034) 
-                    (stroke 
-                        (width 0) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))) 
-                (circle 
-                    (center 0 0) 
-                    (radius 4.572) 
-                    (stroke 
-                        (width 0) 
-                        (type default) 
-                        (color 0 0 0 0)) 
-                    (fill 
-                        (type none))))) 
-        (symbol "m2-smart-iot-module:antmicro_logo" 
-            (pin_names 
-                (offset 1.016)) 
-            (in_bom yes) 
-            (on_board yes) 
-            (property "Reference" "N" 
-                (id 0) 
-                (at 0 8.89 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)))) 
-            (property "Value" "antmicro_logo" 
-                (id 1) 
-                (at 0 -5.08 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)))) 
-            (property "Footprint" "m2-smart-iot-module-footprints:antmicro-logo_scaled_12mm" 
-                (id 2) 
-                (at -2.54 6.35 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "Datasheet" "" 
-                (id 3) 
-                (at 0 8.89 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "antmicro_logo_0_0" 
-                (text "Logo" 
-                    (at 1.27 1.27 0) 
-                    (effects 
-                        (font 
-                            (size 2.0066 2.0066)))))) 
-        (symbol "m2-smart-iot-module:oshw_logo" 
-            (pin_names 
-                (offset 1.016)) 
-            (in_bom yes) 
-            (on_board yes) 
-            (property "Reference" "N" 
-                (id 0) 
-                (at 0.508 1.016 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)))) 
-            (property "Value" "oshw_logo" 
-                (id 1) 
-                (at 0.762 -3.81 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)))) 
-            (property "Footprint" "m2-smart-iot-module-footprints:OSHW-Logo2_7.3x6mm_Copper_Mask" 
-                (id 2) 
-                (at 0.508 -6.096 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (property "Datasheet" "" 
-                (id 3) 
-                (at 0 0 0) 
-                (effects 
-                    (font 
-                        (size 1.27 1.27)) hide)) 
-            (symbol "oshw_logo_1_1" 
-                (text "Logo" 
-                    (at 0.762 -1.016 0) 
-                    (effects 
-                        (font 
-                            (size 2.0066 2.0066))))))) 
-    (symbol 
-        (lib_id "m2-smart-iot-module:antmicro_logo") 
-        (at 300.99 242.57 0) 
-        (unit 1) 
-        (in_bom yes) 
-        (on_board yes) 
-        (uuid 00000000-0000-0000-0000-000060ad7eb0) 
-        (property "Reference" "N1" 
-            (id 0) 
-            (at 306.4256 240.2078 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left))) 
-        (property "Value" "antmicro_logo" 
-            (id 1) 
-            (at 306.4256 242.5192 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left))) 
-        (property "Footprint" "m2-smart-iot-module-footprints:antmicro-logo_scaled_12mm" 
-            (id 2) 
-            (at 298.45 236.22 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 300.99 233.68 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide))) 
-    (symbol 
-        (lib_id "m2-smart-iot-module:oshw_logo") 
-        (at 326.39 240.665 0) 
-        (unit 1) 
-        (in_bom yes) 
-        (on_board yes) 
-        (uuid 00000000-0000-0000-0000-000060ad80ff) 
-        (property "Reference" "N2" 
-            (id 0) 
-            (at 331.3176 240.5888 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left))) 
-        (property "Value" "oshw_logo" 
-            (id 1) 
-            (at 331.3176 242.9002 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left))) 
-        (property "Footprint" "m2-smart-iot-module-footprints:OSHW-Logo2_7.3x6mm_Copper_Mask" 
-            (id 2) 
-            (at 326.898 246.761 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 326.39 240.665 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide))) 
-    (symbol 
-        (lib_id "m2-smart-iot-module:PCB_Mount_Hole_M2") 
-        (at 354.33 241.3 0) 
-        (unit 1) 
-        (in_bom yes) 
-        (on_board yes) 
-        (uuid 00000000-0000-0000-0000-000060ad88ce) 
-        (property "Reference" "MP1" 
-            (id 0) 
-            (at 359.6132 240.1316 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left))) 
-        (property "Value" "PCB_Mount_Hole_M2" 
-            (id 1) 
-            (at 359.6132 242.443 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left))) 
-        (property "Footprint" "m2-smart-iot-module-footprints:M.2-Stud" 
-            (id 2) 
-            (at 374.65 223.52 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "" 
-            (id 3) 
-            (at 378.46 220.98 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide))) 
-    (sheet 
-        (at 125.095 114.3) 
-        (size 38.1 25.4) 
-        (fields_autoplaced) 
-        (stroke 
-            (width 0) 
-            (type solid) 
-            (color 0 0 0 0)) 
-        (fill 
-            (color 0 0 0 0.0)) 
-        (uuid 00000000-0000-0000-0000-0000604cff57) 
-        (property "Sheet name" "PCIe-USB-Bridge" 
-            (id 0) 
-            (at 125.095 113.5884 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom))) 
-        (property "Sheet file" "pcie-usb-bridge.kicad_sch" 
-            (id 1) 
-            (at 125.095 140.2846 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left top)))) 
-    (sheet 
-        (at 82.55 114.3) 
-        (size 38.1 25.4) 
-        (fields_autoplaced) 
-        (stroke 
-            (width 0) 
-            (type solid) 
-            (color 0 0 0 0)) 
-        (fill 
-            (color 0 0 0 0.0)) 
-        (uuid 00000000-0000-0000-0000-000060515963) 
-        (property "Sheet name" "M2-Pins" 
-            (id 0) 
-            (at 82.55 113.5884 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom))) 
-        (property "Sheet file" "M2-Pins.kicad_sch" 
-            (id 1) 
-            (at 82.55 140.2846 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left top)))) 
-    (sheet 
-        (at 167.64 114.3) 
-        (size 38.1 25.4) 
-        (fields_autoplaced) 
-        (stroke 
-            (width 0) 
-            (type solid) 
-            (color 0 0 0 0)) 
-        (fill 
-            (color 0 0 0 0.0)) 
-        (uuid 00000000-0000-0000-0000-000060519809) 
-        (property "Sheet name" "nRF52840" 
-            (id 0) 
-            (at 167.64 113.5884 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom))) 
-        (property "Sheet file" "nRF52840.kicad_sch" 
-            (id 1) 
-            (at 167.64 140.2846 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left top)))) 
-    (sheet 
-        (at 252.73 114.3) 
-        (size 38.1 25.4) 
-        (fields_autoplaced) 
-        (stroke 
-            (width 0) 
-            (type solid) 
-            (color 0 0 0 0)) 
-        (fill 
-            (color 0 0 0 0.0)) 
-        (uuid 00000000-0000-0000-0000-0000605198ab) 
-        (property "Sheet name" "CoralAccelerator" 
-            (id 0) 
-            (at 252.73 113.5884 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom))) 
-        (property "Sheet file" "coralAccelerator.kicad_sch" 
-            (id 1) 
-            (at 252.73 140.2846 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left top)))) 
-    (sheet 
-        (at 210.185 114.3) 
-        (size 38.1 25.4) 
-        (fields_autoplaced) 
-        (stroke 
-            (width 0) 
-            (type solid) 
-            (color 0 0 0 0)) 
-        (fill 
-            (color 0 0 0 0.0)) 
-        (uuid 00000000-0000-0000-0000-0000605233cc) 
-        (property "Sheet name" "powerSupply" 
-            (id 0) 
-            (at 210.185 113.5884 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom))) 
-        (property "Sheet file" "powerSupply.kicad_sch" 
-            (id 1) 
-            (at 210.185 140.2846 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left top)))) 
-    (sheet 
-        (at 295.275 114.3) 
-        (size 39.37 25.4) 
-        (fields_autoplaced) 
-        (stroke 
-            (width 0.1524) 
-            (type solid) 
-            (color 0 0 0 0)) 
-        (fill 
-            (color 0 0 0 0.0)) 
-        (uuid 68410b93-aca6-44d3-bd1e-cd427080a29c) 
-        (property "Sheet name" "FTDI" 
-            (id 0) 
-            (at 295.275 113.5884 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom))) 
-        (property "Sheet file" "ftdi.kicad_sch" 
-            (id 1) 
-            (at 295.275 140.2846 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left top)))) 
-    (sheet_instances 
-        (path "/" 
-            (page "1")) 
-        (path "/00000000-0000-0000-0000-000060515963" 
-            (page "2")) 
-        (path "/00000000-0000-0000-0000-0000604cff57" 
-            (page "3")) 
-        (path "/00000000-0000-0000-0000-000060519809" 
-            (page "4")) 
-        (path "/00000000-0000-0000-0000-0000605233cc" 
-            (page "5")) 
-        (path "/00000000-0000-0000-0000-0000605198ab" 
-            (page "6")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c" 
-            (page "7"))) 
-    (symbol_instances 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000605b354a" 
-            (reference "#PWR01") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000605b2901" 
-            (reference "#PWR02") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000609985d2" 
-            (reference "#PWR03") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000605ceeb3" 
-            (reference "#PWR04") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006061a8b2" 
-            (reference "#PWR05") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/9f2037a7-8f10-4414-bde8-5b80fb0a865c" 
-            (reference "#PWR06") 
-            (unit 1) 
-            (value "~") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/0495a177-cedb-4992-9255-778456af1f0b" 
-            (reference "#PWR07") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/f4a0257a-f5b2-438d-ab75-35cd3a5ec968" 
-            (reference "#PWR08") 
-            (unit 1) 
-            (value "~") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000606238dc" 
-            (reference "#PWR09") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000062906206" 
-            (reference "#PWR010") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006078c8a0" 
-            (reference "#PWR011") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006053510d" 
-            (reference "#PWR012") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006079c599" 
-            (reference "#PWR013") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006079cb59" 
-            (reference "#PWR014") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006079d578" 
-            (reference "#PWR015") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000607fd267" 
-            (reference "#PWR016") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000607e450f" 
-            (reference "#PWR017") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000062907062" 
-            (reference "#PWR018") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060536f7f" 
-            (reference "#PWR019") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006096e87a" 
-            (reference "#PWR020") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006056d578" 
-            (reference "#PWR021") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000607d5338" 
-            (reference "#PWR022") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000608686bc" 
-            (reference "#PWR023") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006056d12b" 
-            (reference "#PWR024") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006098699a" 
-            (reference "#PWR025") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000608bb81b" 
-            (reference "#PWR026") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006087e301" 
-            (reference "#PWR027") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060b66710" 
-            (reference "#PWR028") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006089fcef" 
-            (reference "#PWR029") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060515963/00000000-0000-0000-0000-000060944db5" 
-            (reference "#PWR030") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060515963/00000000-0000-0000-0000-000060dfaed7" 
-            (reference "#PWR031") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000627a33d9" 
-            (reference "#PWR032") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000627a3d2e" 
-            (reference "#PWR033") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000627a5e76" 
-            (reference "#PWR034") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000627fd9be" 
-            (reference "#PWR035") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000062786624" 
-            (reference "#PWR036") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000063611077" 
-            (reference "#PWR037") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000633139e2" 
-            (reference "#PWR038") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000629b9b1d" 
-            (reference "#PWR039") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062ad250f" 
-            (reference "#PWR040") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062b00362" 
-            (reference "#PWR041") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000624d705e" 
-            (reference "#PWR042") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000624e547c" 
-            (reference "#PWR043") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000609528ef" 
-            (reference "#PWR044") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/b5e544bf-dc91-472a-bcd9-abf9782bbfd3" 
-            (reference "#PWR045") 
-            (unit 1) 
-            (value "~") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062be35f2" 
-            (reference "#PWR046") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062b08bbd" 
-            (reference "#PWR047") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/ff508146-2adc-48a9-ae7b-5729c674b982" 
-            (reference "#PWR048") 
-            (unit 1) 
-            (value "~") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062920523" 
-            (reference "#PWR049") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062b4835b" 
-            (reference "#PWR050") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062a968ae" 
-            (reference "#PWR051") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000629997d4" 
-            (reference "#PWR052") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006260d795" 
-            (reference "#PWR057") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000625f4cfe" 
-            (reference "#PWR058") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000625f4a00" 
-            (reference "#PWR059") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062d6fcc9" 
-            (reference "#PWR060") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062d7e0f3" 
-            (reference "#PWR061") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000623d42dd" 
-            (reference "#PWR0101") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060c19255" 
-            (reference "#PWR0102") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000623c77ca" 
-            (reference "#PWR0103") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060c1da29" 
-            (reference "#PWR0104") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060c1e629" 
-            (reference "#PWR0105") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062403a62" 
-            (reference "#PWR0106") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000061170f4f" 
-            (reference "#PWR0107") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000611842fa" 
-            (reference "#PWR0108") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/e6cb064a-7148-4e0a-bbed-942b0b8c1538" 
-            (reference "#PWR0109") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/b1091a6c-2627-4ea9-977d-a02c6e01983d" 
-            (reference "#PWR0110") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/5dd26dfc-010f-4b59-98a9-fc53bac77c22" 
-            (reference "#PWR0111") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/41977174-5359-4b9f-993d-9e04af2325ce" 
-            (reference "#PWR0112") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/e0a02e44-9724-4dcf-a201-9611e14adbdf" 
-            (reference "#PWR0113") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/81cfe2dd-64d2-49dc-92f1-faef74ed356b" 
-            (reference "#PWR0114") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/852b28f0-6b74-43e6-8ae5-e14a61a04115" 
-            (reference "#PWR0115") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/11afe054-5b39-465b-bea7-140a33a54372" 
-            (reference "#PWR0116") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/b24ad7d7-7447-4ac2-a396-7e9974858242" 
-            (reference "#PWR0117") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/1e138a19-c9d3-4ce1-abef-10dc6e03d6b0" 
-            (reference "#PWR0118") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/3439d517-461f-421f-a266-6f812446a438" 
-            (reference "#PWR0119") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/34daddf2-4aa9-45c0-a5dd-1378e6b328a3" 
-            (reference "#PWR0120") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/67b5efa8-acfa-464a-a779-8cca43e04b2b" 
-            (reference "#PWR0121") 
-            (unit 1) 
-            (value "GND") 
-            (footprint "m2-smart-iot-module-footprints:")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006053cae5" 
-            (reference "ANT1") 
-            (unit 1) 
-            (value "ANT-2.45-CHP-T") 
-            (footprint "m2-smart-iot-module-footprints:Linx-ANT-2.45-CHP-T-MFG")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604f1f2f" 
-            (reference "C1") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604f1e7b" 
-            (reference "C2") 
-            (unit 1) 
-            (value "C_10n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604edfc6" 
-            (reference "C3") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604ed954" 
-            (reference "C4") 
-            (unit 1) 
-            (value "C_10n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604edd4d" 
-            (reference "C5") 
-            (unit 1) 
-            (value "C_10n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006052532f" 
-            (reference "C6") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604f02de" 
-            (reference "C7") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060997a20" 
-            (reference "C8") 
-            (unit 1) 
-            (value "C_10u_0805") 
-            (footprint "m2-smart-iot-module-footprints:0805-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604f0230" 
-            (reference "C9") 
-            (unit 1) 
-            (value "C_10n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006050e968" 
-            (reference "C10") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604f02d1" 
-            (reference "C11") 
-            (unit 1) 
-            (value "C_10n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060682ce8" 
-            (reference "C12") 
-            (unit 1) 
-            (value "C_8p_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604e4585" 
-            (reference "C13") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060520bb5" 
-            (reference "C14") 
-            (unit 1) 
-            (value "C_10n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604e4192" 
-            (reference "C15") 
-            (unit 1) 
-            (value "C_10n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060520d86" 
-            (reference "C16") 
-            (unit 1) 
-            (value "C_10n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060503b38" 
-            (reference "C17") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604ec719" 
-            (reference "C18") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006050e7c0" 
-            (reference "C19") 
-            (unit 1) 
-            (value "C_10n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060503a5a" 
-            (reference "C20") 
-            (unit 1) 
-            (value "C_10n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604ec6ae" 
-            (reference "C21") 
-            (unit 1) 
-            (value "C_10n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060503b2b" 
-            (reference "C22") 
-            (unit 1) 
-            (value "C_10n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006050e95b" 
-            (reference "C23") 
-            (unit 1) 
-            (value "C_10n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000606828e7" 
-            (reference "C24") 
-            (unit 1) 
-            (value "C_8p_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000605dce75" 
-            (reference "C25") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000605dfadc" 
-            (reference "C26") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000606e69a3" 
-            (reference "C27") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006079ab3e" 
-            (reference "C28") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060799f74" 
-            (reference "C29") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060798fe5" 
-            (reference "C30") 
-            (unit 1) 
-            (value "C_10u_0805") 
-            (footprint "m2-smart-iot-module-footprints:0805-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000607f85ff" 
-            (reference "C31") 
-            (unit 1) 
-            (value "C_4u7_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006081a2b4" 
-            (reference "C32") 
-            (unit 1) 
-            (value "C_4u7_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000608ee7f4" 
-            (reference "C33") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000608fe890" 
-            (reference "C34") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000608223ee" 
-            (reference "C35") 
-            (unit 1) 
-            (value "C_1u_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000607e1aee" 
-            (reference "C36") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006089bd4d" 
-            (reference "C37") 
-            (unit 1) 
-            (value "C_100p_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006088727d" 
-            (reference "C38") 
-            (unit 1) 
-            (value "C_820p_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000607e7589" 
-            (reference "C39") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006080e3cc" 
-            (reference "C40") 
-            (unit 1) 
-            (value "C_4u7_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000607efafa" 
-            (reference "C41") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006082cd8b" 
-            (reference "C42") 
-            (unit 1) 
-            (value "C_1u_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006087b59a" 
-            (reference "C43") 
-            (unit 1) 
-            (value "C_47n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006096c28a" 
-            (reference "C44") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006085c261" 
-            (reference "C45") 
-            (unit 1) 
-            (value "C_8p_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060867e92" 
-            (reference "C46") 
-            (unit 1) 
-            (value "C_12p_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006089bb25" 
-            (reference "C47") 
-            (unit 1) 
-            (value "C_0p8_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060866159" 
-            (reference "C48") 
-            (unit 1) 
-            (value "C_12p_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006085c6ec" 
-            (reference "C49") 
-            (unit 1) 
-            (value "C_8p_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006089c6f2" 
-            (reference "C50") 
-            (unit 1) 
-            (value "C_0p5_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000608b897d" 
-            (reference "C51") 
-            (unit 1) 
-            (value "RF_Capacitor") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006089e57b" 
-            (reference "C52") 
-            (unit 1) 
-            (value "C_1p2_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000062790891" 
-            (reference "C53") 
-            (unit 1) 
-            (value "C_1u_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000062790c32" 
-            (reference "C54") 
-            (unit 1) 
-            (value "C_1u_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000635e6def" 
-            (reference "C55") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000623c5e15" 
-            (reference "C56") 
-            (unit 1) 
-            (value "C_1u_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062aba5d0" 
-            (reference "C57") 
-            (unit 1) 
-            (value "C_22u_0603") 
-            (footprint "m2-smart-iot-module-footprints:0603-cap")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000609334a7" 
-            (reference "C58") 
-            (unit 1) 
-            (value "C_330u_EEF-SX") 
-            (footprint "m2-smart-iot-module-footprints:Panasonic_Electronic_Components-CD-0-0-MFG")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062adae6a" 
-            (reference "C59") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006241b21f" 
-            (reference "C60") 
-            (unit 1) 
-            (value "C_22u_0805_10V") 
-            (footprint "m2-smart-iot-module-footprints:0805-cap")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000060933c24" 
-            (reference "C61") 
-            (unit 1) 
-            (value "C_330u_EEF-SX") 
-            (footprint "m2-smart-iot-module-footprints:Panasonic_Electronic_Components-CD-0-0-MFG")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062417fa6" 
-            (reference "C62") 
-            (unit 1) 
-            (value "C_22u_0805_10V") 
-            (footprint "m2-smart-iot-module-footprints:0805-cap")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062bae439" 
-            (reference "C63") 
-            (unit 1) 
-            (value "C_2n2_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006093401b" 
-            (reference "C64") 
-            (unit 1) 
-            (value "C_330u_EEF-SX") 
-            (footprint "m2-smart-iot-module-footprints:Panasonic_Electronic_Components-CD-0-0-MFG")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006241955d" 
-            (reference "C65") 
-            (unit 1) 
-            (value "C_22u_0805_10V") 
-            (footprint "m2-smart-iot-module-footprints:0805-cap")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062a9688f" 
-            (reference "C66") 
-            (unit 1) 
-            (value "C_22u_0805_10V") 
-            (footprint "m2-smart-iot-module-footprints:0805-cap")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060c1c103" 
-            (reference "C67") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060c3b1c6" 
-            (reference "C68") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060c0d715" 
-            (reference "C69") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006115f938" 
-            (reference "C70") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006115b70f" 
-            (reference "C71") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/00128c11-9ae6-4452-9d40-6eed6ed4fa92" 
-            (reference "C72") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062a96898" 
-            (reference "C73") 
-            (unit 1) 
-            (value "C_22u_0805_10V") 
-            (footprint "m2-smart-iot-module-footprints:0805-cap")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/4143701c-d634-41bd-a301-0c60c388ad5f" 
-            (reference "C74") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062a968a1" 
-            (reference "C75") 
-            (unit 1) 
-            (value "C_22u_0805_10V") 
-            (footprint "m2-smart-iot-module-footprints:0805-cap")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/1f05b071-c8f4-4c21-8c00-c3d2755cccf7" 
-            (reference "C76") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062d7d4d5" 
-            (reference "C77") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/add7447d-93c8-4ac2-acdb-bb2a61238b8f" 
-            (reference "C78") 
-            (unit 1) 
-            (value "C_10u_0805") 
-            (footprint "m2-smart-iot-module-footprints:0805-cap")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/0683ecee-ab3f-4084-b163-cb6e41987b93" 
-            (reference "C79") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/2d7a560d-7fde-4b37-b777-8fd058908345" 
-            (reference "C80") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/e69a35cc-c2a3-403f-b7de-acd2c8207974" 
-            (reference "C81") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/07656054-dac2-43ac-a0ba-60cc3622062b" 
-            (reference "C82") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/315f3ffb-9d51-441d-9c46-0e9b7750238d" 
-            (reference "C83") 
-            (unit 1) 
-            (value "C_18p_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/73c959b5-8152-4fad-9ade-293313183a87" 
-            (reference "C84") 
-            (unit 1) 
-            (value "C_18p_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/44d8087c-9aa3-4e27-b3aa-f3752f63a4bd" 
-            (reference "C85") 
-            (unit 1) 
-            (value "C_10u_0805") 
-            (footprint "m2-smart-iot-module-footprints:0805-cap")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/a85bec4d-2623-433c-85a9-154996ebdace" 
-            (reference "C86") 
-            (unit 1) 
-            (value "C_100n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-cap")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/7a5987c2-86e3-4f67-99b8-8bbcd51089f1" 
-            (reference "C87") 
-            (unit 1) 
-            (value "C_10u_0603") 
-            (footprint "m2-smart-iot-module-footprints:0603-cap")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000623b8f1e" 
-            (reference "D1") 
-            (unit 1) 
-            (value "KP-1608CGCK") 
-            (footprint "m2-smart-iot-module-footprints:LED0603")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060df33fa" 
-            (reference "D2") 
-            (unit 1) 
-            (value "APHF1608LSEEQBDZGKC") 
-            (footprint "m2-smart-iot-module-footprints:LED_APHF1608LSEEQBDZGKC")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000624d4348" 
-            (reference "D3") 
-            (unit 1) 
-            (value "KP-1608CGCK") 
-            (footprint "m2-smart-iot-module-footprints:LED0603")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006096df37" 
-            (reference "FB1") 
-            (unit 1) 
-            (value "BLM21PG600SN") 
-            (footprint "m2-smart-iot-module-footprints:0805-res")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/1ba44061-29ba-43cb-9cde-cc3db1725136" 
-            (reference "FB2") 
-            (unit 1) 
-            (value "BLM21PG600SN") 
-            (footprint "m2-smart-iot-module-footprints:0805-res")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/659b3f22-a9f3-4d19-b979-88ffbed06828" 
-            (reference "IC1") 
-            (unit 1) 
-            (value "UPD720201K8-711-BAC-A") 
-            (footprint "m2-smart-iot-module-footprints:QFN40P800X800X90-69N-D")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006087b7e4" 
-            (reference "J1") 
-            (unit 1) 
-            (value "MM8130-2600RA2") 
-            (footprint "m2-smart-iot-module-footprints:Murata-MM8130-2600RA2-MFG")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060ab3814" 
-            (reference "J2") 
-            (unit 1) 
-            (value "2X05") 
-            (footprint "m2-smart-iot-module-footprints:ARM_SWD")) 
-        (path "/00000000-0000-0000-0000-000060515963/00000000-0000-0000-0000-000060515a11" 
-            (reference "J3") 
-            (unit 1) 
-            (value "M.2-M+B-Pins") 
-            (footprint "m2-smart-iot-module-footprints:M.2-M+B-Keys")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060989159" 
-            (reference "L1") 
-            (unit 1) 
-            (value "L_10u_250mA_0603") 
-            (footprint "m2-smart-iot-module-footprints:0603-res")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060987123" 
-            (reference "L2") 
-            (unit 1) 
-            (value "L_10u_80mA_0603") 
-            (footprint "m2-smart-iot-module-footprints:0603-res")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006098a0c6" 
-            (reference "L3") 
-            (unit 1) 
-            (value "L_15n_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000608b5cf6" 
-            (reference "L4") 
-            (unit 1) 
-            (value "L_4n7_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006268ef80" 
-            (reference "L5") 
-            (unit 1) 
-            (value "SRP2512A-1R0M") 
-            (footprint "m2-smart-iot-module-footprints:SRP2512A-1R0M")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062b1e93b" 
-            (reference "L6") 
-            (unit 1) 
-            (value "1285AS-H-2R2M=P2") 
-            (footprint "m2-smart-iot-module-footprints:0805-res")) 
-        (path "/00000000-0000-0000-0000-000060ad88ce" 
-            (reference "MP1") 
-            (unit 1) 
-            (value "PCB_Mount_Hole_M2") 
-            (footprint "m2-smart-iot-module-footprints:M.2-Stud")) 
-        (path "/00000000-0000-0000-0000-000060ad7eb0" 
-            (reference "N1") 
-            (unit 1) 
-            (value "antmicro_logo") 
-            (footprint "m2-smart-iot-module-footprints:antmicro-logo_scaled_12mm")) 
-        (path "/00000000-0000-0000-0000-000060ad80ff" 
-            (reference "N2") 
-            (unit 1) 
-            (value "oshw_logo") 
-            (footprint "m2-smart-iot-module-footprints:OSHW-Logo2_7.3x6mm_Copper_Mask")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006276c2ed" 
-            (reference "Q1") 
-            (unit 1) 
-            (value "BSS123") 
-            (footprint "m2-smart-iot-module-footprints:SOT-23-3")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060675367" 
-            (reference "R1") 
-            (unit 1) 
-            (value "R_680R_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060a380eb" 
-            (reference "R2") 
-            (unit 1) 
-            (value "R_10k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006085538f" 
-            (reference "R3") 
-            (unit 1) 
-            (value "R_10k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060843f51" 
-            (reference "R4") 
-            (unit 1) 
-            (value "R_1k6_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006085596c" 
-            (reference "R5") 
-            (unit 1) 
-            (value "R_10k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060722513" 
-            (reference "R6") 
-            (unit 1) 
-            (value "R_10k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006073125e" 
-            (reference "R7") 
-            (unit 1) 
-            (value "R_10k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000607f6f80" 
-            (reference "R8") 
-            (unit 1) 
-            (value "R_10k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060777abb" 
-            (reference "R9") 
-            (unit 1) 
-            (value "R_10k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060777e24" 
-            (reference "R10") 
-            (unit 1) 
-            (value "R_10k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000607f764d" 
-            (reference "R11") 
-            (unit 1) 
-            (value "R_10k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000607ccf4a" 
-            (reference "R12") 
-            (unit 1) 
-            (value "R_10k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060738464" 
-            (reference "R13") 
-            (unit 1) 
-            (value "R_10k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000062802bed" 
-            (reference "R14") 
-            (unit 1) 
-            (value "R_100k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006280e737" 
-            (reference "R15") 
-            (unit 1) 
-            (value "R_0R_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000062410036" 
-            (reference "R16") 
-            (unit 1) 
-            (value "R_0R_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000608cc5b1" 
-            (reference "R17") 
-            (unit 1) 
-            (value "R_4R7_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006094ed3a" 
-            (reference "R18") 
-            (unit 1) 
-            (value "R_10k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060c83fb8" 
-            (reference "R19") 
-            (unit 1) 
-            (value "R_330R_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060d6bc78" 
-            (reference "R20") 
-            (unit 1) 
-            (value "R_2k2_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060d5a88c" 
-            (reference "R21") 
-            (unit 1) 
-            (value "R_390R_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060d6a872" 
-            (reference "R22") 
-            (unit 1) 
-            (value "R_1k2_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-000060515963/00000000-0000-0000-0000-000060943fb5" 
-            (reference "R23") 
-            (unit 1) 
-            (value "R_0R_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-000060515963/00000000-0000-0000-0000-000060948dc0" 
-            (reference "R24") 
-            (unit 1) 
-            (value "R_0R_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-000060515963/00000000-0000-0000-0000-000060949f76" 
-            (reference "R25") 
-            (unit 1) 
-            (value "R_0R_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-000060515963/00000000-0000-0000-0000-00006094b237" 
-            (reference "R26") 
-            (unit 1) 
-            (value "R_0R_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000623d3ef2" 
-            (reference "R27") 
-            (unit 1) 
-            (value "R_10k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062428959" 
-            (reference "R28") 
-            (unit 1) 
-            (value "R_1M0_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006090c054" 
-            (reference "R29") 
-            (unit 1) 
-            (value "R_10k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006280e4e2" 
-            (reference "R30") 
-            (unit 1) 
-            (value "R_0R_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062bad774" 
-            (reference "R31") 
-            (unit 1) 
-            (value "R_4k7_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000608f66b2" 
-            (reference "R32") 
-            (unit 1) 
-            (value "R_0R_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/8004c200-acd5-4612-81e4-6745ddd65f05" 
-            (reference "R33") 
-            (unit 1) 
-            (value "R_200k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000624c898e" 
-            (reference "R34") 
-            (unit 1) 
-            (value "R_910k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062b64921" 
-            (reference "R35") 
-            (unit 1) 
-            (value "R_3k74_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060c0af5f" 
-            (reference "R36") 
-            (unit 1) 
-            (value "R_100k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060c11d74" 
-            (reference "R37") 
-            (unit 1) 
-            (value "R_8k2_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062b6550d" 
-            (reference "R38") 
-            (unit 1) 
-            (value "R_12k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000060beaadd" 
-            (reference "R39") 
-            (unit 1) 
-            (value "R_0R_0805") 
-            (footprint "m2-smart-iot-module-footprints:0805-res")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000061240320" 
-            (reference "R40") 
-            (unit 1) 
-            (value "R_2k2_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000061240dce" 
-            (reference "R41") 
-            (unit 1) 
-            (value "R_2k2_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000625de777" 
-            (reference "R42") 
-            (unit 1) 
-            (value "R_17k4_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000624c7f74" 
-            (reference "R43") 
-            (unit 1) 
-            (value "R_200k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000624d3487" 
-            (reference "R44") 
-            (unit 1) 
-            (value "R_330R_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000624d65c9" 
-            (reference "R45") 
-            (unit 1) 
-            (value "R_0R_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000624d6992" 
-            (reference "R46") 
-            (unit 1) 
-            (value "R_0R_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/2376c608-7a3c-4e65-a9ea-c03d420470a6" 
-            (reference "R47") 
-            (unit 1) 
-            (value "~") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/c4ee482a-ed11-4e09-ae10-16626fb188e4" 
-            (reference "R48") 
-            (unit 1) 
-            (value "~") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/a6b9ba31-bc1a-4e3b-91ce-76684e74f027" 
-            (reference "R49") 
-            (unit 1) 
-            (value "R_0R_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/05e4c465-41c8-46f4-a676-9ffc8afba2e1" 
-            (reference "R50") 
-            (unit 1) 
-            (value "R_0R_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/04515962-5639-4a73-8033-b590b698688d" 
-            (reference "R51") 
-            (unit 1) 
-            (value "R_0R_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/d4964aae-d0ef-48a5-b5f9-bc89399e3c2e" 
-            (reference "R52") 
-            (unit 1) 
-            (value "R_0R_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-000060519809/357517c7-91f3-4445-89df-5a4994fd51bb" 
-            (reference "R53") 
-            (unit 1) 
-            (value "R_1k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/071ba9ef-8d4a-4032-8611-9e9457c33aa7" 
-            (reference "R54") 
-            (unit 1) 
-            (value "R_1k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/85e35e99-01ee-4c85-a0e8-9b9263b7c426" 
-            (reference "R55") 
-            (unit 1) 
-            (value "R_10k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/5c795cc7-77ec-4acc-9612-76929e97dfd9" 
-            (reference "R56") 
-            (unit 1) 
-            (value "R_2k2_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/22e4935e-cfb3-465f-b2e5-6b3ebcec47e9" 
-            (reference "R57") 
-            (unit 1) 
-            (value "R_10k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/4691fe08-6cea-4c9e-9cc2-3894d30e602d" 
-            (reference "R58") 
-            (unit 1) 
-            (value "R_10k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/a49e9949-2706-459a-b507-cea25a41afde" 
-            (reference "R59") 
-            (unit 1) 
-            (value "R_12k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/e29c8173-da2a-43c0-8ce3-638aaee3ba36" 
-            (reference "R60") 
-            (unit 1) 
-            (value "R_10k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/b90e8eed-1fde-4959-938f-396fb7dbc5b9" 
-            (reference "R61") 
-            (unit 1) 
-            (value "R_470R_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/c09e73f3-78a6-4da6-8467-75c2edb8c3ee" 
-            (reference "R62") 
-            (unit 1) 
-            (value "R_10k_0402") 
-            (footprint "m2-smart-iot-module-footprints:0402-res")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006094bf1c" 
-            (reference "SW1") 
-            (unit 1) 
-            (value "PTS840_GK_SMTR_LFS") 
-            (footprint "m2-smart-iot-module-footprints:CK-PTS840_GK_SMTR_LFS-0")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062d57d07" 
-            (reference "SW2") 
-            (unit 1) 
-            (value "PTS840_GK_SMTR_LFS") 
-            (footprint "m2-smart-iot-module-footprints:CK-PTS840_GK_SMTR_LFS-0")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006283efd7" 
-            (reference "TP1") 
-            (unit 1) 
-            (value "TP_SMD1MM") 
-            (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006258e0a2" 
-            (reference "TP2") 
-            (unit 1) 
-            (value "TP_SMD1MM") 
-            (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006258e973" 
-            (reference "TP3") 
-            (unit 1) 
-            (value "TP") 
-            (footprint "m2-smart-iot-module-footprints:TP-R-1.5")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060a55842" 
-            (reference "TP11") 
-            (unit 1) 
-            (value "TP_SMD1MM") 
-            (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060a68da5" 
-            (reference "TP12") 
-            (unit 1) 
-            (value "TP_SMD1MM") 
-            (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060ad28de" 
-            (reference "TP16") 
-            (unit 1) 
-            (value "TP_SMD1MM") 
-            (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060aa5cd2" 
-            (reference "TP17") 
-            (unit 1) 
-            (value "TP_SMD1MM") 
-            (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060aa6087" 
-            (reference "TP18") 
-            (unit 1) 
-            (value "TP_SMD1MM") 
-            (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060aa64fe" 
-            (reference "TP19") 
-            (unit 1) 
-            (value "TP_SMD1MM") 
-            (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060ade789" 
-            (reference "TP23") 
-            (unit 1) 
-            (value "TP_SMD1MM") 
-            (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000608fd990" 
-            (reference "TP25") 
-            (unit 1) 
-            (value "TP_SMD1MM") 
-            (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006096dc31" 
-            (reference "TP26") 
-            (unit 1) 
-            (value "TP_SMD1MM") 
-            (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000060976fe7" 
-            (reference "TP27") 
-            (unit 1) 
-            (value "TP_SMD1MM") 
-            (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006098157d" 
-            (reference "TP28") 
-            (unit 1) 
-            (value "TP_SMD1MM") 
-            (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/3f5a84f7-9e18-4808-aab2-0e69509107a0" 
-            (reference "U1") 
-            (unit 1) 
-            (value "FT4232H-56Q") 
-            (footprint "m2-smart-iot-module-footprints:QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604de031" 
-            (reference "U2") 
-            (unit 1) 
-            (value "SST25VF512A") 
-            (footprint "m2-smart-iot-module-footprints:SOIC8-SST25VF512A-33-4I-SAE-Level_B")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060adcc7e" 
-            (reference "U3") 
-            (unit 1) 
-            (value "CoralAccelerator") 
-            (footprint "m2-smart-iot-module-footprints:MODULE_G313-06329-00")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006051eb27" 
-            (reference "U4") 
-            (unit 1) 
-            (value "NRF52840") 
-            (footprint "m2-smart-iot-module-footprints:Nordic_Semiconductor-NRF52840-QIAA-R-0-0-MFG")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006051fcf4" 
-            (reference "U4") 
-            (unit 2) 
-            (value "NRF52840") 
-            (footprint "m2-smart-iot-module-footprints:Nordic_Semiconductor-NRF52840-QIAA-R-0-0-MFG")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006279f225" 
-            (reference "U5") 
-            (unit 1) 
-            (value "AP2120N-1.8TRG1") 
-            (footprint "m2-smart-iot-module-footprints:SOT-23-3")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000625d6bd1" 
-            (reference "U6") 
-            (unit 1) 
-            (value "AP22652W6-7") 
-            (footprint "m2-smart-iot-module-footprints:SOT-23-6")) 
-        (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000627fcfab" 
-            (reference "U7") 
-            (unit 1) 
-            (value "TLV803EF29DBZR") 
-            (footprint "m2-smart-iot-module-footprints:SOT-23-3")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000061155eb6" 
-            (reference "U8") 
-            (unit 1) 
-            (value "BME280") 
-            (footprint "m2-smart-iot-module-footprints:Pressure_Sensor_LGA-8_2.5x2.5mm_BME280")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062a7e79a" 
-            (reference "U9") 
-            (unit 1) 
-            (value "NCP1599MNTWG") 
-            (footprint "m2-smart-iot-module-footprints:DFN-6_3x3mm_EP1")) 
-        (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000623f62ca" 
-            (reference "U10") 
-            (unit 1) 
-            (value "MIC2877-5.0YFT-TR") 
-            (footprint "m2-smart-iot-module-footprints:FTQFN")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/d41af900-20ce-4a2e-b28a-32b01b68e5cf" 
-            (reference "U11") 
-            (unit 1) 
-            (value "93LC56CT-IMC") 
-            (footprint "m2-smart-iot-module-footprints:DFN-8_2x3mm")) 
-        (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006060e650" 
-            (reference "Y1") 
-            (unit 1) 
-            (value "NX3225SA-24M") 
-            (footprint "m2-smart-iot-module-footprints:NDK-NX3225SA-0-0-MFG")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006085b290" 
-            (reference "Y2") 
-            (unit 1) 
-            (value "ABM11W-101-32.0000MHZ-T3") 
-            (footprint "m2-smart-iot-module-footprints:Abracon-ABM11W-0-0-0")) 
-        (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000608c8f28" 
-            (reference "Y3") 
-            (unit 1) 
-            (value "ABS06-32.768KHZ-9-1-T") 
-            (footprint "m2-smart-iot-module-footprints:Abracon-ABS06-32.768KHZ-T-0")) 
-        (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/af6ea41f-d80e-49de-a9b5-51d22eadba5d" 
-            (reference "Y4") 
-            (unit 1) 
-            (value "ABM8G-12M-18-D2Y-T") 
-            (footprint "m2-smart-iot-module-footprints:KX-7"))))
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 94cf6556-6bdb-468e-b811-0f8a15d0512c)
+
+  (paper "A3")
+
+  (title_block
+    (title "M.2 Smart IoT Module")
+    (date "2022-08-18")
+    (rev "1.2.8")
+    (comment 1 "www.antmicro.com")
+    (comment 2 "Antmicro Ltd.")
+  )
+
+  (lib_symbols
+    (symbol "m2-smart-iot-module:PCB_Mount_Hole_M2" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "MP" (id 0) (at 0 6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "PCB_Mount_Hole_M2" (id 1) (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "m2-smart-iot-module-footprints:M.2-Stud" (id 2) (at 20.32 17.78 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 24.13 20.32 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "PCB_Mount_Hole_M2_0_1"
+        (circle (center 0 0) (radius 1.8034)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (circle (center 0 0) (radius 4.572)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+    )
+    (symbol "m2-smart-iot-module:antmicro_logo" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "N" (id 0) (at 0 8.89 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "antmicro_logo" (id 1) (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "m2-smart-iot-module-footprints:antmicro-logo_scaled_12mm" (id 2) (at -2.54 6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 8.89 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "antmicro_logo_0_0"
+        (text "Logo" (at 1.27 1.27 0)
+          (effects (font (size 2.0066 2.0066)))
+        )
+      )
+    )
+    (symbol "m2-smart-iot-module:oshw_logo" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "N" (id 0) (at 0.508 1.016 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "oshw_logo" (id 1) (at 0.762 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "m2-smart-iot-module-footprints:OSHW-Logo2_7.3x6mm_Copper_Mask" (id 2) (at 0.508 -6.096 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "oshw_logo_1_1"
+        (text "Logo" (at 0.762 -1.016 0)
+          (effects (font (size 2.0066 2.0066)))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "m2-smart-iot-module:antmicro_logo") (at 300.99 242.57 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 00000000-0000-0000-0000-000060ad7eb0)
+    (property "Reference" "N1" (id 0) (at 306.4256 240.2078 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "antmicro_logo" (id 1) (at 306.4256 242.5192 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "m2-smart-iot-module-footprints:antmicro-logo_scaled_12mm" (id 2) (at 298.45 236.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 300.99 233.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "m2-smart-iot-module:oshw_logo") (at 326.39 240.665 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 00000000-0000-0000-0000-000060ad80ff)
+    (property "Reference" "N2" (id 0) (at 331.3176 240.5888 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "oshw_logo" (id 1) (at 331.3176 242.9002 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "m2-smart-iot-module-footprints:OSHW-Logo2_7.3x6mm_Copper_Mask" (id 2) (at 326.898 246.761 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 326.39 240.665 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "m2-smart-iot-module:PCB_Mount_Hole_M2") (at 354.33 241.3 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 00000000-0000-0000-0000-000060ad88ce)
+    (property "Reference" "MP1" (id 0) (at 359.6132 240.1316 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "PCB_Mount_Hole_M2" (id 1) (at 359.6132 242.443 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "m2-smart-iot-module-footprints:M.2-Stud" (id 2) (at 374.65 223.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 378.46 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (sheet (at 125.095 114.3) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000604cff57)
+    (property "Sheet name" "PCIe-USB-Bridge" (id 0) (at 125.095 113.5884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "pcie-usb-bridge.kicad_sch" (id 1) (at 125.095 140.2846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 82.55 114.3) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000060515963)
+    (property "Sheet name" "M2-Pins" (id 0) (at 82.55 113.5884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "M2-Pins.kicad_sch" (id 1) (at 82.55 140.2846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 167.64 114.3) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000060519809)
+    (property "Sheet name" "nRF52840" (id 0) (at 167.64 113.5884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "nRF52840.kicad_sch" (id 1) (at 167.64 140.2846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 252.73 114.3) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000605198ab)
+    (property "Sheet name" "CoralAccelerator" (id 0) (at 252.73 113.5884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "coralAccelerator.kicad_sch" (id 1) (at 252.73 140.2846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 210.185 114.3) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000605233cc)
+    (property "Sheet name" "powerSupply" (id 0) (at 210.185 113.5884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "powerSupply.kicad_sch" (id 1) (at 210.185 140.2846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 295.275 114.3) (size 39.37 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 68410b93-aca6-44d3-bd1e-cd427080a29c)
+    (property "Sheet name" "FTDI" (id 0) (at 295.275 113.5884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "ftdi.kicad_sch" (id 1) (at 295.275 140.2846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/00000000-0000-0000-0000-000060515963" (page "2"))
+    (path "/00000000-0000-0000-0000-0000604cff57" (page "3"))
+    (path "/00000000-0000-0000-0000-000060519809" (page "4"))
+    (path "/00000000-0000-0000-0000-0000605233cc" (page "5"))
+    (path "/00000000-0000-0000-0000-0000605198ab" (page "6"))
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c" (page "7"))
+  )
+
+  (symbol_instances
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000605b354a"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000605b2901"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000609985d2"
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000605ceeb3"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006061a8b2"
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/9f2037a7-8f10-4414-bde8-5b80fb0a865c"
+      (reference "#PWR06") (unit 1) (value "~") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/0495a177-cedb-4992-9255-778456af1f0b"
+      (reference "#PWR07") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/f4a0257a-f5b2-438d-ab75-35cd3a5ec968"
+      (reference "#PWR08") (unit 1) (value "~") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000606238dc"
+      (reference "#PWR09") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000062906206"
+      (reference "#PWR010") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006078c8a0"
+      (reference "#PWR011") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006053510d"
+      (reference "#PWR012") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006079c599"
+      (reference "#PWR013") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006079cb59"
+      (reference "#PWR014") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006079d578"
+      (reference "#PWR015") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000607fd267"
+      (reference "#PWR016") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000607e450f"
+      (reference "#PWR017") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000062907062"
+      (reference "#PWR018") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060536f7f"
+      (reference "#PWR019") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006096e87a"
+      (reference "#PWR020") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006056d578"
+      (reference "#PWR021") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000607d5338"
+      (reference "#PWR022") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000608686bc"
+      (reference "#PWR023") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006056d12b"
+      (reference "#PWR024") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006098699a"
+      (reference "#PWR025") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000608bb81b"
+      (reference "#PWR026") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006087e301"
+      (reference "#PWR027") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060b66710"
+      (reference "#PWR028") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006089fcef"
+      (reference "#PWR029") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060515963/00000000-0000-0000-0000-000060944db5"
+      (reference "#PWR030") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060515963/00000000-0000-0000-0000-000060dfaed7"
+      (reference "#PWR031") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000627a33d9"
+      (reference "#PWR032") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000627a3d2e"
+      (reference "#PWR033") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000627a5e76"
+      (reference "#PWR034") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000627fd9be"
+      (reference "#PWR035") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000062786624"
+      (reference "#PWR036") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000063611077"
+      (reference "#PWR037") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000633139e2"
+      (reference "#PWR038") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000629b9b1d"
+      (reference "#PWR039") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062ad250f"
+      (reference "#PWR040") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062b00362"
+      (reference "#PWR041") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000624d705e"
+      (reference "#PWR042") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000624e547c"
+      (reference "#PWR043") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000609528ef"
+      (reference "#PWR044") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/b5e544bf-dc91-472a-bcd9-abf9782bbfd3"
+      (reference "#PWR045") (unit 1) (value "~") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062be35f2"
+      (reference "#PWR046") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062b08bbd"
+      (reference "#PWR047") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/ff508146-2adc-48a9-ae7b-5729c674b982"
+      (reference "#PWR048") (unit 1) (value "~") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062920523"
+      (reference "#PWR049") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062b4835b"
+      (reference "#PWR050") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062a968ae"
+      (reference "#PWR051") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000629997d4"
+      (reference "#PWR052") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006260d795"
+      (reference "#PWR057") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000625f4cfe"
+      (reference "#PWR058") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000625f4a00"
+      (reference "#PWR059") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062d6fcc9"
+      (reference "#PWR060") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062d7e0f3"
+      (reference "#PWR061") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000623d42dd"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060c19255"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000623c77ca"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060c1da29"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060c1e629"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062403a62"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000061170f4f"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000611842fa"
+      (reference "#PWR0108") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/e6cb064a-7148-4e0a-bbed-942b0b8c1538"
+      (reference "#PWR0109") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/b1091a6c-2627-4ea9-977d-a02c6e01983d"
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/5dd26dfc-010f-4b59-98a9-fc53bac77c22"
+      (reference "#PWR0111") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/41977174-5359-4b9f-993d-9e04af2325ce"
+      (reference "#PWR0112") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/e0a02e44-9724-4dcf-a201-9611e14adbdf"
+      (reference "#PWR0113") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/81cfe2dd-64d2-49dc-92f1-faef74ed356b"
+      (reference "#PWR0114") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/852b28f0-6b74-43e6-8ae5-e14a61a04115"
+      (reference "#PWR0115") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/11afe054-5b39-465b-bea7-140a33a54372"
+      (reference "#PWR0116") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/b24ad7d7-7447-4ac2-a396-7e9974858242"
+      (reference "#PWR0117") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/1e138a19-c9d3-4ce1-abef-10dc6e03d6b0"
+      (reference "#PWR0118") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/3439d517-461f-421f-a266-6f812446a438"
+      (reference "#PWR0119") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/34daddf2-4aa9-45c0-a5dd-1378e6b328a3"
+      (reference "#PWR0120") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/67b5efa8-acfa-464a-a779-8cca43e04b2b"
+      (reference "#PWR0121") (unit 1) (value "GND") (footprint "m2-smart-iot-module-footprints:")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006053cae5"
+      (reference "ANT1") (unit 1) (value "ANT-2.45-CHP-T") (footprint "m2-smart-iot-module-footprints:Linx-ANT-2.45-CHP-T-MFG")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604f1f2f"
+      (reference "C1") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604f1e7b"
+      (reference "C2") (unit 1) (value "C_10n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604edfc6"
+      (reference "C3") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604ed954"
+      (reference "C4") (unit 1) (value "C_10n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604edd4d"
+      (reference "C5") (unit 1) (value "C_10n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006052532f"
+      (reference "C6") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604f02de"
+      (reference "C7") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060997a20"
+      (reference "C8") (unit 1) (value "C_10u_0805") (footprint "m2-smart-iot-module-footprints:0805-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604f0230"
+      (reference "C9") (unit 1) (value "C_10n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006050e968"
+      (reference "C10") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604f02d1"
+      (reference "C11") (unit 1) (value "C_10n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060682ce8"
+      (reference "C12") (unit 1) (value "C_8p_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604e4585"
+      (reference "C13") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060520bb5"
+      (reference "C14") (unit 1) (value "C_10n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604e4192"
+      (reference "C15") (unit 1) (value "C_10n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060520d86"
+      (reference "C16") (unit 1) (value "C_10n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060503b38"
+      (reference "C17") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604ec719"
+      (reference "C18") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006050e7c0"
+      (reference "C19") (unit 1) (value "C_10n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060503a5a"
+      (reference "C20") (unit 1) (value "C_10n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604ec6ae"
+      (reference "C21") (unit 1) (value "C_10n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060503b2b"
+      (reference "C22") (unit 1) (value "C_10n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006050e95b"
+      (reference "C23") (unit 1) (value "C_10n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000606828e7"
+      (reference "C24") (unit 1) (value "C_8p_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000605dce75"
+      (reference "C25") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000605dfadc"
+      (reference "C26") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000606e69a3"
+      (reference "C27") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006079ab3e"
+      (reference "C28") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060799f74"
+      (reference "C29") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060798fe5"
+      (reference "C30") (unit 1) (value "C_10u_0805") (footprint "m2-smart-iot-module-footprints:0805-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000607f85ff"
+      (reference "C31") (unit 1) (value "C_4u7_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006081a2b4"
+      (reference "C32") (unit 1) (value "C_4u7_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000608ee7f4"
+      (reference "C33") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000608fe890"
+      (reference "C34") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000608223ee"
+      (reference "C35") (unit 1) (value "C_1u_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000607e1aee"
+      (reference "C36") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006089bd4d"
+      (reference "C37") (unit 1) (value "C_100p_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006088727d"
+      (reference "C38") (unit 1) (value "C_820p_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000607e7589"
+      (reference "C39") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006080e3cc"
+      (reference "C40") (unit 1) (value "C_4u7_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000607efafa"
+      (reference "C41") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006082cd8b"
+      (reference "C42") (unit 1) (value "C_1u_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006087b59a"
+      (reference "C43") (unit 1) (value "C_47n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006096c28a"
+      (reference "C44") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006085c261"
+      (reference "C45") (unit 1) (value "C_8p_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060867e92"
+      (reference "C46") (unit 1) (value "C_12p_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006089bb25"
+      (reference "C47") (unit 1) (value "C_0p8_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060866159"
+      (reference "C48") (unit 1) (value "C_12p_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006085c6ec"
+      (reference "C49") (unit 1) (value "C_8p_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006089c6f2"
+      (reference "C50") (unit 1) (value "C_0p5_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000608b897d"
+      (reference "C51") (unit 1) (value "RF_Capacitor") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006089e57b"
+      (reference "C52") (unit 1) (value "C_1p2_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000062790891"
+      (reference "C53") (unit 1) (value "C_1u_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000062790c32"
+      (reference "C54") (unit 1) (value "C_1u_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000635e6def"
+      (reference "C55") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000623c5e15"
+      (reference "C56") (unit 1) (value "C_1u_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062aba5d0"
+      (reference "C57") (unit 1) (value "C_22u_0603") (footprint "m2-smart-iot-module-footprints:0603-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000609334a7"
+      (reference "C58") (unit 1) (value "C_330u_EEF-SX") (footprint "m2-smart-iot-module-footprints:Panasonic_Electronic_Components-CD-0-0-MFG")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062adae6a"
+      (reference "C59") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006241b21f"
+      (reference "C60") (unit 1) (value "C_22u_0805_10V") (footprint "m2-smart-iot-module-footprints:0805-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000060933c24"
+      (reference "C61") (unit 1) (value "C_330u_EEF-SX") (footprint "m2-smart-iot-module-footprints:Panasonic_Electronic_Components-CD-0-0-MFG")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062417fa6"
+      (reference "C62") (unit 1) (value "C_22u_0805_10V") (footprint "m2-smart-iot-module-footprints:0805-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062bae439"
+      (reference "C63") (unit 1) (value "C_2n2_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006093401b"
+      (reference "C64") (unit 1) (value "C_330u_EEF-SX") (footprint "m2-smart-iot-module-footprints:Panasonic_Electronic_Components-CD-0-0-MFG")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006241955d"
+      (reference "C65") (unit 1) (value "C_22u_0805_10V") (footprint "m2-smart-iot-module-footprints:0805-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062a9688f"
+      (reference "C66") (unit 1) (value "C_22u_0805_10V") (footprint "m2-smart-iot-module-footprints:0805-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060c1c103"
+      (reference "C67") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060c3b1c6"
+      (reference "C68") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060c0d715"
+      (reference "C69") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006115f938"
+      (reference "C70") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006115b70f"
+      (reference "C71") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/00128c11-9ae6-4452-9d40-6eed6ed4fa92"
+      (reference "C72") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062a96898"
+      (reference "C73") (unit 1) (value "C_22u_0805_10V") (footprint "m2-smart-iot-module-footprints:0805-cap")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/4143701c-d634-41bd-a301-0c60c388ad5f"
+      (reference "C74") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062a968a1"
+      (reference "C75") (unit 1) (value "C_22u_0805_10V") (footprint "m2-smart-iot-module-footprints:0805-cap")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/1f05b071-c8f4-4c21-8c00-c3d2755cccf7"
+      (reference "C76") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062d7d4d5"
+      (reference "C77") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/add7447d-93c8-4ac2-acdb-bb2a61238b8f"
+      (reference "C78") (unit 1) (value "C_10u_0805") (footprint "m2-smart-iot-module-footprints:0805-cap")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/0683ecee-ab3f-4084-b163-cb6e41987b93"
+      (reference "C79") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/2d7a560d-7fde-4b37-b777-8fd058908345"
+      (reference "C80") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/e69a35cc-c2a3-403f-b7de-acd2c8207974"
+      (reference "C81") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/07656054-dac2-43ac-a0ba-60cc3622062b"
+      (reference "C82") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/315f3ffb-9d51-441d-9c46-0e9b7750238d"
+      (reference "C83") (unit 1) (value "C_18p_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/73c959b5-8152-4fad-9ade-293313183a87"
+      (reference "C84") (unit 1) (value "C_18p_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/44d8087c-9aa3-4e27-b3aa-f3752f63a4bd"
+      (reference "C85") (unit 1) (value "C_10u_0805") (footprint "m2-smart-iot-module-footprints:0805-cap")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/a85bec4d-2623-433c-85a9-154996ebdace"
+      (reference "C86") (unit 1) (value "C_100n_0402") (footprint "m2-smart-iot-module-footprints:0402-cap")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/7a5987c2-86e3-4f67-99b8-8bbcd51089f1"
+      (reference "C87") (unit 1) (value "C_10u_0603") (footprint "m2-smart-iot-module-footprints:0603-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000623b8f1e"
+      (reference "D1") (unit 1) (value "KP-1608CGCK") (footprint "m2-smart-iot-module-footprints:LED0603")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060df33fa"
+      (reference "D2") (unit 1) (value "APHF1608LSEEQBDZGKC") (footprint "m2-smart-iot-module-footprints:LED_APHF1608LSEEQBDZGKC")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000624d4348"
+      (reference "D3") (unit 1) (value "KP-1608CGCK") (footprint "m2-smart-iot-module-footprints:LED0603")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006096df37"
+      (reference "FB1") (unit 1) (value "BLM21PG600SN") (footprint "m2-smart-iot-module-footprints:0805-res")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/1ba44061-29ba-43cb-9cde-cc3db1725136"
+      (reference "FB2") (unit 1) (value "BLM21PG600SN") (footprint "m2-smart-iot-module-footprints:0805-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/659b3f22-a9f3-4d19-b979-88ffbed06828"
+      (reference "IC1") (unit 1) (value "UPD720201K8-711-BAC-A") (footprint "m2-smart-iot-module-footprints:QFN40P800X800X90-69N-D")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006087b7e4"
+      (reference "J1") (unit 1) (value "MM8130-2600RA2") (footprint "m2-smart-iot-module-footprints:Murata-MM8130-2600RA2-MFG")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060ab3814"
+      (reference "J2") (unit 1) (value "2X05") (footprint "m2-smart-iot-module-footprints:ARM_SWD")
+    )
+    (path "/00000000-0000-0000-0000-000060515963/00000000-0000-0000-0000-000060515a11"
+      (reference "J3") (unit 1) (value "M.2-M+B-Pins") (footprint "m2-smart-iot-module-footprints:M.2-M+B-Keys")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060989159"
+      (reference "L1") (unit 1) (value "L_10u_250mA_0603") (footprint "m2-smart-iot-module-footprints:0603-res")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060987123"
+      (reference "L2") (unit 1) (value "L_10u_80mA_0603") (footprint "m2-smart-iot-module-footprints:0603-res")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006098a0c6"
+      (reference "L3") (unit 1) (value "L_15n_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000608b5cf6"
+      (reference "L4") (unit 1) (value "L_4n7_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006268ef80"
+      (reference "L5") (unit 1) (value "SRP2512A-1R0M") (footprint "m2-smart-iot-module-footprints:SRP2512A-1R0M")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062b1e93b"
+      (reference "L6") (unit 1) (value "1285AS-H-2R2M=P2") (footprint "m2-smart-iot-module-footprints:0805-res")
+    )
+    (path "/00000000-0000-0000-0000-000060ad88ce"
+      (reference "MP1") (unit 1) (value "PCB_Mount_Hole_M2") (footprint "m2-smart-iot-module-footprints:M.2-Stud")
+    )
+    (path "/00000000-0000-0000-0000-000060ad7eb0"
+      (reference "N1") (unit 1) (value "antmicro_logo") (footprint "m2-smart-iot-module-footprints:antmicro-logo_scaled_12mm")
+    )
+    (path "/00000000-0000-0000-0000-000060ad80ff"
+      (reference "N2") (unit 1) (value "oshw_logo") (footprint "m2-smart-iot-module-footprints:OSHW-Logo2_7.3x6mm_Copper_Mask")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006276c2ed"
+      (reference "Q1") (unit 1) (value "BSS123") (footprint "m2-smart-iot-module-footprints:SOT-23-3")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060675367"
+      (reference "R1") (unit 1) (value "R_680R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060a380eb"
+      (reference "R2") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006085538f"
+      (reference "R3") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060843f51"
+      (reference "R4") (unit 1) (value "R_1k6_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006085596c"
+      (reference "R5") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060722513"
+      (reference "R6") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006073125e"
+      (reference "R7") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000607f6f80"
+      (reference "R8") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060777abb"
+      (reference "R9") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060777e24"
+      (reference "R10") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000607f764d"
+      (reference "R11") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000607ccf4a"
+      (reference "R12") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-000060738464"
+      (reference "R13") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000062802bed"
+      (reference "R14") (unit 1) (value "R_100k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006280e737"
+      (reference "R15") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000062410036"
+      (reference "R16") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000608cc5b1"
+      (reference "R17") (unit 1) (value "R_4R7_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006094ed3a"
+      (reference "R18") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060c83fb8"
+      (reference "R19") (unit 1) (value "R_330R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060d6bc78"
+      (reference "R20") (unit 1) (value "R_2k2_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060d5a88c"
+      (reference "R21") (unit 1) (value "R_390R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060d6a872"
+      (reference "R22") (unit 1) (value "R_1k2_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000060515963/00000000-0000-0000-0000-000060943fb5"
+      (reference "R23") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000060515963/00000000-0000-0000-0000-000060948dc0"
+      (reference "R24") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000060515963/00000000-0000-0000-0000-000060949f76"
+      (reference "R25") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000060515963/00000000-0000-0000-0000-00006094b237"
+      (reference "R26") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000623d3ef2"
+      (reference "R27") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062428959"
+      (reference "R28") (unit 1) (value "R_1M0_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006090c054"
+      (reference "R29") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006280e4e2"
+      (reference "R30") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062bad774"
+      (reference "R31") (unit 1) (value "R_4k7_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000608f66b2"
+      (reference "R32") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/8004c200-acd5-4612-81e4-6745ddd65f05"
+      (reference "R33") (unit 1) (value "R_200k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000624c898e"
+      (reference "R34") (unit 1) (value "R_910k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062b64921"
+      (reference "R35") (unit 1) (value "R_3k74_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060c0af5f"
+      (reference "R36") (unit 1) (value "R_100k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060c11d74"
+      (reference "R37") (unit 1) (value "R_8k2_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062b6550d"
+      (reference "R38") (unit 1) (value "R_12k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000060beaadd"
+      (reference "R39") (unit 1) (value "R_0R_0805") (footprint "m2-smart-iot-module-footprints:0805-res")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000061240320"
+      (reference "R40") (unit 1) (value "R_2k2_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000061240dce"
+      (reference "R41") (unit 1) (value "R_2k2_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000625de777"
+      (reference "R42") (unit 1) (value "R_17k4_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000624c7f74"
+      (reference "R43") (unit 1) (value "R_200k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000624d3487"
+      (reference "R44") (unit 1) (value "R_330R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000624d65c9"
+      (reference "R45") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000624d6992"
+      (reference "R46") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/2376c608-7a3c-4e65-a9ea-c03d420470a6"
+      (reference "R47") (unit 1) (value "~") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/c4ee482a-ed11-4e09-ae10-16626fb188e4"
+      (reference "R48") (unit 1) (value "~") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/a6b9ba31-bc1a-4e3b-91ce-76684e74f027"
+      (reference "R49") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/05e4c465-41c8-46f4-a676-9ffc8afba2e1"
+      (reference "R50") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/04515962-5639-4a73-8033-b590b698688d"
+      (reference "R51") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/d4964aae-d0ef-48a5-b5f9-bc89399e3c2e"
+      (reference "R52") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/357517c7-91f3-4445-89df-5a4994fd51bb"
+      (reference "R53") (unit 1) (value "R_1k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/071ba9ef-8d4a-4032-8611-9e9457c33aa7"
+      (reference "R54") (unit 1) (value "R_1k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/85e35e99-01ee-4c85-a0e8-9b9263b7c426"
+      (reference "R55") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/5c795cc7-77ec-4acc-9612-76929e97dfd9"
+      (reference "R56") (unit 1) (value "R_2k2_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/22e4935e-cfb3-465f-b2e5-6b3ebcec47e9"
+      (reference "R57") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/4691fe08-6cea-4c9e-9cc2-3894d30e602d"
+      (reference "R58") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/a49e9949-2706-459a-b507-cea25a41afde"
+      (reference "R59") (unit 1) (value "R_12k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/e29c8173-da2a-43c0-8ce3-638aaee3ba36"
+      (reference "R60") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/b90e8eed-1fde-4959-938f-396fb7dbc5b9"
+      (reference "R61") (unit 1) (value "R_470R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/c09e73f3-78a6-4da6-8467-75c2edb8c3ee"
+      (reference "R62") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006094bf1c"
+      (reference "SW1") (unit 1) (value "PTS840_GK_SMTR_LFS") (footprint "m2-smart-iot-module-footprints:CK-PTS840_GK_SMTR_LFS-0")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062d57d07"
+      (reference "SW2") (unit 1) (value "PTS840_GK_SMTR_LFS") (footprint "m2-smart-iot-module-footprints:CK-PTS840_GK_SMTR_LFS-0")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006283efd7"
+      (reference "TP1") (unit 1) (value "TP_SMD1MM") (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006258e0a2"
+      (reference "TP2") (unit 1) (value "TP_SMD1MM") (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006258e973"
+      (reference "TP3") (unit 1) (value "TP") (footprint "m2-smart-iot-module-footprints:TP-R-1.5")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060a55842"
+      (reference "TP11") (unit 1) (value "TP_SMD1MM") (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060a68da5"
+      (reference "TP12") (unit 1) (value "TP_SMD1MM") (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060ad28de"
+      (reference "TP16") (unit 1) (value "TP_SMD1MM") (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060aa5cd2"
+      (reference "TP17") (unit 1) (value "TP_SMD1MM") (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060aa6087"
+      (reference "TP18") (unit 1) (value "TP_SMD1MM") (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060aa64fe"
+      (reference "TP19") (unit 1) (value "TP_SMD1MM") (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060ade789"
+      (reference "TP23") (unit 1) (value "TP_SMD1MM") (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000608fd990"
+      (reference "TP25") (unit 1) (value "TP_SMD1MM") (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006096dc31"
+      (reference "TP26") (unit 1) (value "TP_SMD1MM") (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000060976fe7"
+      (reference "TP27") (unit 1) (value "TP_SMD1MM") (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-00006098157d"
+      (reference "TP28") (unit 1) (value "TP_SMD1MM") (footprint "m2-smart-iot-module-footprints:Testpoint_smd_1mm")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/3f5a84f7-9e18-4808-aab2-0e69509107a0"
+      (reference "U1") (unit 1) (value "FT4232H-56Q") (footprint "m2-smart-iot-module-footprints:QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000604de031"
+      (reference "U2") (unit 1) (value "SST25VF512A") (footprint "m2-smart-iot-module-footprints:SOIC8-SST25VF512A-33-4I-SAE-Level_B")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060adcc7e"
+      (reference "U3") (unit 1) (value "CoralAccelerator") (footprint "m2-smart-iot-module-footprints:MODULE_G313-06329-00")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006051eb27"
+      (reference "U4") (unit 1) (value "NRF52840") (footprint "m2-smart-iot-module-footprints:Nordic_Semiconductor-NRF52840-QIAA-R-0-0-MFG")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006051fcf4"
+      (reference "U4") (unit 2) (value "NRF52840") (footprint "m2-smart-iot-module-footprints:Nordic_Semiconductor-NRF52840-QIAA-R-0-0-MFG")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-00006279f225"
+      (reference "U5") (unit 1) (value "AP2120N-1.8TRG1") (footprint "m2-smart-iot-module-footprints:SOT-23-3")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000625d6bd1"
+      (reference "U6") (unit 1) (value "AP22652W6-7") (footprint "m2-smart-iot-module-footprints:SOT-23-6")
+    )
+    (path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000627fcfab"
+      (reference "U7") (unit 1) (value "TLV803EF29DBZR") (footprint "m2-smart-iot-module-footprints:SOT-23-3")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000061155eb6"
+      (reference "U8") (unit 1) (value "BME280") (footprint "m2-smart-iot-module-footprints:Pressure_Sensor_LGA-8_2.5x2.5mm_BME280")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062a7e79a"
+      (reference "U9") (unit 1) (value "NCP1599MNTWG") (footprint "m2-smart-iot-module-footprints:DFN-6_3x3mm_EP1")
+    )
+    (path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-0000623f62ca"
+      (reference "U10") (unit 1) (value "MIC2877-5.0YFT-TR") (footprint "m2-smart-iot-module-footprints:FTQFN")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/d41af900-20ce-4a2e-b28a-32b01b68e5cf"
+      (reference "U11") (unit 1) (value "93LC56CT-IMC") (footprint "m2-smart-iot-module-footprints:DFN-8_2x3mm")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-00006060e650"
+      (reference "Y1") (unit 1) (value "NX3225SA-24M") (footprint "m2-smart-iot-module-footprints:NDK-NX3225SA-0-0-MFG")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006085b290"
+      (reference "Y2") (unit 1) (value "ABM11W-101-32.0000MHZ-T3") (footprint "m2-smart-iot-module-footprints:Abracon-ABM11W-0-0-0")
+    )
+    (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000608c8f28"
+      (reference "Y3") (unit 1) (value "ABS06-32.768KHZ-9-1-T") (footprint "m2-smart-iot-module-footprints:Abracon-ABS06-32.768KHZ-T-0")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/af6ea41f-d80e-49de-a9b5-51d22eadba5d"
+      (reference "Y4") (unit 1) (value "ABM8G-12M-18-D2Y-T") (footprint "m2-smart-iot-module-footprints:KX-7")
+    )
+  )
+)
