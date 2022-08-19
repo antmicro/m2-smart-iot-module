@@ -953,6 +953,42 @@
     (path "/00000000-0000-0000-0000-0000605233cc/c09e73f3-78a6-4da6-8467-75c2edb8c3ee"
       (reference "R62") (unit 1) (value "R_10k_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
     )
+    (path "/00000000-0000-0000-0000-0000604cff57/8fb67a9e-bc50-4267-aef4-91bdfe10fa10"
+      (reference "R63") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/ccd77d45-77ec-469c-be34-21d283007083"
+      (reference "R64") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/8872f31e-b111-4127-ab28-600dbdc3cde4"
+      (reference "R65") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/a2a50500-5a46-4992-b5d6-e1ddb176276c"
+      (reference "R66") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/82b65758-4b30-47d7-a16f-dd2a855ec12e"
+      (reference "R67") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/94614747-8395-42dd-9552-25d2b0339d74"
+      (reference "R68") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/8ea65724-420f-46ec-a5b0-7b172c8f9eb9"
+      (reference "R69") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-0000604cff57/90fa8678-44e2-4327-871c-772eac072782"
+      (reference "R70") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/79acc9ef-297b-4d98-8cdf-781adcb22eac"
+      (reference "R71") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/c6c0ad5d-c7c0-4217-8379-dcfe5536baf4"
+      (reference "R72") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/db50fd96-9720-4334-862c-34a47063f476"
+      (reference "R73") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
+    (path "/68410b93-aca6-44d3-bd1e-cd427080a29c/21e0176e-d2fd-48cb-80aa-584153838818"
+      (reference "R74") (unit 1) (value "R_0R_0402") (footprint "m2-smart-iot-module-footprints:0402-res")
+    )
     (path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006094bf1c"
       (reference "SW1") (unit 1) (value "PTS840_GK_SMTR_LFS") (footprint "m2-smart-iot-module-footprints:CK-PTS840_GK_SMTR_LFS-0")
     )
