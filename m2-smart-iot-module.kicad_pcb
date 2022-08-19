@@ -6,8 +6,8 @@
 
   (paper "A4")
   (title_block
-    (date "2022-08-18")
-    (rev "1.2.7")
+    (date "2022-08-19")
+    (rev "1.2.9")
   )
 
   (layers
@@ -14216,7 +14216,7 @@
   (gr_text "PCIe radio module" (at 182.79 92.58) (layer "B.Mask") (tstamp b63ca942-6343-45e4-b926-781fa690d4dd)
     (effects (font (size 0.65 0.65) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "rev 1.2.8" (at 183.35 94.06) (layer "B.Mask") (tstamp e0eb7a46-826b-4fff-ad6c-90b087d09461)
+  (gr_text "rev ${REVISION}" (at 183.35 94.06) (layer "B.Mask") (tstamp e0eb7a46-826b-4fff-ad6c-90b087d09461)
     (effects (font (size 0.65 0.65) (thickness 0.15)) (justify mirror))
   )
   (gr_text "Prepreg" (at 224.121847 109.440116) (layer "Dwgs.User") (tstamp 01047235-d8ea-4fcf-a8f6-1fe0b781019a)

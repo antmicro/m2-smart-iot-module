@@ -6,8 +6,8 @@
 
   (title_block
     (title "M.2 Smart IoT Module")
-    (date "2022-08-18")
-    (rev "1.2.8")
+    (date "2022-08-19")
+    (rev "1.2.9")
   )
 
   (lib_symbols
