@@ -6986,7 +6986,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060c11d74")
 		(property "Reference" "R37"
 			(at 68.58 75.565 0)
@@ -7068,16 +7068,6 @@
 		)
 		(property "Val" "8k2"
 			(at 78.74 75.565 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 73.66 76.835 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7876,7 +7866,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000624d65c9")
 		(property "Reference" "R45"
 			(at 153.035 80.01 0)
@@ -7966,16 +7956,6 @@
 				)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 153.035 84.455 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "805558cc-5d8a-4f4a-a3bb-443e4495c250")
 		)
@@ -8000,7 +7980,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000624d6992")
 		(property "Reference" "R46"
 			(at 153.035 89.535 0)
@@ -8082,16 +8062,6 @@
 		)
 		(property "Val" "0R"
 			(at 153.035 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 153.035 86.995 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

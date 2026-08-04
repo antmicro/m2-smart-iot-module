@@ -7860,7 +7860,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060beaadd")
 		(property "Reference" "R39"
 			(at 280.67 37.338 0)
@@ -7942,16 +7942,6 @@
 		)
 		(property "Val" "0R"
 			(at 280.67 39.8272 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 280.67 42.1386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12080,7 +12070,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000062d57d07")
 		(property "Reference" "SW2"
 			(at 66.675 160.02 0)
@@ -12151,17 +12141,6 @@
 		)
 		(property "MPN" "PTS840 GK SMTR LFS"
 			(at 59.055 153.035 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 69.85 160.655 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

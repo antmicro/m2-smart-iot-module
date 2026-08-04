@@ -15853,7 +15853,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000608fe890")
 		(property "Reference" "C34"
 			(at 62.865 82.55 90)
@@ -15944,16 +15944,6 @@
 				)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 69.85 82.55 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "d5f9da86-3a31-451f-9a48-9999edadc02c")
 		)
@@ -15978,7 +15968,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006094bf1c")
 		(property "Reference" "SW1"
 			(at 252.095 130.175 0)
@@ -16047,17 +16037,6 @@
 		)
 		(property "MPN" "PTS840 GK SMTR LFS"
 			(at 258.445 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 247.65 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17211,7 +17190,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060ab3814")
 		(property "Reference" "J2"
 			(at 295.91 115.2144 0)
@@ -17278,17 +17257,6 @@
 		)
 		(property "Manufacturer" "Samtec"
 			(at 290.83 144.145 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 295.91 122.555 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19071,7 +19039,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000635e6def")
 		(property "Reference" "C55"
 			(at 74.295 95.25 90)
@@ -19154,16 +19122,6 @@
 		(property "Val" "100n"
 			(at 81.915 97.79 90)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 81.28 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

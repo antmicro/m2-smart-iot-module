@@ -11319,18 +11319,6 @@
 				)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 380.238 223.217072 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6eec6729-919e-4660-96c1-0e4dd5a4bbec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "ERJ2GE0R00X"
 			(at 380.238 223.217072 0)
 			(layer "F.Fab")
@@ -11370,7 +11358,7 @@
 		(path "/00000000-0000-0000-0000-000060515963/00000000-0000-0000-0000-000060948dc0")
 		(sheetname "M2-Pins")
 		(sheetfile "M2-Pins.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.93 0.47)
@@ -11545,18 +11533,6 @@
 				)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 380.284 221.185072 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b870b2c3-a2e5-41d9-93c1-6332fdd3444f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "ERJ2GE0R00X"
 			(at 380.284 221.185072 0)
 			(layer "F.Fab")
@@ -11596,7 +11572,7 @@
 		(path "/00000000-0000-0000-0000-000060515963/00000000-0000-0000-0000-000060949f76")
 		(sheetname "M2-Pins")
 		(sheetfile "M2-Pins.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.93 0.47)
@@ -12369,18 +12345,6 @@
 				)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 96.3954 284.7062 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "016c4712-8c65-4ed8-8c42-48c3e2498601")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "ERJ2GE0R00X"
 			(at 96.3954 284.7062 0)
 			(layer "F.Fab")
@@ -12420,7 +12384,7 @@
 		(path "/00000000-0000-0000-0000-000060515963/00000000-0000-0000-0000-000060943fb5")
 		(sheetname "M2-Pins")
 		(sheetfile "M2-Pins.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.93 0.47)
@@ -13027,18 +12991,6 @@
 				)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 25.649 236.303 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "02a3bf60-f4eb-4958-a724-7863d7a6238a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "SHF-105-01-L-D-SM"
 			(at 25.649 236.303 0)
 			(layer "F.Fab")
@@ -13066,7 +13018,7 @@
 		(path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-000060ab3814")
 		(sheetname "nRF52840")
 		(sheetfile "nRF52840.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.25 -1.75)
@@ -23063,18 +23015,6 @@
 				)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 270.6 196.1 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d9957707-bd5d-4ad8-a8f7-db85bd49fcb1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "0402X104K6R3CT"
 			(at 270.6 196.1 0)
 			(layer "F.Fab")
@@ -23114,7 +23054,7 @@
 		(path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000635e6def")
 		(sheetname "nRF52840")
 		(sheetfile "nRF52840.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.93 0.47)
@@ -25178,18 +25118,6 @@
 				)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 287.21 -93.79 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0fce7b74-99c2-4f05-b877-157f764927c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "ERJ2GE0R00X"
 			(at 287.21 -93.79 0)
 			(layer "F.Fab")
@@ -25229,7 +25157,7 @@
 		(path "/00000000-0000-0000-0000-000060515963/00000000-0000-0000-0000-00006094b237")
 		(sheetname "M2-Pins")
 		(sheetfile "M2-Pins.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.93 -0.47)
@@ -26984,18 +26912,6 @@
 				)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 267.1 -44.8 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18e266dd-7ec9-4030-9c3f-6985267495ac")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "ERJ2GE0R00X"
 			(at 267.1 -44.8 0)
 			(layer "F.Fab")
@@ -27035,7 +26951,7 @@
 		(path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000624d65c9")
 		(sheetname "CoralAccelerator")
 		(sheetfile "coralAccelerator.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.93 -0.47)
@@ -27210,18 +27126,6 @@
 				)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 266.05 -43.75 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a5674aed-b362-4762-9f1b-3730006fb34e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "ERJ2GE0R00X"
 			(at 266.05 -43.75 0)
 			(layer "F.Fab")
@@ -27261,7 +27165,7 @@
 		(path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-0000624d6992")
 		(sheetname "CoralAccelerator")
 		(sheetfile "coralAccelerator.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.93 -0.47)
@@ -36536,19 +36440,6 @@
 				)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 238.15 -40.85 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "519b957c-3aee-49b2-a40b-49367f8449a1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "0402X104K6R3CT"
 			(at 238.15 -40.85 0)
 			(layer "B.Fab")
@@ -36591,7 +36482,7 @@
 		(path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-0000608fe890")
 		(sheetname "nRF52840")
 		(sheetfile "nRF52840.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.93 -0.47)
@@ -40289,19 +40180,6 @@
 				)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5837c017-7aaf-4686-8bb4-21f73a6c35e2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "PTS840 GK SMTR LFS"
 			(at 0 0 0)
 			(layer "B.Fab")
@@ -40331,7 +40209,7 @@
 		(path "/00000000-0000-0000-0000-000060519809/00000000-0000-0000-0000-00006094bf1c")
 		(sheetname "nRF52840")
 		(sheetfile "nRF52840.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.7 -1.775)
@@ -41446,19 +41324,6 @@
 				)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 353 199.5 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "340b939f-689b-458c-81fa-d510e3180ec0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "CRCW040210K0FKEDHP"
 			(at 353 199.5 0)
 			(layer "B.Fab")
@@ -41501,7 +41366,7 @@
 		(path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000607f6f80")
 		(sheetname "PCIe-USB-Bridge")
 		(sheetfile "pcie-usb-bridge.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.93 0.47)
@@ -42119,19 +41984,6 @@
 				)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "fa54305b-c185-49e4-aea1-49bbde253392")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "CRCW040210K0FKEDHP"
 			(at 0 0 0)
 			(layer "B.Fab")
@@ -42174,7 +42026,7 @@
 		(path "/00000000-0000-0000-0000-0000604cff57/00000000-0000-0000-0000-0000607f764d")
 		(sheetname "PCIe-USB-Bridge")
 		(sheetfile "pcie-usb-bridge.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.93 -0.47)
@@ -43232,19 +43084,6 @@
 				)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 285.6 206.3 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "585fadb1-ccef-48d8-866e-12c91cb22921")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "ERJ2RKF8201X"
 			(at 285.6 206.3 0)
 			(layer "B.Fab")
@@ -43287,7 +43126,7 @@
 		(path "/00000000-0000-0000-0000-0000605198ab/00000000-0000-0000-0000-000060c11d74")
 		(sheetname "CoralAccelerator")
 		(sheetfile "coralAccelerator.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.93 0.47)
@@ -43463,19 +43302,6 @@
 				)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 68.505464 276.594536 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "4b2225c9-802c-4551-9533-a382575809af")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "CRCW08050000Z0EA"
 			(at 68.505464 276.594536 0)
 			(layer "B.Fab")
@@ -43518,7 +43344,7 @@
 		(path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000060beaadd")
 		(sheetname "powerSupply")
 		(sheetfile "powerSupply.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.3 0.8)
@@ -47565,19 +47391,6 @@
 				)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "654706ac-2009-4512-8099-7f53614103c7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MPN" "PTS840 GK SMTR LFS"
 			(at 0 0 0)
 			(layer "B.Fab")
@@ -47607,7 +47420,7 @@
 		(path "/00000000-0000-0000-0000-0000605233cc/00000000-0000-0000-0000-000062d57d07")
 		(sheetname "powerSupply")
 		(sheetfile "powerSupply.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.7 -1.775)

@@ -13143,7 +13143,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000607f6f80")
 		(property "Reference" "R8"
 			(at 194.818 57.277 90)
@@ -13235,16 +13235,6 @@
 				(justify left)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 196.85 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "fdb78a3d-029d-4afc-a5fc-1bd023dd8d33")
 		)
@@ -13269,7 +13259,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000607f764d")
 		(property "Reference" "R11"
 			(at 208.788 57.277 90)
@@ -13359,16 +13349,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 210.82 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
