@@ -1,24 +1,157 @@
-(module LED0603 (layer F.Cu) (tedit 60C2DD1F)
-  (attr smd)
-  (fp_text reference REF** (at 0.1 -1.95 180) (layer F.SilkS)
-    (effects (font (size 0.7 0.7) (thickness 0.1)))
-  )
-  (fp_text value "LED Green 0603 case" (at 0.4 2.3 180) (layer F.SilkS) hide
-    (effects (font (size 1.524 1.524) (thickness 0.05)))
-  )
-  (fp_line (start -0.1 0.55) (end 0.1 0.55) (layer F.SilkS) (width 0.12))
-  (fp_line (start -0.1 -0.6) (end 0.1 -0.6) (layer F.SilkS) (width 0.12))
-  (fp_line (start -1.2 -0.3) (end -1.2 0.5) (layer F.SilkS) (width 0.12))
-  (fp_line (start -1.2 -0.5) (end -1.2 -0.3) (layer F.SilkS) (width 0.12))
-  (fp_line (start -1.4 0.71) (end -1.4 -0.71) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.4 0.71) (end 1.4 -0.71) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.4 -0.71) (end 1.4 -0.71) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.4 0.71) (end 1.4 0.71) (layer F.CrtYd) (width 0.05))
-  (pad 2 smd rect (at -0.6485 0) (size 0.762 0.762) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at 0.7485 0) (size 0.762 0.762) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/lib/3d-models/LED0603.step
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "LED0603"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1 -1.95 180)
+		(layer "F.SilkS")
+		(uuid "ed2a2930-6522-499a-b7c3-c482e3125a45")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED Green 0603 case"
+		(at 0.4 2.3 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "58c67db6-1dbc-4f7e-be0a-c50488fb6984")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae0e1319-7a65-47b6-ba8c-36cde603a795")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94c007b0-594f-4c2f-97b3-db24d3d3f2e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.2 -0.5)
+		(end -1.2 -0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "450c6b1e-9232-49e0-85be-c9b94ab9c27a")
+	)
+	(fp_line
+		(start -1.2 -0.3)
+		(end -1.2 0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36e16dc4-b1bc-46fc-85b4-09672d580ca4")
+	)
+	(fp_line
+		(start -0.1 -0.6)
+		(end 0.1 -0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "701e93f4-937c-4bf6-87eb-f9c2dbe366ef")
+	)
+	(fp_line
+		(start -0.1 0.55)
+		(end 0.1 0.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "681fe615-ac12-4ae7-880a-c37c8f441575")
+	)
+	(fp_line
+		(start -1.4 -0.71)
+		(end 1.4 -0.71)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1eab92d2-75bf-4376-8a35-48e7e1c75831")
+	)
+	(fp_line
+		(start -1.4 0.71)
+		(end -1.4 -0.71)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "199ea9e2-6439-47e5-9843-ae46076dbefa")
+	)
+	(fp_line
+		(start -1.4 0.71)
+		(end 1.4 0.71)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04efd865-b907-4231-b856-99947c517fbd")
+	)
+	(fp_line
+		(start 1.4 0.71)
+		(end 1.4 -0.71)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d5efc4e0-9ceb-409f-9e2e-9637ef0cce37")
+	)
+	(pad "1" smd rect
+		(at 0.7485 0)
+		(size 0.762 0.762)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d798c9af-c1a5-4339-95f5-38cb3a3e39a2")
+	)
+	(pad "2" smd rect
+		(at -0.6485 0)
+		(size 0.762 0.762)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9a11cfcd-9a94-4386-929a-9cf8744a4782")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d-models/LED0603.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
