@@ -11143,7 +11143,7 @@
 		)
 		(uuid "1d515505-4b73-4435-bb7d-a0e600ebe139")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
+			(at 39.7907 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11151,6 +11151,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 	)
@@ -11190,7 +11191,7 @@
 		)
 		(uuid "39dad562-b983-4234-83f0-33d34c21d3e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
+			(at 358.6514 55.245 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11198,6 +11199,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 	)
@@ -11213,7 +11215,7 @@
 		)
 		(uuid "72eb514c-85d3-4e87-8ada-7e1f08be3f07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
+			(at 144.692 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11221,6 +11223,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 	)
@@ -11236,7 +11239,7 @@
 		)
 		(uuid "7c172146-2935-49e4-bc46-9b9a4c5dfb57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
+			(at 144.2081 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11244,6 +11247,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 	)
@@ -11259,7 +11263,7 @@
 		)
 		(uuid "7ca559d6-de08-4721-bf92-41d65858cbba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
+			(at 162.623 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11267,6 +11271,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 	)
@@ -11282,7 +11287,7 @@
 		)
 		(uuid "8529ff07-3201-4c1e-a983-58c3f50f2111")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
+			(at 349.3736 55.245 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11290,6 +11295,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 	)
@@ -11305,7 +11311,7 @@
 		)
 		(uuid "8d38e975-8144-4c3b-9678-101abeeb851d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
+			(at 162.6835 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11313,6 +11319,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 	)
@@ -11328,7 +11335,7 @@
 		)
 		(uuid "8f7f8675-ee3d-441f-b73b-1c93a4716a19")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
+			(at 305.3114 55.245 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11336,6 +11343,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 	)
@@ -11351,7 +11359,7 @@
 		)
 		(uuid "937c033a-b99b-4249-ac14-c77c15a9610d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
+			(at 12.3344 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11359,6 +11367,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 	)
@@ -11446,7 +11455,7 @@
 		)
 		(uuid "c614bbc4-9790-4e8a-867c-02b3469b4966")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
+			(at 305.9464 71.755 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11454,6 +11463,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 	)
@@ -12591,7 +12601,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Walsin"
+		(property "Manufacturer" "Murata"
 			(at 76.835 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12603,7 +12613,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "0402X104K6R3CT"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 74.295 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12781,7 +12791,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Walsin"
+		(property "Manufacturer" "Murata"
 			(at 88.265 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12793,7 +12803,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "0402X104K6R3CT"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 85.725 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12895,7 +12905,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Walsin"
+		(property "Manufacturer" "Murata"
 			(at 88.265 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12907,7 +12917,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "0402X104K6R3CT"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 85.725 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15795,7 +15805,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Walsin"
+		(property "Manufacturer" "Murata"
 			(at 88.265 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -15807,7 +15817,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "0402X104K6R3CT"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 85.725 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -16249,7 +16259,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Walsin"
+		(property "Manufacturer" "Murata"
 			(at 238.76 127 0)
 			(hide yes)
 			(show_name no)
@@ -16261,7 +16271,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "0402X104K6R3CT"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 238.76 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -18300,7 +18310,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Walsin"
+		(property "Manufacturer" "Murata"
 			(at 378.46 51.435 0)
 			(hide yes)
 			(show_name no)
@@ -18312,7 +18322,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "0402X104K6R3CT"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 378.46 53.975 0)
 			(hide yes)
 			(show_name no)
@@ -18416,7 +18426,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Walsin"
+		(property "Manufacturer" "Murata"
 			(at 361.95 71.755 0)
 			(hide yes)
 			(show_name no)
@@ -18428,7 +18438,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "0402X104K6R3CT"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 361.95 69.215 0)
 			(hide yes)
 			(show_name no)
