@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "M.2 Smart IoT Module")
-		(date "2026-08-06")
+		(date "2026-08-17")
 		(rev "1.2.9")
 	)
 	(lib_symbols
@@ -9204,6 +9204,28 @@
 		)
 		(property "Description" ""
 			(at 69.85 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "93LC56CT-IMC"
+			(at 69.85 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 69.85 111.76 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

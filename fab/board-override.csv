@@ -1,18 +1,18 @@
 Ref,Val,Package,PosX,PosY,Rot,Side,Override
 "C58 C61 C64",,"Panasonic_Electronic_Components-CD-0-0-MFG",,,,,"C_Pol_Panasonic-GX-2917"
-"D2",,"LED_APHF1608LSEEQBDZGKC",,,,,"LED_0603_1608Metric"
+"D2",,"LED_APHF1608LSEEQBDZGKC",,,,,"LED_Dual0603"
 "IC1",,"QFN40P800X800X90-69N-D",,,,,"QFN-68-1EP_8x8mm_P0.4mm"
 "U2",,"SOIC8-SST25VF512A-33-4I-SAE-Level_B",,,,,"SOIC-8_3.9x4.9x1.75mm_P1.27mm"
-"U4",,"Nordic_Semiconductor-NRF52840-QIAA-R-0-0-MFG",,,,,"aQFN-73-1EP_7x7mm_P0.5mm-nordic-semiconductor-nrf52840"
+"U4",,"Nordic_Semiconductor-NRF52840-QIAA-R-0-0-MFG",,,,,"aQFN-73-1EP_7x7mm_P0.5mm-nordic-semiconductor-NRF52840-QIAA-R"
 "U9",,"DFN-6_3x3mm_EP1",,,,,"DFN-6-1EP_3x3mm_P1mm_EP1.5x2.4mm"
 "Y2",,"Abracon-ABM11W-0-0-0",,,90,,"Resonator_SMD_TST_TZ3139C_2x1.6x0.4mm"
 "U11",,"DFN-8_2x3mm",,,-90,,"DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm"
 "ANT1",,"Linx-ANT-2.45-CHP-T-MFG",,,180,,"ANT-2.45-CHP-T"
-"J1",,"Murata-MM8130-2600RA2-MFG",,,,,"MM8130-2600RA2"
-"Y1",,"NDK-NX3225SA-0-0-MFG",,,,,"NX3225SA-24.000M-STD-CSR-3"
-"Y3",,"Abracon-ABS06-32.768KHZ-T-0",,,,,"ABS06-32.768KHZ-T"
-"U10",,"FTQFN",,,,,"MIC2877-5.0YFT-TR"
-"U3",,"MODULE_G313-06329-00",,,-90,,"Coral-G313-06329-00"
+"J1",,"Murata-MM8130-2600RA2-MFG",,,,,"Conn_MM8130-2600RA2"
+"Y1",,"NDK-NX3225SA-0-0-MFG",,,,,"Resonator_SMD_NX3225SA_3.2x2.5mm"
+"Y3",,"Abracon-ABS06-32.768KHZ-T-0",,,,,"Resonator_SMD_Abracon_ABS06_2x1.2x0.6mm"
+"U10",,"FTQFN",,,,,"FTQFN-8_2x2mm"
+"U3",,"MODULE_G313-06329-00",,,-90,,"G313-06329-00"
 
 
 
