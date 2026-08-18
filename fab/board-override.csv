@@ -1,7 +1,7 @@
 Ref,Val,Package,PosX,PosY,Rot,Side,Override
-"C58 C61 C64",,"Panasonic_Electronic_Components-CD-0-0-MFG",,,,,"C_Pol_Panasonic-GX-2917"
+"C58 C61 C64",,"Panasonic_Electronic_Components-CD-0-0-MFG",,,,,"C_Pol_Panasonic-GX-2917-panasonic-eef-sx0g331er"
 "D2",,"LED_APHF1608LSEEQBDZGKC",,,,,"LED_Dual0603"
-"IC1",,"QFN40P800X800X90-69N-D",,,,,"QFN-68-1EP_8x8mm_P0.4mm"
+"IC1",,"QFN40P800X800X90-69N-D",,,-90,,"QFN-68-1EP_8x8mm_P0.4mm-renesas-electronics-upd720201k8-711-bac-a"
 "U2",,"SOIC8-SST25VF512A-33-4I-SAE-Level_B",,,,,"SOIC-8_3.9x4.9x1.75mm_P1.27mm"
 "U4",,"Nordic_Semiconductor-NRF52840-QIAA-R-0-0-MFG",,,,,"aQFN-73-1EP_7x7mm_P0.5mm-nordic-semiconductor-NRF52840-QIAA-R"
 "U9",,"DFN-6_3x3mm_EP1",,,,,"DFN-6-1EP_3x3mm_P1mm_EP1.5x2.4mm"
@@ -13,6 +13,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side,Override
 "Y3",,"Abracon-ABS06-32.768KHZ-T-0",,,,,"Resonator_SMD_Abracon_ABS06_2x1.2x0.6mm"
 "U10",,"FTQFN",,,,,"FTQFN-8_2x2mm"
 "U3",,"MODULE_G313-06329-00",,,-90,,"G313-06329-00"
+"U1",,"QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm",,,-180,,"QFN-56-1EP_8x8mm_P0.5mm-ftdi-chip-ft4232h-56q-reel"
 
 
 
