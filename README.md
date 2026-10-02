@@ -1,11 +1,10 @@
 # M.2 Smart IoT Module
 
-Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
+Copyright (c) 2020-2025 [Antmicro](https://www.antmicro.com)
 
-![M.2 Smart IoT Module](img/m2-smart-iot-module.png )
+![M.2 Smart IoT Module](img/m2-smart-iot-module.png)
 
 ## Overview
-
 
 This repository contains design files of the smart IoT module in an M.2 form factor.
 The module is an experimental platform that combines a programmable Nordic radio SoC with Google Coral Edge AI accelerator.
@@ -19,6 +18,7 @@ The remaining files are stored in the following directories:
 
 * ``lib`` - contains the component libraries
 * ``img`` - contains graphics for this README
+* ``fab`` - contains overrides for board visualization
 
 ## Key Features
 
@@ -27,11 +27,10 @@ The remaining files are stored in the following directories:
 * On-board PCIe-USB bridge
 * On-board FTDI chip for nRF52840 programming, debugging and serial communication
 * M.2 key B+M form factor 
-
-
+* 22 x 80 mm (0.87 x 3.15 inch) PCB outline
 
 ## Block diagram
-![block diagram](img/block-diagram.jpg )
+![block diagram](img/block-diagram.jpg)
 
 ## License
 
