@@ -1,20 +1,46 @@
-Ref,Val,Package,PosX,PosY,Rot,Side,Override
-"C58 C61 C64",,"Panasonic_Electronic_Components-CD-0-0-MFG",,,,,"C_Pol_Panasonic-GX-2917-panasonic-eef-sx0g331er"
-"D2",,"LED_APHF1608LSEEQBDZGKC",,,,,"LED_Dual0603"
-"IC1",,"QFN40P800X800X90-69N-D",,,-90,,"QFN-68-1EP_8x8mm_P0.4mm-renesas-electronics-upd720201k8-711-bac-a"
-"U2",,"SOIC8-SST25VF512A-33-4I-SAE-Level_B",,,,,"SOIC-8_3.9x4.9x1.75mm_P1.27mm"
-"U4",,"Nordic_Semiconductor-NRF52840-QIAA-R-0-0-MFG",,,,,"aQFN-73-1EP_7x7mm_P0.5mm-nordic-semiconductor-NRF52840-QIAA-R"
-"U9",,"DFN-6_3x3mm_EP1",,,,,"DFN-6-1EP_3x3mm_P1mm_EP1.5x2.4mm"
-"Y2",,"Abracon-ABM11W-0-0-0",,,90,,"Resonator_SMD_TST_TZ3139C_2x1.6x0.4mm"
-"U11",,"DFN-8_2x3mm",,,-90,,"DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm"
-"ANT1",,"Linx-ANT-2.45-CHP-T-MFG",,,180,,"ANT-2.45-CHP-T"
-"J1",,"Murata-MM8130-2600RA2-MFG",,,,,"Conn_MM8130-2600RA2"
-"Y1",,"NDK-NX3225SA-0-0-MFG",,,,,"Resonator_SMD_NX3225SA_3.2x2.5mm"
-"Y3",,"Abracon-ABS06-32.768KHZ-T-0",,,,,"Resonator_SMD_Abracon_ABS06_2x1.2x0.6mm"
-"U10",,"FTQFN",,,,,"FTQFN-8_2x2mm"
-"U3",,"MODULE_G313-06329-00",,,-90,,"G313-06329-00"
-"U1",,"QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm",,,-180,,"QFN-56-1EP_8x8mm_P0.5mm-ftdi-chip-ft4232h-56q-reel"
-
-
-
-
+"Ref","Val","Package","PosX","PosY","Rot","Side","Override","Override Mfr","Override MPN"
+"C58 C61 C64",,"Panasonic_Electronic_Components-CD-0-0-MFG",,,,,"C_Pol_Panasonic-GX-2917-panasonic-eef-sx0g331er",,
+"D2",,"LED_APHF1608LSEEQBDZGKC",,,,,"LED_Dual0603",,
+"IC1",,"QFN40P800X800X90-69N-D",,,-90,,"QFN-68-1EP_8x8mm_P0.4mm-renesas-electronics-upd720201k8-711-bac-a",,
+"U2",,"SOIC8-SST25VF512A-33-4I-SAE-Level_B",,,,,"SOIC-8_3.9x4.9x1.75mm_P1.27mm",,
+"U4",,"Nordic_Semiconductor-NRF52840-QIAA-R-0-0-MFG",,,,,"aQFN-73-1EP_7x7mm_P0.5mm-nordic-semiconductor-NRF52840-QIAA-R",,
+"U9",,"DFN-6_3x3mm_EP1",,,,,"DFN-6-1EP_3x3mm_P1mm_EP1.5x2.4mm",,
+"Y2",,"Abracon-ABM11W-0-0-0",,,90,,"Resonator_SMD_TST_TZ3139C_2x1.6x0.4mm",,
+"U11",,"DFN-8_2x3mm",,,-90,,"DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm",,
+"ANT1","ANT-2.45-CHP-T","Linx-ANT-2.45-CHP-T-MFG",,,180,,"ANT-2.45-CHP-T","Linx technologies",
+"J1",,"Murata-MM8130-2600RA2-MFG",,,,,"Conn_MM8130-2600RA2",,
+"Y1",,"NDK-NX3225SA-0-0-MFG",,,,,"Resonator_SMD_NX3225SA_3.2x2.5mm",,
+"Y3",,"Abracon-ABS06-32.768KHZ-T-0",,,,,"Resonator_SMD_Abracon_ABS06_2x1.2x0.6mm",,
+"U10",,"FTQFN",,,,,"FTQFN-8_2x2mm",,
+"U3",,"MODULE_G313-06329-00",,,-90,,"G313-06329-00",,
+"U1",,"QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm",,,-180,,"QFN-56-1EP_8x8mm_P0.5mm-ftdi-chip-ft4232h-56q-reel",,
+,"BME280",,,,,,,"Bosch",
+,"C_10n_0402",,,,,,,"Murata","GRM155R71H103KA88D"
+,"C_100p_0402",,,,,,,"Murata","GCM1555C1H101JA16D"
+,"C_820p_0402",,,,,,,"Murata","GRM1555C1H821JA01J"
+,"C_47n_0402",,,,,,,"Murata","GRM155R61C473KA01D"
+,"C_18p_0402",,,,,,,"Samsung Electro-Mechanics","CL05C180JB51PNC"
+,"KP-1608CGCK",,,,,,,"Kingbright",
+,"BLM21PG600SN",,,,,,,"Murata",
+,"SRP2512A-1R0M",,,,,,,"Bourns",
+,"R_10k_0402",,,,,,,"Bourns","CR0402-FX-1002GLF"
+,"R_100k_0402",,,,,,,"Bourns","CR0402-FX-1003GLF"
+,"R_1k6_0402",,,,,,,"Bourns","CRT0402-FV-1601GLF"
+,"R_330R_0402",,,,,,,"Bourns","CR0402-FX-3300GLF"
+,"R_2k2_0402",,,,,,,"Bourns","CR0402-FX-2201GLF"
+,"R_390R_0402",,,,,,,"Bourns","CR0402-FX-3900GLF"
+,"R_1k2_0402",,,,,,,"Bourns","CR0402-FX-1201GLF"
+,"R_1M0_0402",,,,,,,"Bourns","CR0402-FX-1004GLF"
+,"R_4k7_0402",,,,,,,"Bourns","CR0402-FX-4701GLF"
+,"R_200k_0402",,,,,,,"Bourns","CR0402-FX-2003GLF"
+,"R_910k_0402",,,,,,,"Bourns","CR0402-FX-9103GLF"
+,"R_3k74_0402",,,,,,,"Bourns","CR0402-FX-3741GLF"
+,"R_12k_0402",,,,,,,"Bourns","CR0402-FX-1202GLF"
+,"R_17k4_0402",,,,,,,"Bourns","CR0402-FX-1742GLF"
+,"R_1k_0402",,,,,,,"Bourns",
+,"R_470R_0402",,,,,,,"Bourns","CR0402-FX-4700GLF"
+,"FT4232H-56Q",,,,,,,"FT4232H-56Q","FT4232H-56Q-REEL"
+,"SST25VF512A",,,,,,,"Microchip Technology",
+,"MIC2877-5.0YFT-TR",,,,,,,"Microchip Technology",
+,"ABM11W-101-32.0000MHZ-T3",,,,,,,"Abracon",
+,"ABS06-32.768KHZ-9-1-T",,,,,,,"Abracon",
